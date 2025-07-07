@@ -207,3 +207,4 @@ marimo/_lsp/
 __marimo__/
 data/data.txt
 data/data.txt
+data/.DS_Store
