@@ -1,206 +1,236 @@
-je	APPR,APPRART,APPO	4
-samt	APPR,APPRART,APPO	4
-mitsamt	APPR,APPRART,APPO	4
-wegen	APPR,APPRART,APPO	4
-halber	APPR,APPRART,APPO	4
-vermöge	APPR,APPRART,APPO	4
-außer	APPR,APPRART,APPO	4
-nebst	APPR,APPRART,APPO	4
-gen	APPR,APPRART,APPO	4
-ob	APPR,APPRART,APPO	4
-ab	APPR,APPRART,APPO	4
-an	APPR,APPRART,APPO	4
-auf	APPR,APPRART,APPO	4
-aus	APPR,APPRART,APPO	4
-bei	APPR,APPRART,APPO	4
-bis	APPR,APPRART,APPO	4
-durch	APPR,APPRART,APPO	4
-für	APPR,APPRART,APPO	4
-gegen	APPR,APPRART,APPO	4
-hinter	APPR,APPRART,APPO	4
-in	APPR,APPRART,APPO	4
-mit	APPR,APPRART,APPO	4
-nach	APPR,APPRART,APPO	4
-neben	APPR,APPRART,APPO	4
-ohne	APPR,APPRART,APPO	4
-seit	APPR,APPRART,APPO	4
-über	APPR,APPRART,APPO	4
-um	APPR,APPRART,APPO	4
-unter	APPR,APPRART,APPO	4
-von	APPR,APPRART,APPO	4
-vor	APPR,APPRART,APPO	4
-wider	APPR,APPRART,APPO	4
-zu	APPR,APPRART,APPO	4
-zwischen	APPR,APPRART,APPO	4
-auf_Grund/aufgrund	APPR,APPRART,APPO	3
-mit_Hilfe/mithilfe	APPR,APPRART,APPO	3
-zu_Gunsten/zugunsten	APPR,APPRART,APPO	3
-in_Folge/infolge	APPR,APPRART,APPO	3
-in_Bezug_auf/in_bezug_auf	APPR,APPRART,APPO	3
-zu_Folge/zufolge	APPR,APPRART,APPO	3
-an_Hand/anhand	APPR,APPRART,APPO	3
-an_Stelle/anstelle	APPR,APPRART,APPO	3
-zu_Lasten/zulasten	APPR,APPRART,APPO	3
-zuliebe	APPR,APPRART,APPO	3
-von_Seiten/von_seiten	APPR,APPRART,APPO	3
-auf_Seiten/auf_seiten	APPR,APPRART,APPO	3
-von_wegen	APPR,APPRART,APPO	3
-anstatt	APPR,APPRART,APPO	3
-zu_ungunsten/zuungunsten	APPR,APPRART,APPO	3
-beim_Anblick	APPR,APPRART,APPO	3
-für_Rechnung	APPR,APPRART,APPO	3
-im_Licht/im_Lichte	APPR,APPRART,APPO	3
-im_Gefolge	APPR,APPRART,APPO	3
-im_Rahmen	APPR,APPRART,APPO	3
-im_Abstand	APPR,APPRART,APPO	3
-im_Stadium	APPR,APPRART,APPO	3
-im_Bewusstsein	APPR,APPRART,APPO	3
-im_Verlauf	APPR,APPRART,APPO	3
-in_Fragen	APPR,APPRART,APPO	3
-unter_Berücksichtigung	APPR,APPRART,APPO	3
-unter_Beachtung	APPR,APPRART,APPO	3
-unter_Mitwirkung	APPR,APPRART,APPO	3
-unter_Verwendung	APPR,APPRART,APPO	3
-zum_Vorteil	APPR,APPRART,APPO	3
-zum_Zeitpunkt	APPR,APPRART,APPO	3
-zum_Nutzen	APPR,APPRART,APPO	3
-am_Rande	APPR,APPRART,APPO	3
-auf_Verlangen	APPR,APPRART,APPO	3
-auf_Vorschlag	APPR,APPRART,APPO	3
-auf_Ersuchen	APPR,APPRART,APPO	3
-auf_Bitten	APPR,APPRART,APPO	3
-auf_Geheiß	APPR,APPRART,APPO	3
-auf_Veranlassung	APPR,APPRART,APPO	3
-auf_Betreiben	APPR,APPRART,APPO	3
-auf_Antrag	APPR,APPRART,APPO	3
-auf_Kosten	APPR,APPRART,APPO	3
-aus_Anlaß	APPR,APPRART,APPO	3
-bei_Gelegenheit	APPR,APPRART,APPO	3
-in_Anwesenheit	APPR,APPRART,APPO	3
-im_Zeichen	APPR,APPRART,APPO	3
-im_Beisein	APPR,APPRART,APPO	3
-im_Wege	APPR,APPRART,APPO	3
-im_Auftrag/im_Auftrage	APPR,APPRART,APPO	3
-im_Zug/im_Zuge	APPR,APPRART,APPO	3
-in_Anbetracht	APPR,APPRART,APPO	3
-in_Ansehung	APPR,APPRART,APPO	3
-in_Ermangelung	APPR,APPRART,APPO	3
-in_Vertretung	APPR,APPRART,APPO	3
-im_Anblick	APPR,APPRART,APPO	3
-im_Vorfeld	APPR,APPRART,APPO	3
-im_Kreise	APPR,APPRART,APPO	3
-im_Angesicht	APPR,APPRART,APPO	3
-im_Zeitalter	APPR,APPRART,APPO	3
-im_Zeitpunkt	APPR,APPRART,APPO	3
-im_Dienst/im_Dienste	APPR,APPRART,APPO	3
-im_Verlaufe	APPR,APPRART,APPO	3
-im_Lauf/im_Laufe	APPR,APPRART,APPO	3
-im_Geist/im_Geiste	APPR,APPRART,APPO	3
-im_Interesse	APPR,APPRART,APPO	3
-in_Abwesenheit	APPR,APPRART,APPO	3
-ohne_Berücksichtigung	APPR,APPRART,APPO	3
-ohne_Ansehen	APPR,APPRART,APPO	3
-ohne_Angabe	APPR,APPRART,APPO	3
-unter_Angabe	APPR,APPRART,APPO	3
-unter_Ausschluß	APPR,APPRART,APPO	3
-unter_Einschluß	APPR,APPRART,APPO	3
-unter_Einbeziehung	APPR,APPRART,APPO	3
-zum_Zeichen	APPR,APPRART,APPO	3
-zum_Zweck/zum_Zwecke	APPR,APPRART,APPO	3
-zum_Wohl/zum_Wohle	APPR,APPRART,APPO	3
-zum_Schaden	APPR,APPRART,APPO	3
-zum_Nachteil	APPR,APPRART,APPO	3
-zu_Ehren	APPR,APPRART,APPO	3
-zum_Trotz	APPR,APPRART,APPO	3
-auf_der_Ebene	APPR,APPRART,APPO	2
-auf_der_Basis	APPR,APPRART,APPO	2
-auf_der_Grundlage	APPR,APPRART,APPO	2
-auf_der_Höhe	APPR,APPRART,APPO	2
-aus_den_Reihen	APPR,APPRART,APPO	2
-aus_der_Sicht	APPR,APPRART,APPO	2
-in_der_Wahrnehmung	APPR,APPRART,APPO	2
-nach_dem_Vorbild	APPR,APPRART,APPO	2
-nach_den_Grundsätzen	APPR,APPRART,APPO	2
-unter_den_Bedingungen	APPR,APPRART,APPO	2
-unter_der_Leitung	APPR,APPRART,APPO	2
-am_Rand	APPR,APPRART,APPO	2
-aus_Gründen	APPR,APPRART,APPO	2
-bei_Verwendung	APPR,APPRART,APPO	2
-in_Höhe	APPR,APPRART,APPO	2
-in_Gestalt	APPR,APPRART,APPO	2
-in_Form	APPR,APPRART,APPO	2
-im_Umfang	APPR,APPRART,APPO	2
-im_Bereich/im_Bereiche	APPR,APPRART,APPO	2
-im_Fall/im_Falle	APPR,APPRART,APPO	2
-in_Begleitung	APPR,APPRART,APPO	2
-in_Richtung	APPR,APPRART,APPO	2
-im_Kreis	APPR,APPRART,APPO	2
-in_Erwartung	APPR,APPRART,APPO	2
-in_Gegenwart	APPR,APPRART,APPO	2
-in_Angelegenheiten	APPR,APPRART,APPO	2
-in_Zeiten	APPR,APPRART,APPO	2
-mit_Ausnahme	APPR,APPRART,APPO	2
-nach_Art	APPR,APPRART,APPO	2
-ohne_Mitwirkung	APPR,APPRART,APPO	2
-unter_Führung	APPR,APPRART,APPO	2
-vom_Standpunkt	APPR,APPRART,APPO	2
-zu_Zeiten	APPR,APPRART,APPO	2
-zum_Preis	APPR,APPRART,APPO	2
-aus_Interesse_an	APPR,APPRART,APPO	1
-aus_Mangel_an	APPR,APPRART,APPO	1
-im_Zusammenhang_mit	APPR,APPRART,APPO	1
-in_Verbindung_mit	APPR,APPRART,APPO	1
-in_Kontakt_mit	APPR,APPRART,APPO	1
-im_Widerspruch_zu/im_Widerspruch_mit	APPR,APPRART,APPO	1
-im_Gegensatz_zu	APPR,APPRART,APPO	1
-Im_Kontrast_zu	APPR,APPRART,APPO	1
-in_Konkurrenz_zu	APPR,APPRART,APPO	1
-im_Unterschied_zu	APPR,APPRART,APPO	1
-im_Einklang_mit	APPR,APPRART,APPO	1
-im_Einvernehmen_mit	APPR,APPRART,APPO	1
-im_Einverständnis_mit	APPR,APPRART,APPO	1
-in_Übereinstimmung_mit	APPR,APPRART,APPO	1
-im_Benehmen_mit	APPR,APPRART,APPO	1
-in_Gemeinschaft_mit	APPR,APPRART,APPO	1
-im_Hinblick_auf	APPR,APPRART,APPO	1
-in_Hinsicht_auf	APPR,APPRART,APPO	1
-in_Beziehung_auf	APPR,APPRART,APPO	1
-in_Anlehnung_an	APPR,APPRART,APPO	1
-in_Abhängigkeit_von	APPR,APPRART,APPO	1
-im_Anschluss_an	APPR,APPRART,APPO	1
-im_Verhältnis_zu	APPR,APPRART,APPO	1
-im_Vergleich_zu/im_Vergleich_mit	APPR,APPRART,APPO	1
-mit_Bezug_auf/unter_Bezug_auf	APPR,APPRART,APPO	1
-mit_Bezugnahme_auf/unter_Bezugnahme_auf	APPR,APPRART,APPO	1
-vom_Standpunkt_aus	APPR,APPRART,APPO	1
-vom_Gesichtspunkt_aus	APPR,APPRART,APPO	1
-zur_Erinnerung_an	APPR,APPRART,APPO	1
-zum_Unterschied_von/zum_Unterschied_mit	APPR,APPRART,APPO	1
-auf_dem_Wege	APPR,APPRART,APPO	1
-auf_dem_Feld	APPR,APPRART,APPO	1
-auf_dem_Gebiet	APPR,APPRART,APPO	1
-auf_dem_Sektor	APPR,APPRART,APPO	1
-auf_dem_Boden	APPR,APPRART,APPO	1
-auf_dem_Hintergrund/vor_dem_Hintergrund	APPR,APPRART,APPO	1
-aus_dem_Blickwinkel	APPR,APPRART,APPO	1
-aus_dem_Grund	APPR,APPRART,APPO	1
-aus_der_Perspektive	APPR,APPRART,APPO	1
-für_die_Dauer	APPR,APPRART,APPO	1
-für_den_Fall	APPR,APPRART,APPO	1
-in_der_Sphäre	APPR,APPRART,APPO	1
-in_den_Grenzen	APPR,APPRART,APPO	1
-in_den_Reihen	APPR,APPRART,APPO	1
-in_der_Reihe/aus_der_Reihe	APPR,APPRART,APPO	1
-in_der_Zeit	APPR,APPRART,APPO	1
-in_der_Epoche	APPR,APPRART,APPO	1
-in_der_Periode	APPR,APPRART,APPO	1
-mit_dem_Ziel	APPR,APPRART,APPO	1
-nach_dem_Grundsatz	APPR,APPRART,APPO	1
-nach_dem_Prinzip	APPR,APPRART,APPO	1
-nach_den_Prinzipien	APPR,APPRART,APPO	1
-unter_der_Voraussetzung	APPR,APPRART,APPO	1
-unter_der_Bedingung	APPR,APPRART,APPO	1
-unter_dem_Gesichtspunkt	APPR,APPRART,APPO	1
-unter_dem_Einfluss	APPR,APPRART,APPO	1
-unter_dem_Druck	APPR,APPRART,APPO	1
-von_der_Dauer	APPR,APPRART,APPO	1
+Keyword,Score
+je,4
+samt,4
+mitsamt,4
+wegen,4
+halber,4
+vermöge,4
+außer,4
+nebst,4
+gen,4
+ob,4
+ab,4
+an,4
+auf,4
+aus,4
+bei,4
+bis,4
+durch,4
+für,4
+gegen,4
+hinter,4
+in,4
+mit,4
+nach,4
+neben,4
+ohne,4
+seit,4
+über,4
+um,4
+unter,4
+von,4
+vor,4
+wider,4
+zu,4
+zwischen,4
+auf Grund,3
+aufgrund,3
+mit Hilfe,3
+mithilfe,3
+zu Gunsten,3
+zugunsten,3
+in Folge,3
+infolge,3
+in Bezug auf,3
+in bezug auf,3
+zu Folge,3
+zufolge,3
+an Hand,3
+anhand,3
+an Stelle,3
+anstelle,3
+zu Lasten,3
+zulasten,3
+zuliebe,3
+von Seiten,3
+von seiten,3
+auf Seiten,3
+auf seiten,3
+von wegen,3
+anstatt,3
+zu ungunsten,3
+zuungunsten,3
+beim Anblick,3
+für Rechnung,3
+im Licht,3
+im Lichte,3
+im Gefolge,3
+im Rahmen,3
+im Abstand,3
+im Stadium,3
+im Bewusstsein,3
+im Verlauf,3
+in Fragen,3
+unter Berücksichtigung,3
+unter Beachtung,3
+unter Mitwirkung,3
+unter Verwendung,3
+zum Vorteil,3
+zum Zeitpunkt,3
+zum Nutzen,3
+am Rande,3
+auf Verlangen,3
+auf Vorschlag,3
+auf Ersuchen,3
+auf Bitten,3
+auf Geheiß,3
+auf Veranlassung,3
+auf Betreiben,3
+auf Antrag,3
+auf Kosten,3
+aus Anlaß,3
+bei Gelegenheit,3
+in Anwesenheit,3
+im Zeichen,3
+im Beisein,3
+im Wege,3
+im Auftrag,3
+im Auftrage,3
+im Zug,3
+im Zuge,3
+in Anbetracht,3
+in Ansehung,3
+in Ermangelung,3
+in Vertretung,3
+im Anblick,3
+im Vorfeld,3
+im Kreise,3
+im Angesicht,3
+im Zeitalter,3
+im Zeitpunkt,3
+im Dienst,3
+im Dienste,3
+im Verlaufe,3
+im Lauf,3
+im Laufe,3
+im Geist,3
+im Geiste,3
+im Interesse,3
+in Abwesenheit,3
+ohne Berücksichtigung,3
+ohne Ansehen,3
+ohne Angabe,3
+unter Angabe,3
+unter Ausschluß,3
+unter Einschluß,3
+unter Einbeziehung,3
+zum Zeichen,3
+zum Zweck,3
+zum Zwecke,3
+zum Wohl,3
+zum Wohle,3
+zum Schaden,3
+zum Nachteil,3
+zu Ehren,3
+zum Trotz,3
+auf der Ebene,2
+auf der Basis,2
+auf der Grundlage,2
+auf der Höhe,2
+aus den Reihen,2
+aus der Sicht,2
+in der Wahrnehmung,2
+nach dem Vorbild,2
+nach den Grundsätzen,2
+unter den Bedingungen,2
+unter der Leitung,2
+am Rand,2
+aus Gründen,2
+bei Verwendung,2
+in Höhe,2
+in Gestalt,2
+in Form,2
+im Umfang,2
+im Bereich,2
+im Bereiche,2
+im Fall,2
+im Falle,2
+in Begleitung,2
+in Richtung,2
+im Kreis,2
+in Erwartung,2
+in Gegenwart,2
+in Angelegenheiten,2
+in Zeiten,2
+mit Ausnahme,2
+nach Art,2
+ohne Mitwirkung,2
+unter Führung,2
+vom Standpunkt,2
+zu Zeiten,2
+zum Preis,2
+aus Interesse an,1
+aus Mangel an,1
+im Zusammenhang mit,1
+in Verbindung mit,1
+in Kontakt mit,1
+im Widerspruch zu,1
+im Widerspruch mit,1
+im Gegensatz zu,1
+Im Kontrast zu,1
+in Konkurrenz zu,1
+im Unterschied zu,1
+im Einklang mit,1
+im Einvernehmen mit,1
+im Einverständnis mit,1
+in Übereinstimmung mit,1
+im Benehmen mit,1
+in Gemeinschaft mit,1
+im Hinblick auf,1
+in Hinsicht auf,1
+in Beziehung auf,1
+in Anlehnung an,1
+in Abhängigkeit von,1
+im Anschluss an,1
+im Verhältnis zu,1
+im Vergleich zu,1
+im Vergleich mit,1
+mit Bezug auf,1
+unter Bezug auf,1
+mit Bezugnahme auf,1
+unter Bezugnahme auf,1
+vom Standpunkt aus,1
+vom Gesichtspunkt aus,1
+zur Erinnerung an,1
+zum Unterschied von,1
+zum Unterschied mit,1
+auf dem Wege,1
+auf dem Feld,1
+auf dem Gebiet,1
+auf dem Sektor,1
+auf dem Boden,1
+auf dem Hintergrund,1
+vor dem Hintergrund,1
+aus dem Blickwinkel,1
+aus dem Grund,1
+aus der Perspektive,1
+für die Dauer,1
+für den Fall,1
+in der Sphäre,1
+in den Grenzen,1
+in den Reihen,1
+in der Reihe,1
+aus der Reihe,1
+in der Zeit,1
+in der Epoche,1
+in der Periode,1
+mit dem Ziel,1
+nach dem Grundsatz,1
+nach dem Prinzip,1
+nach den Prinzipien,1
+unter der Voraussetzung,1
+unter der Bedingung,1
+unter dem Gesichtspunkt,1
+unter dem Einfluss,1
+unter dem Druck,1
+von der Dauer,1
