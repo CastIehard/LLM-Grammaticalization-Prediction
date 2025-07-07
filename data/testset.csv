@@ -1,3 +1,4 @@
+Keyword,Score
 je,4
 samt,4
 mitsamt,4
@@ -32,175 +33,204 @@ vor,4
 wider,4
 zu,4
 zwischen,4
-auf_Grund/aufgrund,3
-mit_Hilfe/mithilfe,3
-zu_Gunsten/zugunsten,3
-in_Folge/infolge,3
-in_Bezug_auf/in_bezug_auf,3
-zu_Folge/zufolge,3
-an_Hand/anhand,3
-an_Stelle/anstelle,3
-zu_Lasten/zulasten,3
+auf Grund,3
+aufgrund,3
+mit Hilfe,3
+mithilfe,3
+zu Gunsten,3
+zugunsten,3
+in Folge,3
+infolge,3
+in Bezug auf,3
+in bezug auf,3
+zu Folge,3
+zufolge,3
+an Hand,3
+anhand,3
+an Stelle,3
+anstelle,3
+zu Lasten,3
+zulasten,3
 zuliebe,3
-von_Seiten/von_seiten,3
-auf_Seiten/auf_seiten,3
-von_wegen,3
+von Seiten,3
+von seiten,3
+auf Seiten,3
+auf seiten,3
+von wegen,3
 anstatt,3
-zu_ungunsten/zuungunsten,3
-beim_Anblick,3
-für_Rechnung,3
-im_Licht/im_Lichte,3
-im_Gefolge,3
-im_Rahmen,3
-im_Abstand,3
-im_Stadium,3
-im_Bewusstsein,3
-im_Verlauf,3
-in_Fragen,3
-unter_Berücksichtigung,3
-unter_Beachtung,3
-unter_Mitwirkung,3
-unter_Verwendung,3
-zum_Vorteil,3
-zum_Zeitpunkt,3
-zum_Nutzen,3
-am_Rande,3
-auf_Verlangen,3
-auf_Vorschlag,3
-auf_Ersuchen,3
-auf_Bitten,3
-auf_Geheiß,3
-auf_Veranlassung,3
-auf_Betreiben,3
-auf_Antrag,3
-auf_Kosten,3
-aus_Anlaß,3
-bei_Gelegenheit,3
-in_Anwesenheit,3
-im_Zeichen,3
-im_Beisein,3
-im_Wege,3
-im_Auftrag/im_Auftrage,3
-im_Zug/im_Zuge,3
-in_Anbetracht,3
-in_Ansehung,3
-in_Ermangelung,3
-in_Vertretung,3
-im_Anblick,3
-im_Vorfeld,3
-im_Kreise,3
-im_Angesicht,3
-im_Zeitalter,3
-im_Zeitpunkt,3
-im_Dienst/im_Dienste,3
-im_Verlaufe,3
-im_Lauf/im_Laufe,3
-im_Geist/im_Geiste,3
-im_Interesse,3
-in_Abwesenheit,3
-ohne_Berücksichtigung,3
-ohne_Ansehen,3
-ohne_Angabe,3
-unter_Angabe,3
-unter_Ausschluß,3
-unter_Einschluß,3
-unter_Einbeziehung,3
-zum_Zeichen,3
-zum_Zweck/zum_Zwecke,3
-zum_Wohl/zum_Wohle,3
-zum_Schaden,3
-zum_Nachteil,3
-zu_Ehren,3
-zum_Trotz,3
-auf_der_Ebene,2
-auf_der_Basis,2
-auf_der_Grundlage,2
-auf_der_Höhe,2
-aus_den_Reihen,2
-aus_der_Sicht,2
-in_der_Wahrnehmung,2
-nach_dem_Vorbild,2
-nach_den_Grundsätzen,2
-unter_den_Bedingungen,2
-unter_der_Leitung,2
-am_Rand,2
-aus_Gründen,2
-bei_Verwendung,2
-in_Höhe,2
-in_Gestalt,2
-in_Form,2
-im_Umfang,2
-im_Bereich/im_Bereiche,2
-im_Fall/im_Falle,2
-in_Begleitung,2
-in_Richtung,2
-im_Kreis,2
-in_Erwartung,2
-in_Gegenwart,2
-in_Angelegenheiten,2
-in_Zeiten,2
-mit_Ausnahme,2
-nach_Art,2
-ohne_Mitwirkung,2
-unter_Führung,2
-vom_Standpunkt,2
-zu_Zeiten,2
-zum_Preis,2
-aus_Interesse_an,1
-aus_Mangel_an,1
-im_Zusammenhang_mit,1
-in_Verbindung_mit,1
-in_Kontakt_mit,1
-im_Widerspruch_zu/im_Widerspruch_mit,1
-im_Gegensatz_zu,1
-Im_Kontrast_zu,1
-in_Konkurrenz_zu,1
-im_Unterschied_zu,1
-im_Einklang_mit,1
-im_Einvernehmen_mit,1
-im_Einverständnis_mit,1
-in_Übereinstimmung_mit,1
-im_Benehmen_mit,1
-in_Gemeinschaft_mit,1
-im_Hinblick_auf,1
-in_Hinsicht_auf,1
-in_Beziehung_auf,1
-in_Anlehnung_an,1
-in_Abhängigkeit_von,1
-im_Anschluss_an,1
-im_Verhältnis_zu,1
-im_Vergleich_zu/im_Vergleich_mit,1
-mit_Bezug_auf/unter_Bezug_auf,1
-mit_Bezugnahme_auf/unter_Bezugnahme_auf,1
-vom_Standpunkt_aus,1
-vom_Gesichtspunkt_aus,1
-zur_Erinnerung_an,1
-zum_Unterschied_von/zum_Unterschied_mit,1
-auf_dem_Wege,1
-auf_dem_Feld,1
-auf_dem_Gebiet,1
-auf_dem_Sektor,1
-auf_dem_Boden,1
-auf_dem_Hintergrund/vor_dem_Hintergrund,1
-aus_dem_Blickwinkel,1
-aus_dem_Grund,1
-aus_der_Perspektive,1
-für_die_Dauer,1
-für_den_Fall,1
-in_der_Sphäre,1
-in_den_Grenzen,1
-in_den_Reihen,1
-in_der_Reihe/aus_der_Reihe,1
-in_der_Zeit,1
-in_der_Epoche,1
-in_der_Periode,1
-mit_dem_Ziel,1
-nach_dem_Grundsatz,1
-nach_dem_Prinzip,1
-nach_den_Prinzipien,1
-unter_der_Voraussetzung,1
-unter_der_Bedingung,1
-unter_dem_Gesichtspunkt,1
-unter_dem_Einfluss,1
-unter_dem_Druck,1
-von_der_Dauer,1
+zu ungunsten,3
+zuungunsten,3
+beim Anblick,3
+für Rechnung,3
+im Licht,3
+im Lichte,3
+im Gefolge,3
+im Rahmen,3
+im Abstand,3
+im Stadium,3
+im Bewusstsein,3
+im Verlauf,3
+in Fragen,3
+unter Berücksichtigung,3
+unter Beachtung,3
+unter Mitwirkung,3
+unter Verwendung,3
+zum Vorteil,3
+zum Zeitpunkt,3
+zum Nutzen,3
+am Rande,3
+auf Verlangen,3
+auf Vorschlag,3
+auf Ersuchen,3
+auf Bitten,3
+auf Geheiß,3
+auf Veranlassung,3
+auf Betreiben,3
+auf Antrag,3
+auf Kosten,3
+aus Anlaß,3
+bei Gelegenheit,3
+in Anwesenheit,3
+im Zeichen,3
+im Beisein,3
+im Wege,3
+im Auftrag,3
+im Auftrage,3
+im Zug,3
+im Zuge,3
+in Anbetracht,3
+in Ansehung,3
+in Ermangelung,3
+in Vertretung,3
+im Anblick,3
+im Vorfeld,3
+im Kreise,3
+im Angesicht,3
+im Zeitalter,3
+im Zeitpunkt,3
+im Dienst,3
+im Dienste,3
+im Verlaufe,3
+im Lauf,3
+im Laufe,3
+im Geist,3
+im Geiste,3
+im Interesse,3
+in Abwesenheit,3
+ohne Berücksichtigung,3
+ohne Ansehen,3
+ohne Angabe,3
+unter Angabe,3
+unter Ausschluß,3
+unter Einschluß,3
+unter Einbeziehung,3
+zum Zeichen,3
+zum Zweck,3
+zum Zwecke,3
+zum Wohl,3
+zum Wohle,3
+zum Schaden,3
+zum Nachteil,3
+zu Ehren,3
+zum Trotz,3
+auf der Ebene,2
+auf der Basis,2
+auf der Grundlage,2
+auf der Höhe,2
+aus den Reihen,2
+aus der Sicht,2
+in der Wahrnehmung,2
+nach dem Vorbild,2
+nach den Grundsätzen,2
+unter den Bedingungen,2
+unter der Leitung,2
+am Rand,2
+aus Gründen,2
+bei Verwendung,2
+in Höhe,2
+in Gestalt,2
+in Form,2
+im Umfang,2
+im Bereich,2
+im Bereiche,2
+im Fall,2
+im Falle,2
+in Begleitung,2
+in Richtung,2
+im Kreis,2
+in Erwartung,2
+in Gegenwart,2
+in Angelegenheiten,2
+in Zeiten,2
+mit Ausnahme,2
+nach Art,2
+ohne Mitwirkung,2
+unter Führung,2
+vom Standpunkt,2
+zu Zeiten,2
+zum Preis,2
+aus Interesse an,1
+aus Mangel an,1
+im Zusammenhang mit,1
+in Verbindung mit,1
+in Kontakt mit,1
+im Widerspruch zu,1
+im Widerspruch mit,1
+im Gegensatz zu,1
+Im Kontrast zu,1
+in Konkurrenz zu,1
+im Unterschied zu,1
+im Einklang mit,1
+im Einvernehmen mit,1
+im Einverständnis mit,1
+in Übereinstimmung mit,1
+im Benehmen mit,1
+in Gemeinschaft mit,1
+im Hinblick auf,1
+in Hinsicht auf,1
+in Beziehung auf,1
+in Anlehnung an,1
+in Abhängigkeit von,1
+im Anschluss an,1
+im Verhältnis zu,1
+im Vergleich zu,1
+im Vergleich mit,1
+mit Bezug auf,1
+unter Bezug auf,1
+mit Bezugnahme auf,1
+unter Bezugnahme auf,1
+vom Standpunkt aus,1
+vom Gesichtspunkt aus,1
+zur Erinnerung an,1
+zum Unterschied von,1
+zum Unterschied mit,1
+auf dem Wege,1
+auf dem Feld,1
+auf dem Gebiet,1
+auf dem Sektor,1
+auf dem Boden,1
+auf dem Hintergrund,1
+vor dem Hintergrund,1
+aus dem Blickwinkel,1
+aus dem Grund,1
+aus der Perspektive,1
+für die Dauer,1
+für den Fall,1
+in der Sphäre,1
+in den Grenzen,1
+in den Reihen,1
+in der Reihe,1
+aus der Reihe,1
+in der Zeit,1
+in der Epoche,1
+in der Periode,1
+mit dem Ziel,1
+nach dem Grundsatz,1
+nach dem Prinzip,1
+nach den Prinzipien,1
+unter der Voraussetzung,1
+unter der Bedingung,1
+unter dem Gesichtspunkt,1
+unter dem Einfluss,1
+unter dem Druck,1
+von der Dauer,1
