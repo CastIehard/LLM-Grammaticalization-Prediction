@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+    <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2021-10-19</cmd:MdCreationDate>
+    <cmd:MdSelfLink>https://www.deutschestextarchiv.de/api/cmdi/auerbach_sanders_1867</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-auerbach_sanders_1867.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>https://www.deutschestextarchiv.de/book/download_xml/auerbach_sanders_1867</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-auerbach_sanders_1867.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>https://www.deutschestextarchiv.de/book/download_html/auerbach_sanders_1867</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-auerbach_sanders_1867.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>https://www.deutschestextarchiv.de/book/download_txt/auerbach_sanders_1867</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-auerbach_sanders_1867.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>https://www.deutschestextarchiv.de/auerbach_sanders_1867</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-auerbach_sanders_1867.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Brief an Daniel Sanders</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Auerbach</cmdp:surname>
+<cmdp:forename>Berthold</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11865103X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1222198746</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Göttel</cmdp:surname>
+<cmdp:forename>Sebastian</cmdp:forename></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Herausgeber.</cmdp:note>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+<cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Martin</cmdp:surname>
+<cmdp:forename>Linda</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">https://orcid.org/0000-0002-4634-2386</cmdp:idno></cmdp:idno></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Transkription und TEI-Textannotation.</cmdp:note>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName><cmdp:idno><cmdp:idno type="PND">https://www.bbaw.de</cmdp:idno></cmdp:idno></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://www.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">3</cmdp:measure>
+        <cmdp:measure type="tokens">268</cmdp:measure>
+        <cmdp:measure type="types">178</cmdp:measure>
+        <cmdp:measure type="characters">1680</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2021-10-19T09:48:38Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+          <cmdp:orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+          <cmdp:orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="https://creativecommons.org/licenses/by-sa/4.0/"><cmdp:p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International license.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">https://www.deutschestextarchiv.de/auerbach_sanders_1867</cmdp:idno>
+          <cmdp:idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/auerbach_sanders_1867</cmdp:idno>
+          <cmdp:idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/auerbach_sanders_1867</cmdp:idno>
+          <cmdp:idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/auerbach_sanders_1867</cmdp:idno>
+          <cmdp:idno type="DTADirName">auerbach_sanders_1867</cmdp:idno>
+          <cmdp:idno type="DTAID">33030</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-33030-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MAN">Auerbach, Berthold: Brief an Daniel Sanders. Bonn, 10. März 1867.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Brief an Daniel Sanders</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Auerbach</cmdp:surname>
+<cmdp:forename>Berthold</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11865103X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Bonn</cmdp:pubPlace>
+            <cmdp:date type="creation">1867</cmdp:date>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+                        <cmdp:repository>University of Southern California</cmdp:repository>
+                        <cmdp:idno>
+                            <cmdp:idno type="shelfmark">Lion Feuchtwanger Collection</cmdp:idno>
+                        </cmdp:idno>
+                    </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            
+            <cmdp:typeDesc>
+              <cmdp:p>Handschrift</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Dieses Werk wurde in XML/TEI P5 nach <a href="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</a> kodiert.</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">(Früh-)Neuhochdeutsch</cmdp:language>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</cmdp:classCode>
+        <cmdp:classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">sanders-briefe</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">handwritten text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+</MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <tokens>
+      <token ID="w1">Es</token>
+      <token ID="w2">quält</token>
+      <token ID="w3">mich</token>
+      <token ID="w4">schon</token>
+      <token ID="w5">lang</token>
+      <token ID="w6">,</token>
+      <token ID="w7">wie</token>
+      <token ID="w8">lang</token>
+      <token ID="w9">weiß</token>
+      <token ID="wa">ich</token>
+      <token ID="wb">nicht</token>
+      <token ID="wc">mehr</token>
+      <token ID="wd">zu</token>
+      <token ID="we">sagen</token>
+      <token ID="wf">,</token>
+      <token ID="w10">daß</token>
+      <token ID="w11">ich</token>
+      <token ID="w12">Ihnen</token>
+      <token ID="w13">,</token>
+      <token ID="w14">liebwerther</token>
+      <token ID="w15">Herr</token>
+      <token ID="w16">Dr.</token>
+      <token ID="w17">auf</token>
+      <token ID="w18">Ihren</token>
+      <token ID="w19">so</token>
+      <token ID="w1a">herzerfrischenden</token>
+      <token ID="w1b">Brief</token>
+      <token ID="w1c">nicht</token>
+      <token ID="w1d">geantwortet</token>
+      <token ID="w1e">habe</token>
+      <token ID="w1f">.</token>
+      <token ID="w20">Im̃er</token>
+      <token ID="w21">wieder</token>
+      <token ID="w22">verschob</token>
+      <token ID="w23">sich's</token>
+      <token ID="w24">.</token>
+      <token ID="w25">Jetzt</token>
+      <token ID="w26">habe</token>
+      <token ID="w27">ich</token>
+      <token ID="w28">Veranlassung</token>
+      <token ID="w29">,</token>
+      <token ID="w2a">Ihnen</token>
+      <token ID="w2b">wohl</token>
+      <token ID="w2c">eine</token>
+      <token ID="w2d">Gegenfreude</token>
+      <token ID="w2e">zu</token>
+      <token ID="w2f">machen</token>
+      <token ID="w30">,</token>
+      <token ID="w31">und</token>
+      <token ID="w32">das</token>
+      <token ID="w33">soll</token>
+      <token ID="w34">nun</token>
+      <token ID="w35">frischenz</token>
+      <token ID="w36">geschehen</token>
+      <token ID="w37">.</token>
+      <token ID="w38">Ich</token>
+      <token ID="w39">denke</token>
+      <token ID="w3a">mir</token>
+      <token ID="w3b">,</token>
+      <token ID="w3c">daß</token>
+      <token ID="w3d">es</token>
+      <token ID="w3e">Ihnen</token>
+      <token ID="w3f">von</token>
+      <token ID="w40">psychologischem</token>
+      <token ID="w41">und</token>
+      <token ID="w42">sprachforschendem</token>
+      <token ID="w43">Belange</token>
+      <token ID="w44">sein</token>
+      <token ID="w45">müßte</token>
+      <token ID="w46">,</token>
+      <token ID="w47">die</token>
+      <token ID="w48">englische</token>
+      <token ID="w49">Uebersetzung</token>
+      <token ID="w4a">von</token>
+      <token ID="w4b">„</token>
+      <token ID="w4c">Auf</token>
+      <token ID="w4d">der</token>
+      <token ID="w4e">Höhe</token>
+      <token ID="w4f">“</token>
+      <token ID="w50">mit</token>
+      <token ID="w51">dem</token>
+      <token ID="w52">Deutschen</token>
+      <token ID="w53">zu</token>
+      <token ID="w54">vergleichen</token>
+      <token ID="w55">.</token>
+      <token ID="w56">Ich</token>
+      <token ID="w57">schicke</token>
+      <token ID="w58">Ihnen</token>
+      <token ID="w59">also</token>
+      <token ID="w5a">hier</token>
+      <token ID="w5b">ein</token>
+      <token ID="w5c">Exemplar</token>
+      <token ID="w5d">und</token>
+      <token ID="w5e">mit</token>
+      <token ID="w5f">dieser</token>
+      <token ID="w60">Erneuerung</token>
+      <token ID="w61">des</token>
+      <token ID="w62">Buches</token>
+      <token ID="w63">kann</token>
+      <token ID="w64">ich</token>
+      <token ID="w65">Ihnen</token>
+      <token ID="w66">nun</token>
+      <token ID="w67">sagen</token>
+      <token ID="w68">,</token>
+      <token ID="w69">daß</token>
+      <token ID="w6a">mir</token>
+      <token ID="w6b">nicht</token>
+      <token ID="w6c">bald</token>
+      <token ID="w6d">im</token>
+      <token ID="w6e">Leben</token>
+      <token ID="w6f">etwas</token>
+      <token ID="w70">eine</token>
+      <token ID="w71">solche</token>
+      <token ID="w72">Freude</token>
+      <token ID="w73">gemacht</token>
+      <token ID="w74">,</token>
+      <token ID="w75">als</token>
+      <token ID="w76">Ihre</token>
+      <token ID="w77">aus</token>
+      <token ID="w78">freiem</token>
+      <token ID="w79">Antrieb</token>
+      <token ID="w7a">mir</token>
+      <token ID="w7b">persönlich</token>
+      <token ID="w7c">aus</token>
+      <token ID="w7d">gegebene</token>
+      <token ID="w7e">freundliche</token>
+      <token ID="w7f">Anmuthung</token>
+      <token ID="w80">des</token>
+      <token ID="w81">Buches</token>
+      <token ID="w82">.</token>
+      <token ID="w83">Und</token>
+      <token ID="w84">Sie</token>
+      <token ID="w85">haben</token>
+      <token ID="w86">Ihre</token>
+      <token ID="w87">Güte</token>
+      <token ID="w88">noch</token>
+      <token ID="w89">verdoppelt</token>
+      <token ID="w8a">,</token>
+      <token ID="w8b">indem</token>
+      <token ID="w8c">Sie</token>
+      <token ID="w8d">mir</token>
+      <token ID="w8e">das</token>
+      <token ID="w8f">briefliche</token>
+      <token ID="w90">Urtheil</token>
+      <token ID="w91">Gottfried</token>
+      <token ID="w92">Kinkels</token>
+      <token ID="w93">mittheilten</token>
+      <token ID="w94">.</token>
+      <token ID="w95">Eben</token>
+      <token ID="w96">im</token>
+      <token ID="w97">Schreiben</token>
+      <token ID="w98">fällt</token>
+      <token ID="w99">mir</token>
+      <token ID="w9a">ein</token>
+      <token ID="w9b">,</token>
+      <token ID="w9c">daß</token>
+      <token ID="w9d">ich</token>
+      <token ID="w9e">für</token>
+      <token ID="w9f">eine</token>
+      <token ID="wa0">Saumseligkeit</token>
+      <token ID="wa1">gegen</token>
+      <token ID="wa2">Sie</token>
+      <token ID="wa3">ganz</token>
+      <token ID="wa4">dankend</token>
+      <token ID="wa5">bestraft</token>
+      <token ID="wa6">ward</token>
+      <token ID="wa7">.</token>
+      <token ID="wa8">Vor</token>
+      <token ID="wa9">etwa</token>
+      <token ID="waa">14</token>
+      <token ID="wab">Tagen</token>
+      <token ID="wac">ging</token>
+      <token ID="wad">ich</token>
+      <token ID="wae">mit</token>
+      <token ID="waf">Sinnert</token>
+      <token ID="wb0">spazieren</token>
+      <token ID="wb1">,</token>
+      <token ID="wb2">wir</token>
+      <token ID="wb3">sprachen</token>
+      <token ID="wb4">von</token>
+      <token ID="wb5">Mörike</token>
+      <token ID="wb6">und</token>
+      <token ID="wb7">ich</token>
+      <token ID="wb8">freute</token>
+      <token ID="wb9">mich</token>
+      <token ID="wba">,</token>
+      <token ID="wbb">daß</token>
+      <token ID="wbc">er</token>
+      <token ID="wbd">ihn</token>
+      <token ID="wbe">gleich</token>
+      <token ID="wbf">mir</token>
+      <token ID="wc0">so</token>
+      <token ID="wc1">hochhält</token>
+      <token ID="wc2">.</token>
+      <token ID="wc3">Tags</token>
+      <token ID="wc4">darauf</token>
+      <token ID="wc5">schrieb</token>
+      <token ID="wc6">ich</token>
+      <token ID="wc7">das</token>
+      <token ID="wc8">sofort</token>
+      <token ID="wc9">an</token>
+      <token ID="wca">Mörike</token>
+      <token ID="wcb">,</token>
+      <token ID="wcc">mit</token>
+      <token ID="wcd">dem</token>
+      <token ID="wce">ich</token>
+      <token ID="wcf">nicht</token>
+      <token ID="wd0">im</token>
+      <token ID="wd1">Briefwechsel</token>
+      <token ID="wd2">aber</token>
+      <token ID="wd3">in</token>
+      <token ID="wd4">gutem</token>
+      <token ID="wd5">kameradschaftlichem</token>
+      <token ID="wd6">Gedanke</token>
+      <token ID="wd7">stehe</token>
+      <token ID="wd8">.</token>
+      <token ID="wd9">Es</token>
+      <token ID="wda">will</token>
+      <token ID="wdb">mich</token>
+      <token ID="wdc">aber</token>
+      <token ID="wdd">doch</token>
+      <token ID="wde">ärgern</token>
+      <token ID="wdf">,</token>
+      <token ID="we0">daß</token>
+      <token ID="we1">es</token>
+      <token ID="we2">mir</token>
+      <token ID="we3">Ihr</token>
+      <token ID="we4">nicht</token>
+      <token ID="we5">erwidert</token>
+      <token ID="we6">und</token>
+      <token ID="we7">da</token>
+      <token ID="we8">sage</token>
+      <token ID="we9">ich</token>
+      <token ID="wea">mir</token>
+      <token ID="web">jetzt</token>
+      <token ID="wec">:</token>
+      <token ID="wed">Geschieht</token>
+      <token ID="wee">dir</token>
+      <token ID="wef">ganz</token>
+      <token ID="wf0">recht</token>
+      <token ID="wf1">,</token>
+      <token ID="wf2">du</token>
+      <token ID="wf3">hast</token>
+      <token ID="wf4">es</token>
+      <token ID="wf5">ja</token>
+      <token ID="wf6">mit</token>
+      <token ID="wf7">Dr.</token>
+      <token ID="wf8">Sanders</token>
+      <token ID="wf9">auch</token>
+      <token ID="wfa">nicht</token>
+      <token ID="wfb">besser</token>
+      <token ID="wfc">gemacht</token>
+      <token ID="wfd">.</token>
+      <token ID="wfe">Hoffentlich</token>
+      <token ID="wff">habe</token>
+      <token ID="w100">ich</token>
+      <token ID="w101">es</token>
+      <token ID="w102">mir</token>
+      <token ID="w103">wenn</token>
+      <token ID="w104">auch</token>
+      <token ID="w105">nicht</token>
+      <token ID="w106">besser</token>
+      <token ID="w107">doch</token>
+      <token ID="w108">wieder</token>
+      <token ID="w109">gut</token>
+      <token ID="w10a">gemacht</token>
+      <token ID="w10b">.</token>
+      <token ID="w10c">In</token>
+      <token ID="w10d">voller</token>
+      <token ID="w10e">Hochachtung</token>
+      <token ID="w10f">Ihr</token>
+      <token ID="w110">ergebenster</token>
+      <token ID="w111">Berthold</token>
+      <token ID="w112">Auerbach</token>
+      <token ID="w113">.</token>
+      <token ID="w114">Bonn</token>
+      <token ID="w115">,</token>
+      <token ID="w116">10.</token>
+      <token ID="w117">März</token>
+      <token ID="w118">67</token>
+      <token ID="w119">.</token>
+      <token ID="w11a">Ihre</token>
+      <token ID="w11b">Abhandlung</token>
+      <token ID="w11c">über</token>
+      <token ID="w11d">das</token>
+      <token ID="w11e">„</token>
+      <token ID="w11f">Hohe</token>
+      <token ID="w120">Lied</token>
+      <token ID="w121">hat</token>
+      <token ID="w122">Aaron</token>
+      <token ID="w123">Bernstein</token>
+      <token ID="w124">mir</token>
+      <token ID="w125">alsbald</token>
+      <token ID="w126">mit</token>
+      <token ID="w127">fortgenom̃en</token>
+      <token ID="w128">.</token>
+      <token ID="w129">Ich</token>
+      <token ID="w12a">glaube</token>
+      <token ID="w12b">,</token>
+      <token ID="w12c">er</token>
+      <token ID="w12d">wollte</token>
+      <token ID="w12e">Ihnen</token>
+      <token ID="w12f">darüber</token>
+      <token ID="w130">schreiben</token>
+      <token ID="w131">.</token>
+    </tokens>
+    <sentences>
+      <sentence ID="s1" tokenIDs="w1 w2 w3 w4 w5 w6 w7 w8 w9 wa wb wc wd we wf w10 w11 w12 w13 w14 w15 w16 w17 w18 w19 w1a w1b w1c w1d w1e w1f"/>
+      <sentence ID="s2" tokenIDs="w20 w21 w22 w23 w24"/>
+      <sentence ID="s3" tokenIDs="w25 w26 w27 w28 w29 w2a w2b w2c w2d w2e w2f w30 w31 w32 w33 w34 w35 w36 w37"/>
+      <sentence ID="s4" tokenIDs="w38 w39 w3a w3b w3c w3d w3e w3f w40 w41 w42 w43 w44 w45 w46 w47 w48 w49 w4a w4b w4c w4d w4e w4f w50 w51 w52 w53 w54 w55"/>
+      <sentence ID="s5" tokenIDs="w56 w57 w58 w59 w5a w5b w5c w5d w5e w5f w60 w61 w62 w63 w64 w65 w66 w67 w68 w69 w6a w6b w6c w6d"/>
+      <sentence ID="s6" tokenIDs="w6e w6f w70 w71 w72 w73 w74 w75 w76 w77 w78 w79 w7a w7b w7c w7d w7e w7f w80 w81 w82"/>
+      <sentence ID="s7" tokenIDs="w83 w84 w85 w86 w87 w88 w89 w8a w8b w8c w8d w8e w8f w90 w91 w92 w93 w94"/>
+      <sentence ID="s8" tokenIDs="w95 w96 w97 w98 w99 w9a w9b w9c w9d w9e w9f wa0 wa1 wa2 wa3 wa4 wa5 wa6 wa7"/>
+      <sentence ID="s9" tokenIDs="wa8 wa9 waa wab wac wad wae waf wb0 wb1 wb2 wb3 wb4 wb5 wb6 wb7 wb8 wb9 wba wbb wbc wbd wbe wbf wc0 wc1 wc2"/>
+      <sentence ID="sa" tokenIDs="wc3 wc4 wc5 wc6 wc7 wc8 wc9 wca wcb wcc wcd wce wcf wd0 wd1 wd2 wd3 wd4 wd5 wd6 wd7 wd8"/>
+      <sentence ID="sb" tokenIDs="wd9 wda wdb wdc wdd wde wdf we0 we1 we2 we3 we4 we5"/>
+      <sentence ID="sc" tokenIDs="we6 we7 we8 we9 wea web wec"/>
+      <sentence ID="sd" tokenIDs="wed wee wef wf0 wf1 wf2 wf3 wf4 wf5 wf6 wf7 wf8 wf9 wfa wfb wfc wfd"/>
+      <sentence ID="se" tokenIDs="wfe wff w100 w101 w102 w103 w104 w105 w106 w107 w108 w109 w10a w10b"/>
+      <sentence ID="sf" tokenIDs="w10c w10d w10e w10f w110 w111 w112 w113"/>
+      <sentence ID="s10" tokenIDs="w114 w115 w116 w117 w118 w119"/>
+      <sentence ID="s11" tokenIDs="w11a w11b w11c w11d w11e w11f w120 w121 w122 w123 w124 w125 w126 w127 w128"/>
+      <sentence ID="s12" tokenIDs="w129 w12a w12b w12c w12d w12e w12f w130 w131"/>
+    </sentences>
+    <lemmas>
+      <lemma tokenIDs="w1">es</lemma>
+      <lemma tokenIDs="w2">quälen</lemma>
+      <lemma tokenIDs="w3">ich</lemma>
+      <lemma tokenIDs="w4">schon</lemma>
+      <lemma tokenIDs="w5">lang</lemma>
+      <lemma tokenIDs="w6">,</lemma>
+      <lemma tokenIDs="w7">wie</lemma>
+      <lemma tokenIDs="w8">lang</lemma>
+      <lemma tokenIDs="w9">wissen</lemma>
+      <lemma tokenIDs="wa">ich</lemma>
+      <lemma tokenIDs="wb">nicht</lemma>
+      <lemma tokenIDs="wc">mehr</lemma>
+      <lemma tokenIDs="wd">zu</lemma>
+      <lemma tokenIDs="we">sagen</lemma>
+      <lemma tokenIDs="wf">,</lemma>
+      <lemma tokenIDs="w10">daß</lemma>
+      <lemma tokenIDs="w11">ich</lemma>
+      <lemma tokenIDs="w12">sie</lemma>
+      <lemma tokenIDs="w13">,</lemma>
+      <lemma tokenIDs="w14">liebwert</lemma>
+      <lemma tokenIDs="w15">Herr</lemma>
+      <lemma tokenIDs="w16">Dr.</lemma>
+      <lemma tokenIDs="w17">auf</lemma>
+      <lemma tokenIDs="w18">ihr</lemma>
+      <lemma tokenIDs="w19">so</lemma>
+      <lemma tokenIDs="w1a">herzerfrischend</lemma>
+      <lemma tokenIDs="w1b">Brief</lemma>
+      <lemma tokenIDs="w1c">nicht</lemma>
+      <lemma tokenIDs="w1d">antworten</lemma>
+      <lemma tokenIDs="w1e">haben</lemma>
+      <lemma tokenIDs="w1f">.</lemma>
+      <lemma tokenIDs="w20">immer</lemma>
+      <lemma tokenIDs="w21">wieder</lemma>
+      <lemma tokenIDs="w22">verschieben</lemma>
+      <lemma tokenIDs="w23">sich_es</lemma>
+      <lemma tokenIDs="w24">.</lemma>
+      <lemma tokenIDs="w25">jetzt</lemma>
+      <lemma tokenIDs="w26">haben</lemma>
+      <lemma tokenIDs="w27">ich</lemma>
+      <lemma tokenIDs="w28">Veranlaßung</lemma>
+      <lemma tokenIDs="w29">,</lemma>
+      <lemma tokenIDs="w2a">sie</lemma>
+      <lemma tokenIDs="w2b">wohl</lemma>
+      <lemma tokenIDs="w2c">eine</lemma>
+      <lemma tokenIDs="w2d">Gegenfreude</lemma>
+      <lemma tokenIDs="w2e">zu</lemma>
+      <lemma tokenIDs="w2f">machen</lemma>
+      <lemma tokenIDs="w30">,</lemma>
+      <lemma tokenIDs="w31">und</lemma>
+      <lemma tokenIDs="w32">die</lemma>
+      <lemma tokenIDs="w33">sollen</lemma>
+      <lemma tokenIDs="w34">nun</lemma>
+      <lemma tokenIDs="w35">Frischenz</lemma>
+      <lemma tokenIDs="w36">geschehen</lemma>
+      <lemma tokenIDs="w37">.</lemma>
+      <lemma tokenIDs="w38">ich</lemma>
+      <lemma tokenIDs="w39">denken</lemma>
+      <lemma tokenIDs="w3a">ich</lemma>
+      <lemma tokenIDs="w3b">,</lemma>
+      <lemma tokenIDs="w3c">daß</lemma>
+      <lemma tokenIDs="w3d">es</lemma>
+      <lemma tokenIDs="w3e">sie</lemma>
+      <lemma tokenIDs="w3f">von</lemma>
+      <lemma tokenIDs="w40">psychologisch</lemma>
+      <lemma tokenIDs="w41">und</lemma>
+      <lemma tokenIDs="w42">spracheforschend</lemma>
+      <lemma tokenIDs="w43">Belang</lemma>
+      <lemma tokenIDs="w44">sein</lemma>
+      <lemma tokenIDs="w45">müssen</lemma>
+      <lemma tokenIDs="w46">,</lemma>
+      <lemma tokenIDs="w47">d</lemma>
+      <lemma tokenIDs="w48">englisch</lemma>
+      <lemma tokenIDs="w49">Übersetzung</lemma>
+      <lemma tokenIDs="w4a">von</lemma>
+      <lemma tokenIDs="w4b">"</lemma>
+      <lemma tokenIDs="w4c">auf</lemma>
+      <lemma tokenIDs="w4d">d</lemma>
+      <lemma tokenIDs="w4e">Höhe</lemma>
+      <lemma tokenIDs="w4f">"</lemma>
+      <lemma tokenIDs="w50">mit</lemma>
+      <lemma tokenIDs="w51">d</lemma>
+      <lemma tokenIDs="w52">Deutsche</lemma>
+      <lemma tokenIDs="w53">zu</lemma>
+      <lemma tokenIDs="w54">vergleichen</lemma>
+      <lemma tokenIDs="w55">.</lemma>
+      <lemma tokenIDs="w56">ich</lemma>
+      <lemma tokenIDs="w57">schicken</lemma>
+      <lemma tokenIDs="w58">sie</lemma>
+      <lemma tokenIDs="w59">also</lemma>
+      <lemma tokenIDs="w5a">hier</lemma>
+      <lemma tokenIDs="w5b">eine</lemma>
+      <lemma tokenIDs="w5c">Exemplar</lemma>
+      <lemma tokenIDs="w5d">und</lemma>
+      <lemma tokenIDs="w5e">mit</lemma>
+      <lemma tokenIDs="w5f">diese</lemma>
+      <lemma tokenIDs="w60">Erneuerung</lemma>
+      <lemma tokenIDs="w61">d</lemma>
+      <lemma tokenIDs="w62">Buch</lemma>
+      <lemma tokenIDs="w63">können</lemma>
+      <lemma tokenIDs="w64">ich</lemma>
+      <lemma tokenIDs="w65">sie</lemma>
+      <lemma tokenIDs="w66">nun</lemma>
+      <lemma tokenIDs="w67">sagen</lemma>
+      <lemma tokenIDs="w68">,</lemma>
+      <lemma tokenIDs="w69">daß</lemma>
+      <lemma tokenIDs="w6a">ich</lemma>
+      <lemma tokenIDs="w6b">nicht</lemma>
+      <lemma tokenIDs="w6c">bald</lemma>
+      <lemma tokenIDs="w6d">im</lemma>
+      <lemma tokenIDs="w6e">Leben</lemma>
+      <lemma tokenIDs="w6f">etwas</lemma>
+      <lemma tokenIDs="w70">eine</lemma>
+      <lemma tokenIDs="w71">solch</lemma>
+      <lemma tokenIDs="w72">Freude</lemma>
+      <lemma tokenIDs="w73">machen</lemma>
+      <lemma tokenIDs="w74">,</lemma>
+      <lemma tokenIDs="w75">als</lemma>
+      <lemma tokenIDs="w76">ihr</lemma>
+      <lemma tokenIDs="w77">aus</lemma>
+      <lemma tokenIDs="w78">frei</lemma>
+      <lemma tokenIDs="w79">Antrieb</lemma>
+      <lemma tokenIDs="w7a">ich</lemma>
+      <lemma tokenIDs="w7b">persönlich</lemma>
+      <lemma tokenIDs="w7c">aus</lemma>
+      <lemma tokenIDs="w7d">gegeben</lemma>
+      <lemma tokenIDs="w7e">freundlich</lemma>
+      <lemma tokenIDs="w7f">Anmutung</lemma>
+      <lemma tokenIDs="w80">d</lemma>
+      <lemma tokenIDs="w81">Buch</lemma>
+      <lemma tokenIDs="w82">.</lemma>
+      <lemma tokenIDs="w83">und</lemma>
+      <lemma tokenIDs="w84">sie</lemma>
+      <lemma tokenIDs="w85">haben</lemma>
+      <lemma tokenIDs="w86">ihr</lemma>
+      <lemma tokenIDs="w87">Güte</lemma>
+      <lemma tokenIDs="w88">noch</lemma>
+      <lemma tokenIDs="w89">verdoppeln</lemma>
+      <lemma tokenIDs="w8a">,</lemma>
+      <lemma tokenIDs="w8b">indem</lemma>
+      <lemma tokenIDs="w8c">sie</lemma>
+      <lemma tokenIDs="w8d">ich</lemma>
+      <lemma tokenIDs="w8e">d</lemma>
+      <lemma tokenIDs="w8f">brieflich</lemma>
+      <lemma tokenIDs="w90">Urteil</lemma>
+      <lemma tokenIDs="w91">Gottfried</lemma>
+      <lemma tokenIDs="w92">Kinkels</lemma>
+      <lemma tokenIDs="w93">mitteilen</lemma>
+      <lemma tokenIDs="w94">.</lemma>
+      <lemma tokenIDs="w95">eben</lemma>
+      <lemma tokenIDs="w96">im</lemma>
+      <lemma tokenIDs="w97">Schreiben</lemma>
+      <lemma tokenIDs="w98">fällen</lemma>
+      <lemma tokenIDs="w99">ich</lemma>
+      <lemma tokenIDs="w9a">ein</lemma>
+      <lemma tokenIDs="w9b">,</lemma>
+      <lemma tokenIDs="w9c">daß</lemma>
+      <lemma tokenIDs="w9d">ich</lemma>
+      <lemma tokenIDs="w9e">für</lemma>
+      <lemma tokenIDs="w9f">eine</lemma>
+      <lemma tokenIDs="wa0">Saumseligkeit</lemma>
+      <lemma tokenIDs="wa1">gegen</lemma>
+      <lemma tokenIDs="wa2">sie</lemma>
+      <lemma tokenIDs="wa3">ganz</lemma>
+      <lemma tokenIDs="wa4">dankend</lemma>
+      <lemma tokenIDs="wa5">bestrafen</lemma>
+      <lemma tokenIDs="wa6">werden</lemma>
+      <lemma tokenIDs="wa7">.</lemma>
+      <lemma tokenIDs="wa8">vor</lemma>
+      <lemma tokenIDs="wa9">etwa</lemma>
+      <lemma tokenIDs="waa">14</lemma>
+      <lemma tokenIDs="wab">Tag</lemma>
+      <lemma tokenIDs="wac">gehen</lemma>
+      <lemma tokenIDs="wad">ich</lemma>
+      <lemma tokenIDs="wae">mit</lemma>
+      <lemma tokenIDs="waf">Sinnert</lemma>
+      <lemma tokenIDs="wb0">spazieren</lemma>
+      <lemma tokenIDs="wb1">,</lemma>
+      <lemma tokenIDs="wb2">wir</lemma>
+      <lemma tokenIDs="wb3">sprechen</lemma>
+      <lemma tokenIDs="wb4">von</lemma>
+      <lemma tokenIDs="wb5">Mörike</lemma>
+      <lemma tokenIDs="wb6">und</lemma>
+      <lemma tokenIDs="wb7">ich</lemma>
+      <lemma tokenIDs="wb8">freuen</lemma>
+      <lemma tokenIDs="wb9">ich</lemma>
+      <lemma tokenIDs="wba">,</lemma>
+      <lemma tokenIDs="wbb">daß</lemma>
+      <lemma tokenIDs="wbc">er</lemma>
+      <lemma tokenIDs="wbd">er</lemma>
+      <lemma tokenIDs="wbe">gleich</lemma>
+      <lemma tokenIDs="wbf">ich</lemma>
+      <lemma tokenIDs="wc0">so</lemma>
+      <lemma tokenIDs="wc1">hochhalten</lemma>
+      <lemma tokenIDs="wc2">.</lemma>
+      <lemma tokenIDs="wc3">tags</lemma>
+      <lemma tokenIDs="wc4">darauf</lemma>
+      <lemma tokenIDs="wc5">schreiben</lemma>
+      <lemma tokenIDs="wc6">ich</lemma>
+      <lemma tokenIDs="wc7">die</lemma>
+      <lemma tokenIDs="wc8">sofort</lemma>
+      <lemma tokenIDs="wc9">an</lemma>
+      <lemma tokenIDs="wca">Mörike</lemma>
+      <lemma tokenIDs="wcb">,</lemma>
+      <lemma tokenIDs="wcc">mit</lemma>
+      <lemma tokenIDs="wcd">die</lemma>
+      <lemma tokenIDs="wce">ich</lemma>
+      <lemma tokenIDs="wcf">nicht</lemma>
+      <lemma tokenIDs="wd0">im</lemma>
+      <lemma tokenIDs="wd1">Briefwechsel</lemma>
+      <lemma tokenIDs="wd2">aber</lemma>
+      <lemma tokenIDs="wd3">in</lemma>
+      <lemma tokenIDs="wd4">gut</lemma>
+      <lemma tokenIDs="wd5">kameradschaftlich</lemma>
+      <lemma tokenIDs="wd6">Gedanke</lemma>
+      <lemma tokenIDs="wd7">stehen</lemma>
+      <lemma tokenIDs="wd8">.</lemma>
+      <lemma tokenIDs="wd9">es</lemma>
+      <lemma tokenIDs="wda">wollen</lemma>
+      <lemma tokenIDs="wdb">ich</lemma>
+      <lemma tokenIDs="wdc">aber</lemma>
+      <lemma tokenIDs="wdd">doch</lemma>
+      <lemma tokenIDs="wde">ärgern</lemma>
+      <lemma tokenIDs="wdf">,</lemma>
+      <lemma tokenIDs="we0">daß</lemma>
+      <lemma tokenIDs="we1">es</lemma>
+      <lemma tokenIDs="we2">ich</lemma>
+      <lemma tokenIDs="we3">sie</lemma>
+      <lemma tokenIDs="we4">nicht</lemma>
+      <lemma tokenIDs="we5">erwidern</lemma>
+      <lemma tokenIDs="we6">und</lemma>
+      <lemma tokenIDs="we7">da</lemma>
+      <lemma tokenIDs="we8">sagen</lemma>
+      <lemma tokenIDs="we9">ich</lemma>
+      <lemma tokenIDs="wea">ich</lemma>
+      <lemma tokenIDs="web">jetzt</lemma>
+      <lemma tokenIDs="wec">:</lemma>
+      <lemma tokenIDs="wed">geschehen</lemma>
+      <lemma tokenIDs="wee">du</lemma>
+      <lemma tokenIDs="wef">ganz</lemma>
+      <lemma tokenIDs="wf0">recht</lemma>
+      <lemma tokenIDs="wf1">,</lemma>
+      <lemma tokenIDs="wf2">du</lemma>
+      <lemma tokenIDs="wf3">haben</lemma>
+      <lemma tokenIDs="wf4">es</lemma>
+      <lemma tokenIDs="wf5">ja</lemma>
+      <lemma tokenIDs="wf6">mit</lemma>
+      <lemma tokenIDs="wf7">Dr.</lemma>
+      <lemma tokenIDs="wf8">Sanders</lemma>
+      <lemma tokenIDs="wf9">auch</lemma>
+      <lemma tokenIDs="wfa">nicht</lemma>
+      <lemma tokenIDs="wfb">gut</lemma>
+      <lemma tokenIDs="wfc">machen</lemma>
+      <lemma tokenIDs="wfd">.</lemma>
+      <lemma tokenIDs="wfe">hoffentlich</lemma>
+      <lemma tokenIDs="wff">haben</lemma>
+      <lemma tokenIDs="w100">ich</lemma>
+      <lemma tokenIDs="w101">es</lemma>
+      <lemma tokenIDs="w102">ich</lemma>
+      <lemma tokenIDs="w103">wenn</lemma>
+      <lemma tokenIDs="w104">auch</lemma>
+      <lemma tokenIDs="w105">nicht</lemma>
+      <lemma tokenIDs="w106">gut</lemma>
+      <lemma tokenIDs="w107">doch</lemma>
+      <lemma tokenIDs="w108">wieder</lemma>
+      <lemma tokenIDs="w109">gut</lemma>
+      <lemma tokenIDs="w10a">machen</lemma>
+      <lemma tokenIDs="w10b">.</lemma>
+      <lemma tokenIDs="w10c">in</lemma>
+      <lemma tokenIDs="w10d">voll</lemma>
+      <lemma tokenIDs="w10e">Hochachtung</lemma>
+      <lemma tokenIDs="w10f">ihr</lemma>
+      <lemma tokenIDs="w110">ergeben</lemma>
+      <lemma tokenIDs="w111">Berthold</lemma>
+      <lemma tokenIDs="w112">Auerbach</lemma>
+      <lemma tokenIDs="w113">.</lemma>
+      <lemma tokenIDs="w114">Bonn</lemma>
+      <lemma tokenIDs="w115">,</lemma>
+      <lemma tokenIDs="w116">10.</lemma>
+      <lemma tokenIDs="w117">März</lemma>
+      <lemma tokenIDs="w118">67</lemma>
+      <lemma tokenIDs="w119">.</lemma>
+      <lemma tokenIDs="w11a">ihr</lemma>
+      <lemma tokenIDs="w11b">Abhandlung</lemma>
+      <lemma tokenIDs="w11c">über</lemma>
+      <lemma tokenIDs="w11d">d</lemma>
+      <lemma tokenIDs="w11e">"</lemma>
+      <lemma tokenIDs="w11f">hoch</lemma>
+      <lemma tokenIDs="w120">Lied</lemma>
+      <lemma tokenIDs="w121">haben</lemma>
+      <lemma tokenIDs="w122">Aaron</lemma>
+      <lemma tokenIDs="w123">Bernstein</lemma>
+      <lemma tokenIDs="w124">ich</lemma>
+      <lemma tokenIDs="w125">alsbald</lemma>
+      <lemma tokenIDs="w126">mit</lemma>
+      <lemma tokenIDs="w127">fortnehmen</lemma>
+      <lemma tokenIDs="w128">.</lemma>
+      <lemma tokenIDs="w129">ich</lemma>
+      <lemma tokenIDs="w12a">glauben</lemma>
+      <lemma tokenIDs="w12b">,</lemma>
+      <lemma tokenIDs="w12c">er</lemma>
+      <lemma tokenIDs="w12d">wollen</lemma>
+      <lemma tokenIDs="w12e">sie</lemma>
+      <lemma tokenIDs="w12f">darüber</lemma>
+      <lemma tokenIDs="w130">schreiben</lemma>
+      <lemma tokenIDs="w131">.</lemma>
+    </lemmas>
+    <POStags tagset="stts">
+      <tag tokenIDs="w1">PPER</tag>
+      <tag tokenIDs="w2">VVFIN</tag>
+      <tag tokenIDs="w3">PPER</tag>
+      <tag tokenIDs="w4">ADV</tag>
+      <tag tokenIDs="w5">ADJD</tag>
+      <tag tokenIDs="w6">$,</tag>
+      <tag tokenIDs="w7">PWAV</tag>
+      <tag tokenIDs="w8">ADJD</tag>
+      <tag tokenIDs="w9">VVFIN</tag>
+      <tag tokenIDs="wa">PPER</tag>
+      <tag tokenIDs="wb">PTKNEG</tag>
+      <tag tokenIDs="wc">ADV</tag>
+      <tag tokenIDs="wd">PTKZU</tag>
+      <tag tokenIDs="we">VVINF</tag>
+      <tag tokenIDs="wf">$,</tag>
+      <tag tokenIDs="w10">KOUS</tag>
+      <tag tokenIDs="w11">PPER</tag>
+      <tag tokenIDs="w12">PPER</tag>
+      <tag tokenIDs="w13">$,</tag>
+      <tag tokenIDs="w14">ADJA</tag>
+      <tag tokenIDs="w15">NN</tag>
+      <tag tokenIDs="w16">NN</tag>
+      <tag tokenIDs="w17">APPR</tag>
+      <tag tokenIDs="w18">PPOSAT</tag>
+      <tag tokenIDs="w19">ADV</tag>
+      <tag tokenIDs="w1a">ADJA</tag>
+      <tag tokenIDs="w1b">NN</tag>
+      <tag tokenIDs="w1c">PTKNEG</tag>
+      <tag tokenIDs="w1d">VVPP</tag>
+      <tag tokenIDs="w1e">VAFIN</tag>
+      <tag tokenIDs="w1f">$.</tag>
+      <tag tokenIDs="w20">ADV</tag>
+      <tag tokenIDs="w21">ADV</tag>
+      <tag tokenIDs="w22">VVFIN</tag>
+      <tag tokenIDs="w23">PIS</tag>
+      <tag tokenIDs="w24">$.</tag>
+      <tag tokenIDs="w25">ADV</tag>
+      <tag tokenIDs="w26">VAFIN</tag>
+      <tag tokenIDs="w27">PPER</tag>
+      <tag tokenIDs="w28">NN</tag>
+      <tag tokenIDs="w29">$,</tag>
+      <tag tokenIDs="w2a">PPER</tag>
+      <tag tokenIDs="w2b">ADV</tag>
+      <tag tokenIDs="w2c">ART</tag>
+      <tag tokenIDs="w2d">NN</tag>
+      <tag tokenIDs="w2e">PTKZU</tag>
+      <tag tokenIDs="w2f">VVINF</tag>
+      <tag tokenIDs="w30">$,</tag>
+      <tag tokenIDs="w31">KON</tag>
+      <tag tokenIDs="w32">PDS</tag>
+      <tag tokenIDs="w33">VMFIN</tag>
+      <tag tokenIDs="w34">ADV</tag>
+      <tag tokenIDs="w35">NE</tag>
+      <tag tokenIDs="w36">VVPP</tag>
+      <tag tokenIDs="w37">$.</tag>
+      <tag tokenIDs="w38">PPER</tag>
+      <tag tokenIDs="w39">VVFIN</tag>
+      <tag tokenIDs="w3a">PPER</tag>
+      <tag tokenIDs="w3b">$,</tag>
+      <tag tokenIDs="w3c">KOUS</tag>
+      <tag tokenIDs="w3d">PPER</tag>
+      <tag tokenIDs="w3e">PPER</tag>
+      <tag tokenIDs="w3f">APPR</tag>
+      <tag tokenIDs="w40">ADJA</tag>
+      <tag tokenIDs="w41">KON</tag>
+      <tag tokenIDs="w42">ADJA</tag>
+      <tag tokenIDs="w43">NN</tag>
+      <tag tokenIDs="w44">VAINF</tag>
+      <tag tokenIDs="w45">VMFIN</tag>
+      <tag tokenIDs="w46">$,</tag>
+      <tag tokenIDs="w47">ART</tag>
+      <tag tokenIDs="w48">ADJA</tag>
+      <tag tokenIDs="w49">NN</tag>
+      <tag tokenIDs="w4a">APPR</tag>
+      <tag tokenIDs="w4b">$(</tag>
+      <tag tokenIDs="w4c">APPR</tag>
+      <tag tokenIDs="w4d">ART</tag>
+      <tag tokenIDs="w4e">NN</tag>
+      <tag tokenIDs="w4f">$(</tag>
+      <tag tokenIDs="w50">APPR</tag>
+      <tag tokenIDs="w51">ART</tag>
+      <tag tokenIDs="w52">NN</tag>
+      <tag tokenIDs="w53">PTKZU</tag>
+      <tag tokenIDs="w54">VVINF</tag>
+      <tag tokenIDs="w55">$.</tag>
+      <tag tokenIDs="w56">PPER</tag>
+      <tag tokenIDs="w57">VVFIN</tag>
+      <tag tokenIDs="w58">PPER</tag>
+      <tag tokenIDs="w59">ADV</tag>
+      <tag tokenIDs="w5a">ADV</tag>
+      <tag tokenIDs="w5b">ART</tag>
+      <tag tokenIDs="w5c">NN</tag>
+      <tag tokenIDs="w5d">KON</tag>
+      <tag tokenIDs="w5e">APPR</tag>
+      <tag tokenIDs="w5f">PDAT</tag>
+      <tag tokenIDs="w60">NN</tag>
+      <tag tokenIDs="w61">ART</tag>
+      <tag tokenIDs="w62">NN</tag>
+      <tag tokenIDs="w63">VMFIN</tag>
+      <tag tokenIDs="w64">PPER</tag>
+      <tag tokenIDs="w65">PPER</tag>
+      <tag tokenIDs="w66">ADV</tag>
+      <tag tokenIDs="w67">VVINF</tag>
+      <tag tokenIDs="w68">$,</tag>
+      <tag tokenIDs="w69">KOUS</tag>
+      <tag tokenIDs="w6a">PPER</tag>
+      <tag tokenIDs="w6b">PTKNEG</tag>
+      <tag tokenIDs="w6c">ADV</tag>
+      <tag tokenIDs="w6d">APPRART</tag>
+      <tag tokenIDs="w6e">NN</tag>
+      <tag tokenIDs="w6f">PIS</tag>
+      <tag tokenIDs="w70">ART</tag>
+      <tag tokenIDs="w71">PIAT</tag>
+      <tag tokenIDs="w72">NN</tag>
+      <tag tokenIDs="w73">VVPP</tag>
+      <tag tokenIDs="w74">$,</tag>
+      <tag tokenIDs="w75">KOUS</tag>
+      <tag tokenIDs="w76">PPOSAT</tag>
+      <tag tokenIDs="w77">APPR</tag>
+      <tag tokenIDs="w78">ADJA</tag>
+      <tag tokenIDs="w79">NN</tag>
+      <tag tokenIDs="w7a">PPER</tag>
+      <tag tokenIDs="w7b">ADJD</tag>
+      <tag tokenIDs="w7c">APPR</tag>
+      <tag tokenIDs="w7d">ADJA</tag>
+      <tag tokenIDs="w7e">ADJA</tag>
+      <tag tokenIDs="w7f">NN</tag>
+      <tag tokenIDs="w80">ART</tag>
+      <tag tokenIDs="w81">NN</tag>
+      <tag tokenIDs="w82">$.</tag>
+      <tag tokenIDs="w83">KON</tag>
+      <tag tokenIDs="w84">PPER</tag>
+      <tag tokenIDs="w85">VAFIN</tag>
+      <tag tokenIDs="w86">PPOSAT</tag>
+      <tag tokenIDs="w87">NN</tag>
+      <tag tokenIDs="w88">ADV</tag>
+      <tag tokenIDs="w89">VVPP</tag>
+      <tag tokenIDs="w8a">$,</tag>
+      <tag tokenIDs="w8b">KOUS</tag>
+      <tag tokenIDs="w8c">PPER</tag>
+      <tag tokenIDs="w8d">PPER</tag>
+      <tag tokenIDs="w8e">ART</tag>
+      <tag tokenIDs="w8f">ADJA</tag>
+      <tag tokenIDs="w90">NN</tag>
+      <tag tokenIDs="w91">NE</tag>
+      <tag tokenIDs="w92">NE</tag>
+      <tag tokenIDs="w93">VVFIN</tag>
+      <tag tokenIDs="w94">$.</tag>
+      <tag tokenIDs="w95">ADV</tag>
+      <tag tokenIDs="w96">APPRART</tag>
+      <tag tokenIDs="w97">NN</tag>
+      <tag tokenIDs="w98">VVFIN</tag>
+      <tag tokenIDs="w99">PPER</tag>
+      <tag tokenIDs="w9a">PTKVZ</tag>
+      <tag tokenIDs="w9b">$,</tag>
+      <tag tokenIDs="w9c">KOUS</tag>
+      <tag tokenIDs="w9d">PPER</tag>
+      <tag tokenIDs="w9e">APPR</tag>
+      <tag tokenIDs="w9f">ART</tag>
+      <tag tokenIDs="wa0">NN</tag>
+      <tag tokenIDs="wa1">APPR</tag>
+      <tag tokenIDs="wa2">PPER</tag>
+      <tag tokenIDs="wa3">ADV</tag>
+      <tag tokenIDs="wa4">ADJD</tag>
+      <tag tokenIDs="wa5">VVPP</tag>
+      <tag tokenIDs="wa6">VAFIN</tag>
+      <tag tokenIDs="wa7">$.</tag>
+      <tag tokenIDs="wa8">APPR</tag>
+      <tag tokenIDs="wa9">ADV</tag>
+      <tag tokenIDs="waa">CARD</tag>
+      <tag tokenIDs="wab">NN</tag>
+      <tag tokenIDs="wac">VVFIN</tag>
+      <tag tokenIDs="wad">PPER</tag>
+      <tag tokenIDs="wae">APPR</tag>
+      <tag tokenIDs="waf">NE</tag>
+      <tag tokenIDs="wb0">VVINF</tag>
+      <tag tokenIDs="wb1">$,</tag>
+      <tag tokenIDs="wb2">PPER</tag>
+      <tag tokenIDs="wb3">VVFIN</tag>
+      <tag tokenIDs="wb4">APPR</tag>
+      <tag tokenIDs="wb5">NE</tag>
+      <tag tokenIDs="wb6">KON</tag>
+      <tag tokenIDs="wb7">PPER</tag>
+      <tag tokenIDs="wb8">VVFIN</tag>
+      <tag tokenIDs="wb9">PPER</tag>
+      <tag tokenIDs="wba">$,</tag>
+      <tag tokenIDs="wbb">KOUS</tag>
+      <tag tokenIDs="wbc">PPER</tag>
+      <tag tokenIDs="wbd">PPER</tag>
+      <tag tokenIDs="wbe">ADV</tag>
+      <tag tokenIDs="wbf">PPER</tag>
+      <tag tokenIDs="wc0">ADV</tag>
+      <tag tokenIDs="wc1">VVFIN</tag>
+      <tag tokenIDs="wc2">$.</tag>
+      <tag tokenIDs="wc3">ADV</tag>
+      <tag tokenIDs="wc4">PAV</tag>
+      <tag tokenIDs="wc5">VVFIN</tag>
+      <tag tokenIDs="wc6">PPER</tag>
+      <tag tokenIDs="wc7">PDS</tag>
+      <tag tokenIDs="wc8">ADV</tag>
+      <tag tokenIDs="wc9">APPR</tag>
+      <tag tokenIDs="wca">NE</tag>
+      <tag tokenIDs="wcb">$,</tag>
+      <tag tokenIDs="wcc">APPR</tag>
+      <tag tokenIDs="wcd">PRELS</tag>
+      <tag tokenIDs="wce">PPER</tag>
+      <tag tokenIDs="wcf">PTKNEG</tag>
+      <tag tokenIDs="wd0">APPRART</tag>
+      <tag tokenIDs="wd1">NN</tag>
+      <tag tokenIDs="wd2">ADV</tag>
+      <tag tokenIDs="wd3">APPR</tag>
+      <tag tokenIDs="wd4">ADJA</tag>
+      <tag tokenIDs="wd5">ADJA</tag>
+      <tag tokenIDs="wd6">NN</tag>
+      <tag tokenIDs="wd7">VVFIN</tag>
+      <tag tokenIDs="wd8">$.</tag>
+      <tag tokenIDs="wd9">PPER</tag>
+      <tag tokenIDs="wda">VMFIN</tag>
+      <tag tokenIDs="wdb">PPER</tag>
+      <tag tokenIDs="wdc">ADV</tag>
+      <tag tokenIDs="wdd">ADV</tag>
+      <tag tokenIDs="wde">VVINF</tag>
+      <tag tokenIDs="wdf">$,</tag>
+      <tag tokenIDs="we0">KOUS</tag>
+      <tag tokenIDs="we1">PPER</tag>
+      <tag tokenIDs="we2">PPER</tag>
+      <tag tokenIDs="we3">PPER</tag>
+      <tag tokenIDs="we4">PTKNEG</tag>
+      <tag tokenIDs="we5">VVPP</tag>
+      <tag tokenIDs="we6">KON</tag>
+      <tag tokenIDs="we7">ADV</tag>
+      <tag tokenIDs="we8">VVFIN</tag>
+      <tag tokenIDs="we9">PPER</tag>
+      <tag tokenIDs="wea">PPER</tag>
+      <tag tokenIDs="web">ADV</tag>
+      <tag tokenIDs="wec">$.</tag>
+      <tag tokenIDs="wed">VVFIN</tag>
+      <tag tokenIDs="wee">PPER</tag>
+      <tag tokenIDs="wef">ADV</tag>
+      <tag tokenIDs="wf0">ADJD</tag>
+      <tag tokenIDs="wf1">$,</tag>
+      <tag tokenIDs="wf2">PPER</tag>
+      <tag tokenIDs="wf3">VAFIN</tag>
+      <tag tokenIDs="wf4">PPER</tag>
+      <tag tokenIDs="wf5">ADV</tag>
+      <tag tokenIDs="wf6">APPR</tag>
+      <tag tokenIDs="wf7">NN</tag>
+      <tag tokenIDs="wf8">NE</tag>
+      <tag tokenIDs="wf9">ADV</tag>
+      <tag tokenIDs="wfa">PTKNEG</tag>
+      <tag tokenIDs="wfb">ADJD</tag>
+      <tag tokenIDs="wfc">VVPP</tag>
+      <tag tokenIDs="wfd">$.</tag>
+      <tag tokenIDs="wfe">ADV</tag>
+      <tag tokenIDs="wff">VAFIN</tag>
+      <tag tokenIDs="w100">PPER</tag>
+      <tag tokenIDs="w101">PPER</tag>
+      <tag tokenIDs="w102">PPER</tag>
+      <tag tokenIDs="w103">KOUS</tag>
+      <tag tokenIDs="w104">ADV</tag>
+      <tag tokenIDs="w105">PTKNEG</tag>
+      <tag tokenIDs="w106">ADJD</tag>
+      <tag tokenIDs="w107">ADV</tag>
+      <tag tokenIDs="w108">ADV</tag>
+      <tag tokenIDs="w109">ADJD</tag>
+      <tag tokenIDs="w10a">VVPP</tag>
+      <tag tokenIDs="w10b">$.</tag>
+      <tag tokenIDs="w10c">APPR</tag>
+      <tag tokenIDs="w10d">ADJA</tag>
+      <tag tokenIDs="w10e">NN</tag>
+      <tag tokenIDs="w10f">PPOSAT</tag>
+      <tag tokenIDs="w110">ADJA</tag>
+      <tag tokenIDs="w111">NE</tag>
+      <tag tokenIDs="w112">NE</tag>
+      <tag tokenIDs="w113">$.</tag>
+      <tag tokenIDs="w114">NE</tag>
+      <tag tokenIDs="w115">$,</tag>
+      <tag tokenIDs="w116">ADJA</tag>
+      <tag tokenIDs="w117">NN</tag>
+      <tag tokenIDs="w118">CARD</tag>
+      <tag tokenIDs="w119">$.</tag>
+      <tag tokenIDs="w11a">PPOSAT</tag>
+      <tag tokenIDs="w11b">NN</tag>
+      <tag tokenIDs="w11c">APPR</tag>
+      <tag tokenIDs="w11d">ART</tag>
+      <tag tokenIDs="w11e">$(</tag>
+      <tag tokenIDs="w11f">ADJA</tag>
+      <tag tokenIDs="w120">NN</tag>
+      <tag tokenIDs="w121">VAFIN</tag>
+      <tag tokenIDs="w122">NE</tag>
+      <tag tokenIDs="w123">NE</tag>
+      <tag tokenIDs="w124">PPER</tag>
+      <tag tokenIDs="w125">ADV</tag>
+      <tag tokenIDs="w126">APPR</tag>
+      <tag tokenIDs="w127">VVPP</tag>
+      <tag tokenIDs="w128">$.</tag>
+      <tag tokenIDs="w129">PPER</tag>
+      <tag tokenIDs="w12a">VVFIN</tag>
+      <tag tokenIDs="w12b">$,</tag>
+      <tag tokenIDs="w12c">PPER</tag>
+      <tag tokenIDs="w12d">VMFIN</tag>
+      <tag tokenIDs="w12e">PPER</tag>
+      <tag tokenIDs="w12f">PAV</tag>
+      <tag tokenIDs="w130">VVINF</tag>
+      <tag tokenIDs="w131">$.</tag>
+    </POStags>
+    <orthography>
+      <correction tokenIDs="w14" operation="replace">liebwerter</correction>
+      <correction tokenIDs="w20" operation="replace">Immer</correction>
+      <correction tokenIDs="w23" operation="replace">sich_es</correction>
+      <correction tokenIDs="w49" operation="replace">Übersetzung</correction>
+      <correction tokenIDs="w4b" operation="replace">"</correction>
+      <correction tokenIDs="w4f" operation="replace">"</correction>
+      <correction tokenIDs="w7f" operation="replace">Anmutung</correction>
+      <correction tokenIDs="w90" operation="replace">Urteil</correction>
+      <correction tokenIDs="w93" operation="replace">mitteilten</correction>
+      <correction tokenIDs="wa6" operation="replace">wurde</correction>
+      <correction tokenIDs="w11e" operation="replace">"</correction>
+      <correction tokenIDs="w127" operation="replace">fortgenommen</correction>
+    </orthography>
+  </TextCorpus>
+</D-Spin>
