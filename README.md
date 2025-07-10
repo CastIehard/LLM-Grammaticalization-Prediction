@@ -16,3 +16,6 @@ This repository provides state-of-the-art experiments and resources for classify
 ## License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
+
+## Dataset
+The dataset used in this project is from [DTCF-Version vom 11. Mai 2016 Kernkorpus und Ergänzungstexte](https://www.deutschestextarchiv.de/download)
