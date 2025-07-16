@@ -22,7 +22,7 @@ METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
 ANNOTATED_JSONL = os.path.join(BASE_DIR, "data/sentences_annotated.jsonl")
 
 # Subsampling for testing (set to None to process full corpus)
-SENTENCES_COUNT = 10  # e.g., 10000 or None for full corpus
+SENTENCES_COUNT = 5_000_000  # e.g., 10000 or None for full corpus
 
 # JSONL creation parameters
 BATCH_SIZE = 100_000
@@ -191,6 +191,8 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
         avg_len = sum(len(t) for t in token_lists[0]) / len(token_lists[0])
         avg_len = round(avg_len, 1)
         entropy = len(set(contexts.get(key, [])))
+        norm_entropy = entropy / len(contexts.get(key, [])) if contexts.get(key) else 0.0
+        entropy = round(norm_entropy, 3)
         sca = len(pre_tags.get(key, [])) + len(post_tags.get(key, []))
         weighted_pmi = 0.0
         for (w, c), bc in bigram_counts.items():
@@ -208,6 +210,7 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
             "normalized_occurrences": norm,
             "avg_length": avg_len,
             "context_entropy": entropy,
+            "normalized_context_entropy": norm_entropy,
             "collocation_strength": col_str,
             "synthetic_context_adversity": sca,
             "gramm_score": score_map.get(key, None)
