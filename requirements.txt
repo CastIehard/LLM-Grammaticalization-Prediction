@@ -1,3 +1,4 @@
 tqdm
 ipykernel
 requests
+pyahocorasick
