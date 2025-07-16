@@ -1,4 +1,4 @@
-Keyword,Score
+keyword,score
 je,4
 samt,4
 mitsamt,4
@@ -33,37 +33,24 @@ vor,4
 wider,4
 zu,4
 zwischen,4
-auf Grund,3
-aufgrund,3
-mit Hilfe,3
-mithilfe,3
-zu Gunsten,3
-zugunsten,3
-in Folge,3
-infolge,3
-in Bezug auf,3
-in bezug auf,3
-zu Folge,3
-zufolge,3
-an Hand,3
-anhand,3
-an Stelle,3
-anstelle,3
-zu Lasten,3
-zulasten,3
+auf Grund/aufgrund,3
+mit Hilfe/mithilfe,3
+zu Gunsten/zugunsten,3
+in Folge/infolge,3
+in Bezug auf/in bezug auf,3
+zu Folge/zufolge,3
+an Hand/anhand,3
+an Stelle/anstelle,3
+zu Lasten/zulasten,3
 zuliebe,3
-von Seiten,3
-von seiten,3
-auf Seiten,3
-auf seiten,3
+von Seiten/von seiten,3
+auf Seiten/auf seiten,3
 von wegen,3
 anstatt,3
-zu ungunsten,3
-zuungunsten,3
+zu ungunsten/zuungunsten,3
 beim Anblick,3
 für Rechnung,3
-im Licht,3
-im Lichte,3
+im Licht/im Lichte,3
 im Gefolge,3
 im Rahmen,3
 im Abstand,3
@@ -94,10 +81,8 @@ in Anwesenheit,3
 im Zeichen,3
 im Beisein,3
 im Wege,3
-im Auftrag,3
-im Auftrage,3
-im Zug,3
-im Zuge,3
+im Auftrag/im Auftrage,3
+im Zug/im Zuge,3
 in Anbetracht,3
 in Ansehung,3
 in Ermangelung,3
@@ -108,13 +93,10 @@ im Kreise,3
 im Angesicht,3
 im Zeitalter,3
 im Zeitpunkt,3
-im Dienst,3
-im Dienste,3
+im Dienst/im Dienste,3
 im Verlaufe,3
-im Lauf,3
-im Laufe,3
-im Geist,3
-im Geiste,3
+im Lauf/im Laufe,3
+im Geist/im Geiste,3
 im Interesse,3
 in Abwesenheit,3
 ohne Berücksichtigung,3
@@ -125,10 +107,8 @@ unter Ausschluß,3
 unter Einschluß,3
 unter Einbeziehung,3
 zum Zeichen,3
-zum Zweck,3
-zum Zwecke,3
-zum Wohl,3
-zum Wohle,3
+zum Zweck/zum Zwecke,3
+zum Wohl/zum Wohle,3
 zum Schaden,3
 zum Nachteil,3
 zu Ehren,3
@@ -151,10 +131,8 @@ in Höhe,2
 in Gestalt,2
 in Form,2
 im Umfang,2
-im Bereich,2
-im Bereiche,2
-im Fall,2
-im Falle,2
+im Bereich/im Bereiche,2
+im Fall/im Falle,2
 in Begleitung,2
 in Richtung,2
 im Kreis,2
@@ -174,8 +152,7 @@ aus Mangel an,1
 im Zusammenhang mit,1
 in Verbindung mit,1
 in Kontakt mit,1
-im Widerspruch zu,1
-im Widerspruch mit,1
+im Widerspruch zu/im Widerspruch mit,1
 im Gegensatz zu,1
 Im Kontrast zu,1
 in Konkurrenz zu,1
@@ -193,24 +170,19 @@ in Anlehnung an,1
 in Abhängigkeit von,1
 im Anschluss an,1
 im Verhältnis zu,1
-im Vergleich zu,1
-im Vergleich mit,1
-mit Bezug auf,1
-unter Bezug auf,1
-mit Bezugnahme auf,1
-unter Bezugnahme auf,1
+im Vergleich zu/im Vergleich mit,1
+mit Bezug auf/unter Bezug auf,1
+mit Bezugnahme auf/unter Bezugnahme auf,1
 vom Standpunkt aus,1
 vom Gesichtspunkt aus,1
 zur Erinnerung an,1
-zum Unterschied von,1
-zum Unterschied mit,1
+zum Unterschied von/zum Unterschied mit,1
 auf dem Wege,1
 auf dem Feld,1
 auf dem Gebiet,1
 auf dem Sektor,1
 auf dem Boden,1
-auf dem Hintergrund,1
-vor dem Hintergrund,1
+auf dem Hintergrund/vor dem Hintergrund,1
 aus dem Blickwinkel,1
 aus dem Grund,1
 aus der Perspektive,1
@@ -219,8 +191,7 @@ für den Fall,1
 in der Sphäre,1
 in den Grenzen,1
 in den Reihen,1
-in der Reihe,1
-aus der Reihe,1
+in der Reihe/aus der Reihe,1
 in der Zeit,1
 in der Epoche,1
 in der Periode,1
