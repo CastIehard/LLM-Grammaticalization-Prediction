@@ -22,7 +22,7 @@ METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
 ANNOTATED_JSONL = os.path.join(BASE_DIR, "data/sentences_annotated.jsonl")
 
 # Subsampling for testing (set to None to process full corpus)
-SENTENCES_COUNT = 1  # e.g., 10000 or None for full corpus
+SENTENCES_COUNT = 10  # e.g., 10000 or None for full corpus
 
 # JSONL creation parameters
 BATCH_SIZE = 100_000
@@ -122,33 +122,50 @@ def count_tokens(tokens_tags: list) -> dict:
 def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> (dict, dict, dict, dict, dict):
     """
     Perform sliding window over tokens to count keyword occurrences and contexts.
-    Returns freq, contexts, pre_tags, post_tags, bigram_counts.
+    Counts ALL matches (no greedy first-match stop).
+    Returns:
+        - freq: keyword -> occurrence count
+        - contexts: keyword -> list of surrounding tokens
+        - pre_tags: keyword -> set of preceding POS tags
+        - post_tags: keyword -> set of following POS tags
+        - bigram_counts: (keyword, context_token) -> count
     """
+    from collections import defaultdict
+    from tqdm import tqdm
+
     freq = defaultdict(int)
     contexts = defaultdict(list)
     pre_tags = defaultdict(set)
     post_tags = defaultdict(set)
     bigram_counts = defaultdict(int)
+
     total = len(tokens_tags)
+
     for i in tqdm(range(total), desc="Sliding window"):
         for n in range(1, max_len + 1):
             if i + n > total:
-                break
+                break  # nötig, um nicht über das Ende hinauszugehen
+
             window = tuple(tok for tok, _ in tokens_tags[i:i+n])
+
             if window in lookup:
                 key = lookup[window]
                 freq[key] += 1
+
+                # Kontext vor dem Keyword
                 if i > 0:
-                    prev_tok, prev_tag = tokens_tags[i-1]
+                    prev_tok, prev_tag = tokens_tags[i - 1]
                     contexts[key].append(prev_tok)
                     pre_tags[key].add(prev_tag)
                     bigram_counts[(key, prev_tok)] += 1
+
+                # Kontext nach dem Keyword
                 if i + n < total:
-                    next_tok, next_tag = tokens_tags[i+n]
+                    next_tok, next_tag = tokens_tags[i + n]
                     contexts[key].append(next_tok)
                     post_tags[key].add(next_tag)
                     bigram_counts[(key, next_tok)] += 1
-                break
+
     return freq, contexts, pre_tags, post_tags, bigram_counts
 
 
