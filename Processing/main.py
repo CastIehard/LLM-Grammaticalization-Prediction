@@ -1,3 +1,4 @@
+import os
 import csv
 import json
 import math
@@ -12,13 +13,16 @@ import seaborn as sns
 # =============================================================================
 # Configuration
 # =============================================================================
-DATA_PATH = "data/sdewac-v3.txt"
-KEYWORDS_CSV = "data/keyword_groundtruth.csv"
-METRICS_CSV = "data/keywords_metrics.csv"
-ANNOTATED_JSONL = "data/sentences_annotated.jsonl"
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt")
+KEYWORDS_CSV = os.path.join(BASE_DIR, "data/keyword_groundtruth.csv")
+METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
+ANNOTATED_JSONL = os.path.join(BASE_DIR, "data/sentences_annotated.jsonl")
 
 # Subsampling for testing (set to None to process full corpus)
-SENTENCES_COUNT = 100  # e.g., 10000 or None for full corpus
+SENTENCES_COUNT = 1  # e.g., 10000 or None for full corpus
 
 # JSONL creation parameters
 BATCH_SIZE = 100_000
@@ -40,7 +44,7 @@ def sample_corpus(input_path: str, output_path: str, max_sentences: int) -> str:
          open(output_path, "w", encoding="utf-8") as dst:
         for line in src:
             dst.write(line)
-            if "</sentence>" in line:
+            if "<sentence>" in line:
                 sentence_count += 1
                 if sentence_count >= max_sentences:
                     break
@@ -166,8 +170,9 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
     for token_lists, key in variants:
         k_freq = freq.get(key, 0)
         norm = (k_freq - min_occ) / occ_range if k_freq not in {max_occ, min_occ} else (1.0 if k_freq == max_occ else 0.0)
-        norm = round(norm, 5)
+        norm = round(max(norm, 0), 3)
         avg_len = sum(len(t) for t in token_lists[0]) / len(token_lists[0])
+        avg_len = round(avg_len, 1)
         entropy = len(set(contexts.get(key, [])))
         sca = len(pre_tags.get(key, [])) + len(post_tags.get(key, []))
         weighted_pmi = 0.0
@@ -179,6 +184,7 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
             p_c = token_counts.get(c, 1) / total_tokens
             weighted_pmi += (math.log2(p_wc / (p_w * p_c) + 1e-12) * bc)
         col_str = weighted_pmi / k_freq if k_freq else 0.0
+        col_str = round(col_str, 3)
         rows.append({
             "keyword": key,
             "occurrences": k_freq,
@@ -356,14 +362,13 @@ def main():
     df_metrics = compute_metrics(variants, freq, contexts, pre_tags, post_tags,
                                  bigram_counts, token_counts, score_map, len(tokens_tags))
     save_metrics(df_metrics, METRICS_CSV)
-
-    plot_correlation(df_metrics, output_path="data/metrics_correlation.png")
+    plot_correlation(df_metrics, output_path=os.path.join(BASE_DIR, "data/metrics_correlation.png"))
 
     metrics_map = load_metrics_map(METRICS_CSV)
     lookup2, max_len2 = load_variant_map(metrics_map)
     create_annotated_jsonl(sample_path, metrics_map, lookup2, max_len2,
                            freq, ANNOTATED_JSONL, MAX_EXAMPLES_PER_KEYWORD)
-    save_sentence_counts(ANNOTATED_JSONL, "data/sentence_counts.csv")
+    save_sentence_counts(ANNOTATED_JSONL, os.path.join(BASE_DIR, "data/sentence_counts.csv"))
 
 if __name__ == "__main__":
     main()
