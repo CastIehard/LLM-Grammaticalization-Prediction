@@ -13,12 +13,12 @@ import seaborn as sns
 # Configuration
 # =============================================================================
 DATA_PATH = "data/sdewac-v3.txt"
-KEYWORDS_CSV = "keyword_groundtruth.csv"
+KEYWORDS_CSV = "data/keyword_groundtruth.csv"
 METRICS_CSV = "data/keywords_metrics.csv"
 ANNOTATED_JSONL = "data/sentences_annotated.jsonl"
 
 # Subsampling for testing (set to None to process full corpus)
-SENTENCES_COUNT = 100000  # e.g., 10000 or None for full corpus
+SENTENCES_COUNT = 100  # e.g., 10000 or None for full corpus
 
 # JSONL creation parameters
 BATCH_SIZE = 100_000
@@ -166,6 +166,7 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
     for token_lists, key in variants:
         k_freq = freq.get(key, 0)
         norm = (k_freq - min_occ) / occ_range if k_freq not in {max_occ, min_occ} else (1.0 if k_freq == max_occ else 0.0)
+        norm = round(norm, 5)
         avg_len = sum(len(t) for t in token_lists[0]) / len(token_lists[0])
         entropy = len(set(contexts.get(key, [])))
         sca = len(pre_tags.get(key, [])) + len(post_tags.get(key, []))
