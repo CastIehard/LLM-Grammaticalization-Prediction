@@ -1,8 +1,8 @@
 import csv
 import json
 import math
+import random
 from collections import defaultdict
-
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
@@ -18,7 +18,7 @@ METRICS_CSV = "data/keywords_metrics.csv"
 ANNOTATED_JSONL = "data/sentences_annotated.jsonl"
 
 # Subsampling for testing (set to None to process full corpus)
-SENTENCES_COUNT = 1000  # e.g., 10000 or none for full corpus
+SENTENCES_COUNT = 100000  # e.g., 10000 or None for full corpus
 
 # JSONL creation parameters
 BATCH_SIZE = 100_000
@@ -35,7 +35,6 @@ def sample_corpus(input_path: str, output_path: str, max_sentences: int) -> str:
     """
     if max_sentences is None:
         return input_path
-
     sentence_count = 0
     with open(input_path, encoding="utf-8") as src, \
          open(output_path, "w", encoding="utf-8") as dst:
@@ -49,18 +48,17 @@ def sample_corpus(input_path: str, output_path: str, max_sentences: int) -> str:
     return output_path
 
 
-def read_keywords(csv_path: str) -> (list, dict):
+def read_keywords(csv_path: str) -> (list, dict, int):
     """
     Read keyword variants and their ground-truth scores from CSV.
-    Returns a list of (variant_tokens_list, key) and a score_map.
+    Returns a list of (variant_tokens_list, key), a score_map, and max token length.
     """
     variants = []
     score_map = {}
     max_len = 1
-
     with open(csv_path, encoding="utf-8") as f:
         reader = csv.reader(f)
-        next(reader)  # skip header
+        next(reader)
         for kw, score in reader:
             kw = kw.strip()
             if not kw:
@@ -71,7 +69,6 @@ def read_keywords(csv_path: str) -> (list, dict):
             key = '/'.join(splits)
             variants.append((tokens_list, key))
             score_map[key] = float(score.strip())
-
     return variants, score_map, max_len
 
 
@@ -88,18 +85,19 @@ def build_variant_lookup(variants: list) -> dict:
 
 def read_tokens_tags(corpus_path: str) -> list:
     """
-    Read token and tag pairs from corpus, skipping markup.
-    Returns a list of (token, tag).
+    Read token and tag pairs from corpus, skipping only markup lines.
+    Returns a list of (token, tag). If tag missing, use empty string.
     """
     results = []
-    for line in tqdm(open(corpus_path, encoding="utf-8"), desc="Reading corpus"):
-        line = line.strip()
-        if not line or line.startswith('<'):
-            continue
-        parts = line.split('\t')
-        if len(parts) < 2:
-            continue
-        results.append((parts[0].lower(), parts[1]))
+    with open(corpus_path, encoding="utf-8") as f:
+        for line in tqdm(f, desc="Reading corpus"):
+            line = line.strip()
+            if not line or line.startswith('<'):
+                continue
+            parts = line.split('\t')
+            tok = parts[0].lower()
+            tag = parts[1] if len(parts) > 1 else ''
+            results.append((tok, tag))
     return results
 
 # =============================================================================
@@ -128,7 +126,6 @@ def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> (dict
     post_tags = defaultdict(set)
     bigram_counts = defaultdict(int)
     total = len(tokens_tags)
-
     for i in tqdm(range(total), desc="Sliding window"):
         for n in range(1, max_len + 1):
             if i + n > total:
@@ -166,15 +163,12 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
         occ_range = max_occ - min_occ or 1
     else:
         max_occ = min_occ = occ_range = 1
-
     for token_lists, key in variants:
         k_freq = freq.get(key, 0)
         norm = (k_freq - min_occ) / occ_range if k_freq not in {max_occ, min_occ} else (1.0 if k_freq == max_occ else 0.0)
         avg_len = sum(len(t) for t in token_lists[0]) / len(token_lists[0])
         entropy = len(set(contexts.get(key, [])))
         sca = len(pre_tags.get(key, [])) + len(post_tags.get(key, []))
-
-        # PMI-based collocation strength
         weighted_pmi = 0.0
         for (w, c), bc in bigram_counts.items():
             if w != key:
@@ -184,7 +178,6 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
             p_c = token_counts.get(c, 1) / total_tokens
             weighted_pmi += (math.log2(p_wc / (p_w * p_c) + 1e-12) * bc)
         col_str = weighted_pmi / k_freq if k_freq else 0.0
-
         rows.append({
             "keyword": key,
             "occurrences": k_freq,
@@ -195,7 +188,6 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
             "synthetic_context_adversity": sca,
             "gramm_score": score_map.get(key, None)
         })
-
     df = pd.DataFrame(rows).sort_values("occurrences", ascending=False)
     return df
 
@@ -215,17 +207,24 @@ def plot_correlation(df: pd.DataFrame, output_path: str = None):
     """
     Plot and optionally save a correlation heatmap of metric columns.
     """
-    corr = df.drop(columns=["keyword"]).corr()
+    # Select only numeric columns for correlation
+    numeric_cols = df.select_dtypes(include=[np.number]).columns
+    if len(numeric_cols) < 2:
+        print("Not enough numeric columns for correlation plot")
+        return
+    
+    corr = df[numeric_cols].corr()
     mask = np.triu(np.ones_like(corr, dtype=bool))
+    
     plt.figure(figsize=(12, 10))
     sns.heatmap(corr, annot=True, fmt=".2f", square=True, mask=mask,
+                cmap='coolwarm', center=0, vmin=-1, vmax=1,
                 cbar_kws={"shrink": .8})
     plt.title("Keyword Metrics Correlation Matrix")
     plt.tight_layout()
-    if output_path:
-        plt.savefig(output_path, dpi=300)
-        print(f"Correlation plot saved to {output_path}")
-    plt.show()
+
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    print(f"Correlation plot saved to {output_path}")
 
 # =============================================================================
 # JSONL Creation Functions
@@ -255,6 +254,7 @@ def load_variant_map(metrics_map: dict) -> (dict, int):
 def parse_sentences(lines: list) -> list:
     """
     Yield lists of tokens representing each sentence in a batch of lines.
+    Do not skip any tokens (except markup for boundaries).
     """
     sentence = []
     for ln in lines:
@@ -264,35 +264,38 @@ def parse_sentences(lines: list) -> list:
                 yield sentence
             sentence = []
             continue
-        if ln:
-            parts = ln.split("\t")
-            if parts:
-                sentence.append(parts[0])
+        parts = ln.split("\t")
+        tok = parts[0]
+        sentence.append(tok)
     if sentence:
         yield sentence
 
 
 def create_annotated_jsonl(corpus_path: str, metrics_map: dict,
                            lookup: dict, max_len: int,
+                           freq_map: dict,
                            out_path: str, max_examples: int):
     """
     Create a JSONL file with annotated sentences and associated metrics.
+    If multiple keywords in one sentence, pick the least frequent based on freq_map.
     """
     used, counts = set(), defaultdict(int)
-    with open(out_path, "w", encoding="utf-8") as out_f, \
-         open(corpus_path, encoding="utf-8") as src:
+    with open(corpus_path, encoding="utf-8") as src, \
+         open(out_path, "w", encoding="utf-8") as out_f:
         batch = []
         for i, ln in enumerate(src, 1):
             batch.append(ln)
             if i % BATCH_SIZE == 0:
-                _process_batch(batch, used, counts, lookup, max_len, metrics_map, out_f, max_examples)
+                _process_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
                 batch = []
         if batch:
-            _process_batch(batch, used, counts, lookup, max_len, metrics_map, out_f, max_examples)
+            _process_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
     print(f"Annotated JSONL created at {out_path}")
 
 
-def _process_batch(lines, used, counts, lookup, max_len, metrics_map, out_f, max_examples):
+def _process_batch(lines, used, counts, lookup, max_len,
+                   metrics_map, freq_map,
+                   out_f, max_examples):
     """
     Internal helper to process a batch of lines for JSONL creation.
     """
@@ -311,15 +314,15 @@ def _process_batch(lines, used, counts, lookup, max_len, metrics_map, out_f, max
                     candidates.append((key, i, n))
         if not candidates:
             continue
-        candidates.sort(key=lambda x: (counts[x[0]], x[0]))
-        key, i, n = candidates[0]
+        # select candidate with minimal overall freq; if tie, pick random
+        min_freq = min(freq_map[k] for k,_,_ in candidates)
+        best = [c for c in candidates if freq_map[c[0]] == min_freq]
+        key, i, n = random.choice(best)
         counts[key] += 1
         used.add(sent_str)
-
-        # mark keyword
         sent_marked = sent.copy()
         sent_marked[i] = "[" + sent_marked[i]
-        sent_marked[i + n - 1] += "]"
+        sent_marked[i+n-1] += "]"
         entry = {"sentence_raw": " ".join(sent_marked), **metrics_map[key]}
         out_f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
@@ -327,29 +330,39 @@ def _process_batch(lines, used, counts, lookup, max_len, metrics_map, out_f, max
 # Main Execution
 # =============================================================================
 
-def main():
-    # Sample data if needed
-    sample_path = sample_corpus(DATA_PATH, f"{DATA_PATH}_sample.txt", SENTENCES_COUNT)
+# =============================================================================
+# Sentence Count Output Function
+# =============================================================================
+def save_sentence_counts(jsonl_path: str, output_csv: str):
+    """
+    Load the annotated JSONL and save the number of sentences per keyword to a CSV.
+    """
+    df = pd.read_json(jsonl_path, lines=True)
+    counts = df['keyword'].value_counts().sort_values(ascending=False)
+    counts_df = counts.rename_axis('keyword').reset_index(name='sentence_count')
+    counts_df.to_csv(output_csv, index=False)
+    print(f"Sentence counts saved to {output_csv}")
 
-    # Keyword metrics
+def main():
+    sample_path = sample_corpus(DATA_PATH, f"{DATA_PATH}_sample.txt", SENTENCES_COUNT)
     variants, score_map, max_kw_len = read_keywords(KEYWORDS_CSV)
     lookup = build_variant_lookup(variants)
     tokens_tags = read_tokens_tags(sample_path)
     token_counts = count_tokens(tokens_tags)
-    freq, contexts, pre_tags, post_tags, bigram_counts = sliding_window_match(tokens_tags, lookup, max_kw_len)
-    df_metrics = compute_metrics(variants, freq, contexts, pre_tags, post_tags, bigram_counts,
-                                 token_counts, score_map, len(tokens_tags))
+    freq, contexts, pre_tags, post_tags, bigram_counts = \
+        sliding_window_match(tokens_tags, lookup, max_kw_len)
+
+    df_metrics = compute_metrics(variants, freq, contexts, pre_tags, post_tags,
+                                 bigram_counts, token_counts, score_map, len(tokens_tags))
     save_metrics(df_metrics, METRICS_CSV)
 
-    # Visualization
-    plot_correlation(df_metrics)
+    plot_correlation(df_metrics, output_path="data/metrics_correlation.png")
 
-    # Create annotated dataset
     metrics_map = load_metrics_map(METRICS_CSV)
     lookup2, max_len2 = load_variant_map(metrics_map)
     create_annotated_jsonl(sample_path, metrics_map, lookup2, max_len2,
-                           ANNOTATED_JSONL, MAX_EXAMPLES_PER_KEYWORD)
-
+                           freq, ANNOTATED_JSONL, MAX_EXAMPLES_PER_KEYWORD)
+    save_sentence_counts(ANNOTATED_JSONL, "data/sentence_counts.csv")
 
 if __name__ == "__main__":
     main()
