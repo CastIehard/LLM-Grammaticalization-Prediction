@@ -1,3 +1,6 @@
 tqdm
 ipykernel
-requests
+pandas
+matplotlib
+seaborn
+numpy

@@ -1,0 +1,200 @@
+index,model,prompt,output,ref_overlap,out_overlap,leaked
+0,flan-t5,"Auch	ADV	auch
+in	APPR	in
+diesem	PDAT	dies
+Jahr	NN	Jahr",ADV also in APPR in diesem PDAT dies Jahr NN Jahr .,0.0,0.0,False
+1,flan-t5,"Wir	PPER	wir
+können	VMFIN	können
+nicht	PTKNEG	nicht
+zulassen	VVINF	zulassen",Wir PPER können VMFIN nicht PTKNEG nicht treten VVINF,0.0,0.0,False
+2,flan-t5,"Diese	PDAT	dies
+unendlichen	ADJA	unendlich
+Urteile	NN	Urteil
+also	ADV	also",Diese PDAT dies unendlichen ADJA unendlich Urteile NN Urteil also ADV,0.0,0.0,False
+3,flan-t5,"Hier	ADV	hier
+sollte	VMFIN	sollen
+unbedingt	ADJD	unbedingt
+darauf	PAV	darauf",Hier ADV hier sollte VMFIN unbedingt ADJD unbedingt darauf PAV darauf setzen.,0.0,0.0,False
+4,flan-t5,"Am	APPRART	am
+1.	ADJA	1.
+2.	ADJA	2.
+und	KON	und",APPRART am 1. ADJA 1. 2. ADJA 2. und KON und .,0.0,0.0,False
+5,flan-t5,"Sie	PPER	Sie|sie
+brachte	VVFIN	bringen
+noch	ADV	noch
+mehr	ADV	mehr",Sie PPER Sie|sie brachte VVFIN bringen noch ADV noch mehr ADV mehr,0.0,0.0,False
+6,flan-t5,"Wie	KOUS	wie
+der	ART	d
+Senat	NN	Senat
+in	APPR	in",Wie KOUS wie der ART d Senat NN Senat in APPR in APPR in APPR in APPR in APPR in APPR in APPR in APPR in APPR in APPR in APPR in,0.0,0.0,False
+7,flan-t5,"In	APPR	in
+seinem	PPOSAT	sein
+breiten	ADJA	breit
+Grinsen	NN	Grinsen",In APPR in seinem PPOSAT seine breiten ADJA breit Grinsen NN Grinsen .,0.0,0.0,False
+8,flan-t5,"Der	ART	d
+Kläger	NN	Kläger
+hat	VAFIN	haben
+auch	ADV	auch",Der ART d NN NN hat VAFIN haben auch ADV auch .,0.0,0.0,False
+9,flan-t5,"Der	ART	d
+vorgeblich	ADJD	vorgeblich
+historische	ADJA	historisch
+Roman	NN	Roman",Der ART d vorgeblich ADJD vorgeblich historische ADJA historisch Roman NN Roman,0.0,0.0,False
+10,flan-t5,"Zwar	ADV	zwar
+herrschen	VVFIN	herrschen
+in	APPR	in
+den	ART	d",Zwar ADV zwar herrschen VVFIN herrschen in APPR in den ART d .,0.0,0.0,False
+11,flan-t5,"Es	PPER	es
+wird	VAFIN	werden
+angesichts	APPR	angesichts
+des	ART	d",,0.0,0.0,False
+12,flan-t5,"Wenn	KOUS	wenn
+es	PPER	es
+bei	APPR	bei
+diesem	PDAT	dies",Wenn KOUS wenn es PPER es bei APPR bei diesem PDAT dies POS-tagged,0.0,0.0,False
+13,flan-t5,"Sie	PPER	Sie|sie
+wurden	VAFIN	werden
+überreicht	VVPP	überreichen
+an	PTKVZ	an",Sie PPER Sie|sie wurden VAFIN werden überreicht VVPP überreichen an PTKVZ an .,0.0,0.0,False
+14,flan-t5,"In	APPR	in
+dieser	PDAT	dies
+ersten	ADJA	erst
+Phase	NN	Phase",In APPR in dieser PDAT die ersten ADJA erst Phase NN Phase .,0.0,0.0,False
+15,flan-t5,"Bei	APPR	bei
+dem	ART	d
+Hinweis	NN	Hinweis
+darauf	PAV	darauf",Bei APPR bei der ART d Hinweis NN Hinweis darauf PAV darauf,0.0,0.0,False
+16,flan-t5,"Nach	APPR	nach
+den	ART	d
+des	ART	d
+Gerichtshofes	NN	Gerichtshof",Nach APPR nach den ART d des ART d Gerichtshofes NN Gerichtshof,0.0,0.0,False
+17,flan-t5,"Und	KON	und
+zwar	ADV	zwar
+trifft	VVFIN	treffen
+der	ART	d",Und KON und zwar ADV trifft VVFIN treffen der ART d .,0.0,0.0,False
+18,flan-t5,"Die	ART	d
+Staaten	NN	Staat
+besitzen	VVFIN	besitzen
+in	APPR	in",Die ART d Staaten NN Staat besitzen VVFIN in APPR in ANN,0.0,0.0,False
+19,flan-t5,"Und	KON	und
+sie	PPER	sie
+soll	VMFIN	sollen
+bei	APPR	bei",,0.0,0.0,False
+20,flan-t5,"Es	PPER	es
+ist	VAFIN	sein
+allerdings	ADV	allerdings
+nicht	PTKNEG	nicht","Es PPER es ist VAFIN sein, aber ADV ist aber nicht PTKNEG.",0.0,0.0,False
+21,flan-t5,"Im	APPRART	im
+der	ART	d
+Eucharistiefeier	NN	Eucharistiefeier
+kommt	VVFIN	kommen",In APPRART in der ART d Eucharistiefeier NN Eucharistiefeier kommt VVFIN kommen .,0.0,0.0,False
+22,flan-t5,"Für	APPR	für
+die	ART	d
+alte	ADJA	alt
+Frau	NN	Frau",Für APPR für die ART d alte ADJA alt Frau NN Frau NN,0.0,0.0,False
+23,flan-t5,"Schnell	ADJD	schnell
+entflammt	VVFIN	entflammen
+von	APPR	von
+den	ART	d",Fast ADJD schnell entflammt VVFIN schnell entflammen von APPR von den ART d .,0.0,0.0,False
+24,flan-t5,"Zu	APPR	zu
+gerne	ADV	gerne
+würde	VAFIN	werden
+ich	PPER	ich",APPR gerne ADV würde VAFIN werden ich PPER ich .,0.0,0.0,False
+25,flan-t5,"Bevor	KOUS	bevor
+ich	PPER	ich
+gehe	VVFIN	gehen
+schnappe	VVFIN	schnappen",Bevor KOUS bevor ich PPER ich gehe VVFIN gehen schnappe VVFIN schnappen,0.0,0.0,False
+26,flan-t5,"Bin	VAFIN	sein
+Laden	NN	Laden
+hätte	VAFIN	haben
+damals	ADV	damals",Bin VAFIN sein Laden NN Laden hätte VAFIN damals ADV damals .,0.0,0.0,False
+27,flan-t5,"In	APPR	in
+solchen	PIAT	solch
+Fällen	NN	Fall|Fällen
+treibt	VVFIN	treiben",In APPR in solchen PIAT solch Fällen NN Fall|Fällen treibt VVFIN treiben .,0.0,0.0,False
+28,flan-t5,"Daß	KOUS	daß
+es	PPER	es
+am	APPRART	am
+Pfingstmontag	NN	Pfingstmontag",NN Pfingstmontag,0.0,0.0,False
+29,flan-t5,"Jedes	PIAT	jed
+System	NN	System
+das	PRELS	d
+eine	ART	ein",Jedes PIAT jed System NN System das PRELS d eine ART ein ART,0.0,0.0,False
+30,flan-t5,"Diese	PDAT	dies
+einzigartige	ADJA	einzigartig
+Deutschland-Reise	NN	Deutschland-Reise
+führt	VVFIN	führen",Diese PDAT die einzigartige ADJA NN Deutschland-Reise NN Deutschland-Reise führt VVFIN führen .,0.0,0.0,False
+31,flan-t5,"Daß	KOUS	daß
+diese	PDS	dies
+Forderung	NN	Forderung
+methodisch	ADJD	methodisch",KOUS daß diese PDS die Forderung NN Forderung methodisch ADJD methodisch .,0.0,0.0,False
+32,flan-t5,"Solche	PIAT	solch
+Verpflichtungen	NN	Verpflichtung
+können	VMFIN	können
+allerdings	ADV	allerdings",VMFIN können aber ADV deshalb setzen.,0.0,0.0,False
+33,flan-t5,"Allerdings	ADV	allerdings
+dienten	VVFIN	dienen
+die	ART	d
+Vereine	NN	Verein",Allerdings nutzten VVFIN die ART d Vereine NN Verein .,0.0,0.0,False
+34,flan-t5,"Ich	PPER	ich
+konnte	VMFIN	können
+mir	PPER	ich
+anfangs	ADV	anfangs",Ich PPER ich konnte VMFIN meinen ADV anfangs ADV anfangs,0.0,0.0,False
+35,flan-t5,"Es	PPER	es
+handelt	VVFIN	handeln
+sich	PRF	er|es|sie
+um	APPR	um",APPR -,0.0,0.0,False
+36,flan-t5,"Das	ART	d
+Spektrum	NN	Spektrum
+der	ART	d
+Forderungen	NN	Forderung",ART d Spektrum NN Spektrum der ART d Forderungen NN Fordererung,0.0,0.0,False
+37,flan-t5,"Obgleich	KOUS	obgleich
+diese	PDS	dies
+Lücken	NN	Lücke
+bestehen	VVFIN	bestehen",NN Lücke bestehen VVFIN,0.0,0.0,False
+38,flan-t5,"beläßt	VVFIN	belassen
+es	PPER	es
+aber	ADV	aber
+nicht	PTKNEG	nicht",VVFIN belassen es PPER es aber ADV aber nicht PTKNEG nicht,0.0,0.0,False
+39,flan-t5,"Nr.	NN	Nr.
+201 / 1996	CARD	@card@
+erfolgt	VVFIN	erfolgen",Nr. NN Nr. 201 / 1996 CARD @card@ erfolgt VVFIN,0.0,0.0,False
+40,flan-t5,"Ich	PPER	ich
+möchte	VMFIN	mögen
+mein	PPOSAT	mein
+Glas	NN	Glas",Ich möchte VMFIN meine PPOSAT meine Glas NN Glas mögen.,0.0,0.0,False
+41,flan-t5,"Das	ART	d
+Verschwinden	NN	Verschwinden
+der	ART	d
+schönen	ADJA	schön",NN d schönen ADJA schön .,0.0,0.0,False
+42,flan-t5,"Mit	APPR	mit
+den	ART	d
+Materialien	NN	Material
+der	ART	d",APPR mit den ART d Materialien NN Material der ART d .,0.0,0.0,False
+43,flan-t5,"Dieses	PDAT	dies
+Meeting	NN	Meeting
+beschließt	VVFIN	beschließen
+daß	KOUS	daß",Dieses PDAT dies Treffen NN Meeting beschließt VVFIN beschließen daß KOUS daß .,0.0,0.0,False
+44,flan-t5,"Unsere	PPOSAT	unser
+Anregung	NN	Anregung
+die	ART	d
+Übertragung	NN	Übertragung",POSAT POSAT NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN NN,0.0,0.0,False
+45,flan-t5,"Somit	ADV	somit
+stellt	VVFIN	stellen
+sich	PRF	er|es|sie
+in	APPR	in",POS-tagged,0.0,0.0,False
+46,flan-t5,"Es	PPER	es
+versteht	VVFIN	verstehen
+sich	PRF	er|es|sie
+als	KOKOM	als",Es PPER es versteht VVFIN verstehen sich PRF er|es|sie als KOKOM als POS,0.0,0.0,False
+47,flan-t5,"Im	APPRART	im
+Hinblick	NN	Hinblick
+darauf	PAV	darauf
+dass	KOUS	dass",In APPRART im Hinblick NN im Hinblick darauf PAV darauf dass KOUS dass .,0.0,0.0,False
+48,flan-t5,"Die	ART	d
+Minister	NN	Minister
+begrüßten	VVFIN	begrüßen
+zwar	ADV	zwar",Die ART d Minister NN Minister begrüßten VVFIN begrüßen zwar ADV zwar,0.0,0.0,False
+49,flan-t5,"Wenn	KOUS	wenn
+in	APPR	in
+die	ART	d
+Kamera	NN	Kamera",Wenn KOUS wenn in APPR in die ART d Kamera NN Kamera .,0.0,0.0,False
