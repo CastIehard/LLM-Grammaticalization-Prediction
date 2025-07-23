@@ -1,5 +1,3 @@
-# 1_calculate_metrics.py
-
 import os
 import csv
 import json
@@ -145,9 +143,6 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
     for token_lists, key in tqdm(variants, desc="Calculating final metrics"):
         k_freq = freq.get(key, 0)
         
-        # Normalized Occurrences
-        norm_occ = (k_freq - min_occ) / occ_range if k_freq not in {max_occ, min_occ} else (1.0 if k_freq == max_occ else 0.0)
-        
         # Average Character Count
         all_tokens = [tok for t_list in token_lists for tok in t_list[0].split()]
         avg_char_count = sum(len(tok) for tok in all_tokens) / len(all_tokens) if all_tokens else 0
@@ -184,10 +179,9 @@ def compute_metrics(variants: list, freq: dict, contexts: dict,
         rows.append({
             "keyword": key,
             "occurrences": k_freq,
-            "normalized_occurrences": round(norm_occ, 3),
-            "avg_character_count": round(avg_char_count, 2), # RENAMED
-            "amount_distinct_neighbors": distinct_neighbors, # RENAMED
-            "word_entropy": round(word_entropy, 3), # NEW METRIC
+            "avg_character_count": round(avg_char_count, 2),
+            "amount_distinct_neighbors": distinct_neighbors,
+            "word_entropy": round(word_entropy, 3),
             "collocation_strength": round(col_str, 3),
             "synthetic_context_adversity": sca,
             "gramm_score": score_map.get(key, None)
