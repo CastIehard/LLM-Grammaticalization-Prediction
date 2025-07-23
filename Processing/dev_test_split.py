@@ -1,6 +1,7 @@
 import os
 import math
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # =============================================================================
 # Configuration
@@ -24,6 +25,9 @@ def split_dataset_by_keywords(keywords_csv: str, annotated_jsonl: str,
     kw_df = pd.read_csv(keywords_csv)
     if "keyword" not in kw_df.columns:
         raise KeyError(f"No 'keyword' column found in {keywords_csv}. Available: {kw_df.columns}")
+
+    #randomly shuffle the keywords
+    kw_df = kw_df.sample(frac=1, random_state=42).reset_index(drop=True)
 
     all_keywords = [kw.strip().lower() for kw in kw_df["keyword"].dropna()]
     total_keywords = len(all_keywords)
@@ -54,8 +58,36 @@ def split_dataset_by_keywords(keywords_csv: str, annotated_jsonl: str,
     print(f"Saved {len(dev_df)} sentences to {dev_output}")
     print(f"Saved {len(train_df)} sentences to {train_output}")
 
+
+def plot_distribution():
+    #plot the dist of gramm score for dev and testset
+    dev_df = pd.read_json(DEV_OUTPUT, lines=True)
+    test_df = pd.read_json(TEST_OUTPUT, lines=True)
+    
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    
+    # Dev set plot
+    dev_counts = dev_df['gramm_score'].value_counts().sort_index()
+    ax1.bar([1, 2, 3, 4], [dev_counts.get(i, 0) for i in [1, 2, 3, 4]], color='blue')
+    ax1.set_title('Dev Set - Gramm Score Distribution')
+    ax1.set_xlabel('Gramm Score')
+    ax1.set_ylabel('Count')
+    ax1.set_xticks([1, 2, 3, 4])
+    
+    # Test set plot
+    test_counts = test_df['gramm_score'].value_counts().sort_index()
+    ax2.bar([1, 2, 3, 4], [test_counts.get(i, 0) for i in [1, 2, 3, 4]], color='orange')
+    ax2.set_title('Test Set - Gramm Score Distribution')
+    ax2.set_xlabel('Gramm Score')
+    ax2.set_ylabel('Count')
+    ax2.set_xticks([1, 2, 3, 4])
+    
+    plt.tight_layout()
+    plt.show()
+    plt.savefig(os.path.join(BASE_DIR, "data/gramm_score_distribution.png"))
 # =============================================================================
 # Main Execution
 # =============================================================================
 if __name__ == "__main__":
     split_dataset_by_keywords(KEYWORDS_CSV, ANNOTATED_JSONL, DEV_OUTPUT, TEST_OUTPUT, DEV_RATIO)
+    plot_distribution()
