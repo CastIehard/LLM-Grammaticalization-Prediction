@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # --- Input Files ---
 METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
 DEV_OUTPUT = os.path.join(BASE_DIR, "data/data_dev.jsonl")
-TRAIN_OUTPUT = os.path.join(BASE_DIR, "data/data_train.jsonl")
+TEST_OUTPUT = os.path.join(BASE_DIR, "data/data_test.jsonl")
 
 # --- Output Files ---
 CORRELATION_PLOT_PATH = os.path.join(BASE_DIR, "data/metrics_correlation.png")
@@ -61,11 +61,11 @@ def plot_correlation_heatmap(df: pd.DataFrame, output_path: str):
     print(f"Correlation plot saved to {output_path}")
     plt.close()
 
-def plot_distribution(dev_path: str, train_path: str, output_path: str):
-    """Plots the distribution of 'gramm_score' for the dev and train sets."""
+def plot_distribution(dev_path: str, test_path: str, output_path: str):
+    """Plots the distribution of 'gramm_score' for the dev and test sets."""
     print("\n--- 2. Ground Truth Score Distribution in Splits ---")
     dev_df = pd.read_json(dev_path, lines=True)
-    train_df = pd.read_json(train_path, lines=True)
+    test_df = pd.read_json(test_path, lines=True)
     
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5), sharey=True)
     fig.suptitle("Gramm Score Distribution (Sentence Count)", fontsize=16)
@@ -75,10 +75,10 @@ def plot_distribution(dev_path: str, train_path: str, output_path: str):
     ax1.set_title(f'Dev Set ({len(dev_df)} sentences)')
     ax1.set_xlabel('Gramm Score'); ax1.set_ylabel('Count of Sentences'); ax1.set_xticks(dev_counts.index)
     
-    train_counts = train_df['gramm_score'].value_counts().sort_index()
-    ax2.bar(train_counts.index, train_counts.values, color='sandybrown')
-    ax2.set_title(f'Train Set ({len(train_df)} sentences)')
-    ax2.set_xlabel('Gramm Score'); ax2.set_xticks(train_counts.index)
+    test_counts = test_df['gramm_score'].value_counts().sort_index()
+    ax2.bar(test_counts.index, test_counts.values, color='sandybrown')
+    ax2.set_title(f'test Set ({len(test_df)} sentences)')
+    ax2.set_xlabel('Gramm Score'); ax2.set_xticks(test_counts.index)
     
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.savefig(output_path, dpi=300)
@@ -152,7 +152,7 @@ def generate_evaluation_table(df: pd.DataFrame, metrics_to_evaluate: list, outpu
 # Main Execution
 # =============================================================================
 def main():
-    required_files = [METRICS_CSV, DEV_OUTPUT, TRAIN_OUTPUT]
+    required_files = [METRICS_CSV, DEV_OUTPUT, TEST_OUTPUT]
     for f in required_files:
         if not os.path.exists(f):
             print(f"Error: Required file not found at {f}")
@@ -164,7 +164,7 @@ def main():
     plot_correlation_heatmap(df_metrics, CORRELATION_PLOT_PATH)
     
     # 2. Analyze the properties of the data splits
-    plot_distribution(DEV_OUTPUT, TRAIN_OUTPUT, DISTRIBUTION_PLOT_PATH)
+    plot_distribution(DEV_OUTPUT, TEST_OUTPUT, DISTRIBUTION_PLOT_PATH)
 
     # 3. Generate the final evaluation summary table on the DEV set
     dev_df = pd.read_json(DEV_OUTPUT, lines=True)
