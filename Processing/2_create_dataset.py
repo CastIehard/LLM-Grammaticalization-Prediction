@@ -25,7 +25,7 @@ FULL_OUTPUT = os.path.join(BASE_DIR, "data/data_full.jsonl")
 SENTENCE_COUNTS_CSV = os.path.join(BASE_DIR, "data/sentence_counts.csv")
 # Split datasets
 DEV_OUTPUT = os.path.join(BASE_DIR, "data/data_dev.jsonl")
-TRAIN_OUTPUT = os.path.join(BASE_DIR, "data/data_train.jsonl") # Renamed from TEST_OUTPUT for clarity
+TEST_OUTPUT = os.path.join(BASE_DIR, "data/data_test.jsonl") # Renamed from TEST_OUTPUT for clarity
 
 # --- Parameters ---
 JSONL_READ_BATCH_SIZE = 100_000
@@ -116,13 +116,13 @@ def save_sentence_counts(jsonl_path: str, output_csv: str):
     print(f"Sentence counts saved to {output_csv}")
 
 def split_dataset_by_keywords(keywords_csv: str, annotated_jsonl: str,
-                              dev_output: str, train_output: str,
+                              dev_output: str, test_output: str,
                               ratio: float = 0.2):
     """
-    Splits the main annotated JSONL into dev and train sets based on keywords.
+    Splits the main annotated JSONL into dev and test sets based on keywords.
     Ensures that all sentences for a given keyword go into the same split.
     """
-    print("\n--- Splitting dataset into dev and train sets ---")
+    print("\n--- Splitting dataset into dev and test sets ---")
     
     # --- 1. Load and shuffle keywords from the ground truth CSV ---
     kw_df = pd.read_csv(keywords_csv)
@@ -137,10 +137,10 @@ def split_dataset_by_keywords(keywords_csv: str, annotated_jsonl: str,
     dev_size = math.ceil(total_keywords * ratio)
 
     dev_keywords = set(all_keywords[:dev_size])
-    train_keywords = set(all_keywords[dev_size:])
+    test_keywords = set(all_keywords[dev_size:])
 
     print(f"Total keywords from ground truth: {total_keywords}")
-    print(f"Dev keywords: {len(dev_keywords)}, Train keywords: {len(train_keywords)}")
+    print(f"Dev keywords: {len(dev_keywords)}, test keywords: {len(test_keywords)}")
 
     # --- 2. Load all annotated sentences ---
     print(f"Loading sentences from {annotated_jsonl}...")
@@ -153,14 +153,14 @@ def split_dataset_by_keywords(keywords_csv: str, annotated_jsonl: str,
 
     # --- 3. Split the DataFrame by keyword sets ---
     dev_df = df[df["keyword"].isin(dev_keywords)]
-    train_df = df[df["keyword"].isin(train_keywords)]
+    test_df = df[df["keyword"].isin(test_keywords)]
 
     # --- 4. Save to separate JSONL files ---
     dev_df.to_json(dev_output, orient="records", lines=True, force_ascii=False)
-    train_df.to_json(train_output, orient="records", lines=True, force_ascii=False)
+    test_df.to_json(test_output, orient="records", lines=True, force_ascii=False)
 
     print(f"\nSaved {len(dev_df)} sentences to dev set: {dev_output}")
-    print(f"Saved {len(train_df)} sentences to train set: {train_output}")
+    print(f"Saved {len(test_df)} sentences to test set: {test_output}")
 
 # =============================================================================
 # Main Execution
@@ -189,7 +189,7 @@ def main():
         
     # --- Step 4: Split the newly created dataset ---
     if os.path.exists(FULL_OUTPUT) and os.path.exists(KEYWORDS_CSV):
-        split_dataset_by_keywords(KEYWORDS_CSV, FULL_OUTPUT, DEV_OUTPUT, TRAIN_OUTPUT, DEV_RATIO)
+        split_dataset_by_keywords(KEYWORDS_CSV, FULL_OUTPUT, DEV_OUTPUT, test_OUTPUT, DEV_RATIO)
     else:
         print("\nSkipping dataset split because required input files are missing.")
 
