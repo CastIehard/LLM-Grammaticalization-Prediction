@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # --- Input Files ---
 # Note: This script can run on the full or sampled corpus
-CORPUS_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt_sample.txt") 
+CORPUS_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt") 
 METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
 KEYWORDS_CSV = os.path.join(BASE_DIR, "data/keyword_groundtruth.csv")
 
@@ -95,19 +95,37 @@ def _process_jsonl_batch(lines, used, counts, lookup, max_len,
 def create_annotated_jsonl(corpus_path: str, metrics_map: dict,
                            lookup: dict, max_len: int, freq_map: dict,
                            out_path: str, max_examples: int):
+    
+    # Get the set of all keywords we are looking for
+    all_target_keywords = set(metrics_map.keys())
+    num_total_keywords = len(all_target_keywords)
+    
     used, counts = set(), defaultdict(int)
+
     with open(corpus_path, encoding="utf-8") as src, \
          open(out_path, "w", encoding="utf-8") as out_f:
         batch = []
-        for i, ln in enumerate(tqdm(src, desc="Creating full annotated dataset")):
-            batch.append(ln)
-            if i > 0 and i % JSONL_READ_BATCH_SIZE == 0:
-                _process_jsonl_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
-                batch = []
+        # Use tqdm's dynamic total if you have it, otherwise just iterate
+        with tqdm(desc="Creating full annotated dataset", unit=" lines") as pbar:
+            for i, ln in enumerate(src):
+                batch.append(ln)
+                pbar.update(1) # Manually update progress bar
+
+                if i > 0 and i % JSONL_READ_BATCH_SIZE == 0:
+                    _process_jsonl_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
+                    batch = []
+
+                    # Check if we have found enough examples for ALL keywords
+                    keywords_completed = sum(1 for kw in all_target_keywords if counts[kw] >= max_examples)
+                    if keywords_completed == num_total_keywords:
+                        print(f"\nFound {max_examples} examples for all {num_total_keywords} keywords. Stopping early.")
+                        break # Exit the main loop
+        
+        # Process the final batch if the loop didn't break early
         if batch:
             _process_jsonl_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
-    print(f"\nFull annotated dataset created at {out_path}")
 
+    print(f"\nFull annotated dataset created at {out_path}")
 def save_sentence_counts(jsonl_path: str, output_csv: str):
     df = pd.read_json(jsonl_path, lines=True)
     counts = df['keyword'].value_counts().sort_values(ascending=False)
@@ -189,7 +207,7 @@ def main():
         
     # --- Step 4: Split the newly created dataset ---
     if os.path.exists(FULL_OUTPUT) and os.path.exists(KEYWORDS_CSV):
-        split_dataset_by_keywords(KEYWORDS_CSV, FULL_OUTPUT, DEV_OUTPUT, test_OUTPUT, DEV_RATIO)
+        split_dataset_by_keywords(KEYWORDS_CSV, FULL_OUTPUT, DEV_OUTPUT, TEST_OUTPUT, DEV_RATIO)
     else:
         print("\nSkipping dataset split because required input files are missing.")
 
