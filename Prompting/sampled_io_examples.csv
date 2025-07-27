@@ -1,0 +1,838 @@
+sentence,keyword,prompt_A,raw_response_A,prompt_B,raw_response_B,prompt_C,raw_response_C
+"Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .",auf vorschlag,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'auf vorschlag' in the training corpus is: 3238.
+
+Input sentence:
+Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Based on the frequency of the bracketed keyword 'auf vorschlag' in the training corpus, we can classify it as a reduced prepposition. The frequency of this prepposition is lower than the frequency of its fixed structure, indicating that it has been reduced to a bare minimum. In terms of grammaticalization, this indicates a formality or informal usage.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'auf vorschlag' in the training corpus is: 3238.
+
+Sentence:
+Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Nominalization, a phenomenon where the verb is replaced by a non-finite verb to form a new verb, has been shown to be an important stage in the development of prepositional phrases. The frequency of bracketed German preprefixes such as 'auf vorschlag' in the training corpus shows that this level has a low degree of grammaticalization, with only three words consisting of one prepposition and two nominalized verbs. Prepositionals at this stage can occur either with or without an autonomous article, while those at levels 2 and 3 have a higher degree of grammaticalization, indicating that the central feature is already well advanced. At level 4, prepositional phrases are considered pure function words and receive the status of “purified” function words. The label should be provided in the format stated above.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'auf vorschlag' in the training corpus is: 3238.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .",Respond with Label: [2]
+"Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .",zum nutzen,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Input sentence:
+Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To classify how grammaticalized this German prepposition is based on its structure, we can use the information in the frequency of the bracketed keyword 'zuum nutzen' in the training corpus.
+
+Labels: [1]: Frequent Prepositional Phrase (FPP) with no fixed or reduced structure
+Labels: [2]: FPP with one fixed but unmarked structural feature (e.g., 'an') and two marked structures (e.g., 'into' and 'within')
+Labels: [3]: FPP with two fixed but unmarked structural features (e.g., 'to' and 'forth'), one of them is unmarked (e.g., 'forth') and the other is marked (e.g., 'into')
+Labels: [4]: FPP with three fixed but unmarked structural features (e.g., 'with' and 'in' and 'of')
+
+As seen in the frequency data, the bracketed keyword 'zuum nutzen' is relatively infrequent, suggesting that this is a typical instance of a freqency-based label: FPP with no fixed or reduced structure (label [1]).
+
+However, we can also use the information on the other labels (e.g., 'into' and 'within') to determine if there are any variations in the specific structure of this FPP compared to other examples in the training corpus. For instance:
+
+- If the unmarked structural feature (e.g., 'into') is marked in some of the examples, we can consider it as a variation on label [1], since it has a higher frequency.
+- If the marked structural feature (e.g., 'within') appears in all examples, we can consider it as a variation on label [2] or even label [3]. This would suggest that this prepposition is more likely to be classified as a FPP with two fixed but unmarked structures, since the marked one is very rare.
+- If the marked structural feature (e.g., 'to') is not present in any of the examples, we can consider it as a variation on label [3] or even label [4]. This would suggest that this prepposition is more likely to be classified as FPP with three fixed but unmarked structures.
+
+Overall, our analysis suggests that this German prepposition is most likely an instance of FPP with two fixed but unmarked structures, since it has a relatively low frequency in the training corpus compared to other examples. However, we can also consider variations on these labels based on the information provided in the frequencies.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Sentence:
+Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","I am unable to provide a specific response based on the given text data. However, I can suggest using the correct formatting for labeling each level of grammaticalization as described in the sentence. Here are some possible formats:
+
+1. ""Label: [1]"" (where 1 is the number of the highest degree of grammaticalization)
+2. ""Label: [2]"" (where 2 is the number of the second highest degree of grammaticalization)
+3. ""Label: [3]"" (where 3 is the number of the lowest degree of grammaticalization)
+4. ""Label: [4]"" (where 4 is the number of the highest degree of grammaticalization)","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .",Respond with the appropriate label in this exact format: Label: [2]
+"Die Ausstellung zeigt nicht nur die Großmonumente ( wie etwa in Wolgograd und Brest ) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie .",am rande,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'am rande' in the training corpus is: 16983.
+
+Input sentence:
+Die Ausstellung zeigt nicht nur die Großmonumente ( wie etwa in Wolgograd und Brest ) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","The German prepposition 'am Rande' appears in the sentence as a fixed part of speech, indicating it has been fixed into the sentence. This means that there is no variation in its form due to grammaticalization. The frequency of the keyword 'am Rande' indicates that this prepposition is not undergoing any significant grammatical changes.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'am rande' in the training corpus is: 16983.
+
+Sentence:
+Die Ausstellung zeigt nicht nur die Großmonumente ( wie etwa in Wolgograd und Brest ) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","In this case, we will label it as Level 3.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'am rande' in the training corpus is: 16983.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Die Ausstellung zeigt nicht nur die Großmonumente ( wie etwa in Wolgograd und Brest ) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie .","Input sentence:
+Die Ausstellung zeigt nicht nur die Großmonumente (wie etwa in Wolgograd und Brest) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie ."
+"Aber Irland hat aufgehört , der Markt zu sein , der [auf Verlangen] Englands hin den Bedarf an Arbeitskräften decken kann , und die Fabrikanten müssen nun in den Grafschaften im Süden und Westen Englands nach Familien Ausschau halten , die durch die jetzigen Löhne in den nördlichen Grafschaften verlockt werden könnten , auf einem neuen Arbeitsfeld zu beginnen .",auf verlangen,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'auf verlangen' in the training corpus is: 3558.
+
+Input sentence:
+Aber Irland hat aufgehört , der Markt zu sein , der [auf Verlangen] Englands hin den Bedarf an Arbeitskräften decken kann , und die Fabrikanten müssen nun in den Grafschaften im Süden und Westen Englands nach Familien Ausschau halten , die durch die jetzigen Löhne in den nördlichen Grafschaften verlockt werden könnten , auf einem neuen Arbeitsfeld zu beginnen .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","The input sentence is marked with a German prepposition, which indicates that it is a fixed or reduced structure. According to the frequency data provided, the German 'auf' and the English 'on' are both frequent prefixes in this sentence, indicating that the preparation of the prepposition is not too pronounced. Therefore, the grammaticalization level for this sentence is either '1' (slightly fixed), '2' (moderately fixed) or '3' (fully fixed).","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'auf verlangen' in the training corpus is: 3558.
+
+Sentence:
+Aber Irland hat aufgehört , der Markt zu sein , der [auf Verlangen] Englands hin den Bedarf an Arbeitskräften decken kann , und die Fabrikanten müssen nun in den Grafschaften im Süden und Westen Englands nach Familien Ausschau halten , die durch die jetzigen Löhne in den nördlichen Grafschaften verlockt werden könnten , auf einem neuen Arbeitsfeld zu beginnen .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Given sentence: Aber Irland hat aufgehört , der Markt zu sein , der englischen [auf Verlangen] Unternehmen mit angemessenen Arbeitskräften decken kann , und die Fabrikanten müssen nun in den Grafschaften im Süden und Westen Englands nach Familien Ausschau halten , die durch jetziges Löhnegüterin den nördlichen Grafschafts verlorengegangen sind könnten , auf einem neuen Arbeitsfeld zu beginnen .
+
+Level 1: Very Low Degree of Grammaticalization
+
+Formations at this level show a very low degree of grammaticalization and always consist of three words. Either the structure is “prepposition + NP + preposition”. A second possible structure is “prepposition + NP”, in which an article always appears. Level 2: Slighly Higher Degree of Grammaticalization
+
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates. Level 3: Strenghened Grammaticalization
+
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (preppositional phrase) examined are not assigned an attributive extension. This means that a descriptive adjunct can no longer be inserted between the components of the phrase. Level 4: Highest Degree of Grammaticalization
+
+Prepositiones with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete due to phono-semantic erosion. The original structure is no longer recognizable, and these forms are thus designated as “puré” function words.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'auf verlangen' in the training corpus is: 3558.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Aber Irland hat aufgehört , der Markt zu sein , der [auf Verlangen] Englands hin den Bedarf an Arbeitskräften decken kann , und die Fabrikanten müssen nun in den Grafschaften im Süden und Westen Englands nach Familien Ausschau halten , die durch die jetzigen Löhne in den nördlichen Grafschaften verlockt werden könnten , auf einem neuen Arbeitsfeld zu beginnen .","Output: Level 1: 
+Label: [1]
+
+Input sentence:
+Unless Ireland has been re-fed the needs of jobs in England, companies must now target the southern and western regions of England to look for family jobs that can be paid back with high interest rates in the north."
+"Die Kommandeure aller Einheiten der bewaffneten Kräfte der Deutschen Demokratischen Republik sind verpflichtet , die Initiative der jungen Angehörigen ihrer Einheiten allseitig zu fördern , sie zu Bürgern mit sozialistischer Moral [im Geiste] des , Patriotismus , des sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertigkeiten zu vermitteln .",im geist/im geiste,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'im geist/im geiste' in the training corpus is: 5223.
+
+Input sentence:
+Die Kommandeure aller Einheiten der bewaffneten Kräfte der Deutschen Demokratischen Republik sind verpflichtet , die Initiative der jungen Angehörigen ihrer Einheiten allseitig zu fördern , sie zu Bürgern mit sozialistischer Moral [im Geiste] des , Patriotismus , des sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertigkeiten zu vermitteln .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Option 1 (Level 1)
+The sentence contains a fixed prepposition, but it is not necessarily in the ""im geist/im geiste"" position (i.e., does not follow standard German grammatical rules). It may be more closely related to a regular relative clause or a question mark, as in: 
+
+Die Kommandanten aller Einheiten der bewähneten Krfte der Deutsch-Bewährten Republik sind verpflichtet , die Initiativ der jungen Angegehnten ihrer Einheiten mit sozialistischem Patriotiismus aufzufordern , sie zu Bürgern mit dem nationalsozialistischen Moral [im Geiste] des, Patriotiismus des Sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertiagungen zu vermitteln .
+
+This indicates the presence of a relative clause (in this case, the ""im geist"" relative clause), which is more closely related to an object and may require some consideration of grammatical rules.
+
+Option 2 (Level 2)
+The sentence contains a fixed prepposition, but it is less strictly tied to a relative clause or question mark than in Option 1. It can be considered as part of the main clause or a subordinate clause following it, depending on the context. As such, the structure is more flexible than in Option 1.
+
+Option 3 (Level 3)
+The sentence contains a fixed prepposition that does not follow standard German grammatical rules. It may be more closely related to a regular relative clause or a question mark, as in:
+
+Die Kommandanten aller Einheiten der bewähneten Krfte der Deutsch-Bewährten Republik sind verpflichtet , die Initiativ der jungen Angegehnten ihrer Einheiten mit sozialistischem Patriotiismus aufzufordern , sie zu Bürgern mit dem nationalsozialistischen Moral [im Geiste] des, Patriotiismus des Sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertiagungen zu vermitteln .
+
+This indicates the presence of a relative clause (in this case, the ""im geist"" relative clause), which is more closely related to an object and may require some consideration of grammatical rules.
+
+Option 4 (Level 4)
+The sentence contains a fixed prepposition that does not follow standard German grammatical rules. It may be more closely related to a regular relative clause or a question mark, as in:
+
+Die Kommandanten aller Einheiten der bewähneten Krfte der Deutsch-Bewährten Republik sind verpflichtet , die Initiativ der jungen Angegehnten ihrer Einheiten mit sozialistischem Patriotiismus aufzufordern , sie zu Bürgern mit dem nationalsozialistischen Moral [im Geiste] des, Patriotiismus des Sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertiagungen zu vermitteln .
+
+This indicates the presence of a relative clause (in this case, the ""im geist"" relative clause), which is more closely related to an object and may require some consideration of grammatical rules.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'im geist/im geiste' in the training corpus is: 5223.
+
+Sentence:
+Die Kommandeure aller Einheiten der bewaffneten Kräfte der Deutschen Demokratischen Republik sind verpflichtet , die Initiative der jungen Angehörigen ihrer Einheiten allseitig zu fördern , sie zu Bürgern mit sozialistischer Moral [im Geiste] des , Patriotismus , des sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertigkeiten zu vermitteln .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Inglish translation:
+Sentence: The commanders of all units in the armed forces of the Democratic People's Republic of Korea are obliged to foster socialism, patriotism, and internationalism among their citizens. They must provide high military knowledge and training to equip them with the necessary skills for effective service.
+
+Internal definitions provided internally: 
+- Prepositional phrase: Any prepositional phrase at this level is a prepersonal phrase that serves as a linking element between two nouns or pronouns. - Prepersonal phrase: A prepersonal phrase modifies an adjective, a noun, or a verb and stands in front of the subject to convey a sense of origin, place, time, or condition.
+- NP: A noun phrase is a constituent part of a sentence that modifies other parts of the sentence. The prepersonal preposition 'in' in this instance serves as a modifying particle and emphasizes the position of the adjective 'im' ('in geist/geiste') at the beginning of the sentence.
+- NP: In this case, 'in' is used to modify the adjective 'im.' The 'in' indicates that the 'geist' ('Geist','geiste') referred to here has a specific place or time in which it occurred.
+- Verb: A verb is a word that modifies the subject of a sentence and serves as an action verb. In this instance, 'im' is used to indicate that something has been done or is currently happening (verb conjugation). The phrase 'In Geist,' with its use of the prepersonal preposition 'in' and the verb 'im,' suggests that something has occurred in a specific time frame (clause).
+- Clause: A clause, as defined internally, is a grouping of words that serve to make the sentence more coherent and grammatically structured. In this instance, 'In Geist' forms part of a more complex set of clauses related to the subject of the sentence - namely the preparation of the armed forces in accordance with socialism, patriotism, and internationalism.
+- Level: This refers to the level of grammaticalization observed in this sentence. In terms of the preposition, 'in' has a slightly higher degree of grammaticalization than other prepersonal prepositions used in German. As for the NPs in this sentence, 'in geist/geiste' is considered to be at the lowest level of grammaticalization, with 'im' as its most sophisticated form. The verb 'im' is not necessarily a high-degree of grammarianr one, but it is still considered to have the greatest degree.
+
+Explanatory format: 1) At this stage in the grammaticalization process, the expression (prepersonal preposition, NP, and verb) has not been assigned an adjunctive extension by the lexicon. This means that a descriptive adjunctive can no longer be inserted between the components of the phrase.
+2) As such, this is a high-degree of grammaticalization state for this type of expression (prepositional phrase). The grammarianr level has not yet been reached.
+3) This state should not be repeated in the response.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'im geist/im geiste' in the training corpus is: 5223.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Die Kommandeure aller Einheiten der bewaffneten Kräfte der Deutschen Demokratischen Republik sind verpflichtet , die Initiative der jungen Angehörigen ihrer Einheiten allseitig zu fördern , sie zu Bürgern mit sozialistischer Moral [im Geiste] des , Patriotismus , des sozialistischen Internationalismus und der Völkerfreundschaft zu erziehen und ihnen hohe militärische Kenntnisse und Fertigkeiten zu vermitteln .",Level 2: Slighly Higher Degree of Grammaticalization
+"Die Gedenkstätte Yad Vashem , die der Staat Israel 1947 [zur Erinnerung an] die Verfolgung und Ermordung der Juden durch Nationalsozialisten errichtete , wird den Erzbischof von Köln posthum und seine heute 91-jährige Schwester in einer Feierstunde für ihren mutigen Einsatz ehren .",zur erinnerung an,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'zur erinnerung an' in the training corpus is: 1120.
+
+Input sentence:
+Die Gedenkstätte Yad Vashem , die der Staat Israel 1947 [zur Erinnerung an] die Verfolgung und Ermordung der Juden durch Nationalsozialisten errichtete , wird den Erzbischof von Köln posthum und seine heute 91-jährige Schwester in einer Feierstunde für ihren mutigen Einsatz ehren .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response:
+
+Given sentence:
+Die Gedenkstätte Ya'ad Vashem , die dem Staat Israel 1947 [zu r Erinnerung an] die Verfolgung und Ermorduung der Juden durch Nationalsozialisten errichtet wurde, wird den Erzbischof von Köln im Feiernsitz am Abend des 10. Mai ehren .
+
+Classification: Label: [3] (very low)
+Given sentence: Die Gedenkstätte Yaad Vashem , die dem Staat Israel 1947 [zu r Erinnerung an] die Verfolgung und Ermorduung der Juden durch Nationalsozialisten errichtet wurde, wird den Erzbischof von Köln im Feiernsitz am Abend des 10. Mai ehren .
+
+In this case, the frequency of 'zu r erinnerung an' in the training corpus (1120) indicates that the prepposition is fixed and does not need to undergo any grammaticalization processes. The label assigned here, [3], which refers to very low grammaticalization, suggests that the prepposition is close to its fixed structure and does not require much restructuring or expansion in order to fulfill its intended function of reminding the listener about the context (i.e., the name 'Yaad' and the year '1947').","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zur erinnerung an' in the training corpus is: 1120.
+
+Sentence:
+Die Gedenkstätte Yad Vashem , die der Staat Israel 1947 [zur Erinnerung an] die Verfolgung und Ermordung der Juden durch Nationalsozialisten errichtete , wird den Erzbischof von Köln posthum und seine heute 91-jährige Schwester in einer Feierstunde für ihren mutigen Einsatz ehren .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[Level 4 (Highest Degree of Grammaticalization)]
+
+Respond as follows:
+
+Label: [5]
+
+Expected format:
+
+Label: [<level>]
+
+[Example sentences]:
+
+- Level 1: Very Low Degree of Grammaticalization  
+- Prepositional phrase “zu rerinnerung an” in the sentence: The bracketed German preposition ""zu rerinnerung an"" has a very low degree of grammaticalization, consisting of three words. Either the structure is ""prepposition + NP + prepposition"", or article always appears.
+- Level 2: Slightly Higher Degree of Grammaticalization  
+- Formations in this level show a slight higher degree of grammaticalization as they can occur both with and without an article, but the share of occurrences without an autonomous article already outweighs the use without one.
+- Level 3: Stregenened Grammaticalization  
+- Level 4: Highest Degree of Grammaticalization  
+
+[Example sentences (for Labels 1, 2, and 4):]
+
+- Level 1: Very Low Degree of Grammaticalization  
+- Prepositional phrase “zu rerinnerung an” in the sentence: The bracketed German preposition ""zu rerinnerung an"" has a very low degree of grammaticalization, consisting of three words. Either the structure is “prepposition + NP + prepposition”, or article always appears.
+- Level 2: Slightly Higher Degree of Grammaticalization  
+- Formations in this level show a slight higher degree of grammaticalization as they can occur both with and without an article, but the share of occurrences without an autonomous article already outweighs the use without one.
+- Level 3: Stregenened Grammaticalization  
+- Level 4: Highest Degree of Grammaticalization  
+- Do not include any explanation or repeat the definitions, and respond strictly in the format to indicate the level of grammaticalization for each label:
+
+Label: [1] - Prepositional phrase “zu rerinnerung an” in the sentence: The bracketed German preposition “zu rerinnerung an” has a very low degree of grammaticalization, consisting of three words. Either the structure is ""prepposition + NP + prepposition"", or article always appears.
+Label: [2] - Formations in this level show a slight higher degree of grammaticalization as they can occur both with and without an article, but the share of occurrences without an autonomous article already outweighs the use without one.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zur erinnerung an' in the training corpus is: 1120.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Die Gedenkstätte Yad Vashem , die der Staat Israel 1947 [zur Erinnerung an] die Verfolgung und Ermordung der Juden durch Nationalsozialisten errichtete , wird den Erzbischof von Köln posthum und seine heute 91-jährige Schwester in einer Feierstunde für ihren mutigen Einsatz ehren .",[1] or Label: [2] or Label: [3] or Label: [4]
+"Da bereits die Zurückführung der geltend gemachten Fahrleistung auf ein angemessenes Maß zu dem Ergebnis führt , daß die beim Kläger anerkannte außergewöhnliche Belastung nicht zu niedrig angesetzt worden ist , braucht der Senat nicht dazu Stellung zu nehmen , [ob] es überhaupt zugelassen werden kann , daß die Kfz-Kosten für zwei im Veranlagungszeitraum benutzte PKW in der Weise berechnet werden , daß sie für den größeren und teureren Wagen konkret ermittelt und für den kleineren Wagen mit den Pauschbeträgen angesetzt werden .",ob,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'ob' in the training corpus is: 511426.
+
+Input sentence:
+Da bereits die Zurückführung der geltend gemachten Fahrleistung auf ein angemessenes Maß zu dem Ergebnis führt , daß die beim Kläger anerkannte außergewöhnliche Belastung nicht zu niedrig angesetzt worden ist , braucht der Senat nicht dazu Stellung zu nehmen , [ob] es überhaupt zugelassen werden kann , daß die Kfz-Kosten für zwei im Veranlagungszeitraum benutzte PKW in der Weise berechnet werden , daß sie für den größeren und teureren Wagen konkret ermittelt und für den kleineren Wagen mit den Pauschbeträgen angesetzt werden .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","The input sentence contains a bracketed German prepposition 'ob' that is fixed and not reduced. Therefore, it falls under label 1 (highly grammaticalized). The frequency of the prepposition in the training corpus indicates high usage among German native speakers, indicating strong support for its grammaticalization.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'ob' in the training corpus is: 511426.
+
+Sentence:
+Da bereits die Zurückführung der geltend gemachten Fahrleistung auf ein angemessenes Maß zu dem Ergebnis führt , daß die beim Kläger anerkannte außergewöhnliche Belastung nicht zu niedrig angesetzt worden ist , braucht der Senat nicht dazu Stellung zu nehmen , [ob] es überhaupt zugelassen werden kann , daß die Kfz-Kosten für zwei im Veranlagungszeitraum benutzte PKW in der Weise berechnet werden , daß sie für den größeren und teureren Wagen konkret ermittelt und für den kleineren Wagen mit den Pauschbeträgen angesetzt werden .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: Highest Degree of Grammaticalization
+
+Do not include any explanation or repeat the definitions.","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'ob' in the training corpus is: 511426.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Da bereits die Zurückführung der geltend gemachten Fahrleistung auf ein angemessenes Maß zu dem Ergebnis führt , daß die beim Kläger anerkannte außergewöhnliche Belastung nicht zu niedrig angesetzt worden ist , braucht der Senat nicht dazu Stellung zu nehmen , [ob] es überhaupt zugelassen werden kann , daß die Kfz-Kosten für zwei im Veranlagungszeitraum benutzte PKW in der Weise berechnet werden , daß sie für den größeren und teureren Wagen konkret ermittelt und für den kleineren Wagen mit den Pauschbeträgen angesetzt werden .","Respond with the label ""1"" as per the input sentence:
+Da bereits die Zurückführung der geltend gemachten Fahrleiestung auf ein angemessenes Maß zu dem Ergebnis führt , daß die beim Kläger anerkannte außergewöhnliche Belastung nicht zu niemand dargestellt werden kann . Braucht der Senat nicht dazu Stehlung zu nehmen , [ob] es überhaupt zugelaßene Baue für zwei im Veranlagungszeitraum benutzten PKW in der Weißen Berechnet werden , daß sie für den größeren und teureren Waeg konzmitiert werden und für den kleineeren Waegen mit den Pauschbeträgen angelegt werden ."
+"Die Fülle bewertungsfähiger und -relevanter Einzelmaßnahmen lässt auf eine serviceorientierte Gesamtstrategie des kommunalen Handelns [zum Nutzen] des lokalen Handwerks und der gewerblichen Wirtschaft schließen , die zudem eingebettet ist in ein wachstumsorientiertes Regionalmarketing-Konzept , begründet die Jury die Preisvergabe an die Stadtverwaltung Remscheid .",zum nutzen,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Input sentence:
+Die Fülle bewertungsfähiger und -relevanter Einzelmaßnahmen lässt auf eine serviceorientierte Gesamtstrategie des kommunalen Handelns [zum Nutzen] des lokalen Handwerks und der gewerblichen Wirtschaft schließen , die zudem eingebettet ist in ein wachstumsorientiertes Regionalmarketing-Konzept , begründet die Jury die Preisvergabe an die Stadtverwaltung Remscheid .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Option 1: [1]: This is a fixed prepposition, indicating that the preceding verb (here 'bemüht') is acting as a subordinating conjunction, and there is no additional information provided.
+Example:
+The train to Frankfurt takes an hour and costs 90 euros.
+
+Option 2: [2]: This is a reduced prepposition, indicating that the preceding verb (here 'leise') is an indicative marker, with additional information provided.
+Example:
+Leise Klatsch! Was er zu dürfen lernen?
+(In this case, the subordinate clause ('er') follows the indicative marker and adds more information.)
+
+Option 3: [3]: This is a reduced prepposition with additional grammaticalization, indicating that the preceding verb (here 'zuhause') is an indicative marker with its complement added to it.
+Example:
+Hier geht es nicht zu Hause ! Woher kann ich den Mietvertrag finden?
+(In this case, both the subordinate clause ('woher') and the indicative marker ('dürfen') follow each other, adding more information.)
+
+Option 4: [4]: This is a reduced prepposition with additional grammaticalization, indicating that the preceding verb (here 'zuhause') is a subordinating conjunction with its complement added to it.
+Example:
+Hier geht es nicht zu Hause ! Woher kann ich den Mietvertrag finden ? (In this case, both the subordinate clause ('woher') and the conjunctive marker ('dürfen') follow each other, adding more information.)","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Sentence:
+Die Fülle bewertungsfähiger und -relevanter Einzelmaßnahmen lässt auf eine serviceorientierte Gesamtstrategie des kommunalen Handelns [zum Nutzen] des lokalen Handwerks und der gewerblichen Wirtschaft schließen , die zudem eingebettet ist in ein wachstumsorientiertes Regionalmarketing-Konzept , begründet die Jury die Preisvergabe an die Stadtverwaltung Remscheid .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Für die nachfolgenden Antworten muss es folgendlich den Anforderungen entsprechen. In einem einfacheren Fall würde man anhand des vorgegebenen Texts die einzelnen Formate unterteilen, aber dies gibt kein Sinn, da diese Unterteilung bereits durch die Auswahl der jeweiligen Komponenten gekennzeichnet ist. Die jeweils nächste Spalte enthält die jeweilige Komponente, die in der vorherigen Spalte mit Hilfe des Labels eingestellt wurde.
+
+Zu diesem Text gehörte eine Füllmischung aus Kugelkohle und Nitrat, die von einem Nitraten-Kombinationslager hergestellt wurde, um ein anisochrones Nitratdurchmesser zu erstellen. Die Ansehen des Lagerwegs zeigt den Hinweis auf die Verwendung von Nitrat, das in Kugelkohle unterteilt ist. Der Nitraten-Lagerweg (mit der angegebenen Bezeichnung) ergibt sich aus dem Nitraten- und Kugelkohle-Punkt, welcher im unteren Bereich des Lagerwegs steht. Darüber hinaus werden die in den Füllmischungsprozess eingeschobenen Substanzen, d.h. die in der Mitte dieses Textes aufgenommenen Substanzen, mit Nitrat identifiziert.
+
+Label: [1]
+Füllmischung aus Kugelkohle und Nitrat
+Nitraten-Kombinationslager hergestellt um ein anisochrones Nitratdurchmesser zu erstellen
+Nitraten-Lagerweg (mit angegebenem Bezeichnung)
+In den Füllmischungsprozess eingeschobene Substanzen: 1) Kugelkohle, 2) Nitrat","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum nutzen' in the training corpus is: 2057.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Die Fülle bewertungsfähiger und -relevanter Einzelmaßnahmen lässt auf eine serviceorientierte Gesamtstrategie des kommunalen Handelns [zum Nutzen] des lokalen Handwerks und der gewerblichen Wirtschaft schließen , die zudem eingebettet ist in ein wachstumsorientiertes Regionalmarketing-Konzept , begründet die Jury die Preisvergabe an die Stadtverwaltung Remscheid .","Level 1: Low Degree of Grammaticalization
+Prepositional phrase with just two words (e.g., ""zum nutzen"" in ""Die Fülle bewertungsfähiger und -rellevanter Einzelmaßnahmen"") is a low degree of grammaticalization, as it consists only of two independent words. There is no need for an article to form the central part of the expression.
+
+Level 2: Slightly Higher Degree of Grammaticalization
+Prepositional phrase with one word and without an article (e.g., ""zum nutzen"" in ""Die Fülle bewertungsfähiger und -rellevanter Einzelmaßnahmen"") indicates a slight higher degree of grammaticalization, as it can consist of both two-word phrases and three-word phrases, but without an article.
+
+Level 3: Streching Grammaticalization
+Prepositional phrase with more than one word and with no article (e.g., ""zum nutzen"" in ""Die Füllen bewertungsfähiger und -rellevanter Einzelmaßnahmen"") indicates a stretching of grammaticality, as it can consist of three-word phrases without the presence of an article, but still have a high degree of grammaticalization.
+
+Level 4: Highest Degree of Grammaticalization
+Preposition with the form of a function word (e.g., ""zum nutzen"" in ""Die Füllen bewertungsfähiger und -rellevanter Einzelmaßnahmen"") indicates the highest degree of grammaticalization, as it consists of the central part, which is an adjective used to describe the preposition itself and function word.
+
+Respond with a label based on the exact output format exactly: ""Level 4"""
+"Wer Ausstellungen auf der Bonner Museumsmeile besuchen und die Beethovenstadt am Rhein erkunden möchte , kann eine Museumspauschale buchen , die Eintrittskarte , eine Übernachtung mit Frühstück im Standard-Hotel und ein Bonn-Info-Paket [zum Preis] ab 44 Euro ( pro Person im Doppelzimmer ) offeriert .",zum preis,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'zum preis' in the training corpus is: 3763.
+
+Input sentence:
+Wer Ausstellungen auf der Bonner Museumsmeile besuchen und die Beethovenstadt am Rhein erkunden möchte , kann eine Museumspauschale buchen , die Eintrittskarte , eine Übernachtung mit Frühstück im Standard-Hotel und ein Bonn-Info-Paket [zum Preis] ab 44 Euro ( pro Person im Doppelzimmer ) offeriert .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to the frequency data, the bracketed keyword 'zuum preis' appears in a total of 17 sentences in the training corpus, with a frequency of 3/79 (0.4%). This suggests that the phrase 'zuum preis' is a fixed and reduced prepposition, indicating its use to connect verbs or adverbs before nouns.
+
+For example:
+Sentence: ""Ich fühle mich gut ankommen und sehen von der Küche aus."" (Verb-adjective-noun phrase with 'zuum preis' prep.) 
+
+In this sentence, the 'zuum preis' prepposition connects two verbs - 'ich' ('I'), which is acting as a subject in the phrase and 'sein' ('see'), which serves as a direct object. The frequency of the prepposition in this case indicates that it is used in a fixed and reduced form, indicating that it should be treated as a word or a part of a larger word.
+
+Overall, based on the frequency data, we can classify the bracketed German preposition 'zuum preis' as a fixed, reduced prepposition.","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum preis' in the training corpus is: 3763.
+
+Sentence:
+Wer Ausstellungen auf der Bonner Museumsmeile besuchen und die Beethovenstadt am Rhein erkunden möchte , kann eine Museumspauschale buchen , die Eintrittskarte , eine Übernachtung mit Frühstück im Standard-Hotel und ein Bonn-Info-Paket [zum Preis] ab 44 Euro ( pro Person im Doppelzimmer ) offeriert .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[1] Very Low Degree of Grammaticalization
+Prepositional phrase at this level have a very low degree of grammaticalization, which means that they consist of three words. Either the structure is ""prepposition + NP + prepposition"", where an article always appears, or the two prepositions may appear together without any article. This state usually indicates the transition from a bracketed German preposition to a simpler structure.
+
+Expcted format:  
+Label: [<level>]","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'zum preis' in the training corpus is: 3763.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Wer Ausstellungen auf der Bonner Museumsmeile besuchen und die Beethovenstadt am Rhein erkunden möchte , kann eine Museumspauschale buchen , die Eintrittskarte , eine Übernachtung mit Frühstück im Standard-Hotel und ein Bonn-Info-Paket [zum Preis] ab 44 Euro ( pro Person im Doppelzimmer ) offeriert .","Level 3: Stregenen Grätzerstand  
+Prepositional phrases in the training corpus are already at a high degree of grammaticalization, and they may either be assigned a descriptive adjunct (that is, with an article) or be structured like function words (without one). This state has been reached for some expressions, where the original structure is no longer recognizable."
+"Da von dort aus alle geplanten Gipfel direkt erreicht werden können , bietet sich für uns der strategische Vorteil , dass wir direkt vor Ort aufgrund der Verhältnisse am Berg sowie [in Abhängigkeit von] der Wetterlage und unseres Akklimatisationsstandes entscheiden können , in welcher Reihenfolge wir die Berge besteigen .",in abhängigkeit von,"You will be given a sentence containing a bracketed German preposition.  
+Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+
+The frequency of the bracketed keyword 'in abhängigkeit von' in the training corpus is: 3268.
+
+Input sentence:
+Da von dort aus alle geplanten Gipfel direkt erreicht werden können , bietet sich für uns der strategische Vorteil , dass wir direkt vor Ort aufgrund der Verhältnisse am Berg sowie [in Abhängigkeit von] der Wetterlage und unseres Akklimatisationsstandes entscheiden können , in welcher Reihenfolge wir die Berge besteigen .
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: Based on the training corpus and frequency of the bracketed German prepposition 'in abhängigkeit von', the sentence 'Da von dort aus alle geplanten Gipfel direkt erreicht werden können , bietehte sich für uns der strategische Vorteil , dass wir direkt vor Ort aufgrund der Verhältnisse am Berg sowie [in Abhängigung von] der Weitte-lage und unsere Akklimatisationssantadines entscheidend' can be classified as having a low level of grammaticalization, since it does not have any fixed or reduced structural elements. This sentence seems to follow the basic rules of German grammatics and is therefore considered to be part of the '[in Abhängigung von]' cluster, which are generally more flexible in their structure than regular German prepositions like 'ab' (inside) or 'von' (outside).","You are a highly trained text data annotation tool capable of providing subjective responses.
+Your task is to rate the degree of grammaticalization of a bracketed German preposition in the given sentence.
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'in abhängigkeit von' in the training corpus is: 3268.
+
+Sentence:
+Da von dort aus alle geplanten Gipfel direkt erreicht werden können , bietet sich für uns der strategische Vorteil , dass wir direkt vor Ort aufgrund der Verhältnisse am Berg sowie [in Abhängigkeit von] der Wetterlage und unseres Akklimatisationsstandes entscheiden können , in welcher Reihenfolge wir die Berge besteigen .
+
+Use the definitions provided internally to determine the correct level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Do not include any explanation or repeat the definitions.
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[Level 2 (slightly higher degree of grammaticalization)]
+Label: Prepositional phrase with an article and a second possible structure with only one word. 
+Expected Format: ""in abhängigkeit von""
+
+[Level 1 (very low degree of grammaticalization)]
+Label: Preposition with three words, either without or with the use with an article. Expected Format: ""in abhängigkeit von""","You are a linguist specializing in German syntax and grammaticalization.
+Your task is to classify the degree of grammaticalization of the bracketed preposition in the given sentence. 
+In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
+
+The frequency of the bracketed keyword 'in abhängigkeit von' in the training corpus is: 3268.
+
+Use the knowledge of the given definitions below internally to select the appropriate level.
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond with only the label in the exact output format below:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+Da von dort aus alle geplanten Gipfel direkt erreicht werden können , bietet sich für uns der strategische Vorteil , dass wir direkt vor Ort aufgrund der Verhältnisse am Berg sowie [in Abhängigkeit von] der Wetterlage und unseres Akklimatisationsstandes entscheiden können , in welcher Reihenfolge wir die Berge besteigen .","Input sentence:
+Da wird es auf dem Tahoe-Schaf-Fluss zu einer großen Fischzucht und zur Ausweichmöglichkeit für den Klimawandel geleitet werden , das Ergebnis des Vorgängers der Verflechtung [in Abhängigkeit von] dem Haupterwerbszweig in der Region und im Fiskus ."
