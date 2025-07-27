@@ -25,22 +25,24 @@ EVAL_FILE = os.path.join(OUTPUT_DIR, f"evaluation_summary_{TAG}.csv")
 
 # === Prompt C Definitions ===
 DEFINITIONS = """Level 1: Very Low Degree of Grammaticalization  
-Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NPs», in which an article always appears.
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
 
 Level 2: Slightly Higher Degree of Grammaticalization  
-Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article...
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
 
 Level 3: Strengthened Grammaticalization  
-Level 3 describes a state in which grammaticalization is already well advanced...
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
 
 Level 4: Highest Degree of Grammaticalization  
-Prepositions with the form of a function word have the highest degree of grammaticalization..."""
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words."""
+
 
 # === Prompt Builders ===
-def build_prompt_a(sentence):
+def build_prompt_a(sentence, keyword):
     return f"""You will be given a sentence containing a bracketed German preposition.  
 Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
-Choose one of four levels: from very low (structured and article-based) to fully grammaticalized (function-like and eroded).  
+Choose one of four levels: from very low (structured and article-based) to fully grammaticalized (function-like and eroded).
+
 Respond with: Label: [1–4].
 
 Input sentence:  
@@ -54,12 +56,9 @@ Sentence:
 {sentence}
 
 Focus only on the structure and functional reduction of the bracketed preposition as it appears in this sentence.
-Please provide a judgment as a single integer, where:
+Please provide a judgment as a single grammaticalization level using the below definiion, where:
 
-1 = Very Low (structured and article-based)  
-2 = Low (partially fixed or still compositional)  
-3 = High (reduced, little compositionality)  
-4 = Very High (fully grammaticalized, function-like and eroded)
+{DEFINITIONS}
 
 Respond with:  
 Label: [1-4]"""
@@ -74,8 +73,7 @@ Input sentence:
 {sentence}
 
 Expected format:  
-Label: [1–4]  
-Reason: [brief explanation based on definition]"""
+Label: [1–4]  """
 
 # === Ollama Request ===
 def call_ollama(prompt):
@@ -133,7 +131,7 @@ def evaluate_predictions(df, metrics, output_path):
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = [json.loads(line) for line in f if line.strip()]
 
-print(f"\n🔍 Running inference on {len(data)} examples...\n")
+print(f"\n Running inference on {len(data)} examples...\n")
 results = []
 
 for item in tqdm(data):
@@ -157,6 +155,14 @@ for item in tqdm(data):
 # Save sentence-level results
 pd.DataFrame(results).to_csv(OUTPUT_FILE, index=False)
 print(f"✓ Raw predictions saved to {OUTPUT_FILE}")
+# === Save 10 randomly sampled input/output examples ===
+sample = df.sample(10, random_state=42)[[
+    "sentence", "keyword", "prompt_A", "raw_response_A",
+    "prompt_B", "raw_response_B", "prompt_C", "raw_response_C"
+]]
+sample.to_csv(os.path.join(OUTPUT_DIR, "sampled_io_examples.csv"), index=False)
+print("✓ Saved 10 input/output examples to 'sampled_io_examples.csv'")
+
 
 # === Aggregate at Keyword Level ===
 df = pd.DataFrame(results)
