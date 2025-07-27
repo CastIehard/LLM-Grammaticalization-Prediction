@@ -41,12 +41,15 @@ Prepositions with the form of a function word have the highest degree of grammat
 def build_prompt_a(sentence, keyword):
     return f"""You will be given a sentence containing a bracketed German preposition.  
 Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
-Choose one of four levels: from very low (structured and article-based) to fully grammaticalized (function-like and eroded).
+
 
 Respond with: Label: [1–4].
 
 Input sentence:  
-{sentence}"""
+{sentence}
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]"""
 
 def build_prompt_b(sentence):
     return f"""You are a highly trained text data annotation tool capable of providing subjective responses.
@@ -60,8 +63,14 @@ Please provide a judgment as a single grammaticalization level using the below d
 
 {DEFINITIONS}
 
-Respond with:  
-Label: [1-4]"""
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]"""
+
 
 def build_prompt_c(sentence):
     return f"""You are a linguist specializing in German syntax and grammaticalization.
@@ -69,11 +78,15 @@ Your task is to classify the degree of grammaticalization of the bracketed prepo
 
 {DEFINITIONS}
 
-Input sentence:  
-{sentence}
+Respond with only the label in the exact output format below:
 
-Expected format:  
-Label: [1–4]  """
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Respond in this exact format exactly:
+Label: [<level>]
+
+Input sentence:
+{sentence}"""
 
 # === Ollama Request ===
 def call_ollama(prompt):

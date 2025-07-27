@@ -67,7 +67,6 @@ Sentence:
 Use the definitions provided internally to determine the correct level.
 {DEFINITIONS}
 
-Do not include any explanation or repeat the definitions.
 Respond strictly in the format to indicate the level of grammaticalization:
 
 Label: [1] or Label: [2] or Label: [3] or Label: [4]
