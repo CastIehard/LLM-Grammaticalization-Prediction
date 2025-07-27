@@ -1,0 +1,13 @@
+Evaluation,Random
+Spearman's ρ (rank),-0.17
+AP (degrees 1 vs. 2),0.60
+AP (degrees 1 vs. 3),0.52
+AP (degrees 1 vs. 4),0.25
+AP (degrees 2 vs. 3),0.78
+AP (degrees 2 vs. 4),0.57
+AP (degrees 3 vs. 4),0.28
+Accuracy (Exact Match),0.19
+Accuracy (Level 1),0.00
+Accuracy (Level 2),0.50
+Accuracy (Level 3),0.38
+Accuracy (Level 4),0.00

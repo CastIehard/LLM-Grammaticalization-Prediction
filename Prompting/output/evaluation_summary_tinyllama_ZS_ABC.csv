@@ -1,8 +1,0 @@
-Evaluation,pred_A,pred_B,pred_C
-Spearman's ρ (rank),0.24,0.34,0.24
-AP (degrees 1 vs. 2),0.45,0.22,0.58
-AP (degrees 1 vs. 3),0.71,0.72,0.70
-AP (degrees 1 vs. 4),0.50,0.44,0.46
-AP (degrees 2 vs. 3),0.80,0.90,0.79
-AP (degrees 2 vs. 4),0.62,0.76,0.55
-AP (degrees 3 vs. 4),0.43,0.29,0.28
