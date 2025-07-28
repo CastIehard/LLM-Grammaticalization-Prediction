@@ -38,7 +38,7 @@ We process large-scale corpora to extract meaningful features related to grammat
 
 * **Metric Correlation Plot:**
 
-  * Image: ![Metric Correlations](data/metrics_correlation.png)
+  * Image: ![Metric Correlations](data/metrics_correlation_all_keywords_full_corpus.png)
 
 ### 📊 Data Splits & Example Sentences
 
