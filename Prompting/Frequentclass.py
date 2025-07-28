@@ -1,89 +1,96 @@
-import json
-import pandas as pd
+import os
 import itertools
-from collections import Counter
+import pandas as pd
+import numpy as np
 from scipy.stats import spearmanr
 from sklearn.metrics import average_precision_score
 
-# === Step 1: Load Test Data ===
-INPUT_FILE = "test_set.jsonl"
-with open(INPUT_FILE, "r", encoding="utf-8") as f:
-    test_data = [json.loads(line) for line in f if line.strip()]
+# =============================================================================
+# Configuration
+# =============================================================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# === Step 2: Find Most Frequent Label (ideally from TRAINING set) ===
-most_frequent_label = Counter(
-    int(item["gramm_score"]) for item in test_data
-).most_common(1)[0][0]
-print("Most Frequent Label:", most_frequent_label)
+# --- Input Files ---
+METRICS_CSV = os.path.join(BASE_DIR, "keywords_metrics.csv")
+DEV_OUTPUT = os.path.join(BASE_DIR, "test_set.jsonl")
 
-# === Step 3: Simulate Baseline Predictions ===
-for item in test_data:
-    item["pred_A"] = most_frequent_label  # only using one prediction column
+# --- Output File ---
+EVALUATION_TABLE_CSV = os.path.join(BASE_DIR, "evaluation_summary_table.csv")
 
-# === Step 4: Build DataFrame and Group by Keyword ===
-df = pd.DataFrame(test_data)
-df = df.dropna(subset=["gramm_score"])
-df["gramm_score"] = df["gramm_score"].astype(int)
+# --- Dummy column for constant prediction
+PRED_COLUMN = "baseline_prediction"
+METRICS_TO_EVALUATE = [PRED_COLUMN]
 
-# Aggregate to keyword level for evaluation
-keyword_df = df.groupby("keyword").agg({
-    "gramm_score": "first",
-    "pred_A": "mean"
-}).reset_index()
+# =============================================================================
+# Evaluation Function
+# =============================================================================
 
-# === Step 5: Evaluation Function ===
-def evaluate_predictions(df, metric):
-    results = []
-    truth = df["gramm_score"]
-    pred = df[metric]
+def generate_evaluation_table(df: pd.DataFrame, metrics_to_evaluate: list, output_path: str):
+    eval_df = df.copy()
+    eval_df.dropna(subset=['gramm_score'], inplace=True)
 
-    # Spearman's ρ
-    try:
-        rho, _ = spearmanr(truth, pred)
-        results.append({"Evaluation": "Spearman's ρ (rank)", metric: f"{rho:.2f}"})
-    except:
-        results.append({"Evaluation": "Spearman's ρ (rank)", metric: "NaN"})
+    if len(eval_df) < 2:
+        print("Not enough data to evaluate.")
+        return
 
-    # Average Precision for pairwise degrees
-    degrees = sorted(df["gramm_score"].unique())
-    for d1, d2 in itertools.combinations(degrees, 2):
-        subset = df[df["gramm_score"].isin([d1, d2])]
-        y_true = (subset["gramm_score"] == d2).astype(int)
-        if y_true.nunique() < 2:
+    results_data = []
+    ground_truth = eval_df['gramm_score']
+
+    # --- Spearman’s ρ ---
+    spearman_row = {'Evaluation': "Spearman's ρ (rank)"}
+    for metric in metrics_to_evaluate:
+        rho, _ = spearmanr(ground_truth, eval_df[metric])
+        spearman_row[metric] = f"{rho:.2f}"
+    results_data.append(spearman_row)
+
+    # --- Average Precision (AP) ---
+    degrees = sorted(eval_df['gramm_score'].unique())
+    degree_pairs = list(itertools.combinations(degrees, 2))
+
+    for d1, d2 in degree_pairs:
+        ap_row = {'Evaluation': f'AP (degrees {int(d1)} vs. {int(d2)})'}
+        pair_df = eval_df[eval_df['gramm_score'].isin([d1, d2])]
+        y_true = (pair_df['gramm_score'] == d2).astype(int)
+
+        if len(np.unique(y_true)) < 2:
             continue
-        try:
-            ap = average_precision_score(y_true, subset[metric])
-            results.append({
-                "Evaluation": f"AP (degrees {d1} vs. {d2})",
-                metric: f"{ap:.2f}"
-            })
-        except:
-            results.append({
-                "Evaluation": f"AP (degrees {d1} vs. {d2})",
-                metric: "NaN"
-            })
 
-    # Accuracy
-    preds = pred.round().astype(int)
-    acc = (preds == truth).mean()
-    results.append({"Evaluation": "Accuracy (Exact Match)", metric: f"{acc:.2f}"})
+        for metric in metrics_to_evaluate:
+            y_score = (pair_df[metric] == d2).astype(int)  # constant prediction
+            ap = average_precision_score(y_true, y_score)
+            ap_row[metric] = f"{ap:.2f}"
+        results_data.append(ap_row)
 
-    # Per-level accuracy
-    for level in sorted(truth.unique()):
-        mask = truth == level
-        level_acc = (preds[mask] == level).mean()
-        results.append({
-            "Evaluation": f"Accuracy (Level {level})",
-            metric: f"{level_acc:.2f}"
-        })
+    results_df = pd.DataFrame(results_data)
+    results_df.set_index('Evaluation', inplace=True)
+    results_df.to_csv(output_path)
+    print("\n--- Final Evaluation Summary Table ---\n")
+    print(results_df)
 
-    return pd.DataFrame(results).set_index("Evaluation")
+# =============================================================================
+# Main Execution
+# =============================================================================
 
-# === Step 6: Run Evaluation and Save Results ===
-metrics = ["pred_A"]
-eval_df = evaluate_predictions(keyword_df, "pred_A")
-eval_df.to_csv("evaluation_summary_most_frequent.csv")
+def main():
+    # Load data
+    df_metrics = pd.read_csv(METRICS_CSV)
+    dev_df = pd.read_json(DEV_OUTPUT, lines=True)
 
-# === Print Results ===
-print("\n=== Evaluation Summary ===")
-print(eval_df)
+    # Step 1: Get keywords used in dev set
+    dev_keywords = dev_df['keyword'].unique()
+
+    # Step 2: Filter keywords_metrics to only those in dev
+    df_filtered = df_metrics[df_metrics['keyword'].isin(dev_keywords)].copy()
+
+    # Step 3: Get most frequent class from data_dev.jsonl
+    majority_class = dev_df['gramm_score'].mode().iloc[0]
+    print(f"Using majority class from dev file: {majority_class}")
+
+    # Step 4: Assign constant prediction
+    df_filtered[PRED_COLUMN] = majority_class
+
+    # Step 5: Evaluate using original gold gramm_score from keyword_metrics
+    generate_evaluation_table(df_filtered, METRICS_TO_EVALUATE, EVALUATION_TABLE_CSV)
+
+if __name__ == "__main__":
+    main()

@@ -1,74 +1,95 @@
-import json
-import pandas as pd
-import random
+import os
 import itertools
+import pandas as pd
+import numpy as np
 from scipy.stats import spearmanr
 from sklearn.metrics import average_precision_score
 
-def run_random_baseline(input_file, output_csv, possible_scores=[1, 2, 3, 4]):
-    with open(input_file, "r", encoding="utf-8") as f:
-        test_data = [json.loads(line) for line in f if line.strip()]
+# =============================================================================
+# Configuration
+# =============================================================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-    for item in test_data:
-        item["pred_random"] = random.choice(possible_scores)
+# --- Input Files ---
+METRICS_CSV = os.path.join(BASE_DIR, "keywords_metrics.csv")
+DEV_OUTPUT = os.path.join(BASE_DIR, "data_dev.jsonl")
 
-    df = pd.DataFrame(test_data)
-    df = df.dropna(subset=["gramm_score"])
-    df["gramm_score"] = df["gramm_score"].astype(int)
+# --- Output File ---
+EVALUATION_TABLE_CSV = os.path.join(BASE_DIR, "evaluation_summary_table.csv")
 
-    keyword_df = df.groupby("keyword").agg({
-        "gramm_score": "first",
-        "pred_random": "mean"
-    }).reset_index()
+# --- Dummy column for random prediction
+PRED_COLUMN = "random_prediction"
+METRICS_TO_EVALUATE = [PRED_COLUMN]
 
-    results = []
-    truth = keyword_df["gramm_score"]
-    pred = keyword_df["pred_random"]
+# =============================================================================
+# Evaluation Function
+# =============================================================================
 
-    try:
-        rho, _ = spearmanr(truth, pred)
-        results.append({"Evaluation": "Spearman's ρ (rank)", "Random": f"{rho:.2f}"})
-    except:
-        results.append({"Evaluation": "Spearman's ρ (rank)", "Random": "NaN"})
+def generate_evaluation_table(df: pd.DataFrame, metrics_to_evaluate: list, output_path: str):
+    eval_df = df.copy()
+    eval_df.dropna(subset=['gramm_score'], inplace=True)
 
-    degrees = sorted(truth.unique())
-    for d1, d2 in itertools.combinations(degrees, 2):
-        subset = keyword_df[keyword_df["gramm_score"].isin([d1, d2])]
-        y_true = (subset["gramm_score"] == d2).astype(int)
-        if y_true.nunique() < 2:
+    if len(eval_df) < 2:
+        print("Not enough data to evaluate.")
+        return
+
+    results_data = []
+    ground_truth = eval_df['gramm_score']
+
+    # --- Spearman’s ρ ---
+    spearman_row = {'Evaluation': "Spearman's ρ (rank)"}
+    for metric in metrics_to_evaluate:
+        rho, _ = spearmanr(ground_truth, eval_df[metric])
+        spearman_row[metric] = f"{rho:.2f}"
+    results_data.append(spearman_row)
+
+    # --- Average Precision (AP) ---
+    degrees = sorted(eval_df['gramm_score'].unique())
+    degree_pairs = list(itertools.combinations(degrees, 2))
+
+    for d1, d2 in degree_pairs:
+        ap_row = {'Evaluation': f'AP (degrees {int(d1)} vs. {int(d2)})'}
+        pair_df = eval_df[eval_df['gramm_score'].isin([d1, d2])]
+        y_true = (pair_df['gramm_score'] == d2).astype(int)
+
+        if len(np.unique(y_true)) < 2:
             continue
-        try:
-            ap = average_precision_score(y_true, subset["pred_random"])
-            results.append({
-                "Evaluation": f"AP (degrees {d1} vs. {d2})",
-                "Random": f"{ap:.2f}"
-            })
-        except:
-            results.append({
-                "Evaluation": f"AP (degrees {d1} vs. {d2})",
-                "Random": "NaN"
-            })
 
-    preds = pred.round().astype(int)
-    acc = (preds == truth).mean()
-    results.append({"Evaluation": "Accuracy (Exact Match)", "Random": f"{acc:.2f}"})
+        for metric in metrics_to_evaluate:
+            y_score = (pair_df[metric] == d2).astype(int)
+            ap = average_precision_score(y_true, y_score)
+            ap_row[metric] = f"{ap:.2f}"
+        results_data.append(ap_row)
 
-    for level in sorted(truth.unique()):
-        mask = truth == level
-        level_acc = (preds[mask] == level).mean()
-        results.append({
-            "Evaluation": f"Accuracy (Level {level})",
-            "Random": f"{level_acc:.2f}"})
+    results_df = pd.DataFrame(results_data)
+    results_df.set_index('Evaluation', inplace=True)
+    results_df.to_csv(output_path)
+    print("\n--- Final Evaluation Summary Table ---\n")
+    print(results_df)
 
-    eval_df = pd.DataFrame(results).set_index("Evaluation")
-    eval_df.to_csv(output_csv)
-    return eval_df
+# =============================================================================
+# Main Execution
+# =============================================================================
 
-# === Run for TinyLlama
-random_eval_df = run_random_baseline(
-    input_file="test_set.jsonl",
-    output_csv="evaluation_summary_random_baseline_tinyllama.csv"
-)
+def main():
+    # Load data
+    df_metrics = pd.read_csv(METRICS_CSV)
+    dev_df = pd.read_json(DEV_OUTPUT, lines=True)
 
-print("\n=== Random Baseline Evaluation (TinyLlama) ===")
-print(random_eval_df)
+    # Step 1: Get keywords used in dev set
+    dev_keywords = dev_df['keyword'].unique()
+
+    # Step 2: Filter keywords_metrics to only those in dev
+    df_filtered = df_metrics[df_metrics['keyword'].isin(dev_keywords)].copy()
+
+    # Step 3: Assign random predictions (1–4)
+    np.random.seed(42)  # for reproducibility
+    df_filtered[PRED_COLUMN] = np.random.choice([1, 2, 3, 4], size=len(df_filtered))
+
+    print(f"Assigned random grammaticalization class to {len(df_filtered)} keywords")
+
+    # Step 4: Evaluate using original gold gramm_score from keyword_metrics
+    generate_evaluation_table(df_filtered, METRICS_TO_EVALUATE, EVALUATION_TABLE_CSV)
+
+if __name__ == "__main__":
+    main()
