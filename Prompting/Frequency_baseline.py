@@ -11,7 +11,7 @@ from sklearn.metrics import average_precision_score
 # === Config ===
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "tinyllama"
-INPUT_FILE = "test_set.jsonl"
+INPUT_FILE = "data_dev.jsonl"
 
 TAG = f"{MODEL_NAME}_ZS_ABC"
 OUTPUT_DIR = "output"
