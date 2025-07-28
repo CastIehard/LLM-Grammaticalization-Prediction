@@ -1,4 +1,7 @@
+
+
 sentence,keyword,prompt_A,raw_response_A,prompt_B,raw_response_B,prompt_C,raw_response_C
+
 "Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .",auf vorschlag,"You will be given a sentence containing a bracketed German preposition.  
 Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
 In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
@@ -65,7 +68,9 @@ Respond in this exact format exactly:
 Label: [<level>]
 
 Input sentence:
+
 Artikel 11 Fünf Jahre nach dem Zeitpunkt , zu dem die Mitgliedstaaten dieser Richtlinie spätestens nachzukommen haben , überprüft der Rat [auf Vorschlag] der Kommission die einzelstaatlichen Vorschriften für die gegebenenfalls gemäß Artikel 3 eingeführten fakultativen Unterklassen mit dem Ziel , diese Vorschriften zu vereinheitlichen oder aufzuheben .",Respond with Label: [2]
+
 "Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .",zum nutzen,"You will be given a sentence containing a bracketed German preposition.  
 Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
 In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
@@ -152,7 +157,10 @@ Respond in this exact format exactly:
 Label: [<level>]
 
 Input sentence:
+
+
 Das tun wir , indem wir ihnen Wege ins Internet eröffnen , weil wir davon überzeugt sind , dass nur durch eine bewußte Auseinandersetzung mit den neuen Technologien Menschen mit ihnen umzugehen lernen , Nachteile wie Vorteile für sich selbst erkennen und einen gezielten Einsatz [zum Nutzen] aller praktizieren können .",Respond with the appropriate label in this exact format: Label: [2]
+
 "Die Ausstellung zeigt nicht nur die Großmonumente ( wie etwa in Wolgograd und Brest ) , sondern auch kleine dörfliche Denkmäler , nicht nur Bilder von Paraden auf dem Roten Platz , sondern auch von Veteranentreffen [am Rande] der staatlichen Feierlichkeiten , nicht nur die offizielle Ehrung von Helden , sondern auch private Trauer und Erinnerung innerhalb der Familie .",am rande,"You will be given a sentence containing a bracketed German preposition.  
 Your task is to classify how grammaticalized that preposition is, based on how fixed or reduced its structure appears.  
 In addition to the sentence, consider the frequency of the preposition as an additional signal to predict the grammaticalization.
