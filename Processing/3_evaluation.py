@@ -48,7 +48,7 @@ def plot_correlation_heatmap(df: pd.DataFrame, output_path: str):
         print("Not enough numeric columns for correlation plot.")
         return
     
-    corr = df[numeric_cols].corr()
+    corr = df[numeric_cols].corr(method='spearman')
     mask = np.triu(np.ones_like(corr, dtype=bool))
     
     plt.figure(figsize=(12, 10))
@@ -93,8 +93,7 @@ def generate_evaluation_table(df: pd.DataFrame, metrics_to_evaluate: list, outpu
     """
     print("\n--- 3. Metric Performance Evaluation on Dev Set ---")
     
-    # Use one entry per keyword for metric evaluation
-    eval_df = df.drop_duplicates(subset=['keyword']).copy()
+    eval_df = df.copy()
     eval_df.dropna(subset=['gramm_score'], inplace=True)
     print(f"Evaluating on {len(eval_df)} unique keywords from the dev set.")
     
@@ -166,9 +165,8 @@ def main():
     # 2. Analyze the properties of the data splits
     plot_distribution(DEV_OUTPUT, TEST_OUTPUT, DISTRIBUTION_PLOT_PATH)
 
-    # 3. Generate the final evaluation summary table on the DEV set
-    dev_df = pd.read_json(DEV_OUTPUT, lines=True)
-    generate_evaluation_table(dev_df, METRICS_TO_EVALUATE, EVALUATION_TABLE_CSV)
+    # 3. Generate the final evaluation summary table
+    generate_evaluation_table(df_metrics, METRICS_TO_EVALUATE, EVALUATION_TABLE_CSV)
 
 if __name__ == "__main__":
     main()
