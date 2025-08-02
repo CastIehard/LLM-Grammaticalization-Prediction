@@ -1,0 +1,8 @@
+Evaluation,occurrences,word_entropy,amount_distinct_neighbors,collocation_strength,synthetic_context_adversity,avg_character_count
+Spearman's ρ (rank),0.54,0.42,0.53,-0.43,0.56,0.23
+AP (degrees 1 vs. 2),0.58,0.45,0.57,0.32,0.60,0.38
+AP (degrees 1 vs. 3),0.69,0.62,0.68,0.51,0.73,0.67
+AP (degrees 1 vs. 4),0.98,0.95,0.99,0.30,0.98,0.57
+AP (degrees 2 vs. 3),0.71,0.72,0.70,0.71,0.70,0.78
+AP (degrees 2 vs. 4),0.98,0.95,0.98,0.44,0.98,0.71
+AP (degrees 3 vs. 4),0.96,0.93,0.98,0.26,0.96,0.41
