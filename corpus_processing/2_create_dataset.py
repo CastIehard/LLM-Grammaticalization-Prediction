@@ -15,9 +15,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(BASE_DIR)
 
 
-
 # --- Input Files ---
-CORPUS_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt") 
+CORPUS_PATH = os.path.join(BASE_DIR, "sdewac-v3.txt")
 FULL_DATA_DIR = os.path.join(BASE_DIR, "data/full data (only for storing, do not use)")
 METRICS_CSV = os.path.join(FULL_DATA_DIR, "keywords_metrics_full.csv")
 KEYWORDS_CSV = os.path.join(BASE_DIR, "data/general data (some additional stuff)/keyword_groundtruth.csv")
@@ -132,6 +131,7 @@ def create_annotated_jsonl(corpus_path: str, metrics_map: dict,
             _process_jsonl_batch(batch, used, counts, lookup, max_len, metrics_map, freq_map, out_f, max_examples)
 
     print(f"\nFull annotated dataset created at {out_path}")
+
 def save_sentence_counts(jsonl_path: str, output_csv: str):
     df = pd.read_json(jsonl_path, lines=True)
     counts = df['keyword'].value_counts().sort_values(ascending=False)
