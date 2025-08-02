@@ -1,0 +1,2 @@
+file_name,n_samples,accuracy,f1_score,spearman_correlation,pearson_correlation,mse
+random_baseline_dev2,99,0.1919,0.189,0.0318,0.0298,2.303
