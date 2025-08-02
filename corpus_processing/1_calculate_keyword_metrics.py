@@ -46,7 +46,7 @@ def sample_corpus(input_path: str, output_path: str, max_sentences: int) -> str:
     print(f"Saved first {sentence_count} sentences to {output_path}")
     return output_path
 
-def read_keywords(csv_path: str) -> (list, dict, int):
+def read_keywords(csv_path: str) -> tuple[list, dict, int]:
     variants, score_map, max_len = [], {}, 1
     with open(csv_path, encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -69,7 +69,7 @@ def build_variant_lookup(variants: list) -> dict:
             lookup[tok_tuple] = key
     return lookup
 
-def count_total_sentences_and_tokens(corpus_path: str) -> (int, int):
+def count_total_sentences_and_tokens(corpus_path: str) -> tuple[int, int]:
     """
     Efficiently counts the total number of sentences and tokens in the corpus
     by iterating through the file just once.
@@ -124,7 +124,7 @@ def read_corpus_batches(corpus_path: str, batch_size_sentences: int):
             yield batch_tokens_tags
             gc.collect()
 
-def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> (dict, dict, dict, dict, dict):
+def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> tuple[dict, dict, dict, dict, dict]:
     freq, contexts, pre_tags, post_tags, bigram_counts = defaultdict(int), defaultdict(list), defaultdict(set), defaultdict(set), defaultdict(int)
     total = len(tokens_tags)
     for i in range(total):
