@@ -11,9 +11,12 @@ from tqdm import tqdm
 # Configuration
 # =============================================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt")
-KEYWORDS_CSV = os.path.join(BASE_DIR, "data/keyword_groundtruth.csv")
-METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
+#go one level up to the main project directory because this script is in corpus_processing
+BASE_DIR = os.path.dirname(BASE_DIR)
+
+DATA_PATH = os.path.join(BASE_DIR, "sdewac-v3.txt") #needs to be downloaded and extracted from the zip file
+KEYWORDS_CSV = os.path.join(BASE_DIR, "data/general data (some additional stuff)/keyword_groundtruth.csv")
+METRICS_CSV = os.path.join(BASE_DIR, "data/full data (only for storing, do not use)/keywords_metrics_full.csv")
 
 # Subsampling for testing (set to None to process full corpus)
 SENTENCES_COUNT = None
