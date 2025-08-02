@@ -1,11 +1,8 @@
-# 3_evaluate_metrics.py
-
 import os
 import itertools
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from scipy.stats import spearmanr
 from sklearn.metrics import average_precision_score
 
