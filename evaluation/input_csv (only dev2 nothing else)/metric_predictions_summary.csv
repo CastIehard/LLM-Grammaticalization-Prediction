@@ -1,0 +1,7 @@
+metric,keywords_processed,correlation,threshold_accuracy,metric_min,metric_max,output_file
+occurrences,99,0.3788616779295559,0.494949494949495,0.0,8608086.0,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/occurrences_dev2.csv
+avg_character_count,99,0.23248038703621712,0.35353535353535354,2.0,7.0,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/avg_character_count_dev2.csv
+amount_distinct_neighbors,99,0.37042550643272226,0.48484848484848486,0.0,675138.0,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/amount_distinct_neighbors_dev2.csv
+word_entropy,99,0.31258172494741066,0.4444444444444444,0.0,12.122,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/word_entropy_dev2.csv
+collocation_strength,99,-0.23637582931452625,0.3939393939393939,0.0,19.382,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/collocation_strength_dev2.csv
+synthetic_context_adversity,99,0.36422556525355754,0.5050505050505051,0.0,108.0,/Users/luca/Desktop/UTN/LLMs-for-Classification-of-Grammaticalization-Degrees/evaluation/input_csv (only dev2 nothing else)/synthetic_context_adversity_dev2.csv

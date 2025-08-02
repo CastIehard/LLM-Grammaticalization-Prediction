@@ -1,0 +1,8 @@
+file_name,n_samples,accuracy,f1_score,spearman_correlation,pearson_correlation,mse
+amount_distinct_neighbors_dev2,99,0.4848,0.4504,0.3855,0.3463,1.2727
+avg_character_count_dev2,99,0.3535,0.2877,0.1985,0.1801,1.8889
+collocation_strength_dev2,99,0.3939,0.3739,0.1888,0.1448,1.697
+occurrences_dev2,99,0.4949,0.5057,0.4079,0.4085,1.3737
+random_baseline_dev2,99,0.1919,0.189,0.0318,0.0298,2.303
+synthetic_context_adversity_dev2,99,0.5051,0.5513,0.3492,0.3715,1.4747
+word_entropy_dev2,99,0.4444,0.4507,0.3385,0.34,1.8081

@@ -1,0 +1,100 @@
+keyword,gramm_score,amount_distinct_neighbors,predictions
+zu,4.0,616123,4
+mit,4.0,675138,4
+um,4.0,179372,4
+durch,4.0,263662,4
+vor,4.0,170617,4
+bis,4.0,139588,4
+ohne,4.0,97880,4
+seit,4.0,48354,4
+ab,4.0,88675,4
+auf grund/aufgrund,3.0,29768,4
+hinter,4.0,28864,3
+an hand/anhand,3.0,11461,3
+im fall/im falle,2.0,9910,3
+in höhe,2.0,12969,3
+im lauf/im laufe,3.0,7592,3
+in richtung,2.0,22349,3
+im zusammenhang mit,1.0,12046,3
+zu gunsten/zugunsten,3.0,13492,3
+in folge/infolge,3.0,10867,3
+im vergleich zu/im vergleich mit,1.0,9992,3
+anstatt,3.0,6444,3
+in der zeit,1.0,6356,3
+auf dem hintergrund/vor dem hintergrund,1.0,4798,3
+im vorfeld,3.0,6015,3
+wider,4.0,7815,3
+im interesse,3.0,4000,3
+auf dem gebiet,1.0,4809,3
+mit ausnahme,2.0,2813,3
+zu lasten/zulasten,3.0,4018,3
+in zeiten,2.0,2987,3
+zum zeitpunkt,3.0,2635,3
+auf antrag,3.0,2928,3
+auf dem boden,1.0,4093,3
+zum zweck/zum zwecke,3.0,3628,3
+unter der leitung,2.0,3741,3
+im dienst/im dienste,3.0,3283,3
+für die dauer,1.0,2396,3
+in gestalt,2.0,3082,3
+im zeichen,3.0,1811,3
+zum wohl/zum wohle,3.0,1964,3
+im licht/im lichte,3.0,2253,3
+im zeitalter,3.0,1748,3
+zu ehren,3.0,2598,3
+in anlehnung an,1.0,2582,3
+im geist/im geiste,3.0,2491,3
+halber,4.0,1812,3
+am rand,2.0,2507,3
+unter einbeziehung,3.0,2540,3
+im einklang mit,1.0,1618,3
+in übereinstimmung mit,1.0,1613,3
+in der reihe/aus der reihe,1.0,2242,3
+zu zeiten,2.0,1399,3
+mitsamt,4.0,2980,3
+auf verlangen,3.0,1149,3
+nach dem vorbild,2.0,1906,3
+auf vorschlag,3.0,1039,3
+in begleitung,2.0,1314,3
+zum nachteil,3.0,1368,3
+unter den bedingungen,2.0,1422,3
+auf dem feld,1.0,1769,3
+auf der höhe,2.0,1069,3
+im gefolge,3.0,1243,3
+im verlaufe,3.0,756,3
+im beisein,3.0,1097,3
+unter der voraussetzung,1.0,811,3
+im widerspruch zu/im widerspruch mit,1.0,773,3
+unter dem einfluss,1.0,988,3
+mit bezug auf/unter bezug auf,1.0,1337,3
+im kreise,3.0,1203,3
+aus anlaß,3.0,859,3
+in kontakt mit,1.0,1004,3
+in den reihen,1.0,793,3
+ohne angabe,3.0,606,3
+in abwesenheit,3.0,668,3
+zum schaden,3.0,583,3
+zur erinnerung an,1.0,627,3
+in angelegenheiten,2.0,522,2
+auf veranlassung,3.0,564,3
+in der wahrnehmung,2.0,736,3
+aus dem grund,1.0,460,2
+in erwartung,2.0,553,2
+bei verwendung,2.0,431,2
+in den grenzen,1.0,465,2
+aus dem blickwinkel,1.0,589,3
+nach dem grundsatz,1.0,447,2
+in ansehung,3.0,399,1
+vermöge,4.0,465,2
+im stadium,3.0,400,1
+in vertretung,3.0,407,2
+auf geheiß,3.0,428,2
+für rechnung,3.0,217,1
+unter einschluß,3.0,461,2
+ohne ansehen,3.0,257,1
+in beziehung auf,1.0,365,1
+in der periode,1.0,286,1
+ohne mitwirkung,2.0,206,1
+aus interesse an,1.0,71,1
+vom standpunkt aus,1.0,8,1
+vom gesichtspunkt aus,1.0,0,1
