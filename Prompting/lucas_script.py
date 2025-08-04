@@ -1,24 +1,17 @@
 import os
-import json
 import re
-import csv
-import itertools
 import requests
 import pandas as pd
-import numpy as np
 from tqdm import tqdm
-from scipy.stats import spearmanr
-from sklearn.metrics import average_precision_score
 
 # === Config ===
 LLM_ENDPOINT = "http://127.0.0.1:1234/v1/chat/completions"
 MODEL_NAME = "google/gemma-3-12b"
 INPUT_FILE = "./data/dev data 2 (for testing)/dev_data_2_testing_metrics.csv"
 
-OUTPUT_DIR = "output"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"predictions.csv")
+#please change the description every time you run the code with different prompting or arguments
+description = "definitions_and_few_shot_prompting"
+OUTPUT_PATH = f"./evaluation/input_csv (only dev2 nothing else)/{description}.csv"
 
 # === Prompt Definitions ===
 DEFINITIONS = """Level 1: Very Low Degree of Grammaticalization  
@@ -52,7 +45,7 @@ Label: [1] or Label: [2] or Label: [3] or Label: [4]
 Expected format:  
 Label: [<level>]"""
 
-def call_ollama(prompt):
+def get_llm_response(prompt):
     payload = {
         "messages": [{"role": "user", "content": prompt}],
         "model": MODEL_NAME,
@@ -88,16 +81,16 @@ for _, row in tqdm(df.iterrows(), total=len(df)):
     gramm_score = row["gramm_score"]
     
     prompt = build_prompt(keyword)
-    response = call_ollama(prompt)
+    response = get_llm_response(prompt)
     prediction = extract_label(response)
     
     results.append({
         "keyword": keyword,
         "gramm_score": gramm_score,
-        "prediction": prediction
+        "predictions": prediction
     })
 
 # Save results
 results_df = pd.DataFrame(results)
-results_df.to_csv(OUTPUT_FILE, index=False)
-print(f"✓ Predictions saved to {OUTPUT_FILE}")
+results_df.to_csv(OUTPUT_PATH, index=False)
+print(f"✓ Predictions saved to {OUTPUT_PATH}")
