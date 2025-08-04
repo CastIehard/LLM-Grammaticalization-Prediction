@@ -3,6 +3,7 @@ amount_distinct_neighbors_dev2,99,0.4848,0.4504,0.3855,0.3463,1.2727
 avg_character_count_dev2,99,0.3535,0.2877,0.1985,0.1801,1.8889
 collocation_strength_dev2,99,0.3939,0.3739,0.1888,0.1448,1.697
 gemma_12b_with_definition_role_and_structure,99,0.3838,0.1473,-0.1836,-0.1471,1.5859
+gpt4o_with_definitions_and_structure,95,0.5053,0.5392,0.6666,0.6744,0.6842
 occurrences_dev2,99,0.4949,0.5057,0.4079,0.4085,1.3737
 random_baseline_dev2,99,0.1919,0.189,0.0318,0.0298,2.303
 synthetic_context_adversity_dev2,99,0.5051,0.5513,0.3492,0.3715,1.4747

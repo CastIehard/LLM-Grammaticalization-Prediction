@@ -20,9 +20,9 @@ warnings.filterwarnings('ignore')
 # =============================================================================
 # Configuration
 # =============================================================================
-INPUT_CSV_DIR = "input_csv (only dev2 nothing else)"
-OUTPUT_CSV = "output/evaluation_results.csv"
-OUTPUT_PLOT = "output/evaluation_plot.png"
+INPUT_CSV_DIR = "evaluation/input_csv (only dev2 nothing else)"
+OUTPUT_CSV = "evaluation/output/evaluation_results.csv"
+OUTPUT_PLOT = "evaluation/output/evaluation_plot.png"
 
 
 # =============================================================================
