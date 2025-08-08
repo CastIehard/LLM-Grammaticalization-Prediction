@@ -11,9 +11,12 @@ from tqdm import tqdm
 # Configuration
 # =============================================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data/sdewac-v3.txt")
-KEYWORDS_CSV = os.path.join(BASE_DIR, "data/keyword_groundtruth.csv")
-METRICS_CSV = os.path.join(BASE_DIR, "data/keywords_metrics.csv")
+#go one level up to the main project directory because this script is in corpus_processing
+BASE_DIR = os.path.dirname(BASE_DIR)
+
+DATA_PATH = os.path.join(BASE_DIR, "sdewac-v3.txt") #needs to be downloaded and extracted from the zip file
+KEYWORDS_CSV = os.path.join(BASE_DIR, "data/general data (some additional stuff)/keyword_groundtruth.csv")
+METRICS_CSV = os.path.join(BASE_DIR, "data/full data (only for storing, do not use)/keywords_metrics_full.csv")
 
 # Subsampling for testing (set to None to process full corpus)
 SENTENCES_COUNT = None
@@ -43,7 +46,7 @@ def sample_corpus(input_path: str, output_path: str, max_sentences: int) -> str:
     print(f"Saved first {sentence_count} sentences to {output_path}")
     return output_path
 
-def read_keywords(csv_path: str) -> (list, dict, int):
+def read_keywords(csv_path: str) -> tuple[list, dict, int]:
     variants, score_map, max_len = [], {}, 1
     with open(csv_path, encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -66,7 +69,7 @@ def build_variant_lookup(variants: list) -> dict:
             lookup[tok_tuple] = key
     return lookup
 
-def count_total_sentences_and_tokens(corpus_path: str) -> (int, int):
+def count_total_sentences_and_tokens(corpus_path: str) -> tuple[int, int]:
     """
     Efficiently counts the total number of sentences and tokens in the corpus
     by iterating through the file just once.
@@ -121,7 +124,7 @@ def read_corpus_batches(corpus_path: str, batch_size_sentences: int):
             yield batch_tokens_tags
             gc.collect()
 
-def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> (dict, dict, dict, dict, dict):
+def sliding_window_match(tokens_tags: list, lookup: dict, max_len: int) -> tuple[dict, dict, dict, dict, dict]:
     freq, contexts, pre_tags, post_tags, bigram_counts = defaultdict(int), defaultdict(list), defaultdict(set), defaultdict(set), defaultdict(int)
     total = len(tokens_tags)
     for i in range(total):

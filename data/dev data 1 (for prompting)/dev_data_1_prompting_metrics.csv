@@ -1,0 +1,9 @@
+keyword,occurrences,avg_character_count,amount_distinct_neighbors,word_entropy,collocation_strength,synthetic_context_adversity,gramm_score
+außer,77188,5.0,16479,8.486,6.257,85,4.0
+auf der basis,15092,3.0,6346,8.1,7.738,74,2.0
+für den fall,13090,3.0,3735,6.637,6.607,76,1.0
+gen,10514,3.0,5213,9.415,10.285,84,4.0
+im umfang,3735,2.0,1818,6.894,10.525,58,2.0
+unter verwendung,3043,5.0,1712,7.504,9.323,56,3.0
+zum nutzen,2057,3.0,974,6.907,8.279,60,3.0
+im kontrast zu,374,2.0,274,6.444,10.315,44,1.0
