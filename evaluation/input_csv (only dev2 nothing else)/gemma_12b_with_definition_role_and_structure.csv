@@ -1,0 +1,100 @@
+keyword,gramm_score,predictions
+zu,4.0,2
+mit,4.0,2
+um,4.0,3
+durch,4.0,3
+vor,4.0,2
+bis,4.0,2
+ohne,4.0,3
+seit,4.0,3
+ab,4.0,2
+auf grund/aufgrund,3.0,3
+hinter,4.0,3
+an hand/anhand,3.0,3
+im fall/im falle,2.0,3
+in höhe,2.0,3
+im lauf/im laufe,3.0,3
+in richtung,2.0,3
+im zusammenhang mit,1.0,3
+zu gunsten/zugunsten,3.0,3
+in folge/infolge,3.0,3
+im vergleich zu/im vergleich mit,1.0,3
+anstatt,3.0,3
+in der zeit,1.0,2
+auf dem hintergrund/vor dem hintergrund,1.0,3
+im vorfeld,3.0,3
+wider,4.0,3
+im interesse,3.0,3
+auf dem gebiet,1.0,3
+mit ausnahme,2.0,3
+zu lasten/zulasten,3.0,3
+in zeiten,2.0,1
+zum zeitpunkt,3.0,3
+auf antrag,3.0,3
+auf dem boden,1.0,3
+zum zweck/zum zwecke,3.0,3
+unter der leitung,2.0,3
+im dienst/im dienste,3.0,3
+für die dauer,1.0,3
+in gestalt,2.0,3
+im zeichen,3.0,3
+zum wohl/zum wohle,3.0,3
+im licht/im lichte,3.0,3
+im zeitalter,3.0,3
+zu ehren,3.0,3
+in anlehnung an,1.0,3
+im geist/im geiste,3.0,3
+halber,4.0,3
+am rand,2.0,3
+unter einbeziehung,3.0,3
+im einklang mit,1.0,3
+in übereinstimmung mit,1.0,3
+in der reihe/aus der reihe,1.0,3
+zu zeiten,2.0,3
+mitsamt,4.0,3
+auf verlangen,3.0,3
+nach dem vorbild,2.0,3
+auf vorschlag,3.0,3
+in begleitung,2.0,3
+zum nachteil,3.0,3
+unter den bedingungen,2.0,3
+auf dem feld,1.0,3
+auf der höhe,2.0,3
+im gefolge,3.0,3
+im verlaufe,3.0,3
+im beisein,3.0,3
+unter der voraussetzung,1.0,3
+im widerspruch zu/im widerspruch mit,1.0,3
+unter dem einfluss,1.0,3
+mit bezug auf/unter bezug auf,1.0,3
+im kreise,3.0,3
+aus anlaß,3.0,3
+in kontakt mit,1.0,3
+in den reihen,1.0,3
+ohne angabe,3.0,3
+in abwesenheit,3.0,3
+zum schaden,3.0,3
+zur erinnerung an,1.0,3
+in angelegenheiten,2.0,3
+auf veranlassung,3.0,3
+in der wahrnehmung,2.0,3
+aus dem grund,1.0,3
+in erwartung,2.0,3
+bei verwendung,2.0,3
+in den grenzen,1.0,3
+aus dem blickwinkel,1.0,3
+nach dem grundsatz,1.0,3
+in ansehung,3.0,3
+vermöge,4.0,3
+im stadium,3.0,3
+in vertretung,3.0,3
+auf geheiß,3.0,3
+für rechnung,3.0,1
+unter einschluß,3.0,3
+ohne ansehen,3.0,3
+in beziehung auf,1.0,3
+in der periode,1.0,2
+ohne mitwirkung,2.0,3
+aus interesse an,1.0,3
+vom standpunkt aus,1.0,3
+vom gesichtspunkt aus,1.0,3
