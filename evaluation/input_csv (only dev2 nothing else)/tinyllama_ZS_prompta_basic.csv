@@ -1,0 +1,1664 @@
+keyword,gramm_score,prompt_A,raw_response_A,pred_A
+zu,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zu
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","You have chosen ""Label: [4]"" as the label for this keyword input. The task is to rate the degree of grammaticalization using the following criteria:
+
+1. Preposition (verb + infinitive): The verb must be in the preposition position and formulated with a finite verb stem, as opposed to the auxiliary-infinitive or free verb (the latter being the most common form). 2. Preparsing adjective: The prepared adjective, if present, should modify the main noun rather than functioning as an adjective. 3. Verb and noun: The verb is grammatically correct but not necessarily idiomatic or appropriate in the given context. 4. Noun and verb: The verb modifies the noun but does not have a separate verb form in the present tense. 5. Verbal adjective: There should be no apparent reason to give a verb adjective (e.g., ""He is doing [verb] now""). In summary, the degree of grammaticalization for this keyword input would be a level 4 (non-idiomatic or unidiomatic), meaning that while it meets basic criteria for prepositional phrases and nouns in the given context, the verb and noun are not grammatically correct.",4
+mit,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's how you can format your input and specify the desired level of grammaticalization for the prepposition ""mit"":
+
+Input: Mit (Level: 1)
+
+To rate the degree of grammaticalization using our rating system, just follow these steps:
+
+1. Replace ""Mit"" with one of four labels (1 - Level 1; 2 - Level 2; 3 - Level 3; or 4 - Level 4). For example, if you're rating the degree of grammaticalization for a prepposition that's in the Level 3 category, replace ""mit"" with ""mit (Level: 3)"".
+
+2. Specify your preferred level of grammaticalization using one of our labels (1 - High; 2 - Moderate; 3 - Low; or 4 - Very low). If you want to specify both the degree and level, use a hyphen (-) to separate them. For example, if you're rating the degree of grammaticalization for a prepposition that's in the Level 2 category, replace ""mit"" with ""- Level: 2"".
+
+3. After entering your input, press enter or click on the ""Submit"" button. The text will be rated according to our system and displayed below.
+
+4. If you have any further questions, feel free to ask!",4
+um,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+um
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Responding to your request, I can provide a detailed evaluation based on the given input. The given input ""um"" is a verb phrase used as the keyword in this task. According to our pre-trained German system, we can categorize this input into three levels of grammaticalization:
+1. Low - a simple verb with no infinitive or gerund. It does not have the main verb subject complement.
+2. Medium - a simple verb with an infinitive and a copula (e.g., Kannst du, kannst, oder solltest du?)
+3. High - a verb with a main verb subject complement and the copula or pre-conjugation.
+The given input ""um"" belongs to the level 2 category due to its grammaticalization status. In this case, the input is well-formed in terms of German syntax and shows good grammatical properties that support the main verb's action and the copula's pre-conjugation.",2
+durch,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+durch
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I'd be happy to provide a response on this task. Here are my assessments based on the provided input keyword and label options:
+
+Label (1): [1]
+Given input: durch
+Response: Grammaticalization of preposition is not detected in this input.
+
+Label (2): [2]
+Given input: durach
+Response: Grammaticalization of prepposition is detected but has moderate level of formalism.
+
+Label (3): [3]
+Given input: ˈducch
+Response: Grammaticalization of prepposition is detected but has high degree of formalism. This should be a red flag for some AI systems.
+
+Label (4): [4]
+Given input: ˈduzch
+Response: Grammaticalization of prepposition is detected but has high level of formalism. Recommendation: Use this input with caution, as it may trigger severe grammatical errors in some AI systems.",4
+vor,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+vor
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure! Here's a translated version of your input and labels, with the correct grammaticalization levels:
+
+Input:
+vor
+
+Choose one of four levels to indicate the degree of grammaticalization:
+Label: Vor (1) or Label: Vor (2) or Label: Vor (3) or Label: Vor (4)",4
+bis,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+bis
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization, you need to select one of four labels: ""1"" (lowest), ""2"", ""3"", or ""4"". If you select ""1"", it means that the prepposition is ""bis"". In this case, we can assume that the verb in the sentence is also a prepposition.
+
+For example, let's say the input keyword is ""bis"". 
+
+If we consider the lowest label (i.e., ""1""), then the verb is a prepposition and the sentence contains only one prepposition. In this case, the degree of grammaticalization would be low.
+
+If we select ""2"", it means that the sentence has two preppositions, but the verb still appears to be a prepposition in both. This would indicate a moderate degree of grammaticalization.
+
+If we select ""3"", it means that both the verb and prepposition are considered as separate elements with no coordination or dependence, resulting in a high degree of grammaticalization.
+
+Finally, if we select ""4"", it means that the sentence contains only one prepposition and the verb is considered as a separate element, resulting in a low degree of grammaticalization.",4
+ohne,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+ohne
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear AI assistant,
+
+As a highly trained linguistic tool specializing in German syntax and grammar, I am excited to rate the degree of grammaticalization of the prepposition ""sein"" given as the keyword input. Please provide me with the following information:
+
+Input keyword:  
+ohn
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+---
+
+[1]: The prepposition ""sein"" is generally considered to be simple and straightforward, with no complexities such as inflection or irregularity.
+
+[2]: This prepposition shows a degree of syntactic elaboration, with certain grammatical constructions that deviate from standard German syntax, such as the use of a gerund to indicate possession (e.g., ""sein Päckchen""), the inclusion of the preposition in a sentence as a prepositional phrase (e.g., ""Hochzeit sein Ehemann""), or the insertion of the verb ""sein"" into a main clause (e.g., ""Er hat die Tafel gezeigt"").
+
+[3]: This prepposition is relatively complex, with some verbs being used in prepositional phrases and other constructions such as the infinitive in a sentence that has a gerund as its base verb (e.g., ""Es war so nahrungreich, dass sie nach Hause kam"").
+
+[4]: This prepposition shows the most complex syntactic structure, with various types of auxiliaries and subordinating conjunctions used to express indirect or subjunctive mood, as well as some verbs being used in prepositional phrases.
+
+I hope this information helps me understand your input keyword better! Please let me know if you have any further questions. 
+
+Best regards,  
+[Your Name]",1
+seit,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+seit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I am unable to rate a rating system based on a list of options. However, I can provide you with a sample response that you may find helpful for your task. Your input keyword is ""seit,"" which means ""since.""
+
+to rate the degree of grammaticalization according to the provided label options:
+- [1]: very high level of grammaticalization (e.g., perfect tense, irregular verb form)
+- [2]: high level of grammaticalization (e.g., regular verb form, simple infinitive, passive voice)
+- [3]: moderate level of grammaticalization (e.g., past tense, simple subject, passive voice)
+- [4]: low level of grammaticalization (e.g., imperfect tense, irregular verb form, passive voice)
+
+to select the appropriate label based on your assessment of the degree of grammaticalization:
+a. if you rate ""seit"" as ""high,"" select the ""high"" label;
+b. if you rate ""seit"" as ""moderate,"" select the ""moderate"" label;
+c. if you rate ""seit"" as ""low,"" select the ""low"" label.",4
+ab,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+ab
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response:
+I do not have access to specific data or information. However, based on available literature and examples from other language communities, I can provide an overview of how grammaticalization is viewed in different linguistic traditions. In general, the degree of grammaticalization varies across languages based on a range of factors, including social context, linguistic conventions, and historical influences.
+
+for the given input ""ab"", here are some possible labels or grades that could be assigned to it:
+
+1. [1]: Low grammaticalization, where the keyword's preposition is often used as a non-essential complement to other elements of the sentence (e.g., abcd). This could indicate a more standard or formal use of the prepposition in German, depending on the context and usage.
+
+2. [2]: Moderate grammaticalization, where the keyword's preposition is occasionally used as an additional element of the sentence, but not necessarily a crucial one (e.g., abcd...). This could indicate a more flexible or less standard use of the prepposition in German.
+
+3. [3]: High grammaticalization, where the keyword's prepposition is frequently used as an essential element of the sentence, but not necessarily the only one (e.g., Abc ... ). This could indicate a more rigid or formal use of the prepposition in German, depending on the context and usage.
+
+4. [4]: Extreme grammaticalization, where the keyword's prepposition is used as the sole element of the sentence, with no other elements needed (e.g., Ausab ... ). This could indicate a more innovative or non-standard use of the prepposition in German, depending on the context and usage.
+
+these labels or grades are not absolute and may vary depending on various factors such as historical background, cultural norms, linguistic conventions, and specific contextual information.",4
+auf grund/aufgrund,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf grund/aufgrund
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization of the prepposition given as the keyword input, you need to follow these steps:
+
+1. Identify the keyword: Make sure you are only rating the prepposition and not the sentence as a whole or any other specific structure within the sentence.
+
+2. Read through the text and identify the prepposition in question: If the prepposition is clear from the text, you can proceed with the rating.
+
+3. Choose one of four levels to indicate the degree of grammaticalization: Labels: [1] (most frequent), [2], [3], or [4].
+
+The labels are given below:
+
+[1]: Prepposition has no grammaticalization, e.g. ""auf Grund"" or ""aufgrund"". This is the most common type of prepposition in German syntax and is used for emphasis, clarification, and to indicate the purpose or intent of a sentence.
+
+[2]: In some cases, a prep position can undergo some degree of grammaticalization, e.g. ""ab/in dem Grund"" (“on the basis of”). This type of prepposition is commonly used in certain types of speech, such as legal or academic writing.
+
+[3]: Prepposition that is only slightly grammaticalized, e.g. ""auf Grund/grund"" or ""aufgrundsicherheit"". This type of prep position can occur when the verb, main verb of a sentence, is followed by an indirect object, and there is no need for any other grammaticalization.
+
+[4]: Prepposition that is more heavily grammaticalized, e.g. ""auf Grund/grund"" or ""aufgrundsicherheit"", where the verb has undergone some degree of grammaticalization (e.g. The verb becomes infinitive, and the auxiliary verb has become a preverb). This type of prepposition can be found in more complex sentences or when there is a need for other grammaticalizations.
+
+Once you have identified the prepposition and rated its degree of grammaticalization, you can proceed with the rest of the sentence.",4
+hinter,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+hinter
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to the given material, a highly trained linguistic tool specializing in German syntax and grammaticalization would rate the degree of grammaticalization of the preposition ""hinter"" using the four labels provided. The labels are either ""Label: [1]"" (lowest), ""Label: [2]"", ""Label: [3]"", or ""Label: [4]"".",1
+an hand/anhand,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+an hand/anhand
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","[1]: The preposition is generally standard in German, with only minor deviations in terms of grammaticalisation. This level signifies a relatively neutral position in the overall structure and grammar of the sentence.
+
+[2]: In certain contexts or settings (e.g., formal speech), the use of an hand/anhand as a prepposition can indicate a specific, informal, or even non-standard usage. However, this level does not reflect a major departure from standard grammaticality.
+
+[3]: This is a more complex level that indicates a deviation from standard grammar. For instance, in certain literary contexts, the preposition may be used to convey irony or sarcasm. However, this is still relatively rare and considered an exception rather than the norm.
+
+[4]: This level reflects a highly irregular usage of the prepposition in German. It is typically reserved for more unusual or exotic situations where the grammaticality is at odds with the overall structure of the sentence.",4
+im fall/im falle,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im fall/im falle
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to the provided material, ""Grammaticalization"" is a term used to refer to the process by which the rules and structures of a language are altered over time. In this context, it refers to the way in which certain features of syntax (i.e., the part of speech and structure of sentences) are modified through linguistic evolution.
+
+In your given example, ""im fall/im fall"" is a prepposition, which means it serves as an adverbial modifying the verb fall (""fall/fall""). As such, it cannot be directly grammaticalized. However, it can still be analyzed in terms of syntax. In this context, its syntax would be determined by the rules and structures of German grammar.
+
+In terms of your task, you are given a sentence with a prepposition in it as input. This means that there will be no direct grammaticalization involved. However, you need to determine which level of grammaticalization the prepposition in this example would qualify for based on the rules and structures of German syntax.
+
+To do so, you would need to analyze the sentence and its structure using established German grammar rules and techniques. For instance, you might look at the verb fall (falling) and try to determine whether or not it follows standard German patterns for verb agreement, tense/mood, and subject-verb agreement. Alternatively, you could consider the prepposition itself as a unit in its own right and analyze its syntax by examining its role within the sentence.
+
+Overall, your task is to apply the principles of German grammar and syntax to the given input sentence and determine the degree of grammaticalization for the prepposition im fall/im falle.",0
+in höhe,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in höhe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to German syntax, ""höhe"" falls under Level 2 in the sentence structure. Therefore, the prepposition ""in"" is considered a part of the noun phrase rather than an independent word. The degree of grammaticalization in this case is [1].",1
+im lauf/im laufe,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im lauf/im laufe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response:
+According to the provided input and labeling, the given prepposition (im lauf/im laufe) falls under Level 1 of grammaticalization.",1
+in richtung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in richtung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure! Here's a sample translation with the appropriate labels:
+
+""German syntax and grammaticalization"": Level 1 (Nominative case)
+The preparation in direction:  
+in Richtigung  
+Translation of ""in richtung"" into English: in the right direction.",1
+im zusammenhang mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im zusammenhang mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I am not capable of rating or categorizing data based on linguistic analysis. However, here are some general guidelines to help you determine the degree of grammaticalization in the given prepposition:
+
+1. Consider the context and sentence structure: The prepposition is usually placed before the noun that describes the meaning of the sentence. It's essential to understand the context of the sentence, its subject, and verb. When there are few or no words preceding the prepposition, it indicates a simple statement. On the other hand, if multiple words precede the prepposition, it could indicate complex sentences or more detailed explanations.
+
+2. Look for parallelism: Parallelism refers to the repetition of grammatical elements in adjacent clauses. Preppositions with similar grammatical features can be considered as a group of like sentences. Examples include ""In this case"" (in the same clause), ""According to them"" (parallel to the sentence before it).
+
+3. Consider the function: In some cases, a prepposition may serve a different purpose or help convey a different meaning than it normally does. For example, if ""with regard to"" is used in a sentence or dialogue, it could indicate that the topic being discussed is being presented in a different way compared to how it would typically be discussed.
+
+4. Check for idiomaticity: Preppositions are often used in idioms and figurative expressions. Look for similarities between the prepposition and other words or phrases in the sentence, such as ""in this case,"" ""as a matter of fact,"" ""in spite of,"" etc.
+
+remember that the degree of grammaticalization may vary depending on various factors, so always check with specific contexts to determine if it meets your requirements.",4
+zu gunsten/zugunsten,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zu gunsten/zugunsten
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response:
+
+According to the given input, zu gunsten/zugunsten is a preposition that does not fall into any specific grammatical category. Therefore, the correct label for this keyword should be ""Label: [4]"" based on the four-level classification system for German syntax and grammaticalization.",4
+in folge/infolge,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in folge/infolge
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Given input: ""in folge/infolge""
+
+Grade level: [1]
+
+The prepposition ""in folge"" is considered a standard, grammatically neutral form of the German verb ""folgen"" in its own right. The degree of grammaticalization for this prepposition depends on its context and the surrounding sentence, as it may indicate clarification or additional information provided by the speaker or the listener. In the given input, ""in folge/infolge"" is considered a standard, grammatically neutral form of the verb ""folgen,"" so it does not exhibit any particular degree of grammaticalization.",1
+im vergleich zu/im vergleich mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im vergleich zu/im vergleich mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Input keyword:  
+verlagenscheiße
+
+Choose two options to rate the degree of grammarialization as follows:
+
+Label: [A] or Label: [B] or Label: [C] or Label: [D]
+
+A) [1]: No grammaticalization at all, the prepposition should not be included in the sentence.
+B) [2]: The prepposition is used as a verb prefix to indicate an action or state of being that follows after the main verb in the sentence (e.g., ""The boy climbed up the hill"").
+C) [3]: The prepposition modifies a noun that functions as a subject, e.g., ""The girl ate the apple."" 
+D) [4]: The prepposition describes a state of being or an action that is not followed by another verb (e.g., ""The train passed through the tunnel""), in which case it is used as part of a prepositional phrase.",4
+anstatt,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+anstatt
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization of the prepposition ""anstatt"" given as the keyword input, you may choose one of four levels based on the following labels:
+
+1. Grammatically correct (Label: [1]) - The prepposition is correctly used in sentence construction and presents itself as a part of speech.
+
+2. Semantically appropriate (Label: [2]) - The prepposition appears to serve a purpose that is consistent with the grammaticalization requirements of German syntax.
+
+3. Logically consistent (Label: [3]) - The prepposition aligns with expected logical relationships between words and phrases in a sentence.
+
+4. Extraordinarily ungrammatical (Label: [4]) - There is a severe mismatch between the grammatical requirements of German syntax and the use of ""anstatt"" as the keyword input. In this instance, the prepposition appears to be used in a non-standard or unusual way, possibly indicative of a lack of understanding of German syntax or the English-German translation process.",1
+in der zeit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in der zeit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I don't have access to a specific application or language, but in general, German syntax and grammaticalization involve evaluating the overall structure and coherence of sentences, including their use of prepposition phrases, pronouns, and other elements. The degree of grammaticalization is determined by various factors such as word order, sentence structure, verb choice, and contextual relevance. 
+
+to rate the degree of grammaticalization for a given prepposition phrase, you would need to consider how it affects the overall structure of the sentence, including its verb choice, subject-object agreement, and other features. The specific level or label used to indicate the degree of grammaticalization would depend on the specific context and language usage.",0
+auf dem hintergrund/vor dem hintergrund,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf dem hintergrund/vor dem hintergrund
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","The following is a brief description of how the German syntax and grammaticalization keyword can be inputted into the AI assistant and how it would output the corresponding label(s):
+
+German syntax and grammaticalization keyword: auf dem hintergrund/vor dem hintergrund
+Input:  
+auf dem hintergrund
+
+Label: [1]: 50% - 80% (Germ. ""gegenstand der Hintergrund"")
+
+German syntax and grammaticalization keyword: vor dem hintergrund
+Input:  
+vor dem hintergrund
+
+Label: [2]: 50% - 80% (Germ. ""objekt des Hintergrunds"")
+
+German syntax and grammaticalization keyword: auf dem hintergrund
+Input:  
+auf dem hintergrund
+
+Label: [3]: 100% (Germ. ""Das geht nach dem Hintergrund"")
+
+German syntax and grammaticalization keyword: ohne den hintergrund
+Input:  
+noch dem hintergrund
+
+Label: [4]: 0% - 20% (Germ. ""Beim Hintergrund wäre es nur noch möglich, etwas zu tun"")",1
+im vorfeld,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im vorfeld
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Answer: The preposition given as the keyword (im vorfeld) has been rated according to the label given as its optional input.
+
+The label ""[1]"" indicates a relatively high degree of grammaticalization, while ""Label: [2]"" means a moderate degree, and ""Label: [3]"" indicates a slightly lower level of grammaticalization, while ""Label: [4]"" is considered minimal or non-existent. 
+These labels are used to provide additional context and interpretation for the rater's decision, and should not be relied upon as a definitive measure of grammaticality.",2
+wider,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+wider
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure! Here's how you can use our machine learning algorithm to rate the degree of grammaticalization for the prepposition ""wider"" based on the input given as a keyword:
+
+1. Import and preprocess the data (e.g., clean, tokenize, and split into sentences).
+2. Train and evaluate your model using the provided dataset using our API.
+3. Generate predictions for each sentence in the test set and calculate its grammaticalization level based on your evaluation results.
+4. Output the predicted level and corresponding score for each sentence.",4
+im interesse,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im interesse
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Question: ""How much grammar is there in the prepposition given as the keyword?""
+Response: According to the provided input, the question requires a response indicating how grammatical the prepposition is according to four labels (1, 2, 3 or 4). The correct response would be ""Label: [4]"" since it indicates the highest degree of grammar.",4
+auf dem gebiet,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf dem gebiet
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to your input, the given prepposition ""auf dem gebiet"" can be considered as follows:
+
+- Level 1: The prepposition is generally used without adverbial modifying words and may be followed by an article or a noun.
+- Level 2: In some contexts (e.g., formal writing, legal documents), the prepposition ""auf dem gebiet"" can be followed by a pronoun or adjective indicating the place or location of something. This usage is generally limited to specific locations or areas and not to abstract places or concepts.
+- Level 3: In some contexts (e.g., colloquial speech, everyday conversation), the prepposition ""auf dem gebiet"" may be followed by a pronoun indicating the specific location or area of concern. This usage is more common in colloquial speech and varies widely depending on the speaker's dialect or regional accent.
+- Level 4: In some contexts (e.g., scientific or technical writing), the prepposition ""auf dem gebiet"" may be followed by a noun indicating the specific location or area of concern, but this usage is generally limited to more formal and specialized settings.",4
+mit ausnahme,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+mit ausnahme
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's a possible response based on the given input and provided labels:
+
+Input keyword: mit ausnahme
+
+Choose one of four levels to indicate the degree of grammaticalization:
+
+Label: [1]: minimal grammaticalization (very basic syntax)
+    - label: ""mit ausnahme"" means ""except for"", e.g. ""Besuchen Sie uns außerhalb von Montag, Dienstag und Freitag.""
+    - Example sentence: ""Es gibt zwei Tageschefs: eine für den Montag, eine für den Dienstag und eine für den Freitag.""
+
+Label: [2]: minimal grammaticalization (basic syntax)
+    - label: ""mit ausnahme"" means ""except for"", e.g. ""Besuchen Sie uns außerhalb von Tageschefs.""
+    - Example sentence: ""Es gibt zwei Tageschefs: eine für den Montag, eine für den Dienstag und eine für den Freitag.""
+
+Label: [3]: basic grammaticalization (slightly more complex syntax)
+    - label: ""mit ausnahme"" means ""except for"", e.g. ""Besuchen Sie uns außerhalb von Tageschefs, die einen Montag, Dienstag und Freitag haben.""
+    - Example sentence: ""Es gibt zwei Tageschefs: eine für den Montag, eine für den Dienstag und eine für den Freitag.""
+
+Label: [4]: intermediate grammaticalization (some more complex syntax)
+    - label: ""mit ausnahme"" means ""except for"", e.g. ""Besuchen Sie uns außerhalb von Tageschefs, die einen Montag, Dienstag und Freitag haben.""
+    - Example sentence: ""Es gibt zwei Tageschefs: eine für den Montag, eine für den Dienstag und eine für den Freitag.""
+
+Conclusion: Based on the given input and provided labels, the preposition mit ausgenommen is a minor grammaticalization of the preposition in the given text.",1
+zu lasten/zulasten,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zu lasten/zulasten
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Responses:
+- [1]: Low level of grammaticalization (no mention of verb tense or case)
+- [2]: Moderate level of grammaticalization (some verbal inflection and case marking, but not all)
+- [3]: High level of grammaticalization (all verbal inflection and case marking, with additional features such as adverbial phrase or coordinating conjunction)
+- [4]: Exemplary level of grammaticalization (perfect verb tense, perfect aspect, perfect tense with perfect marker, all case markings, and all adverbial phrases)",4
+in zeiten,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in zeiten
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Responding according to: 
+Question: Which label would you choose for the degree of grammaticalization in the preposition ""in zeiten""?
+
+Response: I do not have access to specific input data or information about the given text. Please provide me with the provided text and the keywords so that I can evaluate the degree of grammaticalization for each level.",0
+zum zeitpunkt,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zum zeitpunkt
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization, you can select between the following labels from the provided list:
+- [1]: Mostly preposition-only (i.e., not using any other grammatical markers to indicate time)
+- [2]: Preposition with a few additional verb tense indicators
+- [3]: Preposition with some additional verb tense indicators but less than average
+- [4]: Preposition with more indicators of tense than usual or without indicators at all (i.e., less grammaticalization)",4
+auf antrag,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf antrag
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear Linguistic Tool,
+
+Thank you for providing me with the keyword ""auf antrag"" and the choice of degree of grammaticalization. I have completed the task and would like to submit my final ratings for your evaluation.
+
+Here are the labels assigned to each option:
+
+1) Grammatically correct: This means that there is no apparent grammatical mistake or ambiguity in the given sentence. The preposition ""auf antrag"" corresponds to a standard German preposition and is correctly placed relative to the main clause.
+
+2) Modified grammatically: This refers to a situation where the preperson or preverb of the main clause has been moved to a position that conflicts with other words in the sentence, such as moving the verb ""antrag"" to after the noun phrase ""auf"". This can cause awkwardness and confusion.
+
+3) Overly formal: In some cases, the word order or grammaticality of the preperson or preverb can be considered overly formal. Examples include moving the word ""Antrag"" first instead of second or moving the preposition ""auf"" last in a sentence, rather than first.
+
+4) Undetermined: This is an unclassified category that means there are no clear indications as to whether the given sentence has grammatically correct or modified wording.
+
+Please review my ratings and provide feedback on how these labels align with your expectations for this task. I would appreciate it if you could also explain why each label applies to the given text in detail. 
+
+Thank you for your time and consideration. Please let me know if there's anything else I can do to assist you further.
+
+Best regards,
+
+[Your Name]",4
+auf dem boden,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf dem boden
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear [User],
+
+Thank you for providing me with the prepession input ""auf dem boden"". Here's what I can do to assist you:
+
+Grammaticalization: Based on German syntax, this prepession has three levels of grammaticalization. The first level is [1] and indicates that there is no grammaticalization (e.g., ""auf dem Bodensatz""). The second level is [2] and indicates moderate grammaticalization, where there are some changes in syntax (e.g., ""auf dem Bodensatz auf"". The third level is [3] or [4], indicating severe grammaticalization, where significant changes in syntax are made (e.g., ""auf dem Bodensatz auf den Boden"").
+
+I hope this helps! Please let me know if you have any further questions. Best regards,
+[Your Name]",4
+zum zweck/zum zwecke,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zum zweck/zum zwecke
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's a revised version of your task with four possible labels: 
+
+Input keyword:  
+zuum zweck/zuum zwecke
+
+Choose one of the following labels to indicate the degree of grammaticalization:
+
+1. Label: [1] = Very low to no German syntax and grammaticalization (e.g., ""zum"" in front of a verb or object)
+2. Label: [2] = Low to moderate German syntax and grammaticalization (e.g., ""zu"" as a prep position)
+3. Label: [3] = Moderate to high German syntax and grammaticalization (e.g., ""zu"" in front of a verb or object, but not as the sole prep position)
+4. Label: [4] = High to extreme German syntax and grammaticalization (e.g., ""zu"" as the only prep position)
+
+You can choose one label that best fits your interpretation of the given keywords.",1
+unter der leitung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter der leitung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Responding to your request, I will rate the degree of grammaticalization of the prepposition given as ""unter der leituung"" using the labels ""1,"" ""2,"" ""3,"" and ""4.""
+
+According to the provided input, the following labels are available:
+- ""1"" indicates a standard German prepposition, such as ""auf dem"" or ""auf dem Weg."" This label can be used if there is no indication of any other potential prefix or suffix.
+- ""2"" indicates a non-standard German prepposition that does not require the use of any additional prefix or suffix, such as ""im Grunde"" or ""vor der Zeit"".
+- ""3"" indicates an unmarked German prepposition, such as the German adverb ""hinunter"" (at the end) or the German pronoun ""sein"" (his/her/its).
+- ""4"" indicates a rare German prepposition that has no clear grammatical significance, such as ""auf dem Schlafwagen"" or ""im Sinn.""
+
+Based on this information, I would rate the degree of grammaticalization of the given prepposition ""unter der lei tuung"" as ""4"". This means that the provided input does not indicate a standard German prepposition and that there is no other indication for the use of any additional prefix or suffix. Therefore, it can be considered a non-standard prepposition.",4
+im dienst/im dienste,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im dienst/im dienste
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I can rate the degree of grammaticalization based on the keyword input you provided, ""im diensst/im dieinste"". Here are my ratings for each option:
+
+1. [1]: The prep position in the German sentence ""im dieinsst"" is marked with a subordinating conjunction or particle (e.g., ""im"", ""die"", ""ins"", ""sein"", ""der"", etc.). According to the rules of syntax, this position typically indicates an object and its relationship to the subject (the verb in this case). In English, this same position could be marked with an adverb like ""nearly"", ""lately"", or ""last"".
+
+2. [2]: The prep position in the German sentence ""im dieinste"" is not marked with any subordinating conjunction or particle, and instead represents a qualification or limitation of the main verb (the subject). For example, ""Ich bin ein Mann"" means I am a man, but ""ich bin kein Mann"" means I am not a man.
+
+3. [3]: The prep position in the German sentence ""im dieinsst"" is marked with an adverb that functions as an adjectival modifier (like ""loudly"", ""softly"", etc.). This adverb typically indicates the intensity or quality of the action being described (e.g., ""briskly"", ""quietly"", ""graciously"", ""exclusively"").
+
+4. [4]: The prep position in the German sentence ""im dieinsst"" is not marked with any adverb, and instead represents a qualification or limitation of another sentence (the verb) within a larger sentence structure. This qualification typically indicates that the subject or indirect object in the main sentence (i.e., the main clause) is an additional element, and that it cannot be replaced by the verb alone.
+
+Overall, I would rate ""im dieinsst"" as being marked with a subordinating conjunction or particle (the prep position), indicating that it represents a qualification or limitation of the main verb in a sentence structured like: 
+
+- Verb
+- Subject, indirect object (if present)
+- Adverb(s) (to indicate intensity or quality)
+
+Thus, ""im dieinsst"" would be marked as being the lowest degree of grammaticalization.",4
+für die dauer,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+für die dauer
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: 
+For German syntax and grammaticalization, the keyword is ""dauer"" given as input. The answer to this question is classified into four levels, each representing a specific degree of grammar complexity in German syntax. The choice between labels [1] or [2], [3], or [4] indicates the level of grammaticalization.
+
+[1]: Level 1: Modifier adjuncts and prepositions are considered as simple adverbs, with no significant grammaticalization. This is the lowest level in which German syntax can be understood at a basic level.
+
+[2]: Level 2: Simple adverbs and prepositions are considered to be complex with minor grammaticalization, with the addition of some rules for their placement in sentence structure. However, they do not require significant change in the written text.
+
+[3]: Level 3: Adverbial phrases with a complex syntax have minor grammaticalization with slight changes in sentence structure, but are not considered to be too complicated.
+
+[4]: Level 4: Adverbial phrases and prepositions that are more complex than those in levels 1 or 2 require some significant changes in the written text due to their placement and syntax.
+
+Overall, for German syntax and grammaticalization, it is recommended to use level 3 or above as the keyword input.",3
+in gestalt,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in gestalt
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's a possible rating for the prepession input ""in gestalt"" based on the four levels described in the given text:
+
+Level 1: [1]: This is an example sentence that shows typical German syntax and grammar. It uses prepositional phrases with subject-verb agreement, as well as coordinating conjunctions and object determination by indirect object marker. The verb form has a past tense (the main verb of the sentence) and demonstrative particles in the genitive case (""in"" in the genitive case usually indicates possession or an adjective describing the possessor).
+
+Level 2: [2]: This is an example sentence with slight deviations from typical German syntax and grammar. The prepositional phrase has a different verb form than ""in"", but still follows subject-verb agreement, as well as some coordinating conjunctions and indirect object markers in the same position. The genitive case of the main verb (""in"" in the genitive case usually indicates possession or an adjective describing the possessor) is used instead of ""in"".
+
+Level 3: [3]: This is a sentence with a slightly more complex grammar, but still shows some deviation from typical German syntax and grammar. The prepositional phrase has a different verb form than ""in"", but still follows subject-verb agreement, as well as some coordinating conjunctions in the same position. The genitive case of the main verb (""in"" in the genitive case usually indicates possession or an adjective describing the possessor) is used instead of ""in"".
+
+Level 4: [4]: This is a sentence with no deviation from typical German syntax and grammar, but still shows some deviations. The prepositional phrase has a different verb form than ""in"", but still follows subject-verb agreement, as well as some coordinating conjunctions in the same position. The genitive case of the main verb (""in"" in the genitive case usually indicates possession or an adjective describing the possessor) is used instead of ""in"".
+
+Based on these levels, you can give the sentence a rating of 1 to indicate a highly standardized German grammar and syntax, with some deviations from it. You could also use other criteria such as subject-verb agreement, indirect object markers, adjective description by direct object marker or possessive determination by genitive case to assess the degree of grammaticalization.",1
+im zeichen,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im zeichen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: Based on the given material, the keyword ""im zeichen"" refers to a sentence containing a prepposition (adverb). As per German syntax, the prepposition in this case would have to be marked as a verb phrase in order for it to be considered grammatical. 
+
+Levels of grammaticalization: 
+1) No Prepposition Marked: This is the most basic form of prepposition marking, where the prepposition is not introduced as part of a word or phrase. In this case, ""im zeichen"" is an adjective clause with a preposition-less verb phrase inserted in between.
+
+2) Verb Phrase Marked: As shown by ""im zeichen,"" the prepposition has been marked as a verb phrase that serves as a complement to the main verb. This form of marking is common for simple and frequent objects, as well as for adjectives and other nouns.
+
+3) Adverb Phrase Marked: In this case, the prepposition has been marked as an adverbial phrase introduced in order to qualify or clarify the main verb. This form of marking is common for objects that are not simple or frequent, such as adjectives and other non-nouns.
+
+4) Verb Phrase Marked: In this case, the prepposition has been marked as a preposition-based subordinate clause that serves to modify or qualify the main verb, as in ""Ich bin ein Mann."" This form of marking is also common for objects that are not simple or frequent, such as adjectives and other non-nouns.
+
+In summary, the given sentence ""im zeichen"" contains a prepposition marked as an adjective clause with a preposition-based verb phrase inserted in between.",4
+zum wohl/zum wohle,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zum wohl/zum wohle
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear AI assistant,
+
+You are a highly trained linguistic tool specializing in German syntax and grammaticalization. It has been given the task to rate the degree of grammaticalization of the prepposition ""zu möchtest"" given as the keyword input. 
+
+Here are your options:
+
+1) [1] - Lowest possible level of grammaticalization, indicating that the verb is not subject to any prepositional case.
+
+2) [2] - Medium level of grammaticalization, indicating that the verb has one-sided object-specificity in the prepositional phrase, but with sufficient syntactic flexibility to allow for more than one object. 
+
+3) [3] - Highest possible level of grammaticalization, indicating that the verb is subject to multiple prepositional cases and/or more complex inflectional forms (e.g., the verb can have multiple objects with different grammatical roles).
+
+4) [4] - Most sophisticated level of grammaticalization, indicating that the verb is most highly dependent on its object in the prepositional phrase and has a complex lexicon to express more precise object-specificity. 
+
+Please rate the degree of grammaticalization for ""zu möchtest"" based on these labels and explain your rating choice as well as any additional comments or notes you may have. 
+
+Thank you for your assistance.",4
+im licht/im lichte,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im licht/im lichte
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Input keyword: im licht
+
+Response:
+Certainly, here are the four levels to indicate the degree of grammaticalization:
+- [1]: Unmarked - the prepposition is not marked in German syntax and does not contribute to its grammaticality
+- Label: [2]: Licht/Licht = Light, not prepositions, marking not possible due to non-existence of lightness/lightness/Lichtness
+- Label: [3]: Licht = Light, preposition as a marker in this sense is unmarked, but it does contribute to the meaning of the sentence (ie. A noun or adjective referring to light)
+- Label: [4]: Licht/Im Licht = Light/In Lightness/Lichtness, marked preposition with lightness (i.e. Not a preposition in this sense and not part of the main verb)
+
+Thanks for the input!",2
+im zeitalter,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im zeitalter
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I can provide you with the suggested ratings based on my AI skills. Here are the ratings for each level:
+
+Levels:
+1: Very low grammaticalization (e.g., ""im zeitalter"") or non-grammaticalized (e.g., ""im zeitalter"")
+2: Limited grammaticalization (e.g., ""in das Jahr 1984"", ""an den Tagen des 16. Juni 2021"", etc.) or somewhat grammaticalized (e.g., ""auf den 17. Juni 2021"")
+3: Moderate grammaticalization (e.g., ""zu Beginn der 21. Jahrhundert"", ""bis zum Jahr 2030"", etc.) or somewhat more grammaticalized (e.g., ""vor 30 Jahren"", ""bis 2050"", etc.)
+4: Strong or very strong grammaticalization (e.g., ""als einstein war er"", ""auf dem Mars war es"", ""vom 17. Juni bis zum 30. September 2021"")",4
+zu ehren,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zu ehren
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's a sample submission using the given input and labels:
+
+Input: zu ehren
+Level: [1]
+
+Output: 
+Grammaticalization Level: 1 (Narrow) 
+
+Label: 1
+
+In this instance, the verb ""zu"" (to) is in the prepposition position before the noun ""ehren"" (happiness). The verb is subject to the main clause of the sentence. The main verb in this case is ""sein"" (be), which requires the prepposition before it. Based on this, we categorize the sentence as one where the prepposition is not fully marked, so we place it in level 1 for a narrow grammaticalization level.",1
+in anlehnung an,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in anlehnung an
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response:
+- Based on the given input, the appropriate label for the preposition ""in anlehnung an"" is ""Label: [4]"" as it indicates a highly developed and fully developed grammar. The grammar in this case has gone through thorough analysis and correction to produce a completely grammaticalized sentence.",4
+im geist/im geiste,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im geist/im geiste
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear AI assistant,
+
+Thank you for your hard work and dedication in providing me with helpful insights on my German syntax. As requested, please rate the degree of grammaticalization (or level) of the prepposition ""im geist/im geiste"" as input keyword. 
+
+Choose one of four labels to indicate the degree of grammaticalization:
+
+- [1]: The prepposition ""im geist/im geiste"" is not marked with any grammatical features, such as prepositional case or inflectional endings.
+- [2]: The prepposition ""im geist/im geiste"" has some features that indicate the presence of a grammaticalized particle (e.g., infinitive ending or complementizer), but not enough to warrant a specific label.
+- [3]: The prepposition ""im geist/im geiste"" has few features indicating its grammaticalization, and is more likely to be treated as an adverb or coordinating conjunction.
+- [4]: The prepposition ""im geist/im geiste"" has all the necessary features of a prepositional phrase, making it a valid object marker or predicate nominative.
+
+Feel free to let me know your opinion on this subject. I will take note of your feedback and keep improving my AI capabilities in the future!  
+
+Kind regards,  
+[Your Name]",4
+halber,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+halber
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","[1]: Not at all, but it can be further simplified to ""not much"".
+
+[2]: Minimal, with some slight modifications. For example, ""in the first instance"" or ""somewhat in the first instance"".
+
+[3]: Slightly more extensive, such as ""first instance"" or ""some instances of a kind"".
+
+[4]: Extensive, covering all possible instances. Examples: ""as a rule"", ""for example"", ""in general"", etc.",4
+am rand,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+am rand
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","In this case, I am unable to process or interpret input from humans. However, based on standard linguistic principles and the given keywords provided in this task, the following grades can be assigned to each label/level to indicate the degree of grammaticalization:
+
+1. [1]: This label indicates a minimal level of grammaticalization where the prepposition is simply attached to the noun phrase or object and serves only as a connecting element. It does not follow any grammatical rules, such as determining the subject or object of an expression, or exhibiting certain grammatical properties.
+
+2. [2]: This label indicates a high level of grammaticalization where the prepposition is structurally intertwined with other parts of speech and follows specific grammatical rules, such as specifying the subject or object of an expression or demonstrating certain grammatical properties.
+
+3. [3]: This label indicates a low level of grammaticalization where the prepposition serves only as a connecting element between two sentences, but does not necessarily follow specific grammatical rules. It may deviate from them, making it more challenging for native speakers to understand or use correctly.
+
+4. [4]: This label indicates a very low level of grammaticalization where the prepposition is simply attached to an indefinite article or pronoun and does not follow any specific grammatical rules. It may be used ungrammatically, leading to confusion for native speakers.",4
+unter einbeziehung,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter einbeziehung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I can help with that. Here's a sample answer for this task:
+
+Input keyword: 
+unter einbeziehung
+
+Rating: [1]",1
+im einklang mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im einklang mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Given text: You are a highly trained linguistic tool specializing in German syntax and grammaticalization.
+
+Task:
+Rate the degree of grammaticalization of the prepposition given as the keyword input.
+
+Input Keyword:  
+im einklang mit",0
+in übereinstimmung mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in übereinstimmung mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear AI assistant,
+
+I am writing to request your assistance in rating the degree of grammaticalization of the prepposition given as the keyword input. 
+
+Here is a brief summary of the task: 
+
+- Input keyword: in übereinstimmung mit
+- Choose one of four levels to indicate the degree of grammaticalization:
+  - Label: [1] = minimal grammaticalization (or preposition only)
+  - Label: [2] = minimal grammaticalization (with infinitive or verbal noun)
+  - Label: [3] = minimal grammaticalization (with infinitive)
+  - Label: [4] = maximal grammaticalization (or verb + infinitive)
+- Your task is to select the appropriate level based on the given input.
+
+Thank you for your assistance, and I hope this task goes smoothly!",1
+in der reihe/aus der reihe,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in der reihe/aus der reihe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Input keyword:
+in der reih/aus der reihe
+
+Choose one of four levels to indicate the degree of grammaticalization:
+Label: [1]: (no label)
+Label: [2]: A mildly formal and informal use with occasional inflections and other ornaments
+Label: [3]: A more formal and syntactic variant, less likely to be encountered in written texts due to its rarity
+Label: [4]: A highly formalized and rigidly fixed use with strict rules for word order and syntax.",1
+zu zeiten,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zu zeiten
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization according to the given prepposition, use one of the four labels provided as choices. For example:
+
+If you select ""Label: [1]"" in the input, your output will be based on Level 1 (Grammaticalization Stage A) of the German syntax and grammaticalization hierarchy, which includes the phrase-initial prepposition position. 
+
+Alternatively, if you choose ""Label: [2]"" or ""Label: [3]"" in the input, your output will be based on Level 2 (Grammaticalization Stage B) of the German syntax and grammaticalization hierarchy, which includes the phrase-initial prepposition position.
+
+If you choose ""Label: [4]"" in the input, your output will be based on Level 3 (Grammaticalization Stage C) of the German syntax and grammaticalization hierarchy, which includes the phrase-initial prepposition position.
+
+Overall, using one of these four labels can provide a better understanding of how the phrase-initial preposition is used in German syntax and grammar.",1
+mitsamt,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+mitsamt
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not have access to the specifics of your given input keyword. However, in this case, the four levels of grammaticalization can be interpreted as follows:
+
+1) Low: the preposition does not appear to undergo any grammatical changes, such as adding an ""mit"" or ""am"" before the verb and modifying its meaning or tone. In other words, it's a simple word that appears before the verb in the sentence.
+
+2) Medium: the prepposition is altered slightly in terms of word order and/or tone, but still conveys the same information as the unmodified ""mitsamt"" (German for ""together"").
+
+3) High: the prepposition undergoes significant grammatical changes such as adding an ""am"" before each verb to indicate a more complex relationship between the subject and the object, or modifying its meaning. For example, ""mit am anderen"" might mean ""with another"", while ""mit dem gleichen"" would mean ""with the same"".
+
+4) Extreme: the prepposition undergoes complete grammatical changes such as adding an additional verb to indicate a more complex relationship between the subject and object, or modifying its meaning. An example could be ""mit mit denen"" (German for ""together with those""), which means ""with other people."" 
+
+in this case, based on the given input keyword ""mitsamt"", it's possible that the prepposition would fall into label ""low"", but more detailed analysis would need to be conducted through your language model.",4
+auf verlangen,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf verlangen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear User,
+
+Your prepession input has been rated using the following labels:
+
+- Level 1: (no grammaticalization)
+- Level 2: (some minimal grammaticalization)
+- Level 3: (limited grammaticalization)
+- Level 4: (very limited grammaticalization)
+
+Based on this rating, it can be determined that the prepession input falls under Level 1.",1
+nach dem vorbild,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+nach dem vorbild
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","In German syntax and grammar, after the example is used as the keyword, it indicates a level of syntactical complexity. Here are the levels and their corresponding labels:
+
+1. Level 1 (Label: [1]) - Preposition is generally straightforward and does not require additional grammaticalization.
+2. Level 2 (Label: [2]) - Prepposition with auxiliary verb and other prepositions can be expressed in German syntax with a variety of options, such as a different word order or an alternative verb form.
+3. Level 3 (Label: [3]) - With auxiliaries, the grammaticalization can be more complex and requires specialized linguistic tools to properly express the meaning.
+4. Level 4 (Label: [4]) - This level requires additional syntactic analysis to fully understand the intended meaning of the preposition.
+
+To rate the degree of grammaticalization, you should select one of these labels from a scale based on your familiarity with German syntax and grammar. For example, if you have studied German for years and are comfortable with the basic concepts, you could rate Level 1 (Label: [1]) as ""Level 1"" or Level 2 (Label: [2]) as ""Level 3.""",1
+auf vorschlag,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf vorschlag
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: Based on the given input, ""auf vorschlag"" is a German preposition, and the question requires an evaluation of the degree of grammaticalization. The available labels (1), (2), (3), or (4) indicate that the degree of grammaticalization can be rated as [1] (mostly conventional), [2] (somewhat formal), [3] (sometimes formal), or [4] (extreme formal).
+
+In this case, ""auf vorschlag"" can be considered a somewhat formal prepposition. Based on the given context, the word ""vorschlag"" usually indicates some sort of proposal, and in this case, it is suggested to give some additional information about what the writer might propose for the reader's consideration.",4
+in begleitung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in begleitung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: Based on the given input ""in begleituing"", I can rate the degree of grammaticalization as follows:
+
+1. Level 1: The prepposition is generally regarded as ungrammatical in German syntax, but can occasionally be treated in a specific sense or with other means. For example, the verb ""beginnen"" (to begin) may come after a prepposition in certain contexts, such as the beginning of a sentence.
+
+2. Level 2: The prepposition is seen by some scholars as a more complex construct that can be treated as a part of the main clause or used to indicate an additional aspect of an event or process. For example, ""in Begleitzeit"" (with assistance) is used in certain contexts to refer to helpers who are involved in supporting a particular aspect of an event or process.
+
+3. Level 3: The prepposition may be treated as a purely syntactic element, with no semantic value attached. This can be seen by comparing the phrase ""in Begleitzeit"" (with assistance) with its equivalent in English, which is used to refer to helpers in the context of supporting an event or process.
+
+4. Level 4: In some cases, the prepposition may be considered a mere glitch, and is not treated as a specific part of a sentence or clause. However, this does not necessarily imply that such a situation cannot occur within certain grammatical constructions in German syntax, such as in some idiomatic expressions.",4
+zum nachteil,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zum nachteil
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's a sample output for the given input with the desired label:
+
+Label: [2]
+Grade: A+
+
+The German syntax and grammaticalization level labeled ""zuum nachteil"" is considered to be of a higher degree of complexity or sophistication than those labeled ""1"" or ""3."" The output indicates that the text falls within the range of expertise of a highly trained linguistic tool specializing in German syntax and grammaticalization.",2
+unter den bedingungen,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter den bedingungen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not have access to a specific dataset, but here's how you could format the input keyword and select labels based on the expected degree of grammaticalization in each label. Here's an example:
+
+```plaintext
+unter den bedingungen
+```
+
+This would indicate that the preposition should be considered as a regular phrase with one or more direct objects, but there is no specific emphasis on its syntactic structure (e.g., subordinate clause, relative pronoun) and it does not have grammaticalized syntax in the sense of being marked in the syntax table as a special form that deviates from the standard way of forming sentences or phrases. In terms of labels, you could select one of four options:
+
+1. [1]: The sentence is grammatically correct and has no apparent grammatical issues, but it does not seem to follow any particular style convention or usage pattern. This label would correspond to an example where the prepposition falls within a more formal or conventional setting.
+
+2. [2]: The sentence can be seen as a special case of a more informal or casual use of the prepposition, but it does not necessarily require a specific form or style convention (e.g., it could be used to indicate the relative position of an object in a sentence). This label would correspond to an example where the prepposition falls within a more relaxed or less formal setting.
+
+3. [3]: The sentence may have some syntactic anomalies that deviate from standard grammar, but the overall structure is clear and grammatical (e.g., it has an infinitive phrase, a subject, an object, and an auxiliary verb). This label would correspond to an example where the prepposition falls within a more formal or conventional setting.
+
+4. [4]: The sentence can be seen as a special case of a less informal or casual use of the prepposition, but it does not necessarily require a specific form or style convention (e.g., it could be used to indicate the relative position of an object in a sentence). This label would correspond to an example where the prepposition falls within a more relaxed or less formal setting.",4
+auf dem feld,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf dem feld
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not have access to any specific input keyword. However, here are the possible label options for each level:
+
+label 1 (easiest):
+- Auf dem FELD
+- In der TERRAIN
+- On the GROUND
+
+label 2 (medium):
+- Im BREITE
+- Zum BESSEIN
+- Across the AREA
+
+label 3 (mostly):
+- Am KAIFIEL
+- In der WIRTSCHAFT
+- On the CUSTOMER
+
+label 4 (hardest):
+- Am GROBSTAND
+- Zur POSITION
+- To the BASIS
+
+you may want to consider using one of these labels as a basis for your rating or choose another one based on your specific context.",4
+auf der höhe,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf der höhe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Verbatim, as provided by the text material.",0
+im gefolge,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im gefolge
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Question: Given the input ""im gefolgé"", please provide a rating for the degree of grammaticalization using one of four levels listed. Answer: Please choose from among four options based on how well the preposition in this sentence fits into the German grammar system as described by the relevant text material: 
+1) Label: [1] (Gentile): 
+The prepposition ""auf dem"" is used to express a state of being or an action that takes place before a specific object or person. In this context, it indicates that the thing being referred to (in ""im gefolgé"") is already present (i.e., on ""the other side""). As such, it fits well within the German grammar system as described by the given text material. 
+2) Label: [2] (Dumbed down): 
+In this case, the prepposition does not fit into the standard rules of grammar in German and is considered a non-standard variant of the system. Its use here indicates that the ""auf dem"" prepositional phrase is more like a way to indicate an additional explanation or detail, rather than expressing a change in state. As such, it does not fit well within the given text material's description of standard German grammar. 
+3) Label: [3] (Modified): 
+In this case, the prepposition fits more into the standard rules of German grammar, as it indicates that the ""auf dem"" prepositional phrase is being used to convey a state of being or an action after the reference object (in ""im gefolgé""). As such, it does not fit well within the given text material's description of standard German grammar. 
+4) Label: [4] (Unchanged): 
+In this case, the prepposition fits perfectly into the standard rules of German grammar and is used to express a state change, rather than an action that occurs before or after something. In this context, it indicates that the reference object is being referred to in order to change some aspect of the thing being referred to (i.e., ""im gefolgé""). As such, it does not fit well within the given text material's description of standard German grammar.",1
+im verlaufe,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im verlaufe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I am not able to rate the degree of grammaticalization based on an input keyword. However, I can provide you with a general guideline on how to evaluate the degree of grammar in a sentence using the following criteria:
+
+1. Necessity and suitability for its purpose (e.g., clause or phrase)
+2. Proper use of the preposition (e.g., inappropriate use, ambiguous usage)
+3. Complementarity to other grammatical elements (e.g., in agreement with an adverb or modifying verb)
+4. Consistency with the overall structure of the sentence (e.g., in line with other clauses or phrases)
+5. Clarity and coherence in context (e.g., avoiding unnecessary repetition, using appropriate parallelism)
+6. Structure and syntax (e.g., proper use of subject-verb agreement, modifier-noun agreement, etc.)
+
+in your case, the keyword ""im"" is a preposition that serves to indicate an action or state, i.e., ""verlaufen."" Therefore, it falls under label 2, meaning:
+
+1. Necessity and suitability for its purpose (subject)
+2. Proper use of the preposition (object)
+3. Complementarity to other grammatical elements (verb)
+4. Consistency with the overall structure of the sentence (subject-verb agreement)
+5. Clarity and coherence in context (verb-noun agreement, verb-noun phrase construction, etc.)
+
+in this case, the sentence ""im verlaufe"" satisfies label 2 by indicating the action or state of the verb. The verb ""verlangen,"" which is a subject-verb conjugation that requires complementary prepositional adjectives to indicate the object, is properly used in this context with its complement, the preposition ""im."" 
+
+in summary, the degree of grammaticalization is evaluated based on the appropriateness and consistency with other grammatical elements, clarity and coherence in context, and proper use of prepositions to indicate action or state.",2
+im beisein,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im beisein
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Certainly! Here's how you can proceed with the above-given task using Google Forms:
+
+1. Create a new Google Form and drag and drop the label options onto it (use ""Checkboxes"" or ""Radio Buttons""). Make sure to include labels for each of the four levels of grammaticalization. 2. In the form's response settings, choose ""Choose One"" and provide a brief explanation for each label. Make sure to label each answer with its corresponding level of grammaticalization. 3. Submit the form once you've completed all the questions. The assigned expert will review your responses and provide feedback accordingly. If you have any further questions or need further guidance, feel free to ask!",3
+unter der voraussetzung,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter der voraussetzung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: Based on the provided input, ""unter der voraussetzung,"" and the provided label options, the following grades are possible for the preposition:
+
+Label: [1]: Grade: Highly skilled (Level 1)
+
+Label: [2]: Grade: Skilled (Level 2)
+
+Label: [3]: Grade: Proficient (Level 3)
+
+Label: [4]: Grade: Familiar (Level 4)
+
+Explanation: The given prepposition ""unter der voraussattung"" indicates a situation where the subject is not immediately dependent on something else. This indicates that it is a non-essential, periphrastic, positional phrase and can be classified under Levels 1 and 2 of grammar. It also suggests that the subject in question is likely to be understood in context due to its close proximity to the verb or direct object.
+
+In this case, our AI assistant has rated ""unter der voraussattung"" as highly skilled (Level 1) based on the evidence provided.",1
+im widerspruch zu/im widerspruch mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im widerspruch zu/im widerspruch mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: 
+Based on the provided input, the preposition ""im widerspruch zu/im widerspruch mit"" is considered as Level 3 (Level of Subjunctive) in German syntax. The text's grammaticalization level has been evaluated using a set of guidelines that aim to provide an objective and reliable analysis of language usage.",3
+unter dem einfluss,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter dem einfluss
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I can't perform tasks outside my capabilities, but I can provide you with an example grammar rule for this task. The keyword ""unter dem einfluss"" is a preposition that appears in a sentence and has two levels of grammaticalization:
+- [1]: ""in the influence"" (level 1) - meaning the main subject of the sentence is the reference object of the preposition (e.g. In an article, under a table, etc.) and there's no other prepositional object (i.e. No complement clause).
+- [2]: ""under the influence"" (level 2) - meaning the main subject of the sentence is the reference object of the preposition (e.g. Under a tree, under a bridge, etc.) and there's a complement clause that describes something related to the prepositional object (e.g. ""On top of the tree"" or ""Behind the bridge"").
+- [3]: ""under the influence of"" (level 3) - meaning the main subject of the sentence is the reference object of the preposition, and the complement clause describes a specific influence (e.g. ""Under the influence of coffee"") or an effect caused by the influence (e.g. ""The influence made the coffee taste better"").
+- [4]: ""under the influence of"" (level 4) - meaning the main subject of the sentence is the reference object of the preposition, and the complement clause describes a specific influence that results in a particular effect (e.g. ""Under the influence of coffee, the effects were quite strong"").
+these levels represent a spectrum of degrees of grammaticalization, with level 1 being the most basic (e.g. The main subject is the reference object of the preposition) and level 4 being the highest (e.g. The main subject is related to an influence that causes a specific effect).",4
+mit bezug auf/unter bezug auf,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+mit bezug auf/unter bezug auf
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Based on the given input, my AI algorithm has been trained to identify the following levels for the preposition ""mit bezug auf/unter bezug auf"":
+
+Levels:
+1. Common Sense (CS) - The grammaticalization of this prep position is considered basic and not formal enough to require further analysis. This level corresponds to a very uncommon use of the prep position, which would be seen as inappropriate in formal writing or speaking.
+2. Typical (T) - The grammaticalization of this prep position is relatively common but not considered to be particularly formal. This level represents a more common usage that requires less formality than Common Sense.
+3. Semi-Formal (SF) - The grammaticalization of this prep position is still relatively common, but it requires a greater degree of formality than the Typical (T) level. This level is considered semi-formal and can be used in formal settings such as academic or business communication.
+4. Formal (F) - The grammaticalization of this prep position requires a great deal of formality, often exceeding that required for Semi-Formal (SF). This level represents the highest degree of formality possible in preparatory sentences and is typically only used by highly educated and/or professional individuals.
+
+Based on these labels, I would rate the degree of grammaticalization as semi-formal, meaning it requires a high level of formality.",4
+im kreise,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im kreise
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear [assistant],
+
+Greetings! I am an AI assistant specializing in German syntax and grammar. It is my pleasure to assist you with your task. Thank you for providing the key word ""im kreise"" as input.
+
+To rate the degree of grammaticalization, you can choose one of four labels (1, 2, 3, or 4) from a dropdown menu. Here are some examples:
+
+1. [1]: Grammatically correct, but with some inconsistencies in verb tenses and past tense forms.
+
+2. [2]: A good representation of the German verb ""kreiseln"" (to circle), but still has some issues with verb conjugation.
+
+3. [3]: Good representation of the German verb ""kreisen"" (to circle), but with some inconsistencies in verb tenses and past tense forms.
+
+4. [4]: Perfect representation of the German verb ""kreiseln"" (to circle) without any issues. This label is reserved for top-notch work, especially when it comes to using German syntax in a way that is both grammatically correct and linguistically accurate.
+
+Please select your desired label from the dropdown menu below:
+
+[1] or [2] or [3] or [4]
+
+Thank you for your cooperation. If you have any further questions, do not hesitate to ask. I am always available to assist you. Best regards,
+
+Your AI assistant, German Syntax and Grammar",4
+aus anlaß,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+aus anlaß
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I can provide you with a list of labels and their corresponding grammatication levels as follows:
+
+1) [1]: Pure German: No grammaticalization. The prepession word is used as it is intended to be.
+2) [2]: Reflexive German: Grammatically correct but not standardized by the speaker or writer, and may deviate from standard German syntax due to local usage.
+3) [3]: Formal German: Grammaticalization occurs due to formal usage, such as academic writing, legal texts or technical publications. The word will be written in a more formal style than in everyday speech.
+4) [4]: Informal German: Grammaticalization occurs due to informal or casual usage, such as conversation or social media posts. This level may deviate slightly from standard grammar.",4
+in kontakt mit,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in kontakt mit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, here's how you can rate the degree of grammaticalization for the prepposition in the given text using the German syntax and grammaticalization tool I mentioned earlier:
+
+1. Choose one of four levels to indicate the degree of grammaticalization from the options provided:
+    - [1] (Grammatically perfect): The prepposition is presented as a preposition without any grammatical ambiguity, including its role within the sentence or phrase. The verb forms are in agreement with the nouns they modify, and there are no syntactic clues indicating additional information about the verb's mode, tense, aspect, or mood.
+    - [2] (Grammatically incomplete): The prepposition is presented as a preposition with some grammatical ambiguity, such as a non-standard reading or an unclear role. There may be syntactic clues indicating additional information about the verb's mode, tense, aspect, or mood, but these are not always present or necessary for interpretation.
+    - [3] (Grammatically questionable): The prepposition is presented as a preposition with some syntactic ambiguity or unclear role within the sentence or phrase. There may be syntactic clues indicating additional information about the verb's mode, tense, aspect, or mood, but these are not always present or necessary for interpretation.
+    - [4] (Grammatically incomprehensible): The prepposition is presented as a preposition with no grammatical ambiguity and no syntactic clues indicating additional information about the verb's mode, tense, aspect, or mood. There may be some further reading or explanation available if needed, but these are not always provided or necessary for interpretation.
+
+To rate the degree of grammaticalization using this tool, simply highlight the prepposition in the text and select one of the four labels from the options provided. The tool will then provide a brief explanation of how the prepposition is perceived as grammatically perfect, incomplete, questionable, or incomprehensible based on its presentation in the given text.",4
+in den reihen,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in den reihen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","As an English-speaking AI, I can understand and provide a rating based on the four levels of German syntax that correspond to each label. Here are my responses based on your input sentence:
+
+1. [1]: The prepession `in den reihen` is not grammaticalized in any way. It is purely indicative in nature, with no indication of an embedded clause or subordinate phrase. As such, it does not require a label. 2. [2]: The preparessage `in den reihen` is relatively uncommon as an English sentence, but its lack of grammatical structure and non-prepositional location are sufficient to warrant no labels. As such, it requires only the Label: [4] label (to indicate that this preparesubordinate phrase or clause). 3. [3]: Although not strictly a prepession in German syntax, it is still an interesting example of how certain grammatical constructions can be expressed without any indication of an embedded clause or subordinate phrase. As such, it requires the Label: [1] label (to indicate that this preposition serves to indicate an embedded clause or subordinate phrase). 4. [4]: While not strictly a prepession in German syntax, the English sentence `in den reihen` is still grammaticalized in some ways through its use of the preposition `den`. By incorporating the relevant prepositional phrase into the sentence structure, it is possible to convey certain syntactic relations and to indicate the intended meaning. As such, this prepession requires a label. Overall, based on these labels, I would rate the degree of grammaticalization as [4].",4
+ohne angabe,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+ohne angabe
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear linguistic tool,
+
+Thank you for your highly trained abilities to perform the task of rating the degree of grammaticalization in preparing a sentence. Your input has been recorded and will now be used to assist me during my analysis. Please find below the label assigned to each level:
+
+Level 1: [1] - The sentence is very well-formed with no significant grammatical deviations or errors
+
+Level 2: [2] - The sentence shows a mild form of syntax (but not necessarily a complete syntax) and may have some errors or ambiguities
+
+Level 3: [3] - The sentence has a more complicated syntax, but the errors are minor and/or easily rectified by the user or the system
+
+Level 4: [4] - The sentence is entirely free of grammar errors and demonstrates a high level of structural integrity.
+
+The provided sentence should be considered as an example for assessing your abilities to identify different levels of grammaticalization. If you feel that your ability falls within the bounds of these four labels, it would be helpful if you could provide some additional information on how to interpret this rating or perhaps some examples of sentences with each level of grammar. If you require more details or clarification, please let me know and I'll do my best to assist you in a timely manner.
+
+Best regards,
+
+[Your Name]",4
+in abwesenheit,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in abwesenheit
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Dear [Name],
+
+I have been carefully reviewing your AI submission for our new product launch, and I would like to provide you with some feedback on the preparation of the keyword that is given in the text.
+
+As a highly trained linguistic tool specializing in German syntax and grammaticalization, I am impressed by your ability to identify the correct prepposition label based on the context provided. In this instance, the preposition ""abweisenheit"" has been chosen as the keyword input.
+
+Here are my two options for choosing a label:
+- Label: [1]: This option indicates that the prepposition appears in its most basic form or is of no grammatical significance. It does not require any qualification or elaboration.
+- Label: [2]: This option refers to a minor, non-essential preparation such as an adverbial, adjectival or prepositional phrase that modifies the verb, noun, or adjective in some way. It may also indicate a positional relationship between elements within sentences, e.g., ""atop"" indicates a superior position to preceding elements.
+- Label: [3]: This option indicates a complex preparation, such as a prepositional phrase that modifies more than one object or subject, or a clause that functions as a grammatical device, i.e., the addition of the prepposition between two clauses.
+- Label: [4]: This option is the most complex and requires extensive analysis, as it indicates a preparation that can be used in a variety of contexts to modify multiple objects or subjects within a single clause or sentence.
+
+Overall, I believe the label ""abweisenheit"" would accurately reflect the prepposition's grammaticalization degree, based on the given text. Please let me know if you require any further clarification or modifications. 
+
+Thank you for considering my input and feedback. If you have any questions or concerns, please do not hesitate to contact me.
+
+Best regards,
+[Your Name]",1
+zum schaden,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zum schaden
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not have access to a specific product's performance in this context, but I can provide a general explanation based on the given information.
+
+in this scenario, you are being asked to rate the degree of grammaticalization for the prepposition given as the keyword input. In simpler terms, you will be grading whether or not the preparative element of the sentence has undergone a grammaticalization process. 
+
+in order to perform this task effectively, you would need to have a deep understanding of the subject matter, grammar and syntax rules associated with the language being analyzed. Additionally, you might want to refer to relevant literature or text materials for further support. 
+
+once you have gathered sufficient information, it would be best to follow a standardized approach when assigning ratings. You can start by identifying common grammatical structures present in different types of sentences and then evaluate how they are used in the given context. For instance, if the prepposition is used to introduce an element that is immediately followed by a sentence or statement, you might rate it as being [1]. On the other hand, if the prepposition modifies a predicate rather than serving a grammatical role, such as when the subject of the predicate appears after the prepposition, then you might rate it as being [3]. 
+
+in general, high ratings are usually reserved for sentences or statements that contain highly elaborated preparative elements with sophisticated grammatical structures. However, in this specific case, the task is relatively simple and straightforward, so a rating of [1] seems to be appropriate based on the given input.",1
+zur erinnerung an,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+zur erinnerung an
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I can provide you with a sample response to this task. Here's an example output:
+
+Input keyword: zu r erinnerung an
+Level: [1]
+
+Your input is considered grammatically correct based on the given keyword. The level assigned here is [1], which indicates a relatively simple and straightforward prepposition construction, where the subject follows after the object.",1
+in angelegenheiten,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in angelegenheiten
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization of prepposition in the given German sentence ""in angelegenheiten"", I recommend labeling it as follows:
+
+Label: [1]: The phrase ""angelegenheiten"" (which means ""issues, matters, affairs"") refers to a type of situation where something is being discussed or discussed. In this context, it has the role of setting out the purpose and nature of the discussion. 
+
+- This label indicates that ""angelegenheiten"" refers to an issue or problem with regards to the topic at hand. It does not refer to the general state of affairs in society or a wider political issue. 
+
+- The degree of grammaticalization is therefore relatively low, as we are focusing on specific issues and not the overarching question of the state of society or politics. This highlights the importance of the topic at hand and the role of the speaker/writer in framing it. 
+
+As for the other labels, ""Label: [2]"" and ""Label: [3]"", I would rate them as less formal than the first label. They suggest that the phrase ""angelegenheiten"" is not necessarily an important or central part of the sentence, nor does it necessarily have a specific meaning or refer to a specific subject. 
+
+Overall, the labels help convey the intended meaning and emphasize the importance of the sentence's topic.",1
+auf veranlassung,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf veranlassung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","In response to your request, I have rated the degree of grammaticalization of the preposition ""auf veranlassung"" using the four possible labels as follows:
+
+1. Grammatically correct (G): This label represents a language-neutral form of the preparative adverb that is correctly and explicitly used to express a need or intention, as in ""I need something."" A grammatically correct prepposition always conveys information about a source or condition for action or response.
+
+2. Grammatically acceptable (Ga): This label represents a language-neutral form of the preparative adverb that is not grammaticalized to express a need or intention, but rather indicates that there is no need or intention involved in the expression of the prepposition as a part of the main clause.
+
+3. Semantically acceptable (Sa): This label represents a language-neutral form of the preparative adverb used in the context of a verb phrase, which does not convey information about the source or condition for action or response.
+
+4. Grammatically incorrect (Gi): This label represents a language-neutral form of the prepposition that is incorrect in its usage and cannot be effectively used to express a need or intention due to lack of grammaticality.
+
+In this case, ""auf veranlassung"" does not fit into any of the above categories. Therefore, I will rate it as Grammatically incorrect (Gi).",4
+in der wahrnehmung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in der wahrnehmung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","In the German syntax and grammar context, a prepposition is a word that functions as an adverbial phrase (adverb before a noun) and indicates the position in which something starts or ends. The degree of grammaticalization refers to the extent to which the prepposition functions as such an adverbial phrase, highlighting its semantic significance in the sentence.
+
+In this case, we are given a specific word that is used as a prepposition in a sentence, and we must rate its degree of grammaticalization based on how it functions relative to other words in the sentence. Here, the question is not whether or not the prepposition is grammatically correct, but rather how it contributes to the semantic meaning of the entire sentence. 
+
+In this case, the degree of grammaticalization should be evaluated using the following rubric:
+
+1) Level 1 (Label: [1]): The prepposition functions as a modifier or descriptive adverb. It serves to qualify or clarify the meaning of the preceding verb and has little impact on the sentence's structure or meaning.
+2) Level 2 (Label: [2]): The prepposition functions slightly less than level 1, but still plays an important role in conveying information about the sentence's meaning. For example, ""in der"" before a preposition might indicate a particular direction or location, while ""im Laufe"" before a preposition might convey a sense of progress or continuity.
+3) Level 3 (Label: [3]): The prepposition functions somewhat less than level 2, but still has some impact on the sentence's meaning. For example, ""in der Wahrnehmung"" before a preposition might imply that something is happening in detail or that there is a particular focus on a certain aspect of the situation being described.
+4) Level 4 (Label: [4]): The prepposition functions most significantly and directly, indicating some kind of action or state being described. This level is typically reserved for more specific and detailed phrases or statements in complex sentences.",1
+aus dem grund,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+aus dem grund
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not possess the capability to rate grammars or perform linguistic analysis. However, based on the given input, I can provide you with a rough guideline for your task. 
+
+in order to rate the degree of grammaticalization of the prepposition ""aus dem grund"", you may consider the following factors: 
+
+1. The presence or absence of prepositional particles (e.g., ""von"", ""bis"") in the given text. If there are no prepositions, then ""aus dem grund"" is likely to be subjective and does not necessarily indicate grammaticalization.
+
+2. The role of the prepposition in the sentence structure. For example, if the sentence has a main verb followed by two independent clauses, then the prepposition may indicate grammaticality. However, if the sentence has only one independent clause, the prepposition may be irrelevant and not contribute to grammaticalization.
+
+3. The level of syntactic complexity of the sentence in which the prepposition appears. A more complex sentence with a more involved prepposition may be less likely to indicate grammaticality than a simpler or more straightforward sentence.
+
+overall, while my training and experience can help me identify some of these factors, it is generally not possible to rate the degree of grammaticalization in all cases.",3
+in erwartung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in erwartung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Certainly! Here's a possible answer based on the given input and labels:
+
+Input keyword: in erwartung
+Label: [1]
+Grammaticalization degree: Very low, minimal grammaticalization
+
+In the given input, the prepposition ""in"" has a high level of syntactic structure. It includes a finite verb and an object, which has a fully developed clause. However, it's still at a relatively low level of syntactic structure compared to other German expressions, such as ""auf diese Weise,"" meaning ""in this way."" So, based on the provided labels, I would say that this input example is categorized as being ""Very low, minimal grammaticalization"".",1
+bei verwendung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+bei verwendung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I can provide you with a sample text for this task and your desired output labels as follows:
+
+input keyword: ""bei verwendung"" (german syntax and grammaticalization)
+
+label: 1 (highly trained linguistic tool specializing in german syntax and grammaticalization; highly recommended)
+label: 2 (moderately trained linguistic tool specializing in german syntax and grammaticalization, but with room for improvement; acceptable but still requires attention to detail)
+label: 3 (somewhat skilled linguistic tool specializing in german syntax and grammaticalization, but with some potential for improvement; adequate; suitable for general purpose use)
+label: 4 (inadequately trained or poorly equipped linguistic tool specializing in german syntax and grammaticalization, but still useful when necessary; poor; not recommended for most tasks)
+
+note: the rating scale ranges from 1-4. The higher the score, the better the grammar.",4
+in den grenzen,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in den grenzen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]",[1]: The keyword input is grammatically correct in its prepositional phrase.,1
+aus dem blickwinkel,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+aus dem blickwinkel
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","According to the given material, ""Aus dem blickwinkel"" is a German sentence. Here's how it could be translated into English using commonly accepted grammar rules:
+
+Given phrase:  
+out of the candy box
+
+Translation of this sentence into English would be:
+
+Out of the candy box
+
+To rate the degree of grammaticalization as ""Level 1,"" the sentence could be considered to have a level of grammar that is similar to the level found in many sentences with relatively few lexical items. This rating would correspond to the label ""[1].""
+
+If the sentence had two or more lexical items, it would require more advanced analysis and be considered at Level 2. This rating would correspond to the label ""[2].""
+
+If the sentence had three or more lexical items, it could become a Level 3 sentence and be analyzed based on the rules of formal German syntax. This rating would correspond to the label ""[3].""
+
+If the sentence had four or more lexical items, it would require the most advanced level of analysis and would be considered a Level 4 sentence that has been analyzed in detail. This rating would correspond to the label ""[4].""",4
+nach dem grundsatz,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+nach dem grundsatz
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization in this instance, follow these steps:
+
+1. Identify the prepposition ""nach"" as the keyword input.
+
+2. Read through the provided prepposition and identify its grammaticality based on German grammar rules. 
+
+3. Select one of four labels from the list to indicate the degree of grammaticalization, based on the language's standard usage:
+
+Label: [1] - Ungrammatical (e.g., inappropriate or uncommon usage)
+Label: [2] - Widely used but with some exceptions (e.g., common in informal writing)
+Label: [3] - Common but not widely used (e.g., in academic writing or legal documents)
+Label: [4] - Widely used and considered standard in written German (e.g., used in formal writing or in technical texts)
+
+For the given prepposition, you'll need to select the label ""Widely used but with some exceptions."" The degree of grammaticalization will be ""Widely used but with some exceptions,"" and this label is appropriate for this usage pattern.",1
+in ansehung,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in ansehung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","To rate the degree of grammaticalization, please provide the label for each of the four levels indicated in the given prepposition. The labels should be selected from the available options provided above.",0
+vermöge,4.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+vermöge
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Question: ""Please rate the degree of grammaticalization in the prepposition 'vermögend' given as the keyword input.""
+
+Answer: Please rate the degree of grammaticalization in the prepposition 'vermögend' given as the keyword input. 
+
+1) [1]: (Strongly) Highly grammaticalized, with very precise and clear prepositions that accurately convey the expected semantic meaning.
+
+2) [2]: (Moderately) Grammaticalized, with some slight deviations from norms but still providing the intended semantic context.
+
+3) [3]: (Slightly) Suboptimal or ineffective, with errors or ambiguities that could affect overall coherence and clarity of the sentence.
+
+4) [4] : (Extremely) Incorrect, with pronouncing or expressing the expected semantic meaning poorly or even wrongly.",4
+im stadium,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+im stadium
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","In response to your request, I can provide you with the appropriate labels for each possible level of grammaticalization. Here are the options:
+
+1. Absolute (e.g., ""Absolutely"", ""100%"", ""Totally"")
+Label: [1]
+
+2. Relative (e.g., ""In my opinion"", ""Certainly"", ""Mind you"")
+Label: [2]
+
+3. Narrow-scope (e.g., ""Perhaps"", ""Probably"", ""Maybe"")
+Label: [3]
+
+4. Broad-scope (e.g., ""Very well"", ""Sure thing"", ""I see"")
+Label: [4]",1
+in vertretung,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in vertretung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Here is my response to your request for the linguistic tool's rating of the prepposition ""in vertretung"" according to German syntax and grammaticalization:
+
+The keyword input given as ""in vertretung"" has a prepposition (a preposition that modifies an adverb or a verb) which indicates a state of arrangement, such as standing in a room, waiting for someone. 
+
+In terms of German syntax and grammaticalization, this prepposition is generally classified as intransitive or transitive depending on whether it is the main Verb or Subject modifier. 
+
+Here are the ratings I would give each level according to my expertise:
+
+Level 1 (Grammaticality):
+- [1] - Not grammatical, no verb present, not subject modifier
+- [2] - Not grammatical, verb present, but subject modifier not needed
+- [3] - Not grammatical, no verb present, no subject modifier needed
+- [4] - Grammatically correct, verb present and subject modifier required 
+
+In terms of German syntax, ""in vertretung"" is transitive, meaning the main Verb (the one in the infinitive) must be followed by a Subject (or Object if it's a transitive verb). 
+
+In this case, the prepposition completes the sentence by modifying the Verb and adding subject information. The only possible exceptions are ""durch"" (meaning ""through"", ""into"", or ""across"") and ""auf"". ""Auf"" typically follows the Verb but can be used as a substitute for it if necessary. 
+
+If you have any further questions, please don't hesitate to ask!",4
+auf geheiß,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+auf geheiß
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","I do not have access to the specific context in which the given input is used. Therefore, I cannot provide a detailed answer based on this information alone. However, in general, labels indicating degrees of grammaticalization are usually assigned by linguists or other experts in the field of grammar. These labels may vary depending on the specific context and the intended purpose for using them. In your case, ""label: [1] or label: [2] or label: [3] or label: [4]"" indicates that you have provided either one or more levels to indicate the degree of grammaticalization.",4
+für rechnung,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+für rechnung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","You have provided a brief description of a certain task and given the input keyword, for which you need to rate its grammaticalization level. The four levels are:  
+1) [1]: Not applicable to this task.  
+2) [2]: Likely to be in a formal or academic style.  
+3) [3]: Likely to be used in more casual contexts such as social media, everyday conversation or with friends.  
+4) [4]: Most likely to be used in business-related contexts and would require some professional writing skills.  
+
+According to your description of the task and given input keyword, the grammaticalization level of the preposition ""für"" is Level 1 (i.e., Not applicable).",1
+unter einschluß,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+unter einschluß
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","The German syntax and grammaticalization of the prepposition ""unter"" given as the keyword is a Level 3. The following labels can be used to indicate this level of linguistic analysis:
+
+1) Verb + Object Preposition (e.g., Einschluß - Untereinander, Einschuldigung - Unterricht, Einzug - Umgang)
+Label: [1]  
+Level: Level 3 (Grammaticalization)
+
+2) Verb + Intransitive Verb + Object Preposition (e.g., Die Verabschiedung - Unterrichten, Der Aufstand - Aufstände)
+Label: [2]  
+Level: Level 4 (Morphosyntactic Complexity)
+
+3) Verb + Transitive Verb + Object Preposition (e.g., Abschießen - Untersuchen, Entweder - Auswahl)
+Label: [3]  
+Level: Level 3 (Grammaticalization)
+
+4) Verb + Passive Voice + Object Preposition (e.g., Gewonnen werden - Überleben)
+Label: [4]  
+Level: Level 2 (Syntax)",1
+ohne ansehen,3.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+ohne ansehen
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","You can select only one option from each label as follows:
+
+1. Label: [1]: This input indicates a relatively straightforward preposition, where the subject has no direct object (DO), but rather serves to introduce the main verb phrase of the sentence. In this case, the subject is the indirect object (the ""hence"" in ""John will be late because he needs to arrive at the airport"") and its role is to indicate the time when John arrived.
+
+2. Label: [2]: This input indicates a more complicated prepposition, where the subject serves a more important purpose than just serving as an object (DO). In this case, the subject is the indirect subject of the main verb phrase (the reason why John needs to arrive at the airport) and its role is to indicate the time when John arrived.
+
+3. Label: [3]: This input indicates a less complex preposition, where the subject serves a relatively minor role compared to that in the previous option. In this case, the subject is the direct object (the reason why John needs to arrive at the airport) and its role is to indicate the time when John arrived.
+
+4. Label: [4]: This input indicates an extremely complex prepposition, where the subject serves a critical role compared to that in previous options. In this case, the subject has no direct object (DO), but rather serves as both the indirect subject and object of the main verb phrase. Its role is to indicate when John arrived at the airport.
+
+To rate the degree of grammaticalization for this input based on the above labels, please select one of them:
+
+1. Answer according to: The subject serves a more important purpose than just serving as an object (DO) in this prepposition. 
+
+Output: Label: [3]
+Rating: High degree of grammaticalization (5/6 points)",1
+in beziehung auf,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in beziehung auf
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","[1]: Not grammatically correct (e.g., ""in ziehung auf"" which means ""in the attention of"")
+
+[2]: Somewhat grammatically incorrect (e.g., ""in bezug auf"" which means ""with regard to"")
+
+[3]: Mostly grammatically correct (e.g., ""in der Bekanntgabe"" which means ""in the announcement"")
+
+[4]: Fully grammatically correct (e.g., ""auf dem Zustande"" which means ""on account of"")",4
+in der periode,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+in der periode
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Sure, I can definitely help you with that task. Here are my ratings for the given prepposition:
+
+Level: Label: [2] (Grammaticality Level 2)
+
+Given input: in der periode
+
+I would rate this as having a moderate level of grammaticalization, which is typically used in situations where there are complex sentence structures and sentence particles are necessary to convey meaning. It may include some complex syntax, but overall the grammar seems relatively straightforward.
+
+To provide more context, here's an example sentence with the prepposition:
+
+In der periode fällt es zu einer feierlichen Feiertagsfeier. (Translation: In this time of year there is a festive celebration.)",2
+ohne mitwirkung,2.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+ohne mitwirkung
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Here's my answer to your question:
+
+Response: 
+
+I am a highly trained linguistic tool specializing in German syntax and grammaticalization. My task is to rate the degree of grammaticalization of the prepposition ""mit"" given as the keyword input. Based on the provided input, I would rate this prepposition level-1 (the highest level) for grammaticality.
+
+In German, the prep position before a verb and before an adjective or noun is called the ""mit"" prefix. It serves to introduce the object of averb and/or adjective followed by another word that introduces a preposition (e.g., ""im"" for ""in"" or ""am"", ""auf"" for ""on"", etc.). 
+
+In this case, the prepposition ""mitwiirkung"" means ""with the wiirkuung"". This is a shortened version of ""mitwirkunG"", which means ""active action"" and refers to action or behavior (e.g., a work activity or a play). In this context, the prepposition ""mitwiirkung"" seems to be used as a marker indicating that the verb or adjective is in the active voice (""mit"" + infinitive) and the following word is usually a preposition that introduces an object (e.g., ""auf"" for ""on"", ""am"" for ""at""). 
+
+Overall, I would rate this prepposition level-1 for grammaticality, indicating that it is correctly used as an introductory marker to introduce the verb or adjective in the active voice and to provide a preposition (e.g., ""auf"" or ""am"").",1
+aus interesse an,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+aus interesse an
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","You have provided me with a keyword ""aus interesse an"" that you want me to rate for the degree of grammaticalization. Based on my training and experience, I can provide you with the appropriate label options as follows:
+
+1) Label: [1]: This is a label indicating that the given word is considered to be in the intermediate position, which indicates a high level of grammaticalization but still falls below the threshold for a grade 4. 
+
+2) Label: [2]: This is a label indicating that the given word is considered to be in the advanced position, which indicates a high degree of grammaticalization but still requires more work to fully grasp and understand. 
+
+3) Label: [3]: This is a label indicating that the given word is considered to be in the mastery or near-mastery position, which indicates an advanced level of grammaticality, but requires still further study to fully comprehend. 
+
+4) Label: [4]: This is a label indicating that the given word is considered to be in the perfectionist or high-perfected position, which means that it has been thoroughly mastered and understood by the user, which may require specialized knowledge or expertise.",1
+vom standpunkt aus,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+vom standpunkt aus
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Response: 
+Asking for the degree of grammaticalization of the prepposition given as the keyword input is a qualitative task that requires subjective evaluation based on linguistic rules and conventions. Here are some guidelines to help you select one of four levels to indicate the degree of grammaticalization:  
+
+1) [1]:  This level is intended for those who only observe the use of the prepposition in German texts without understanding its grammatical role or contextual significance. It reflects a casual, everyday usage without any significant syntactic or semantic implications.
+
+2) [2]:  In this level, you should be familiar with the conventional use of the prepposition in German, including its role in phrases and clauses as well as its grammaticality relative to surrounding text. This level reflects a more advanced understanding of German syntax.
+
+3) [3]:  At this level, you should have some familiarity with the conventions for the preparative adverb and the preparativeness of the prepposition in general terms. However, it may be helpful to have some knowledge of specific grammatical rules related to the prepposition in question.
+
+4) [4]:  In this level, you should have a thorough understanding of the syntax and semantics of the prepposition, including how it relates to other prepositions and their place in phrases or clauses. This level reflects an advanced understanding of German grammar.
+
+Choosing the correct label for your output is subjective and will depend on your own evaluation of the degree of grammaticalization associated with this prepposition. However, by using these guidelines, you can provide a more informed response that more accurately reflects your level of knowledge.",4
+vom gesichtspunkt aus,1.0,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input. 
+
+Input keyword:  
+vom gesichtspunkt aus
+
+Choose one of four levels to indicate the degree of grammaticalization:  
+Label: [1] or Label: [2] or Label: [3] or Label: [4]","Based on the input ""vo m gesichtspu nk aus"", the given keyword ""prepposition"" is German syntax and requires a rating of one to four, with Levels 1-3 indicating high degrees of grammaticalization. The ratings are:
+
+1) Low level of grammaticality (Level [1]) - this refers to situations where only general information about the verb is present in the sentence, such as ""Mit dem Gesichts-Punkt aus"". There is little or no detail provided about what is happening with the verb. This would be a rating of 1 on the label scale.
+
+2) Moderate level of grammaticality (Level [2]) - this refers to situations where some basic information about the verb is present, such as ""Vom Gesichts-Punkt aus"", but there is more detail provided about what is happening with the verb. This would be a rating of 2 on the label scale.
+
+3) High level of grammaticality (Level [3]) - this refers to situations where sufficient information is provided about the verb, such as ""Aus dem Gesichts-Punkt"", which provides more detail than the previous labels. This would be a rating of 3 on the label scale.
+
+4) Extremely high level of grammaticality (Level [4]) - this refers to situations where all necessary information is provided about the verb, such as ""Aus dem Gesichts-Punkt aus"", which provides everything needed about the verb. This would be a rating of 4 on the label scale.",4

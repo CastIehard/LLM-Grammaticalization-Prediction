@@ -1,0 +1,325 @@
+keyword,prompt_B,raw_response_B
+im verlaufe,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+im verlaufe
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond strictly in the format to indicate the level of grammaticalization:
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrase at this level consist of three words. The article is not used. An autonomous article would have been introduced, which would have altered the structure and made it a separate word. In general, no further grammaticalization or extension is possible for this category."
+im licht/im lichte,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+im licht/im lichte
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond in the following format, using ""Level"" as the label, to indicate the degree of grammaticalization for each preposition given as a keyword input:
+
+- Lowest Degree of Grammaticalization (Level 1): Prepositional phrase(s) with only one word and no article are considered as such.
+- Slightly Higher Degree of Grammaticalization (Level 2): The use of the preposition with an article or without one is possible, but the degree of grammaticalization still suffers from a lack of phono-semantic erosiion.
+- Strengthened Grammaticalization (Level 3): Prepositions that exhibit phono-semantic erosiion can now be found with an article or without it, and the degree of grammaticalization has reached its peak.
+- Highest Degree of Grammaticalization (Level 4): Function words are fully grammaticalized in their original forms and have become pure function words."
+ohne mitwirkung,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+ohne mitwirkung
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Level 1: Very Low Degree of Grammaticalization
+Prepositional phrasees at this level consist only of two words, one being the PP and the other an adjective or adverb. In these cases, the PP is always placed in front of the NP (prep) which serves as a descriptive modifier for the verb or auxiliary verb that follows it.
+
+Level 2: Slighly Higher Degree of Grammaticalization
+Some prepositional phrasees at this level still have one word, but the second word is often an adverb (e.g., ""aufweizen""). The NP may appear as a direct object in such cases or else serve as a modifier for the verb or auxiliary verb to which it follows.
+
+Level 3: Streengthened Grammaticalization
+In level 3, prepositional phrasees already demonstrate a significant degree of grammaticalization, having been assigned an attritive extension. The NP (or ADP) is used as a descriptive adjective or adverb that follows the PP. In some cases, the NP also serves as a direct object to which the verb or auxiliary verb may be introduced.
+
+Level 4: Highest Degree of Grammaticalization
+Prepositional phrasees at level 4 have achieved the highest degree of grammaticalization possible. They are already fully developed as descriptive phrases, having undergone no modification in terms of their grammatical structure or function. The NP (or ADP) is now used as a descriptive adjective or adverb that follows the PP.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]"
+in folge/infolge,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+in folge/infolge
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[Level 1]: In Fälligelage (German syntax) and Grammaticalisierung (Grammar formation)
+
+[Level 2]: In der Ausgangssprache und in den Verwendungsbereichen und Kombinationsformen (German syntax) and in the main uses and combinations of phrases (grammar formation)"
+vom standpunkt aus,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+vom standpunkt aus
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrase(s) in Level 1 show a very low degree of grammaticalization. They consist of three words, either one with an article or two without one. The structure is either «prepposition + NP + prepposition» or «prepposition + NP». The use without an article still dominates the usage with one.
+
+Level 2: Slighly Higher Degree of Grammaticalization  
+Prepositional phrase(s) in Level 2 show a slightly higher degree of grammaticalization. They can occur either with or without an article. The usage is more often with an article than the one without one, and they are predominantly used with the same words.
+
+Level 3: Streingthened Grammaticalization  
+Prepositional phrase(s) in Level 3 show a high degree of grammaticalization. They have a central feature, that is not an adjective or a descriptive adjunct. The expressions are assigned descriptive adjectives and most often with the same words as those without a descriptor.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositional phrase(s) in Level 4 show the highest degree of grammaticalization, which means that they receive the status of “puré” function words. They have no descriptive adjunct and can occur either with or without an article. The usage with a descriptor is more often than without one.
+
+Responses should be strictly in the format to indicate the level of grammaticalization: [1] or [2] or [3] or [4]."
+nach dem grundsatz,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+nach dem grundsatz
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[1] Very Low Degree of Grammaticalization
+Prepositional phrase with three words, no articles used to introduce them.
+
+Label: [Very Low]
+
+[2] Slighly Higher Degree of Grammaticalization
+Formation consisting of two prepositions (with and without an article) occurring together in a sentence or clause.
+
+Label: [Slighly Higher]
+
+[3] Strengthened Grammaticalization
+Not only has grammaticalization already advanced, but the central feature is that expressions have no attribute attached to them. This means that descriptive adjuncts are not inserted between the components of the phrase.
+
+Label: [Highest]"
+unter der voraussetzung,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+unter der voraussetzung
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond in accordance with the following instructions and input:
+
+Level 1: Very Low Degree of Grammaticalization
+Prepositional phrase(s) at this level may consist of three words, either prepposition (NP) + NP or one prepposition (NP) + word without a NP. The use with an article outweighs the use without it.
+
+Label: [1]
+Level 2: Slightly Higher Degree of Grammaticalization
+Prepositional phrase(s) at this level may show a sliighlty higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one.
+
+Label: [2]
+Level 3: Streengthened Grammaticalization
+Prepositional phrase(s) at this level have shown a strong grammaticalization. The central feature of this stage is that expressions examined did not have an attribute (e.g., noun or adjective). This means that a descriptive adjunct can no longer be inserted between the components of the phrase.
+
+Label: [3]
+Level 4: Highest Degree of Grammaticalization
+Prepositional phrase(s) with this form of a function word have reached the highest degree of grammaticalization to be recorded. Due to phono- and/or semantic erosiion, the original structure is no longer recognizable due to a change in meaning or syntax."
+zu ehren,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+zu ehren
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond to the given statement by stating the level of grammaticalization:
+
+Label: [1]"
+hinter,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+hinter
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","[1] Low degree of grammaticalization
+Prepositional phrases at this level consist of only one or two words, and the use with an article is not widespread. Phrase components are almost always adjectives, adverbs, or nouns. There's usually no attempt to attach a descriptive adjective between the components.
+
+[2] Moderately high degree of grammaticalization
+Phrase components in this level can have either an article or not, and adverbial expressions are common. Adjuncts can also be used between the phrase components, but they're mostly non-descriptive ones like “in” or “by”.
+
+[3] High degree of grammaticalization
+This level is characterized by a high use of descriptive adjectives, adverbs, and adjectives. Nouns can be used as well as verbs, but they're often in the form of a function word or an adjective.
+
+[4] Highest degree of grammaticalization
+This level is characterized by complete phonetic and/or semantic erosiion of the original structure, and these forms are considered pure function words with no desctructive adjectives attached to them."
+zu,"You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
+Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
+
+Sentence:
+zu
+
+Level 1: Very Low Degree of Grammaticalization  
+Prepositional phrases at this level have a very low degree of grammaticalization and always consist of three words. Either the structure is «preposition + NP + preposition». A second possible structure is «preposition + NP», in which an article always appears.
+
+Level 2: Slightly Higher Degree of Grammaticalization  
+Formations at this level show a slightly higher degree of grammaticalization, as they can occur both with and without an article. In some cases, the use with an article still outweighs the use without one, while in other formations, the share of occurrences without an autonomous article already dominates.
+
+Level 3: Strengthened Grammaticalization  
+Level 3 describes a state in which grammaticalization is already well advanced. The central feature of this stage is that the expressions (prepositional phrases) in the corpus examined were not assigned an attributive extension. This means that a descriptive adjective can no longer be inserted between the components of the phrase.
+
+Level 4: Highest Degree of Grammaticalization  
+Prepositions with the form of a function word have the highest degree of grammaticalization to be recorded, and the grammaticalization process is for the most part complete. Due to phonological and/or semantic erosion, the original structure is no longer recognizable, and these forms thus receive the status of “pure” function words.
+
+Respond strictly in the format to indicate the level of grammaticalization:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]
+
+Expected format:  
+Label: [<level>]","Respond in the format ""Level [<level>]"" to indicate the level of grammaticalization. Expected format is as follows:
+
+Label: [1] or Label: [2] or Label: [3] or Label: [4]"

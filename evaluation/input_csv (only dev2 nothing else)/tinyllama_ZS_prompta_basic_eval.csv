@@ -1,0 +1,13 @@
+Evaluation,pred_A
+Spearman's ρ (rank),0.17
+AP (degrees 1.0 vs. 2.0),0.34
+AP (degrees 1.0 vs. 3.0),0.58
+AP (degrees 1.0 vs. 4.0),0.42
+AP (degrees 2.0 vs. 3.0),0.77
+AP (degrees 2.0 vs. 4.0),0.66
+AP (degrees 3.0 vs. 4.0),0.35
+Accuracy (Exact Match),0.20
+Accuracy (Level 1.0),0.29
+Accuracy (Level 2.0),0.00
+Accuracy (Level 3.0),0.03
+Accuracy (Level 4.0),0.79
