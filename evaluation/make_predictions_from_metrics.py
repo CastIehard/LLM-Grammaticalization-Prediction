@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(BASE_DIR)
     # Define file paths
 input_file = os.path.join(BASE_DIR, "data/dev data 2 (for testing)/dev_data_2_testing_metrics.csv")
-output_dir = os.path.join(BASE_DIR, "evaluation/output")
+output_dir = os.path.join(BASE_DIR, "evaluation/input_csv (only dev2 nothing else)")
 
 def calculate_correlation(metric_values, gramm_scores):
     """

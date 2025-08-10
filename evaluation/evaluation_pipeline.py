@@ -20,10 +20,10 @@ warnings.filterwarnings('ignore')
 # =============================================================================
 # Configuration
 # =============================================================================
-INPUT_CSV_DIR = "evaluation/input_csv (only dev2 nothing else)"
-OUTPUT_CSV = "evaluation/output/evaluation_results.csv"
-OUTPUT_PLOT = "evaluation/output/evaluation_plot.png"
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_CSV_DIR = os.path.join(BASE_DIR, "input_csv (only dev2 nothing else)")
+OUTPUT_CSV = os.path.join(BASE_DIR, "evaluation_results.csv")
+OUTPUT_PLOT = os.path.join(BASE_DIR, "evaluation_plot.png")
 
 # =============================================================================
 # Evaluation Functions
