@@ -91,13 +91,20 @@ Prepositions with the form of a function word have the highest degree of grammat
     def build_prompt_a(Keyword: str):
         return f"""You have been given a keyword in the form of preposition. 
 Your task is to evaluate the given German preposition and rate the degree of grammaticalization 
-in the form of single label from 1 to 4, where 1–4 represent increasing degrees of grammaticalization.
+in the form of single label from 1 to 4.
 Preposition: {Keyword}
 
 """
-
     @staticmethod
     def build_prompt_b(Keyword: str):
+        return f"""
+Task: evaluate the given German preposition and rate the degree of grammaticalization.
+Input: Preposition: {Keyword}
+Expected Output: Label: <1/2/3/4>
+"""
+
+    @staticmethod
+    def build_prompt_c(Keyword: str):
         return f"""You are a highly trained linguistic tool specializing in German syntax and grammaticalization.  
 Your task is to rate the degree of grammaticalization of the preposition given as the keyword input.
 
@@ -105,39 +112,30 @@ Preposition: {Keyword}
 
 Please provide the judgment as a single integer (1, 2, 3, or 4) corresponding to the increasing degrees of grammaticalization."""
 
-    @staticmethod
-    def build_prompt_c(Keyword: str):
-        return f"""You are a highly trained linguistic annotation model specializing in German syntax and grammaticalization.  
-Your task is to evaluate the degree of grammaticalization of a given preposition, and assign it an appropriate level from 1 (least grammaticalized) to 4 (most grammaticalized).
 
-Input: {Keyword} 
-Expected Output: Label: <1/2/3/4>
-"""
 
     @staticmethod
     def build_prompt_d(Keyword: str):
-        return f"""Consider the following label definitions for evaluating the degree of grammaticalization of a preposition:
-{PromptBuilder.DEFINITIONS}
- 
-Your task is to rate the degree of grammaticalization of the preposition given as the keyword input in the form of single label from 1 to 4.
-
-Preposition: {Keyword}
-
+        return f"""
+Task: evaluate the given German preposition and rate the degree of grammaticalization.
+Label Description:{PromptBuilder.DEFINITIONS}
+Input: Preposition: {Keyword}
+Expected Output: Label: <1/2/3/4>
 """
 
     @staticmethod
     def build_prompt_e(keyword: str, examples_block: str):
         # unchanged signature & format
-        return f"""{examples_block}
-
+        return f"""
+Task: evaluate the given German preposition and rate the degree of grammaticalization.
+{examples_block}
 Preposition: {keyword} → Level:"""
 
     @staticmethod
     def build_prompt_f(keyword: str, examples_block: str):
         # unchanged signature & format
-        return f"""Your task is to evaluate the given German preposition and rate the degree of grammaticalization 
-in the form of single label from 1 to 4.Use the following examples to guide your evaluation:
-
+        return f"""Task: evaluate the given German preposition and rate the degree of grammaticalization.
+Label Description:{PromptBuilder.DEFINITIONS}
 {examples_block}
 
 Preposition: {keyword} → Level:"""
