@@ -93,26 +93,24 @@ def evaluate_single_file(file_path):
     return results
 
 def create_evaluation_plot(results_df):
-    """Create a bar plot showing MSE for all models."""
+    """Create a bar plot showing F1 Score for all models."""
     plt.figure(figsize=(12, 8))
     
-    # Sort by MSE for better visualization
-    sorted_df = results_df.sort_values('mse')
+    # Sort by F1 Score for better visualization (descending order since higher is better)
+    sorted_df = results_df.sort_values('f1_score', ascending=False)
     
     # Create bar plot
-    bars = plt.bar(range(len(sorted_df)), sorted_df['mse'], 
+    bars = plt.bar(range(len(sorted_df)), sorted_df['f1_score'], 
                    color=['red' if name == 'random' else 'steelblue' for name in sorted_df['file_name']])
     
     # Customize plot
-    plt.xlabel('Models', fontsize=12)
-    plt.ylabel('Mean Squared Error (MSE)', fontsize=12)
-    plt.title('Model Performance Comparison - Mean Squared Error', fontsize=14, fontweight='bold')
+    plt.ylabel('F1 Score', fontsize=12)
     plt.xticks(range(len(sorted_df)), sorted_df['file_name'], rotation=45, ha='right')
     
     # Add value labels on bars
-    for i, (bar, mse) in enumerate(zip(bars, sorted_df['mse'])):
+    for i, (bar, f1) in enumerate(zip(bars, sorted_df['f1_score'])):
         plt.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.01,
-                f'{mse:.3f}', ha='center', va='bottom', fontsize=10)
+                f'{f1:.3f}', ha='center', va='bottom', fontsize=10)
     
     # Add grid for better readability
     plt.grid(axis='y', alpha=0.3)
@@ -120,8 +118,8 @@ def create_evaluation_plot(results_df):
     # Highlight random baseline
     if 'random' in sorted_df['file_name'].values:
         random_idx = sorted_df[sorted_df['file_name'] == 'random'].index[0]
-        plt.axhline(y=sorted_df.loc[random_idx, 'mse'], color='red', linestyle='--', alpha=0.7, 
-                   label=f"Random Baseline (MSE={sorted_df.loc[random_idx, 'mse']:.3f})")
+        plt.axhline(y=sorted_df.loc[random_idx, 'f1_score'], color='red', linestyle='--', alpha=0.7, 
+                   label=f"Random Baseline (F1={sorted_df.loc[random_idx, 'f1_score']:.3f})")
         plt.legend()
     
     plt.tight_layout()
