@@ -1,17 +1,27 @@
 # main_pipeline.py
 import os
-import json
 import re
 import itertools
 import requests
 import pandas as pd
 from tqdm import tqdm
 from dotenv import load_dotenv
-from scipy.stats import spearmanr
-from sklearn.metrics import average_precision_score
+
 
 from prompts import PromptBuilder
-from dspy_models import predict_base, predict_with_def, compile_with_teleprompter
+
+# --- DSPy config (unchanged model; flip later if you switch models) ---
+import dspy
+dspy.configure(lm=dspy.LM('ollama/tinyllama', api_base='http://localhost:11434'))
+
+# >>> DSPy zero-shot frameworks
+# MINIMAL CHANGE: import from dspy_frameworks (and alias to keep your original names)
+from dspy_models import (
+    make_zs_nodefs,                          # Zero-shot, no definitions, no tuning
+    make_zs_withdefs_const as make_zs_withdefs,  # Zero-shot, with definitions (fixed inside the module)
+    compile_zero_shot_instruction_optimized, # Zero-shot, instruction-optimized (0-Shot MIPRO)
+    LABEL_DEFS,                              # Canonical label definitions (used for WITH-defs paths)
+)
 
 # === OPTIONAL: Compile DSPy teleprompter model ===
 # teleprompt_model = compile_with_teleprompter(train_examples, accuracy_metric, mode="bootstrap")
@@ -29,15 +39,29 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 PROMPT_LABELS = ["A", "B", "C", "D", "E", "F"]
 
+# Descriptive slugs for filenames (no change to prompt logic)
+PROMPT_FILENAME_SLUG = {
+    "A": "basic_plain",
+    "B": "explicit_io",
+    "C": "expert_plain",
+    "D": "labeldesc_io",
+    "E": "fewshot_plain",
+    "F": "fewshot_labeldesc",
+}
+# Make MODEL_NAME filesystem-safe, e.g. "llama2:7b" -> "llama2_7b"
+def _model_slug(name: str) -> str:
+    return re.sub(r'[^A-Za-z0-9._-]+', '_', name)
+
+MODEL_SLUG = _model_slug(MODEL_NAME)
+
 # === Few-shot examples (dynamic, INTERLEAVED: 1a,2a,3a,4a, 1b,2b,3b,4b) ===
-# This CSV is the source for your few-shot examples (with columns keyword, gramm_score).
 EXAMPLES_FILE = "./data/dev data 1 (for prompting)/dev_data_1_prompting_metrics.csv"  # adjust if needed
 
 try:
     examples_block = PromptBuilder.make_examples_block_from_csv_interleave(
         EXAMPLES_FILE,
-        per_level=2,   # you have 2 examples per level
-        seed=42        # keep fixed for reproducibility
+        per_level=2,
+        seed=42
     )
     print("[Few-shot] Built interleaved examples block from:", EXAMPLES_FILE)
 except Exception as e:
@@ -54,7 +78,7 @@ def call_ollama(prompt):
         print(f" Error calling Ollama: {e}")
         return ""
 
-# === DSPy Call Helper ===
+# === DSPy Call Helper (unchanged signature; WITH-defs model is wrapped to inject defs) ===
 def call_dspy(model, keyword):
     """Call a DSPy model with a keyword (preposition)."""
     try:
@@ -74,69 +98,23 @@ def extract_label(text):
     fallback = re.findall(r"\b([1-4])\b", text)
     return int(fallback[-1]) if fallback else 0
 
-# === Evaluation ===
-def evaluate_predictions(df, metrics, output_path):
-    df.dropna(subset=["gramm_score"], inplace=True)
-    df = df.drop_duplicates(subset=["keyword"]).copy()
-    if len(df) < 2:
-        print(" Not enough keywords for evaluation.")
-        return
-
-    results = []
-    truth = df["gramm_score"]
-
-    # Spearman rank
-    rho_row = {"Evaluation": "Spearman's ρ (rank)"}
-    for m in metrics:
-        rho, _ = spearmanr(truth, df[m])
-        rho_row[m] = f"{rho:.2f}"
-    results.append(rho_row)
-
-    # Average Precision (pairwise degrees)
-    degrees = sorted(df["gramm_score"].unique())
-    for d1, d2 in itertools.combinations(degrees, 2):
-        subset = df[df["gramm_score"].isin([d1, d2])]
-        y_true = (subset["gramm_score"] == d2).astype(int)
-        if y_true.nunique() < 2:
-            continue
-        row = {"Evaluation": f"AP (degrees {d1} vs. {d2})"}
-        for m in metrics:
-            ap = average_precision_score(y_true, subset[m])
-            row[m] = f"{ap:.2f}"
-        results.append(row)
-
-    # Accuracy overall + per level
-    for m in metrics:
-        preds = df[m].round().astype(int)
-        acc = (preds == truth).mean()
-        results.append({"Evaluation": "Accuracy (Exact Match)", m: f"{acc:.2f}"})
-        for level in sorted(truth.unique()):
-            mask = truth == level
-            level_acc = (preds[mask] == level).mean()
-            results.append({
-                "Evaluation": f"Accuracy (Level {level})",
-                m: f"{level_acc:.2f}"
-            })
-
-    pd.DataFrame(results).set_index("Evaluation").to_csv(output_path)
-    print(f" Evaluation summary saved to: {output_path}")
-
 # === Load Input ===
 df_input = pd.read_csv(INPUT_FILE)
 df_input = df_input[["keyword", "gramm_score"]].dropna()
 data = df_input.to_dict(orient="records")
 
-# === Inference ===
+# === Inference for 6 BASIC PROMPTS (outputs: predictions-only CSV per run) ===
 for label in PROMPT_LABELS:
-    print(f"\n Running inference with Prompt {label} on {len(data)} keywords using model: {MODEL_NAME}\n")
+    slug = PROMPT_FILENAME_SLUG.get(label, label.lower())
+    is_fewshot = label in ("E", "F")
+    prefix = "FS" if is_fewshot else "ZS"  # Few-shot vs Zero-shot
+    description = f"{MODEL_SLUG}_{prefix}_{slug}"
+       # descriptive filename
+
+    print(f"\n Running inference with Prompt {label} ({slug}) on {len(data)} keywords using model: {MODEL_NAME}\n")
     results = []
 
-    # === Output file paths for this prompt
-    description = f"{MODEL_NAME}_ZS_prompt{label.lower()}_basic"
     output_path = os.path.join(OUTPUT_DIR, f"{description}.csv")
-    sampled_io_path = os.path.join(OUTPUT_DIR, f"{description}_samples.csv")
-    keyword_agg_path = os.path.join(OUTPUT_DIR, f"{description}_summary.csv")
-    eval_path = os.path.join(OUTPUT_DIR, f"{description}_eval.csv")
 
     for item in tqdm(data):
         keyword = item["keyword"]
@@ -157,43 +135,97 @@ for label in PROMPT_LABELS:
         response = call_ollama(prompt)
         pred = extract_label(response)
 
-        # === Option 2: DSPy Base
-        # response = call_dspy(predict_base, keyword)
-        # pred = extract_label(response)
-
-        # === Option 3: DSPy With Def
-        # response = call_dspy(predict_with_def, keyword)
-        # pred = extract_label(response)
-
-        # === Option 4: DSPy Teleprompter-compiled
-        # response = call_dspy(teleprompt_model, keyword)
-        # pred = extract_label(response)
-
         results.append({
             "keyword": keyword,
             "gramm_score": true_score,
-            f"prompt_{label}": prompt,
-            f"raw_response_{label}": response,
             f"pred_{label}": pred
         })
 
-    # === Save raw predictions
-    df = pd.DataFrame(results)
-    df.to_csv(output_path, index=False)
-    print(f" Full predictions saved to: {output_path}")
+    # === Save predictions-only CSV
+    pd.DataFrame(results).to_csv(output_path, index=False)
+    print(f" Predictions saved to: {output_path}")
 
-    # === Save sample I/O
-    sample_cols = ["keyword", f"prompt_{label}", f"raw_response_{label}"]
-    df.sample(min(10, len(df)), random_state=42)[sample_cols].to_csv(sampled_io_path, index=False)
-    print(f" Sample I/O saved to: {sampled_io_path}")
+# =====================================================================
+#                          DSPy ZERO-SHOT RUNS
+#             (outputs: predictions-only CSV per run)
+# =====================================================================
 
-    # === Keyword-level aggregation
-    keyword_df = df.groupby("keyword").agg({
-        "gramm_score": "first",
-        f"pred_{label}": "mean"
-    }).reset_index()
-    keyword_df.to_csv(keyword_agg_path, index=False)
-    print(f" Keyword-level summary saved to: {keyword_agg_path}")
+# One-click ON: produce all DSPy files in the same run
+RUN_DSPY = True          # set False to disable DSPy runs
 
-    # === Evaluation
-    evaluate_predictions(keyword_df, [f"pred_{label}"], eval_path)
+if RUN_DSPY:
+    # 1) Build a tiny labeled set for instruction optimization (0-Shot MIPRO).
+    #    Uses your few-shot CSV ONLY for tuning the instruction; no demos are added at inference.
+    trainset_for_mipro = []
+    try:
+        _df_fs = pd.read_csv(EXAMPLES_FILE)
+        _kw_col = next((c for c in ["keyword", "Keyword", "preposition", "Preposition"] if c in _df_fs.columns), None)
+        _lb_col = next((c for c in ["gramm_score", "Gramm_Score", "label", "Label", "level", "Level"] if c in _df_fs.columns), None)
+        if _kw_col is None or _lb_col is None:
+            raise ValueError(f"Expected keyword and label columns in {EXAMPLES_FILE}")
+        _tmp = _df_fs[[_kw_col, _lb_col]].dropna().copy()
+        _tmp[_lb_col] = _tmp[_lb_col].astype(float).round().astype(int)
+        _tmp = _tmp[_tmp[_lb_col].between(1, 4)]
+        _tmp = _tmp.drop_duplicates(subset=[_kw_col])
+
+        trainset_for_mipro = [
+            {"preposition": str(r[_kw_col]), "label": int(r[_lb_col])}
+            for _, r in _tmp.iterrows()
+        ]
+        print(f"[DSPy] Built instruction-optimization trainset from {EXAMPLES_FILE}: {len(trainset_for_mipro)} rows")
+    except Exception as e:
+        print(f"[DSPy] Failed to build trainset from {EXAMPLES_FILE}: {e}")
+        trainset_for_mipro = []
+
+    # 2) Instantiate two untuned zero-shot DSPy models
+    dspy_zs_no_defs  = make_zs_nodefs()     # zero-shot, no definitions
+    dspy_zs_withdefs = make_zs_withdefs()   # zero-shot, with definitions (const LABEL_DEFS)
+
+    # 3) Compile BOTH optimized variants (if trainset available)
+    opt_nodefs = None
+    opt_withdefs = None
+    if len(trainset_for_mipro) > 0:
+        opt_nodefs = compile_zero_shot_instruction_optimized(
+            trainset=trainset_for_mipro, use_defs=False, defs=None, auto="medium"
+        )
+        opt_withdefs = compile_zero_shot_instruction_optimized(
+            trainset=trainset_for_mipro, use_defs=True, defs=LABEL_DEFS, auto="medium"
+        )
+        print("[DSPy] Compiled instruction-optimized zero-shot models (no-defs & with-defs).")
+    else:
+        print("[DSPy] Skipping instruction optimization (no trainset).")
+
+    # 4) Prepare ALL DSPy runs (4 in total; optimized ones are conditional)
+    dspy_runs = [
+        ("DSPy_1_nodefs", dspy_zs_no_defs),
+        ("DSPy_2_withdefs", dspy_zs_withdefs),
+    ]
+    if opt_nodefs is not None:
+        dspy_runs.append(("DSPy_3_opt_nodefs", opt_nodefs))
+    if opt_withdefs is not None:
+        dspy_runs.append(("DSPy_4_opt_withdefs", opt_withdefs))
+
+    # 5) Inference & outputs (predictions-only CSV per run)
+    for dsp_name, dsp_model in dspy_runs:
+        print(f"\n Running inference with {dsp_name} on {len(data)} keywords using DSPy\n")
+        results = []
+
+        description = f"{MODEL_NAME}_{dsp_name}"
+        output_path = os.path.join(OUTPUT_DIR, f"{description}.csv")
+
+        for item in tqdm(data):
+            keyword = item["keyword"]
+            true_score = float(item["gramm_score"])
+
+            response = call_dspy(dsp_model, keyword)
+            pred = extract_label(response)
+
+            results.append({
+                "keyword": keyword,
+                "gramm_score": true_score,
+                f"pred_{dsp_name}": pred
+            })
+
+        # Save predictions-only CSV
+        pd.DataFrame(results).to_csv(output_path, index=False)
+        print(f" Predictions saved to: {output_path}")
