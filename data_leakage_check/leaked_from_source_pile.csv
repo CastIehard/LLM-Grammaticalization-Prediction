@@ -1,0 +1,365 @@
+Keyword,Snippet,Score
+an,"It is done, and submitted. You can play “Survival of the Tastiest” on Android, and on the web. Playing on the web works, but you have to simulate multi-touch for table moving and that can be a bit confusing.
+
+There’s a lot I’d like to talk about. I’ll go through every topic, insted of making the typical what went right/wrong list.
+
+Concept
+
+Working over the theme was probably one of the hardest tasks I had to face.
+
+Originally, I had an idea of what kind of game I wanted to develop, gameplay wise – something with lots of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident I could fit any theme around it.
+
+In the end, the problem with a theme like “Evolution” in a game is that evolution is unassisted. It happens through several seemingly ran",4
+in,"It is done, and submitted. You can play “Survival of the Tastiest” on Android, and on the web. Playing on the web works, but you have to simulate multi-touch for table moving and that can be a bit confusing.
+
+There’s a lot I’d like to talk about. I’ll go through every topic, insted of making the typical what went right/wrong list.
+
+Concept
+
+Working over the theme was probably one of the hardest tasks I had to face.
+
+Originally, I had an idea of what kind of game I wanted to develop, gameplay wise – something with lots of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident I could fit any theme around it.
+
+In the end, the problem with a theme like “Evolution” in a game is that evolution is unassisted. It happens through several seemingly ran",4
+wider,"From the mid-1960's until the close of that decade, automobiles became lighter, more compact, and more powerful. Auto manufacturers continued to compete against one another for drag-strip supremacy. As government regulations and safety concerns increased, the muscle car era began to decline rapidly.
+
+Many of these ultimate high-performance muscle cars were built to satisfy homologation requirements. Others were built just to have the fastest machine on the road. The Plymouth Hemi 'Cuda is an example of one of the fiercest and most powerful vehicle ever constructed for the roadway. It was derived from the lesser Barracuda's which began in the mid-1960's. It was built atop the 'E' body platform and was restyled in 1970 by John Herlitz, making it longer, wider, and lower. The 426 cubic-inch H",4
+ab,"INTRODUCTION {#s1}
+============
+
+Hepatitis B virus (HBV) is still a major global health problem, with an estimated 257 million people worldwide that are chronically infected with HBV ([@B1]). HBV, together with duck hepatitis B virus (DHBV) and several other related animal viruses, belongs to the *Hepadnaviridae* family ([@B2]). The HBV virion is comprised of an outer envelope and an inner icosahedral nucleocapsid (NC) assembled by 240 copies of core protein (HBc) and packaged with a 3.2-kb partially double-stranded circular DNA genome ([@B3][@B4][@B8]). In addition to DNA-containing virions, a large amount of incomplete viral particles, such as hepatitis B surface antigen (HBsAg) particles, empty virions, and naked capsids, can also be released from cells in the process of virus replicati",4
+gen,"USA
+
+The EU is a political system with a unique structure and functioning, incomparable to anything which has existed before, far away from any classical, either national or international model. In such supranational union that is neither a pure intergovernmental organization nor a true federal state, political institutions appear vague and somewhat obscure and indistinguishable.
+
+Are Iran and Saudi Arabia going to war? They are already fighting – by proxy – all over the region. Relations between Saudi Arabia and Iran quickly deteriorated in January 2016 following Riyadh’s execution of Shiite cleric Nimr al-Nimi but their struggle for power dates back to Iran's Islamic Revolution in 1979. Tehran's influence extends today across a broad area of the Middle East from Iran in the east to Leban",4
+von,"Q:
+
+Is the sum of separating vectors always separating?
+
+If $\mathcal{R}$ is a von Neumann algebra acting on Hilbert space $H$ and $v, w \in H$ are separating vectors for $\mathcal{R}$, must $v+w$ be (either zero or) separating for $\mathcal{R}$?
+[I have edited to remove the restriction to type III factors and am moving my proposed partial solution to an answer below.]
+
+A:
+
+No, there must be a counterexample, under the mild assumption that there exists a nontrivial unitary $U \in \mathcal{R}$ whose restriction to the range of some nonzero projection $P \in \mathcal{R}$ is trivial (i.e. the identity).
+Fix such a $U$ and $P$. Let $v$ be any separating vector for $\mathcal{R}$ and let $w = -Uv$. This $w$ is separating for $\mathcal{R}$ since any nonzero $T \in \mathcal{R}$ that annihilated $w",4
+ob,"798 So.2d 646 (2001)
+Charles SHARRIEF and Millie Sharrief as personal representatives of Quanetta M. Buchannon, deceased
+v.
+Rebecca GERLACH, M.D.
+1991732.
+Supreme Court of Alabama.
+April 20, 2001.
+*648 Sherryl Snodgrass Caffey, Huntsville, for appellants.
+John S. Key and Jenny L. McLeroy of Eyster, Key, Tubb, Weaver & Roth, L.L.P., Decatur, for appellee.
+HARWOOD, Justice.
+Charles Sharrief and Millie Sharrief, as administrators of the estate of Quanetta M. Buchannon, deceased, sued Dr. Rebecca Gerlach, Dr. Charles Giddens, and Jackson County Hospital, seeking compensatory and punitive damages on allegations of a wrongful death, in the defendants' providing medical care to Buchannon.
+The trial court entered an ""Order of Referral to Mediation."" During mediation, the plaintiffs' settled their ",4
+mit,"# frozen_string_literal: true
+
+require File.expand_path('lib/jekyll-last-modified-at/version.rb', __dir__)
+Gem::Specification.new do |s|
+  s.name                  = 'jekyll-last-modified-at'
+  s.version               = Jekyll::LastModifiedAt::VERSION
+  s.summary               = 'A liquid tag for Jekyll to indicate the last time a file was modified.'
+  s.authors               = 'Garen J. Torikian'
+  s.homepage              = 'https://github.com/gjtorikian/jekyll-last-modified-at'
+  s.license               = 'MIT'
+  s.files                 = Dir['lib/**/*.rb']
+
+  s.add_dependency 'jekyll', '>= 3.7', ' < 5.0'
+  s.add_dependency 'posix-spawn', '~> 0.3.9'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec', '~> 3.4'
+  s.add_development_dependency 'rubocop'
+  s.add_deve",4
+auf,"Julia Kogan
+
+Julia Kogan is an American-French operatic coloratura soprano, writer, and presenter of Ukrainian ancestry.
+
+Biography
+Kogan's opera roles have included Queen of the Night in Die Zauberflöte, Zerbinetta in Ariadne auf Naxos, Blonde in Die Entführung, Madame Herz in Der Schauspieldirektor, Greta Fiorentino in Street Scene, and Fiordiligi Cosi fan tutte at the opera houses of Avignon, Indianapolis, Limoges, Manitoba, Toulon, Toulouse and in Oxford.  She has been described as ""a lively actress"" with ""a warm voice, round, elegant and expressive phrasing, and a remarkable knack for coloratura passages"", ""up to the challenge of a stratospheric soprano line"".
+
+Kogan has concertized with repertoire ranging from Baroque to contemporary in Europe, North and South America, and Africa, in",4
+bis,"Abstract
+
+The entorhinal cortex receives a large projection from the piriform cortex, and synaptic plasticity in this pathway may affect olfactory processing. In vitro whole cell recordings have been used here to investigate postsynaptic signalling mechanisms that mediate the induction of long-term synaptic depression (LTD) in layer II entorhinal cortex cells. To induce LTD, pairs of pulses, using a 30-millisecond interval, were delivered at 1 Hz for 15 minutes. Induction of LTD was blocked by the NMDA receptor antagonist APV and by the calcium chelator BAPTA, consistent with a requirement for calcium influx via NMDA receptors. Induction of LTD was blocked when the FK506 was included in the intracellular solution to block the phosphatase calcineurin. Okadaic acid, which blocks activation o",4
+je,"Guy Fouché
+
+Guy Fouché (17 June 1921 – 28 May 1998) was a French operatic tenor.
+
+Life 
+Born in Bordeaux, Fouché graduated from the Conservatoire de Bordeaux with the First Prize in Opera and opéra comique. He began his career at the Grand Théâtre de Bordeaux in 1942 in Bizet's Les Pêcheurs de perles.
+
+He also obtained a second prize at the Conservatoire de Paris in 1943. From 1945 to 1953, he performed in French opera houses, including those of Toulouse, Marseille, Lyon, Lille, Nantes, Rennes and Bordeaux.
+
+In 1953, he was in Oran. From 1954 to 1956, he was part of the troupe of the Opéra Royal de Wallonie in Liège before being, for six seasons, the first tenor at La Monnaie in Brussels.
+
+Back in Oran, he sang the title role of Faust. In 1961, he moved to Toulon where he ended his career ",4
+um,"Q:
+
+String com lixo de memória
+
+Estou com alguns problemas ao trabalhar com arquivos e funções, o código que estou fazendo deveria imprimir uma string no arquivo, porém essa string está com lixo, e não imprime o que deve apesar de ser usada normalmente.
+http://pastebin.com/JtGTDSeL
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+#define MAIOR_ID 0
+
+int top_IDS(int ID_DNA, char *linhas[])
+{
+    FILE *arquivo;
+    arquivo=fopen(""MEL_PIOR.txt"",""a"");
+    fflush(stdin);
+    fputs(linhas,arquivo);
+    fprintf(arquivo,""\t%i\n"",ID_DNA);
+
+    fclose(arquivo);
+
+    return 0;
+}
+
+int calcular_peso(char lin_1[],int *qtd_g, int *qtd_c)
+{
+    int i=0;
+    int soma_pesos=0,I_D=0;
+    int qt,qt2;
+    gets(lin_1);
+    for(i=0; i<10; i++)
+    {   if(lin_1[i]=='A' || lin_1[i]=='T",4
+für,"Preprint hep-ph/0006089
+
+[Improved Conformal Mapping of the Borel Plane]{}
+
+U. D. Jentschura and G. Soff
+
+[*Institut für Theoretische Physik, TU Dresden, 01062 Dresden, Germany*]{}\
+[**Email:**]{} jentschura@physik.tu-dresden.de, soff@physik.tu-dresden.de
+
+The conformal mapping of the Borel plane can be utilized for the analytic continuation of the Borel transform to the entire positive real semi-axis and is thus helpful in the resummation of divergent perturbation series in quantum field theory. We observe that the convergence can be accelerated by the application of Padé approximants to the Borel transform expressed as a function of the conformal variable, i.e. by a combination of the analytic continuation via conformal mapping and a subsequent numerical approximation by rational approxi",4
+vor,"LibreOffice Draw
+
+LibreOffice Draw is a free and open source vector graphics editor. It is one of the applications included in the LibreOffice office suite, developed by The Document Foundation.
+
+LibreOffice Draw can be used to create complicated figures using shape tools, straight and curved tools, polygon tools, among other features.
+
+Like the other components of LibreOffice, Draw can be run on Linux, MacOS and Microsoft Windows.
+
+LibreOffice Draw natively uses Open Document Format for Office Applications (ODF) (.odg graphics extension) which is an international standard file format established by the Organization for the Advancement of Structured Information Standards (OASIS).
+
+Features 
+
+Draw can be used to make flowcharts, technical drawings, brochures, posters, photo galleries and al",4
+aus,"Q:
+
+Satz mit den meisten aufeinanderfolgenden Verben
+
+Es geht um Sätze mit aufeinanderfolgenden Verben ohne andere Wortarten oder Satzzeichen dazwischen.
+Beispiele (Länge der längsten Verbfolge in Klammern):
+
+Ich schreibe einen Brief (1)
+Ich habe einen Brief schreiben müssen (2)
+Der Brief muss geschrieben werden (3)
+Der Brief hätte geschrieben werden müssen (4)
+
+Ein Bekannter meinte, dass es nicht möglich sei, einen korrekten Satz mit mehr als vier aufeinanderfolgenden Verben zu formulieren, aber nach einiger Zeit ist mir ein Satz mit fünf eingefallen:
+
+Er war nicht so blöd, wie man hätte geneigt sein können anzunehmen.
+
+Ist das auch mit mehr als fünf Verben möglich?
+Ich habe jetzt eine Weile darüber nachgedacht, aber mir ist kein anderer Satz mit fünf oder mehr aufeinanderfolgenden Verben",4
+nach,"Q:
+
+Satz mit den meisten aufeinanderfolgenden Verben
+
+Es geht um Sätze mit aufeinanderfolgenden Verben ohne andere Wortarten oder Satzzeichen dazwischen.
+Beispiele (Länge der längsten Verbfolge in Klammern):
+
+Ich schreibe einen Brief (1)
+Ich habe einen Brief schreiben müssen (2)
+Der Brief muss geschrieben werden (3)
+Der Brief hätte geschrieben werden müssen (4)
+
+Ein Bekannter meinte, dass es nicht möglich sei, einen korrekten Satz mit mehr als vier aufeinanderfolgenden Verben zu formulieren, aber nach einiger Zeit ist mir ein Satz mit fünf eingefallen:
+
+Er war nicht so blöd, wie man hätte geneigt sein können anzunehmen.
+
+Ist das auch mit mehr als fünf Verben möglich?
+Ich habe jetzt eine Weile darüber nachgedacht, aber mir ist kein anderer Satz mit fünf oder mehr aufeinanderfolgenden Verben",4
+ohne,"Q:
+
+Satz mit den meisten aufeinanderfolgenden Verben
+
+Es geht um Sätze mit aufeinanderfolgenden Verben ohne andere Wortarten oder Satzzeichen dazwischen.
+Beispiele (Länge der längsten Verbfolge in Klammern):
+
+Ich schreibe einen Brief (1)
+Ich habe einen Brief schreiben müssen (2)
+Der Brief muss geschrieben werden (3)
+Der Brief hätte geschrieben werden müssen (4)
+
+Ein Bekannter meinte, dass es nicht möglich sei, einen korrekten Satz mit mehr als vier aufeinanderfolgenden Verben zu formulieren, aber nach einiger Zeit ist mir ein Satz mit fünf eingefallen:
+
+Er war nicht so blöd, wie man hätte geneigt sein können anzunehmen.
+
+Ist das auch mit mehr als fünf Verben möglich?
+Ich habe jetzt eine Weile darüber nachgedacht, aber mir ist kein anderer Satz mit fünf oder mehr aufeinanderfolgenden Verben",4
+zu,"Q:
+
+Satz mit den meisten aufeinanderfolgenden Verben
+
+Es geht um Sätze mit aufeinanderfolgenden Verben ohne andere Wortarten oder Satzzeichen dazwischen.
+Beispiele (Länge der längsten Verbfolge in Klammern):
+
+Ich schreibe einen Brief (1)
+Ich habe einen Brief schreiben müssen (2)
+Der Brief muss geschrieben werden (3)
+Der Brief hätte geschrieben werden müssen (4)
+
+Ein Bekannter meinte, dass es nicht möglich sei, einen korrekten Satz mit mehr als vier aufeinanderfolgenden Verben zu formulieren, aber nach einiger Zeit ist mir ein Satz mit fünf eingefallen:
+
+Er war nicht so blöd, wie man hätte geneigt sein können anzunehmen.
+
+Ist das auch mit mehr als fünf Verben möglich?
+Ich habe jetzt eine Weile darüber nachgedacht, aber mir ist kein anderer Satz mit fünf oder mehr aufeinanderfolgenden Verben",4
+bei,"History of Schleswig-Holstein
+
+The history of Schleswig-Holstein consists of the corpus of facts since the pre-history times until the modern establishing of the Schleswig-Holstein state.
+
+Early history
+
+The Jutland Peninsula is a peninsula in Northern Europe with modern-day Schleswig-Holstein at its base. Schleswig is also called Southern Jutland (Sønderjylland). The old Scandinavian sagas, perhaps dating back to the times of the Angles and Jutes give the impression that Jutland has been divided into a northern and a southern part with the border running along the Kongeå River.
+
+Taking into account both archeological findings and Roman sources, however, one could conclude that the Jutes inhabited both the Kongeå region and the more northern part of the peninsula, while the Angles lived ap",4
+seit,"<?php
+$lang['L_NOFTPPOSSIBLE']=""Es stehen keine FTP-Funktionen zur Verfügung!"";
+$lang['L_INFO_LOCATION']=""Du befindest dich auf "";
+$lang['L_INFO_DATABASES']=""Folgende Datenbank(en) befinden sich auf dem MySql-Server:"";
+$lang['L_INFO_NODB']=""Datenbank existiert nicht"";
+$lang['L_INFO_DBDETAIL']=""Detail-Information von Datenbank "";
+$lang['L_INFO_DBEMPTY']=""Die Datenbank ist leer!"";
+$lang['L_INFO_RECORDS']=""Datensätze"";
+$lang['L_INFO_SIZE']=""Größe"";
+$lang['L_INFO_LASTUPDATE']=""letztes Update"";
+$lang['L_INFO_SUM']=""insgesamt"";
+$lang['L_INFO_OPTIMIZED']=""optimiert"";
+$lang['L_OPTIMIZE_DATABASES']=""Tabellen optimieren"";
+$lang['L_CHECK_TABLES']=""Tabellen überprüfen"";
+$lang['L_CLEAR_DATABASE']=""Datenbank leeren"";
+$lang['L_DELETE_DATABASE']=""Datenbank löschen"";
+$lang['L_INFO_CLEARED']=""wurde geleert""",4
+durch,"[**The srank Conjecture on Schur’s $Q$-Functions**]{}
+
+William Y. C. Chen$^{1}$, Donna Q. J. Dou$^2$,\
+Robert L. Tang$^3$ and Arthur L. B. Yang$^{4}$\
+Center for Combinatorics, LPMC-TJKLC\
+Nankai University, Tianjin 300071, P. R. China\
+$^{1}$[chen@nankai.edu.cn]{}, $^{2}$[qjdou@cfc.nankai.edu.cn]{}, $^{3}$[tangling@cfc.nankai.edu.cn]{}, $^{4}$[yang@nankai.edu.cn]{}
+
+**Abstract.** We show that the shifted rank, or srank, of any partition $\lambda$ with distinct parts equals the lowest degree of the terms appearing in the expansion of Schur’s $Q_{\lambda}$ function in terms of power sum symmetric functions. This gives an affirmative answer to a conjecture of Clifford. As pointed out by Clifford, the notion of the srank can be naturally extended to a skew partition $\lambda/\mu$ as the minim",4
+über,"[**The srank Conjecture on Schur’s $Q$-Functions**]{}
+
+William Y. C. Chen$^{1}$, Donna Q. J. Dou$^2$,\
+Robert L. Tang$^3$ and Arthur L. B. Yang$^{4}$\
+Center for Combinatorics, LPMC-TJKLC\
+Nankai University, Tianjin 300071, P. R. China\
+$^{1}$[chen@nankai.edu.cn]{}, $^{2}$[qjdou@cfc.nankai.edu.cn]{}, $^{3}$[tangling@cfc.nankai.edu.cn]{}, $^{4}$[yang@nankai.edu.cn]{}
+
+**Abstract.** We show that the shifted rank, or srank, of any partition $\lambda$ with distinct parts equals the lowest degree of the terms appearing in the expansion of Schur’s $Q_{\lambda}$ function in terms of power sum symmetric functions. This gives an affirmative answer to a conjecture of Clifford. As pointed out by Clifford, the notion of the srank can be naturally extended to a skew partition $\lambda/\mu$ as the minim",4
+hinter,"Q:
+
+Wie spricht man von der deutschen Sprache?
+
+Es klingt fast wie eine Metafrage, aber wie spricht man eigentlich von der deutschen Sprache (oder von einer anderen)?  Sagt man 
+
+eher die Schönheit des Deutschen 
+  oder
+  die Schönheit vom Deutschen ?
+
+(Ja, ich weiss, man kann die Schönheit der deutschen Sprache sagen aber das ist ein Ausweichen!)           
+Ähnlich frage ich mich: heisst es 
+
+ins Deutsche übersetzen oder auf Deutsch übersetzen ?
+
+Und soll ich 
+
+im Deutschen habe ich Schwierigkeiten sagen oder auf Deutsch habe ich Schwierigkeiten ?
+
+A:
+
+Richtig ist die erste Variante
+Wichtig ist, dass man es nur mit bestimmtem Artikel verwenden darf, oder ganz ohne Artikel.
+(Das Deutsche ist eine schöne Sprache; Deutsch ist die Sprache der Dichter und Poeten).
+Nun ist es so, dass sich hint",4
+samt,"Fremgangsmåderne ved indgåelse af visse kontrakter på forsvars- og sikkerhedsområdet (forhandling) 
+Formanden
+Næste punkt på dagsordenen er betænkning af Lambsdorff for Udvalget om Det Indre Marked og Forbrugerbeskyttelse om forslag til Europa-Parlamentets og Rådets direktiv om samordning af fremgangsmåderne ved indgåelse af visse offentlige bygge- og anlægs-, vareindkøbs- og tjenesteydelseskontrakter på forsvars- og sikkerhedsområdet - C6-0467/2007 -.
+Alexander Graf Lambsdorff
+Hr. formand, mine damer og herrer! I hele verden har vi for øjeblikket 13 EU-missioner, som er med til at skabe fred og stabilitet. Ni missioner er allerede afsluttet. I mange af disse operationer kommer væbnede styrker fra vores medlemsstater, ofte sammen med politiet, ind i vanskelige miljøer. Samtidig ved vi alle",4
+unter,"Maxim Stepanov
+
+Maxim Osipovich Stepanov (August 1893 – 25 September 1945) was a Soviet komkor (corps commander). He fought for the Imperial Russian Army in World War I before going over to the Bolsheviks during the subsequent civil war. He received the Order of the Red Banner twice (1920, 1922). During the Great Purge, Stepanov's colleague division commissar Peter Maximovich Feldman (standing to his left in the group photo behind Alexander Yegorov) was executed on August 22, 1938. On November 28, 1938, the Central Committee of the Communist Party of the Soviet Union made the decision to dismiss Stepanov from the military, which was carried out the next day. He was arrested on December 9, 1938. He initially pleaded guilty to the charges he was accused of, but then withdrew his plea. He was",4
+neben,"Q:
+
+Umlaute im Fraktursatz
+
+Setzt man im Fraktursatz Umlaute auf Großbuchstaben, oder umschreibt man diese mit Ae o.ä.? Ich habe bei der Verwendung der yfonts in LaTeX festgestellt, dass diese fehlen. Wie ist hier die typographische Regel?
+
+A:
+
+Umlaute werden im Fraktursatz in der Regel mit nachgestelltem e wiedergegeben, wenn es sich bei dem Umlaut um Großbuchstaben (Majuskeln) handelt:
+
+Aepfel, Oeſe, Uebung
+
+Umlaute als Kleinbuchstaben werden, je nach Schrift, durch ein Trema (¨) oder durch ein übergestelltes kleines e gekennzeichnet. 
+
+Historischer Nachsatz:
+Im Mittelalter wurde ein langer Umlaut durch die Ligatur (Æ), ein kurzer Umlaut mit Trema (Ä) oder übergestelltem e (Aͤ ) geschrieben. Mit Aufkommen des Buchdrucks wurden Trema und übergestelltes e bei den Großbuchstaben unüblich, w",4
+zwischen,"Q:
+
+Umlaute im Fraktursatz
+
+Setzt man im Fraktursatz Umlaute auf Großbuchstaben, oder umschreibt man diese mit Ae o.ä.? Ich habe bei der Verwendung der yfonts in LaTeX festgestellt, dass diese fehlen. Wie ist hier die typographische Regel?
+
+A:
+
+Umlaute werden im Fraktursatz in der Regel mit nachgestelltem e wiedergegeben, wenn es sich bei dem Umlaut um Großbuchstaben (Majuskeln) handelt:
+
+Aepfel, Oeſe, Uebung
+
+Umlaute als Kleinbuchstaben werden, je nach Schrift, durch ein Trema (¨) oder durch ein übergestelltes kleines e gekennzeichnet. 
+
+Historischer Nachsatz:
+Im Mittelalter wurde ein langer Umlaut durch die Ligatur (Æ), ein kurzer Umlaut mit Trema (Ä) oder übergestelltem e (Aͤ ) geschrieben. Mit Aufkommen des Buchdrucks wurden Trema und übergestelltes e bei den Großbuchstaben unüblich, w",4
+gegen,"Introduction
+============
+
+*Orcula* [@B30], the type genus of the family Orculidae is a group of small (5--10 mm), pulmonate land snails with ovate--cylindrical shells and 3--4 lamellae within the aperture and the body whorl. Taxa are primarily found in mountainous regions in relatively humid habitats, most commonly in deciduous forests. There are at least 50 names described within the genus and 14 of them are considered as valid on species level ([@B27]). The Alps are inhabited by eight *Orcula* species, and this area is considered as the centre of the diversity of the genus. The type species, *Orcula dolium* ([@B14]), has the widest distribution within the genus, occurring from Eastern France to Eastern Slovakia and North-Eastern Hungary and several subspecies are recognized ([@B35], [@B",4
+anstatt,"---
+abstract: |
+    Am 14.Dezember des Jahres 1900 berichtete Max Planck der Deutschen Physikalischen Gesellschaft “uber seine physikalische Interpretation einer harmlos aussehenden, von ihn selbst zuvor aufgestellten Formel, die das spektrale Verhalten der sogenannten W”armestrahlung beschreibt. Ma“sgeblich durch das Eingreifen Albert Einsteins entwickelte sich daraus im folgenden Vierteljahrhundert eine fundamentale Krise der Physik, die dann in einer wissenschaftlichen Revolution gr”o“sten Ausma”ses m""undete: der Quantentheorie.
+
+    Die Quantentheorie entwickelte sich von Anfang an diametral gegen die Intentionen ihrer Sch“opfer. F”ur Planck bedeutete sie – trotz gr“o”ster “au”serer Anerkennungen – das vollst“andige Scheitern eines langj”ahrigen Forschungsprogramms, f“ur Einstein letzt",3
+wegen,"---
+abstract: |
+    Am 14.Dezember des Jahres 1900 berichtete Max Planck der Deutschen Physikalischen Gesellschaft “uber seine physikalische Interpretation einer harmlos aussehenden, von ihn selbst zuvor aufgestellten Formel, die das spektrale Verhalten der sogenannten W”armestrahlung beschreibt. Ma“sgeblich durch das Eingreifen Albert Einsteins entwickelte sich daraus im folgenden Vierteljahrhundert eine fundamentale Krise der Physik, die dann in einer wissenschaftlichen Revolution gr”o“sten Ausma”ses m""undete: der Quantentheorie.
+
+    Die Quantentheorie entwickelte sich von Anfang an diametral gegen die Intentionen ihrer Sch“opfer. F”ur Planck bedeutete sie – trotz gr“o”ster “au”serer Anerkennungen – das vollst“andige Scheitern eines langj”ahrigen Forschungsprogramms, f“ur Einstein letzt",4
+außer,"Ergebnisse des Europäischen Rates vom 15./16.Oktober in Tampere
+Die Präsidentin
+Nach der Tagesordnung folgen der Bericht des Europäischen Rates und die Erklärung der Kommission zu den Ergebnissen des Europäischen Rates vom 15./16. Oktober in Tampere.
+Ich freue mich sehr, nun Herrn Lipponen, dem amtierenden Ratspräsidenten, das Wort erteilen zu dürfen.
+
+Lipponen
+Frau Präsidentin, sehr geehrte Mitglieder des Europäischen Parlaments! Es ist mir eine Freude, zum ersten Mal als Ministerpräsident Finnlands hier vor dem Europäischen Parlament sprechen zu dürfen. Ich möchte Sie zu Ihrer Wahl beglückwünschen und dem neuen Parlament viel Erfolg für seine Arbeit wünschen. Wie kürzlich bei einem Treffen mit der Präsidentin treffend bemerkt wurde, ist mit dem neuen Parlament, mit der neuen Kommission u",4
+halber,"Ergebnisse des Europäischen Rates vom 15./16.Oktober in Tampere
+Die Präsidentin
+Nach der Tagesordnung folgen der Bericht des Europäischen Rates und die Erklärung der Kommission zu den Ergebnissen des Europäischen Rates vom 15./16. Oktober in Tampere.
+Ich freue mich sehr, nun Herrn Lipponen, dem amtierenden Ratspräsidenten, das Wort erteilen zu dürfen.
+
+Lipponen
+Frau Präsidentin, sehr geehrte Mitglieder des Europäischen Parlaments! Es ist mir eine Freude, zum ersten Mal als Ministerpräsident Finnlands hier vor dem Europäischen Parlament sprechen zu dürfen. Ich möchte Sie zu Ihrer Wahl beglückwünschen und dem neuen Parlament viel Erfolg für seine Arbeit wünschen. Wie kürzlich bei einem Treffen mit der Präsidentin treffend bemerkt wurde, ist mit dem neuen Parlament, mit der neuen Kommission u",4

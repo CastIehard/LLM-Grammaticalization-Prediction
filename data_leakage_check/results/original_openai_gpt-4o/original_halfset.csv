@@ -1,0 +1,282 @@
+keyword,pred,recovered
+je,"The list you provided consists of German prepositions and prepositional phrases. To complete the sequence '[j___]', a suitable German preposition or prepositional phrase starting with 'j' is ""jenseits,"" which means ""beyond"" or ""on the other side of.""",True
+wegen,"The list of German prepositions you provided does not include any prepositions that start with the letter ""w."" However, a common German preposition that starts with ""w"" is ""während,"" which means ""during"" or ""while."" Another one is ""wegen,"" which means ""because of"" or ""due",True
+vermöge,"The German preposition that fits the pattern ""[v___]"" from the provided list is ""vor.""",False
+außer,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an"" from the list. If you are looking for a specific prepositional phrase that starts with 'a', you might consider ""anstatt"" or ""auf"".",False
+nebst,"The list of German prepositions you provided does not include any that start with ""n___"". However, based on common German prepositions, a possible completion could be ""neben"" or ""nach"". If you are looking for a specific preposition from the list that fits the pattern ""n___"", it seems there",False
+gen,"The list you provided contains various German prepositions, but none of them start with the letter ""g."" If you are looking for a German preposition that starts with ""g,"" a common one is ""gegen,"" which means ""against.""",True
+ob,"The preposition that fits the pattern ""[o___]"" from the list provided is ""ohne_Ansehen.""",False
+auf,"The list you provided includes various German prepositions, but it seems you are looking for a specific preposition that starts with the letter ""a."" Based on the list and common German prepositions, a suitable completion for '[a___]' could be ""an.""",False
+bei,"The list of German prepositions you provided does not include any that start with the letter ""b"" in the format you specified. However, a common German preposition that starts with ""b"" is ""bei."" If you are looking for a preposition in the format ""[b___],"" it might be ""beim",True
+bis,"The list of German prepositions you provided includes several that start with the letter ""b."" Based on your request to complete ""[b___],"" here are some possibilities from the list:
+
+1. **beim_Anblick**
+2. **bei_Gelegenheit**
+3. **bei_Verwendung**
+
+If you meant to",False
+gegen,"The list you provided includes various German prepositions, but none of them start with the letter ""g."" If you are looking for a German preposition that starts with ""g,"" a common one is ""gegen,"" which means ""against.""",True
+hinter,"The list you provided consists of German prepositions and prepositional phrases. To complete the placeholder '[h___]', a suitable German preposition or prepositional phrase that starts with 'h' is ""hinter.""",True
+in,"The list of German prepositions you provided includes several that start with ""im"" or ""in"". Based on the pattern ""[i___]"", here are some possible completions:
+
+1. im_Anblick
+2. im_Abstand
+3. im_Anschluss_an
+4. im_Bereich/im_B",True
+mit,"The German preposition that fits the pattern ""[m___]"" is ""mit.""",True
+neben,"The list of German prepositions you provided does not include any prepositions that start with ""n___"". However, a common German preposition that starts with ""n"" is ""neben,"" which means ""beside"" or ""next to."" If you are looking for a specific preposition from the list that fits",True
+ohne,"The German preposition that fits the pattern ""[o___]"" is ""ohne"".",True
+von,"The German preposition that fits the pattern ""[v___]"" from the provided list is ""vor.""",False
+zwischen,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion could be ""zu"" or ""zum"". If you are looking for a compound pre",False
+an_Hand/anhand,"The list of German prepositions you provided does not include any that start with ""a"" and fit the pattern ""[a___]"". However, here are some common German prepositions that start with ""a"":
+
+1. **an** - at, on
+2. **auf** - on, upon
+3.",False
+zu_Lasten/zulasten,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion would be ""[zu]"".",False
+zu_ungunsten/zuungunsten,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion would be ""zu"" or ""zum"".",False
+im_Gefolge,"The list of German prepositions you provided includes various prepositions that start with ""im"" or ""in."" Based on the pattern ""[i___],"" here are some possible completions:
+
+1. im_Anblick
+2. im_Abstand
+3. im_Anschluss_an
+4. im_Bene",False
+im_Rahmen,"The list of German prepositions you provided includes various prepositions that start with ""im."" Based on your request to complete ""[i___],"" here are some possibilities from the list:
+
+- im_Anblick
+- im_Anschluss_an
+- im_Abstand
+- im_Benehmen_mit
+-",False
+im_Stadium,"The list of German prepositions you provided includes various prepositional phrases. To complete the prompt '[i___]', you can use any of the prepositions from the list that start with 'i'. Here are some options:
+
+1. im_Anblick
+2. in_Ermangelung
+3. in_H",False
+im_Bewusstsein,"The list of German prepositions you provided includes various prepositions and prepositional phrases. To complete the prompt '[i___]', you can use any of the prepositions from the list that start with 'i'. Here are some options:
+
+1. im_Anblick
+2. in_Ermangelung
+3",False
+im_Verlauf,"The list of German prepositions you provided includes various prepositions that start with ""im."" Based on your request to complete ""[i___],"" here are some possibilities from the list:
+
+- im_Anblick
+- im_Anschluss_an
+- im_Abstand
+- im_Benehmen_mit
+-",False
+unter_Berücksichtigung,"The German preposition that fits the pattern ""[u___]"" from the provided list is ""unter.""",False
+unter_Beachtung,"The preposition that fits the pattern ""[u___]"" from the provided list is ""um"".",False
+unter_Mitwirkung,"The preposition that fits the pattern ""[u___]"" from the provided list is ""unter.""",False
+unter_Verwendung,"The German preposition that fits the pattern ""[u___]"" from the provided list is ""um.""",False
+zum_Vorteil,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion could be ""zu"" or ""zum_Trotz"". If you are looking for a",False
+zum_Zeitpunkt,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion could be ""zu"" or ""zum"". If you are looking for a compound pre",False
+zum_Nutzen,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list and common German prepositions, a suitable completion could be ""zu"".",False
+am_Rande,"The list of German prepositions you provided does not include any that start with ""a"" and fit the pattern ""[a___]"". However, here are some common German prepositions that start with ""a"":
+
+1. **an** - at, on
+2. **auf** - on, upon
+3.",False
+auf_Verlangen,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an,"" which is a common German preposition. If you are looking for a specific prepositional phrase from the list that starts with 'a', you could use """,False
+auf_Vorschlag,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you could use the preposition ""an"" from your list. However, if you are looking for a specific preposition that starts with 'a' and fits the context, ""anstatt"" or """,False
+auf_Bitten,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', a suitable German preposition or prepositional phrase starting with 'a' from the list would be 'anstatt'.",False
+auf_Geheiß,"The list of German prepositions you provided does not include any prepositions that start with the letter ""a"" followed by an underscore. However, based on common German prepositions, here are a few possibilities that could fit the pattern ""[a___]"":
+
+1. **an** - A simple and common preposition in",False
+auf_Betreiben,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an"" from your list. If you are looking for a specific preposition that starts with 'a' and fits a particular context, please provide more details or context for",False
+auf_Antrag,"The list you provided includes various German prepositions and prepositional phrases. To complete the placeholder '[a___]', you can use any of the prepositions or prepositional phrases from the list that start with the letter 'a'. Here are some options:
+
+1. an_Stelle/anstelle
+2.",False
+aus_Anlaß,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you could use the preposition ""an,"" which is a common German preposition. If you are looking for a specific prepositional phrase from the list that starts with 'a', you could use """,False
+im_Beisein,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"". Here are a few examples from your list that start with ""im"" or ""in"":
+
+- im_Anblick
+- im_Benehmen",False
+im_Wege,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+- im_Anblick
+- im_Benehmen_mit
+- im_Bereich/im",False
+im_Auftrag/im_Auftrage,"The list of German prepositions you provided includes many compound prepositions. Based on the pattern ""[i___]"", the prepositions that fit this pattern are:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_Umfang
+- im_Fall/im_F",False
+in_Vertretung,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+1. im_Anblick
+2. in_Ermangelung
+3. in_H",False
+im_Kreise,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+im_Angesicht,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use any of the following prepositions from the list that start with 'i':
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_U",False
+im_Verlaufe,"The list of German prepositions you provided includes various prepositions and prepositional phrases. To complete the prompt '[i___]', you can use any of the prepositions from your list that start with 'i'. Here are some options:
+
+1. im_Anblick
+2. in_Ermangelung
+3",False
+im_Lauf/im_Laufe,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt ""[i___]"", you can use ""im"" or ""in"" as they are common prepositions that start with ""i"". Here are a few examples from your list:
+
+- im_Anblick
+- in_Ermangel",False
+im_Geist/im_Geiste,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+im_Interesse,"The list of German prepositions you provided includes various prepositions that can be used in different contexts. To complete the phrase '[i___]', you can use one of the prepositions from the list that starts with 'i'. Here are some options:
+
+1. im_Anblick
+2. in_Ermangelung",False
+in_Abwesenheit,"The list of German prepositions you provided includes several that start with ""im"" or ""in"". Based on the pattern ""[i___]"", here are some possible completions:
+
+1. im_Anblick
+2. im_Abstand
+3. im_Anschluss_an
+4. im_Benehmen_m",False
+unter_Angabe,"The preposition that fits the pattern ""[u___]"" from the provided list is ""um.""",False
+unter_Ausschluß,"The preposition that fits the pattern ""[u___]"" from the provided list is ""um.""",False
+zum_Zeichen,"The list of German prepositions you provided includes various compound prepositions. Based on the pattern ""[z___]"", a suitable completion from the list would be ""zu"". If you are looking for a compound preposition starting with ""z"", ""zu_Folge/zufolge"" or ""zu_Zeiten"" could also",False
+zum_Wohl/zum_Wohle,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list and common German prepositions, a suitable completion could be ""zu"".",False
+zum_Nachteil,"The list of German prepositions you provided includes various compound prepositions. To complete the placeholder '[z___]', a suitable preposition from the list would be ""zu"" or ""zu_Folge/zufolge"". If you are looking for a specific preposition that starts with ""z"" and fits the context, """,False
+auf_der_Höhe,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an"" from your list. Therefore, the completed phrase would be '[an]'.",False
+unter_der_Leitung,"The preposition that fits the pattern ""[u___]"" from the provided list is ""um"".",False
+am_Rand,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you could use the preposition ""an"" from your list. If you are looking for a specific preposition that starts with 'a', ""an"" is the most straightforward choice.",False
+aus_Gründen,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you could use one of the prepositions from the list that starts with 'a'. Here are a few options:
+
+1. an_Stelle/anstelle
+2. auf_der_Grundlage",False
+in_Höhe,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"". Here are a few examples from your list that start with ""im"" or ""in"":
+
+- im_Anblick
+- im_Benehmen",False
+in_Gestalt,"The list of German prepositions you provided includes many compound prepositions. To complete '[i___]', you can use any of the following prepositions from the list that start with 'i':
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_Umfang",False
+in_Form,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+im_Kreis,"The list of German prepositions you provided includes several that start with ""im"" or ""in."" Based on the pattern ""[i___],"" here are some possible completions:
+
+1. im_Anblick
+2. im_Abstand
+3. im_Anschluss_an
+4. im_Benehmen_m",False
+in_Erwartung,"The list of German prepositions you provided includes many compound prepositions. Based on the pattern ""[i___]"", the prepositions that fit this pattern are:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_Umfang
+- im_Fall/im_F",False
+in_Angelegenheiten,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"". Here are a few examples from your list that start with ""im"" or ""in"":
+
+- im_Anblick
+- im_Abstand",False
+in_Zeiten,"The list of German prepositions you provided includes many compound prepositions. Based on the pattern ""[i___]"", the prepositions that fit this pattern from your list are:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_Umfang
+- im_F",False
+mit_Ausnahme,"The German preposition that fits the pattern ""[m___]"" from the list you provided is ""mitsamt.""",False
+ohne_Mitwirkung,"The German preposition that fits the pattern ""[o___]"" from the list provided is ""ohne_Ansehen.""",False
+vom_Standpunkt,"The preposition that fits the pattern ""[v___]"" from the provided list is ""vor.""",False
+zum_Preis,"The list of German prepositions you provided includes various compound prepositions. To complete the placeholder '[z___]', a suitable preposition from the list would be ""zu"" or ""zuliebe"". If you are looking for a specific context or a different preposition that starts with ""z"", please provide more details.",False
+aus_Interesse_an,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an"" from your list. So, the completed phrase would be '[an]'. If you are looking for a specific preposition that starts with 'a' and fits",False
+in_Verbindung_mit,"The list of German prepositions you provided includes various prepositions and prepositional phrases. To complete ""[i___]"", you can use one of the prepositions from the list that starts with ""i"". Here are some options:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht",False
+im_Widerspruch_zu/im_Widerspruch_mit,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt ""[i___]"", you can use any of the prepositions from your list that start with ""i"". Here are some options:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf",False
+in_Konkurrenz_zu,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are some examples from your list that start with ""im"":
+
+- im_An",False
+im_Einklang_mit,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+- im_Anblick
+- im_Benehmen_mit
+- im_Bereich/im",False
+im_Einvernehmen_mit,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from your list. Here are a few examples:
+
+1. im_Anblick
+2. im_Umfang
+3. im_Fall",False
+im_Einverständnis_mit,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are some examples from your list that start with ""im"":
+
+- im_An",False
+in_Beziehung_auf,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+in_Anlehnung_an,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+in_Abhängigkeit_von,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" which is a contraction of ""in dem"" and is commonly used in German. Here are a few examples from your list that start with ""im"":
+
+- im_",False
+im_Verhältnis_zu,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+1. im_Anblick
+2. im_Benehmen_mit
+3. im",False
+mit_Bezug_auf/unter_Bezug_auf,"The German preposition that fits the pattern ""[m___]"" from the list provided is ""mitsamt.""",False
+vom_Standpunkt_aus,"The preposition that fits the pattern ""[v___]"" from the provided list is ""vor.""",False
+vom_Gesichtspunkt_aus,"The German preposition that fits the pattern ""[v___]"" from the provided list is ""vor.""",False
+zur_Erinnerung_an,"The list of German prepositions you provided includes many compound prepositions, but it seems you are looking for a preposition that starts with ""z"" and fits the pattern ""[z___]"". Based on the list, a suitable completion would be ""zu"" or ""zum"".",False
+zum_Unterschied_von/zum_Unterschied_mit,"The list of German prepositions you provided includes various compound prepositions. To complete the placeholder '[z___]', a suitable preposition from the list would be ""zu"" or ""zu_Folge/zufolge"". If you are looking for a specific preposition that starts with ""z"" and fits the context, """,False
+auf_dem_Wege,"The list you provided includes various German prepositions and prepositional phrases. To complete the prompt '[a___]', you can use the preposition ""an"" from your list. Therefore, the completed phrase would be '[an]'.",False
+auf_dem_Gebiet,"The list you provided includes various German prepositions and prepositional phrases. To complete the placeholder '[a___]', you could use the German preposition ""an"" or any prepositional phrase from the list that starts with 'a', such as ""anstatt"" or ""auf"". If you have a specific context",False
+auf_dem_Boden,"The list of German prepositions you provided does not include any prepositions that start with ""a"" and are followed by an underscore. However, based on common German prepositions, a possible completion for ""[a___]"" could be ""an"" or ""auf"". If you are looking for a specific preposition from the",False
+auf_dem_Hintergrund/vor_dem_Hintergrund,"The list of German prepositions you provided does not include any that start with ""a"" and are followed by an underscore. However, based on common German prepositions, a possible completion for ""[a___]"" could be ""an"" or ""auf"". If you have a specific context or sentence in mind, please provide",False
+in_der_Sphäre,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+- im_Anblick
+- im_Benehmen_mit
+- im_Bereich/im",False
+in_den_Grenzen,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt ""[i___]"", you can use ""im"" or ""in"" as they are common prepositions in German. Here are a few examples from your list:
+
+- im_Anblick
+- in_Ermangelung
+-",False
+in_den_Reihen,"The list of German prepositions you provided includes many compound prepositions. Based on the pattern ""[i___]"", the prepositions that fit this pattern are:
+
+- im_Anblick
+- in_Ermangelung
+- in_Hinsicht_auf
+- im_Umfang
+- im_Fall/im_F",False
+in_der_Zeit,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"". Here are a few examples from your list that start with ""im"" or ""in"":
+
+- im_Anblick
+- im_Benehmen",False
+in_der_Epoche,"The list of German prepositions you provided includes many compound prepositions. To complete the prompt '[i___]', you can use the preposition ""im"" or ""in"" from the list. Here are a few examples:
+
+- im_Anblick
+- im_Benehmen_mit
+- im_Bereich/im",False
+in_der_Periode,"The list of German prepositions you provided includes many compound prepositions. Based on the pattern ""[i___]"", the preposition that fits is ""im"". Here are some examples from your list that start with ""im"":
+
+- im_Anblick
+- im_Umfang
+- im_Fall/im_Falle",False
+mit_dem_Ziel,"The German preposition that fits the pattern ""[m___]"" from the provided list is ""mitsamt.""",False
+nach_den_Prinzipien,"The list of German prepositions you provided does not include any prepositions that start with ""n___"". However, a common German preposition that starts with ""n"" is ""neben,"" which means ""beside"" or ""next to."" If you are looking for a specific preposition from the list that fits",False
+unter_der_Bedingung,"The preposition that fits the pattern ""[u___]"" from the provided list is ""unter"".",False
+unter_dem_Gesichtspunkt,"The preposition that fits the pattern ""[u___]"" from the provided list is ""unter"".",False
+unter_dem_Druck,"The German preposition that fits the pattern ""[u___]"" from the provided list is ""um.""",False

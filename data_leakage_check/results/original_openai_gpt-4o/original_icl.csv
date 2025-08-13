@@ -1,0 +1,595 @@
+trial,keyword,pred,recovered,k_shots
+0,je,"The German preposition that fits the pattern '[j___]' is ""jenseits.""",True,10
+0,samt,"The German preposition that fits the pattern '[s___]' is ""seit.""",False,10
+0,mitsamt,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+0,wegen,"The German preposition that fits the pattern '[w___]' is ""wegen.""",True,10
+0,halber,"The German preposition that fits the pattern '[h___]' is ""hinsichtlich.""",False,10
+0,vermöge,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,außer,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,nebst,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+0,gen,"The German preposition that fits the pattern '[g___]' is ""gegen.""",True,10
+0,ob,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+0,ab,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",True,10
+0,an,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition, and it fits the pattern of starting with 'a'.",True,10
+0,auf,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,bei,"The German preposition that fits the pattern '[b___]' is ""bei"".",True,10
+0,bis,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",False,10
+0,durch,"The German preposition that completes '[d___]' is ""durch.""",True,10
+0,für,"The German preposition that fits the pattern '[f___]' is ""für.""",True,10
+0,gegen,"The German preposition that fits the pattern '[g___]' is ""gegen.""",True,10
+0,hinter,"The German preposition that fits the pattern '[h___]' is ""hinsichtlich.""",False,10
+0,in,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",True,10
+0,mit,"The German preposition that fits the pattern '[m___]' is ""mit.""",True,10
+0,nach,"The list of German prepositions you provided includes various compound and simple prepositions. To complete the pattern '[n___]', a suitable German preposition could be ""nach,"" which is a common preposition in German.",True,10
+0,neben,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+0,ohne,"The German preposition that completes '[o___]' is ""ohne.""",True,10
+0,seit,"The German preposition that fits the pattern '[s___]' is ""seit.""",True,10
+0,über,The German preposition that completes '[ü___]' is 'über'.,True,10
+0,um,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,von,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,wider,"The German preposition that fits the pattern '[w___]' is ""wegen.""",False,10
+0,zwischen,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+0,auf_Grund/aufgrund,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,mit_Hilfe/mithilfe,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+0,zu_Gunsten/zugunsten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,in_Folge/infolge,The preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,in_Bezug_auf/in_bezug_auf,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,zu_Folge/zufolge,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,an_Hand/anhand,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,zu_Lasten/zulasten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zuliebe,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+0,von_Seiten/von_seiten,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,auf_Seiten/auf_seiten,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,von_wegen,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,anstatt,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,zu_ungunsten/zuungunsten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,beim_Anblick,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",False,10
+0,für_Rechnung,"The German preposition that fits the pattern ""[f___]"" is ""für.""",False,10
+0,im_Licht/im_Lichte,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Gefolge,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Rahmen,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Abstand,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Stadium,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,im_Bewusstsein,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Verlauf,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Fragen,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,unter_Berücksichtigung,"The German preposition that fits the pattern ""[u___]"" from the list you provided is ""unter.""",False,10
+0,unter_Beachtung,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_Mitwirkung,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_Verwendung,"The German preposition that fits the pattern ""[u___]"" from the list you provided is ""unter.""",False,10
+0,zum_Vorteil,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Zeitpunkt,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Nutzen,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+0,am_Rande,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_Verlangen,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition that can be used in various contexts.",False,10
+0,auf_Vorschlag,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an' or 'auf'. Both are common German prepositions. If you are looking for a specific preposition from your list, 'an_Stelle/anstelle' starts with 'a'.",False,10
+0,auf_Ersuchen,"Based on the list of German prepositions you provided, it seems you are looking for a German preposition that starts with the letter ""a."" From your list, the prepositions that start with ""a"" are ""an_Stelle/anstelle."" Therefore, the completion for '[a___]' could be """,False,10
+0,auf_Bitten,"Based on the list of German prepositions you provided, it seems you are looking for a German preposition that starts with the letter ""a."" From your list, the prepositions that start with ""a"" are ""an_Stelle/anstelle"" and ""auf_der_Grundlage."" Therefore, the completion",False,10
+0,auf_Geheiß,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_Veranlassung,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_Betreiben,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_Antrag,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_Kosten,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_Anlaß,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,bei_Gelegenheit,"The German preposition that fits the pattern '[b___]' is ""bei"".",False,10
+0,in_Anwesenheit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Zeichen,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Beisein,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Wege,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Auftrag/im_Auftrage,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Zug/im_Zuge,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Anbetracht,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Ansehung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Vertretung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,im_Vorfeld,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,im_Kreise,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Angesicht,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,im_Zeitalter,The preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,im_Zeitpunkt,The preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,im_Dienst/im_Dienste,The German preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,im_Verlaufe,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Lauf/im_Laufe,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Geist/im_Geiste,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Interesse,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Abwesenheit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,ohne_Berücksichtigung,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+0,ohne_Angabe,"The German preposition that fits the pattern ""[o___]"" is ""ohne.""",False,10
+0,unter_Angabe,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_Ausschluß,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_Einschluß,"The German preposition that fits the pattern '[u___]' from the list you provided is ""unter.""",False,10
+0,unter_Einbeziehung,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,zum_Zeichen,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Zweck/zum_Zwecke,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+0,zum_Wohl/zum_Wohle,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Schaden,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Nachteil,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zu_Ehren,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Trotz,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,auf_der_Ebene,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_der_Basis,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_der_Höhe,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_den_Reihen,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_der_Sicht,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition, and it fits the pattern you are looking for.",False,10
+0,in_der_Wahrnehmung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,nach_dem_Vorbild,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+0,nach_den_Grundsätzen,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+0,unter_den_Bedingungen,"The German preposition that fits the pattern ""[u___]"" from the list you provided is ""unter.""",False,10
+0,unter_der_Leitung,"The German preposition that fits the pattern '[u___]' from the list you provided is ""unter.""",False,10
+0,am_Rand,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an' or 'auf'. Both are common German prepositions. If you are looking for a specific preposition from your list, 'an_Stelle/anstelle' would fit the pattern '[a___",False,10
+0,aus_Gründen,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,bei_Verwendung,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",False,10
+0,in_Höhe,"The German preposition that fits the pattern '[i___]' from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Gestalt,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Form,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Umfang,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Bereich/im_Bereiche,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Fall/im_Falle,The German preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,in_Begleitung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Richtung,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Kreis,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Erwartung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,in_Gegenwart,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Angelegenheiten,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Zeiten,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,mit_Ausnahme,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+0,nach_Art,"Based on the pattern of German prepositions provided, a suitable completion for '[n___]' could be 'nach'. 'Nach' is a common German preposition that can be used in various contexts, such as indicating direction or time.",False,10
+0,ohne_Mitwirkung,"The German preposition that fits the pattern ""[o___]"" is ""ohne.""",False,10
+0,vom_Standpunkt,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,zu_Zeiten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Preis,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,aus_Interesse_an,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_Mangel_an,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an' or 'auf'. Both are common German prepositions. If you are looking for a specific preposition from your list that starts with 'a', it would be 'an_Stelle/anstelle",False,10
+0,im_Zusammenhang_mit,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Verbindung_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Kontakt_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Widerspruch_zu/im_Widerspruch_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Gegensatz_zu,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,Im_Kontrast_zu,"To complete the phrase '[I___]' with a German preposition from the list you provided, you can use ""in Ermangelung"" which translates to ""in the absence of"" or ""for lack of"" in English. So, the completed phrase would be '[In Ermangelung]'.",False,10
+0,in_Konkurrenz_zu,"The German preposition that fits the pattern '[i___]' from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Unterschied_zu,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Einklang_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Einvernehmen_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Einverständnis_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Übereinstimmung_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Benehmen_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Gemeinschaft_mit,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Hinblick_auf,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Beziehung_auf,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_Anlehnung_an,The preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,in_Abhängigkeit_von,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Anschluss_an,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Verhältnis_zu,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,im_Vergleich_zu/im_Vergleich_mit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,mit_Bezug_auf/unter_Bezug_auf,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+0,mit_Bezugnahme_auf/unter_Bezugnahme_auf,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+0,vom_Standpunkt_aus,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,vom_Gesichtspunkt_aus,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+0,zur_Erinnerung_an,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+0,zum_Unterschied_von/zum_Unterschied_mit,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+0,auf_dem_Wege,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition, and it fits the pattern of starting with 'a'.",False,10
+0,auf_dem_Feld,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_dem_Gebiet,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_dem_Sektor,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,auf_dem_Boden,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition that can be used in various contexts.",False,10
+0,auf_dem_Hintergrund/vor_dem_Hintergrund,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_dem_Blickwinkel,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is because 'an' is a common German preposition, and it fits the pattern you are looking for.",False,10
+0,aus_dem_Grund,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'an'. This is a common German preposition that can be used in various contexts.",False,10
+0,aus_der_Perspektive,"Based on the list of German prepositions you provided, it seems you are looking for a preposition that starts with the letter ""a."" From your list, the prepositions that start with ""a"" are ""an_Stelle/anstelle"" and ""auf_der_Grundlage."" Therefore, the completion for",False,10
+0,für_die_Dauer,"The German preposition that fits the pattern '[f___]' is ""für.""",False,10
+0,für_den_Fall,"The German preposition that fits the pattern ""[f___]"" is ""für.""",False,10
+0,in_der_Sphäre,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_den_Grenzen,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_den_Reihen,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Anblick.""",False,10
+0,in_der_Reihe/aus_der_Reihe,The preposition that fits the pattern '[i___]' from the list you provided is 'in_Ermangelung'.,False,10
+0,in_der_Zeit,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_der_Epoche,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,in_der_Periode,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""in_Ermangelung.""",False,10
+0,mit_dem_Ziel,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+0,nach_dem_Grundsatz,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+0,nach_dem_Prinzip,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+0,nach_den_Prinzipien,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+0,unter_der_Voraussetzung,"The German preposition that fits the pattern ""[u___]"" from the list you provided is ""unter.""",False,10
+0,unter_der_Bedingung,"The German preposition that fits the pattern '[u___]' from the list you provided is ""unter.""",False,10
+0,unter_dem_Gesichtspunkt,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_dem_Einfluss,The German preposition that fits the pattern '[u___]' from the list you provided is 'unter'.,False,10
+0,unter_dem_Druck,"The German preposition that fits the pattern ""[u___]"" from the list you provided is ""unter.""",False,10
+0,von_der_Dauer,"The German preposition that fits the pattern ""[v___]"" is ""vor.""",False,10
+1,je,"The German preposition that fits the pattern '[j___]' is ""je"".",True,10
+1,samt,"The German preposition that fits the pattern '[s___]' is ""seit.""",False,10
+1,mitsamt,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+1,wegen,"The German preposition that fits the pattern '[w___]' is ""wegen.""",True,10
+1,halber,"The German preposition that fits the pattern '[h___]' is ""hinsichtlich.""",False,10
+1,vermöge,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+1,außer,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,nebst,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition that starts with 'n' is ""nach.""",False,10
+1,gen,"The German preposition that fits the pattern '[g___]' is ""gegen.""",True,10
+1,ob,"The German preposition that fits the pattern ""[o___]"" is ""ohne.""",False,10
+1,ab,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,an,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern.",True,10
+1,aus,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,bei,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",True,10
+1,bis,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",False,10
+1,durch,"The German preposition that fits the pattern '[d___]' is ""durch.""",True,10
+1,für,"The German preposition that starts with ""f"" and fits the pattern ""[f___]"" is ""für.""",True,10
+1,gegen,"The German preposition that fits the pattern '[g___]' is ""gegen.""",True,10
+1,hinter,"The German preposition that fits the pattern '[h___]' is ""hinsichtlich.""",False,10
+1,in,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Zeichen.""",False,10
+1,mit,"The German preposition that fits the pattern '[m___]' is ""mit.""",True,10
+1,nach,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",True,10
+1,neben,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+1,ohne,"The German preposition you are looking for is likely ""ohne.""",True,10
+1,seit,"The German preposition that fits the pattern '[s___]' is ""seit.""",True,10
+1,über,"The German preposition that completes the pattern '[ü___]' is ""über.""",True,10
+1,um,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter,"The German preposition that fits the pattern '[u___]' is ""unter.""",True,10
+1,von,"The German preposition that fits the pattern '[v___]' is ""von.""",True,10
+1,vor,"The German preposition that fits the pattern '[v___]' is ""von.""",False,10
+1,wider,"The German preposition that fits the pattern '[w___]' is ""wegen.""",False,10
+1,zu,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",True,10
+1,zwischen,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,auf_Grund/aufgrund,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts. If you have a specific context or phrase in mind, please",False,10
+1,mit_Hilfe/mithilfe,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+1,in_Bezug_auf/in_bezug_auf,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,zu_Folge/zufolge,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,an_Stelle/anstelle,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,zu_Lasten/zulasten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+1,zuliebe,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+1,von_Seiten/von_seiten,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+1,auf_Seiten/auf_seiten,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that can be used in various contexts.",False,10
+1,von_wegen,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+1,anstatt,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,zu_ungunsten/zuungunsten,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+1,beim_Anblick,"The German preposition that fits the pattern '[b___]' is ""bei.""",False,10
+1,im_Licht/im_Lichte,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Gefolge,"Based on the list of German prepositions you provided, the preposition that fits the pattern '[i___]' is ""im"". This is part of the preposition ""im_Einvernehmen_mit"".",False,10
+1,im_Rahmen,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Abstand,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Stadium,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Bewusstsein,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Zeichen.""",False,10
+1,im_Verlauf,"The German preposition that fits the pattern ""[i___]"" is ""in"".",False,10
+1,in_Fragen,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Zeichen.""",False,10
+1,unter_Berücksichtigung,"Based on the pattern you've provided, it seems you're looking for a German preposition that starts with the letter ""u."" A common German preposition that fits this criterion is ""unter.""",False,10
+1,unter_Beachtung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_Mitwirkung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_Verwendung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,zum_Vorteil,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Zeitpunkt,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+1,zum_Nutzen,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+1,am_Rande,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_Verlangen,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that can be used in various contexts.",False,10
+1,auf_Vorschlag,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_Ersuchen,"Based on the list of German prepositions you provided, it seems you are looking for a German preposition that starts with the letter ""a."" From your list, the prepositions that start with ""a"" are:
+
+- an_Hand/anhand
+- auf_der_Basis
+- auf
+
+Therefore, the completion",False,10
+1,auf_Bitten,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that can be used in various contexts.",False,10
+1,auf_Geheiß,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts.",False,10
+1,auf_Veranlassung,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that can be used in various contexts.",False,10
+1,auf_Betreiben,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_Antrag,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_Kosten,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts. If you have a specific context or phrase in mind, please",False,10
+1,aus_Anlaß,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,bei_Gelegenheit,"The German preposition that fits the pattern '[b___]' is ""bei.""",False,10
+1,in_Anwesenheit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Beisein,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Wege,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Auftrag/im_Auftrage,The German preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Zug/im_Zuge,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_Anbetracht,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Zeichen.""",False,10
+1,in_Ansehung,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_Ermangelung,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im.""",False,10
+1,in_Vertretung,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Anblick,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Vorfeld,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im.""",False,10
+1,im_Kreise,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Zeichen.""",False,10
+1,im_Angesicht,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Zeitalter,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Zeitpunkt,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Dienst/im_Dienste,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Verlaufe,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Lauf/im_Laufe,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im.""",False,10
+1,im_Geist/im_Geiste,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Interesse,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_Abwesenheit,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Zeichen'.,False,10
+1,ohne_Berücksichtigung,"The German preposition you are looking for is likely ""ohne.""",False,10
+1,ohne_Ansehen,"The German preposition you are looking for is likely ""ohne.""",False,10
+1,ohne_Angabe,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+1,unter_Angabe,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+1,unter_Ausschluß,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_Einschluß,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_Einbeziehung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,zum_Zeichen,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+1,zum_Zweck/zum_Zwecke,"The German preposition that fits the pattern ""[z___]"" is ""zu"".",False,10
+1,zum_Wohl/zum_Wohle,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Schaden,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Nachteil,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zu_Ehren,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Trotz,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,auf_der_Ebene,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_der_Grundlage,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_der_Höhe,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts.",False,10
+1,aus_den_Reihen,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,aus_der_Sicht,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,in_der_Wahrnehmung,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,nach_dem_Vorbild,"The list of German prepositions you provided includes various compound prepositions. To complete the pattern '[n___]', a suitable German preposition could be ""nach,"" which is a common preposition in German.",False,10
+1,nach_den_Grundsätzen,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition could be ""nach,"" which is a common preposition in German.",False,10
+1,unter_den_Bedingungen,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_der_Leitung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,am_Rand,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts. If you have a specific context or phrase in mind, please",False,10
+1,aus_Gründen,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,bei_Verwendung,"The German preposition that starts with ""b"" and fits the pattern ""[b___]"" is ""bei.""",False,10
+1,in_Höhe,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_Gestalt,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_Form,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Umfang,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Bereich/im_Bereiche,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Fall/im_Falle,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im.""",False,10
+1,in_Begleitung,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_Richtung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im"".",False,10
+1,im_Kreis,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_Gegenwart,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_Angelegenheiten,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Zeichen'.,False,10
+1,in_Zeiten,"The German preposition that fits the pattern ""[i___]"" from your list is ""im Zeichen.""",False,10
+1,mit_Ausnahme,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+1,nach_Art,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition that starts with 'n' is ""nach.""",False,10
+1,ohne_Mitwirkung,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+1,unter_Führung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,vom_Standpunkt,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+1,zu_Zeiten,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Preis,"The German preposition that fits the pattern ""[z___]"" is ""zu.""",False,10
+1,aus_Interesse_an,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,aus_Mangel_an,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,im_Zusammenhang_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_Verbindung_mit,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im"".",False,10
+1,in_Kontakt_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Widerspruch_zu/im_Widerspruch_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Gegensatz_zu,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,Im_Kontrast_zu,"The list you provided includes various German prepositions, but it seems like you are asking to complete a phrase starting with ""[I___]"". Based on the context of German prepositions, a suitable completion could be ""im"" or ""in"", as these are common prepositions in German. However, without additional context,",False,10
+1,in_Konkurrenz_zu,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im"".",False,10
+1,im_Unterschied_zu,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Einklang_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Einverständnis_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_Übereinstimmung_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Benehmen_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,in_Gemeinschaft_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,im_Hinblick_auf,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im"".",False,10
+1,in_Hinsicht_auf,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,in_Anlehnung_an,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Zeichen.""",False,10
+1,in_Abhängigkeit_von,The German preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,im_Anschluss_an,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Verhältnis_zu,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,im_Vergleich_zu/im_Vergleich_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,mit_Bezug_auf/unter_Bezug_auf,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+1,mit_Bezugnahme_auf/unter_Bezugnahme_auf,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+1,vom_Standpunkt_aus,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+1,vom_Gesichtspunkt_aus,"The German preposition that fits the pattern '[v___]' is ""von.""",False,10
+1,zur_Erinnerung_an,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,zum_Unterschied_von/zum_Unterschied_mit,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+1,auf_dem_Wege,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" If you have a specific context or additional letters, please provide them for a more precise suggestion.",False,10
+1,auf_dem_Feld,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_dem_Gebiet,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_dem_Sektor,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern.",False,10
+1,auf_dem_Boden,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,auf_dem_Hintergrund/vor_dem_Hintergrund,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'auf'. This is a common German preposition that fits the pattern you are looking for.",False,10
+1,aus_dem_Blickwinkel,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'auf'. This is a common German preposition that can be used in various contexts.",False,10
+1,aus_dem_Grund,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts. If you have a specific context or phrase in mind, please",False,10
+1,aus_der_Perspektive,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""a."" One possible completion could be ""auf."" This is a common German preposition that can be used in various contexts. If you have a specific context or phrase in mind, please",False,10
+1,für_die_Dauer,"The German preposition that completes '[f___]' is ""für.""",False,10
+1,für_den_Fall,"The German preposition that fits the pattern '[f___]' is ""für.""",False,10
+1,in_der_Sphäre,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_den_Grenzen,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_den_Reihen,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,in_der_Reihe/aus_der_Reihe,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Zeichen.""",False,10
+1,in_der_Zeit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im"".",False,10
+1,in_der_Epoche,"The German preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Zeichen.""",False,10
+1,in_der_Periode,The preposition that fits the pattern '[i___]' from the list you provided is 'im'.,False,10
+1,mit_dem_Ziel,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+1,nach_dem_Grundsatz,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition that starts with 'n' is ""nach.""",False,10
+1,nach_dem_Prinzip,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition that starts with 'n' is ""nach.""",False,10
+1,nach_den_Prinzipien,"The list you provided includes various German prepositions, some of which are compound prepositions. To complete the pattern '[n___]', a suitable German preposition could be ""nach,"" which is a common preposition in German.",False,10
+1,unter_der_Voraussetzung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_der_Bedingung,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_dem_Gesichtspunkt,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,unter_dem_Einfluss,"Based on the pattern you've provided, it seems you're looking for a German preposition that starts with the letter ""u."" A common German preposition that fits this criterion is ""unter.""",False,10
+1,unter_dem_Druck,"The German preposition that fits the pattern '[u___]' is ""unter.""",False,10
+1,von_der_Dauer,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,je,"Based on the pattern of German prepositions you provided, a suitable completion for '[j___]' could be 'jenseits'. This is a common German preposition meaning ""beyond"" or ""on the other side of.""",True,10
+2,samt,"Based on the list of German prepositions you provided, a suitable completion for '[s___]' could be ""seit."" ""Seit"" is a common German preposition used to indicate time, meaning ""since"" or ""for.""",False,10
+2,mitsamt,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+2,wegen,"The German preposition that fits the pattern '[w___]' is ""während.""",False,10
+2,halber,"Based on the pattern and context of the German prepositions you provided, a suitable completion for '[h___]' could be ""hinter,"" which is a common German preposition meaning ""behind.""",False,10
+2,vermöge,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,nebst,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+2,gen,"Based on the pattern and context of the German prepositions you provided, a possible completion for '[g___]' could be 'gemäß'. This is a common German preposition that fits the pattern.",False,10
+2,ob,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+2,ab,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,an,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'außer' or 'auf_Geheiß'. Both of these prepositions start with the letter 'a'.",True,10
+2,auf,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,aus,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'. Both start with the letter 'a'.",False,10
+2,durch,"The German preposition that fits the pattern ""[d___]"" is ""durch.""",True,10
+2,für,"The German preposition that completes the pattern '[f___]' is ""für.""",True,10
+2,gegen,"The German preposition that fits the pattern '[g___]' is ""gegen.""",True,10
+2,hinter,"The German preposition that fits the pattern '[h___]' is ""hinter.""",True,10
+2,in,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,mit,"The German preposition that fits the pattern '[m___]' is ""mit"".",True,10
+2,nach,"The German preposition that fits the pattern '[n___]' is ""nach"".",True,10
+2,neben,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+2,ohne,"The German preposition that fits the pattern '[o___]' is ""ohne.""",True,10
+2,seit,"The German preposition that fits the pattern '[s___]' is ""seit"".",True,10
+2,über,"Based on the pattern of German prepositions you provided, a possible completion for '[ü___]' could be 'über'. 'Über' is a common German preposition that can be used in various contexts, such as indicating position or direction.",True,10
+2,um,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter,"The German preposition that fits the pattern '[u___]' is ""unter"".",True,10
+2,von,"Based on the pattern of German prepositions you provided, a suitable completion for '[v___]' could be ""vor"". ""Vor"" is a common German preposition that can be used in various contexts, such as indicating time or location.",False,10
+2,vor,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,wider,"The German preposition that fits the pattern '[w___]' is ""während.""",False,10
+2,zu,"The German preposition that fits the pattern '[z___]' is ""zu"".",True,10
+2,zwischen,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+2,auf_Grund/aufgrund,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,mit_Hilfe/mithilfe,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+2,zu_Gunsten/zugunsten,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,in_Folge/infolge,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Bezug_auf/in_bezug_auf,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Vorfeld.""",False,10
+2,zu_Folge/zufolge,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+2,an_Hand/anhand,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,an_Stelle/anstelle,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be 'außer'.",False,10
+2,zu_Lasten/zulasten,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+2,zuliebe,"Based on the pattern you've provided, it seems you're looking for a German preposition or prepositional phrase that starts with the letter ""z."" A suitable completion could be ""zu"" or ""zum_Beispiel.""",False,10
+2,von_Seiten/von_seiten,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,auf_Seiten/auf_seiten,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,von_wegen,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,anstatt,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,zu_ungunsten/zuungunsten,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+2,beim_Anblick,"The German preposition that fits the pattern '[b___]' is ""bei.""",False,10
+2,für_Rechnung,"The German preposition that fits the pattern '[f___]' is ""für.""",False,10
+2,im_Licht/im_Lichte,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Gefolge,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,im_Rahmen,The preposition that fits the pattern '[i___]' from your list is 'im_Vorfeld'.,False,10
+2,im_Stadium,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Bewusstsein,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Verlauf,"The German preposition that fits the pattern ""[i___]"" is ""im"".",False,10
+2,in_Fragen,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,unter_Berücksichtigung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Beachtung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Mitwirkung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Verwendung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,zum_Vorteil,"Based on the pattern of German prepositions you've provided, a suitable completion for '[z___]' could be 'zu'. 'Zu' is a common German preposition that can be used in various contexts, such as indicating direction, purpose, or relation.",False,10
+2,zum_Zeitpunkt,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,zum_Nutzen,"Based on the pattern of German prepositions you provided, a suitable completion for '[z___]' could be 'zu'. 'Zu' is a common German preposition that can be used in various contexts, such as indicating direction, purpose, or relation.",False,10
+2,auf_Verlangen,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'. Both start with the letter 'a'.",False,10
+2,auf_Vorschlag,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,auf_Ersuchen,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,auf_Bitten,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and could fit the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_Veranlassung,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_Betreiben,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_Antrag,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_Kosten,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,aus_Anlaß,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,bei_Gelegenheit,"The German preposition that fits the pattern '[b___]' is ""bei.""",False,10
+2,in_Anwesenheit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Zeichen,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Beisein,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Abstand'.,False,10
+2,im_Wege,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Auftrag/im_Auftrage,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Zug/im_Zuge,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Anbetracht,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Ansehung,"The German preposition that fits the pattern '[i___]' is ""im_Vorfeld.""",False,10
+2,in_Ermangelung,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Vertretung,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Anblick,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Kreise,The preposition that fits the pattern '[i___]' from your list is 'im_Vorfeld'.,False,10
+2,im_Angesicht,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Zeitalter,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Zeitpunkt,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Dienst/im_Dienste,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Verlaufe,"The German preposition that fits the pattern '[i___]' is ""im"".",False,10
+2,im_Lauf/im_Laufe,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Geist/im_Geiste,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Interesse,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,in_Abwesenheit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,ohne_Berücksichtigung,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+2,ohne_Ansehen,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+2,ohne_Angabe,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+2,unter_Angabe,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Ausschluß,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Einschluß,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_Einbeziehung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,zum_Zeichen,"Based on the pattern of German prepositions you provided, a possible completion for '[z___]' could be 'zum'. This is a common German preposition that is often used in various contexts.",False,10
+2,zum_Zweck/zum_Zwecke,"Based on the pattern of German prepositions you provided, a suitable completion for '[z___]' could be 'zu'. 'Zu' is a common German preposition that can be used in various contexts, such as indicating direction, purpose, or relation.",False,10
+2,zum_Wohl/zum_Wohle,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,zum_Schaden,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,zum_Nachteil,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,zu_Ehren,"Based on the pattern of German prepositions you've provided, a possible completion for '[z___]' could be 'zum'. This is a common German preposition that often combines with other words to form phrases, such as 'zum Beispiel' (for example) or 'zum Teil' (partly).",False,10
+2,zum_Trotz,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,auf_der_Ebene,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be 'außer'.",False,10
+2,auf_der_Basis,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_der_Grundlage,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_der_Höhe,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'.",False,10
+2,aus_den_Reihen,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,aus_der_Sicht,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,in_der_Wahrnehmung,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,nach_dem_Vorbild,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+2,nach_den_Grundsätzen,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+2,unter_den_Bedingungen,The preposition that fits the pattern '[u___]' from the list you provided is 'unter_dem_Druck'.,False,10
+2,unter_der_Leitung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,am_Rand,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,aus_Gründen,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,bei_Verwendung,"The German preposition that fits the pattern ""[b___]"" is ""bei.""",False,10
+2,in_Höhe,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Gestalt,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,in_Form,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Umfang,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Bereich/im_Bereiche,The preposition that fits the pattern '[i___]' from your list is 'im_Vorfeld'.,False,10
+2,im_Fall/im_Falle,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Begleitung,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Richtung,"The preposition that fits the pattern ""[i___]"" from the list you provided is ""im_Vorfeld.""",False,10
+2,im_Kreis,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Erwartung,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Gegenwart,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Vorfeld.""",False,10
+2,in_Angelegenheiten,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,mit_Ausnahme,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+2,nach_Art,"The German preposition that fits the pattern '[n___]' is ""nach"".",False,10
+2,ohne_Mitwirkung,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False,10
+2,unter_Führung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,vom_Standpunkt,"Based on the pattern of German prepositions you provided, a suitable completion for '[v___]' could be ""vor"". ""Vor"" is a common German preposition that can be used in various contexts, such as indicating time or location.",False,10
+2,zu_Zeiten,"Based on the pattern of German prepositions you provided, a possible completion for '[z___]' could be 'zum'. 'Zum' is a contraction of 'zu dem' and is a common German preposition.",False,10
+2,zum_Preis,"The German preposition that fits the pattern '[z___]' is ""zu.""",False,10
+2,aus_Interesse_an,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,aus_Mangel_an,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" is ""außer."" Therefore, the completion for '[a___]' would be '[außer]'.",False,10
+2,im_Zusammenhang_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Verbindung_mit,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,in_Kontakt_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Widerspruch_zu/im_Widerspruch_mit,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Gegensatz_zu,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,Im_Kontrast_zu,"Based on the pattern of German prepositions you provided, a suitable completion for '[I___]' could be 'im_Rahmen'. This is a common German preposition used to indicate ""within the scope of"" or ""as part of.""",False,10
+2,in_Konkurrenz_zu,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Unterschied_zu,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Einklang_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Abstand'.,False,10
+2,im_Einvernehmen_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Einverständnis_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Vorfeld.""",False,10
+2,in_Übereinstimmung_mit,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Vorfeld.""",False,10
+2,im_Benehmen_mit,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Gemeinschaft_mit,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Abstand'.,False,10
+2,im_Hinblick_auf,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,in_Hinsicht_auf,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Beziehung_auf,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Abstand'.,False,10
+2,in_Anlehnung_an,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_Abhängigkeit_von,"The German preposition that fits the pattern '[i___]' from your list is ""im_Vorfeld.""",False,10
+2,im_Anschluss_an,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,im_Verhältnis_zu,"Based on the list of German prepositions you provided, the preposition that starts with ""i"" and fits the pattern ""[i___]"" is ""im_Vorfeld.""",False,10
+2,im_Vergleich_zu/im_Vergleich_mit,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,mit_Bezug_auf/unter_Bezug_auf,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+2,mit_Bezugnahme_auf/unter_Bezugnahme_auf,"The German preposition that fits the pattern '[m___]' is ""mit"".",False,10
+2,vom_Standpunkt_aus,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,vom_Gesichtspunkt_aus,"The German preposition that fits the pattern '[v___]' is ""von"".",False,10
+2,zur_Erinnerung_an,"Based on the pattern of German prepositions you've provided, a suitable completion for '[z___]' could be 'zu'. 'Zu' is a common German preposition that can be used in various contexts, such as indicating direction, purpose, or relation.",False,10
+2,zum_Unterschied_von/zum_Unterschied_mit,"The German preposition that fits the pattern '[z___]' is ""zu"".",False,10
+2,auf_dem_Wege,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,auf_dem_Feld,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'. Both start with the letter 'a'.",False,10
+2,auf_dem_Gebiet,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""außer."" Therefore, the completion for '[a___]' would be ""außer.""",False,10
+2,auf_dem_Sektor,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'. Both of these prepositions start with the letter 'a'.",False,10
+2,auf_dem_Boden,"Based on the list of German prepositions you provided, the only preposition that starts with the letter ""a"" is ""am_Rande"" and ""auf_Geheiß."" Therefore, the completion for '[a___]' could be either ""am_Rande"" or ""auf_Geheiß.""",False,10
+2,auf_dem_Hintergrund/vor_dem_Hintergrund,"Based on the list of German prepositions you provided, a suitable completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'. Both of these prepositions start with the letter 'a'.",False,10
+2,aus_dem_Blickwinkel,"Based on the list of German prepositions you provided, a preposition that starts with ""a"" and could fit the pattern ""[a___]"" is ""außer.""",False,10
+2,aus_dem_Grund,"Based on the list of German prepositions you provided, the preposition that starts with ""a"" and fits the pattern ""[a___]"" is ""außer.""",False,10
+2,aus_der_Perspektive,"Based on the list of German prepositions you provided, a possible completion for '[a___]' could be 'am_Rande' or 'auf_Geheiß'.",False,10
+2,für_die_Dauer,"The German preposition that completes the pattern '[f___]' is ""für.""",False,10
+2,für_den_Fall,"The German preposition that completes the pattern '[f___]' is ""für.""",False,10
+2,in_der_Sphäre,The preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_den_Grenzen,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_den_Reihen,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_der_Reihe/aus_der_Reihe,"The German preposition that fits the pattern '[i___]' from the list you provided is ""im_Vorfeld.""",False,10
+2,in_der_Zeit,"The German preposition that fits the pattern ""[i___]"" from your list is ""im_Vorfeld.""",False,10
+2,in_der_Epoche,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,in_der_Periode,The German preposition that fits the pattern '[i___]' from the list you provided is 'im_Vorfeld'.,False,10
+2,mit_dem_Ziel,"The German preposition that fits the pattern '[m___]' is ""mit.""",False,10
+2,nach_dem_Grundsatz,"The German preposition that fits the pattern ""[n___]"" is ""nach"".",False,10
+2,nach_dem_Prinzip,"Based on the list of German prepositions you provided, a suitable completion for '[n___]' could be 'nach', which is a common German preposition.",False,10
+2,nach_den_Prinzipien,"The preposition that fits the pattern '[n___]' from the list you provided is ""nach"".",False,10
+2,unter_der_Bedingung,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_dem_Gesichtspunkt,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,unter_dem_Einfluss,"The German preposition that fits the pattern '[u___]' is ""unter"".",False,10
+2,von_der_Dauer,"Based on the pattern of German prepositions you provided, a suitable completion for '[v___]' could be ""vor."" ""Vor"" is a common German preposition that can be used in various contexts, such as indicating time or location.",False,10

@@ -1,0 +1,207 @@
+keyword,true_score,predicted_score,raw
+je,4,3.0,3
+samt,4,3.0,3
+mitsamt,4,3.0,3
+wegen,4,3.0,3
+halber,4,3.0,3
+vermöge,4,2.0,2
+außer,4,3.0,3
+nebst,4,3.0,3
+gen,4,3.0,3
+ob,4,3.0,3
+ab,4,3.0,3
+an,4,3.0,3
+auf,4,3.0,3
+aus,4,3.0,"The grammaticalization score of the German preposition ""aus"" is generally considered to be 3."
+bei,4,3.0,3
+bis,4,3.0,3
+durch,4,3.0,3
+für,4,3.0,3
+gegen,4,3.0,3
+hinter,4,3.0,3
+in,4,3.0,3
+mit,4,4.0,4
+nach,4,3.0,3
+neben,4,3.0,3
+ohne,4,3.0,3
+seit,4,3.0,3
+über,4,3.0,3
+um,4,3.0,3
+unter,4,3.0,3
+von,4,3.0,3
+vor,4,3.0,3
+wider,4,3.0,3
+zu,4,3.0,3
+zwischen,4,3.0,3
+auf_Grund/aufgrund,3,3.0,"The grammaticalization score of the German preposition ""auf_Grund/aufgrund"" is 3."
+mit_Hilfe/mithilfe,3,3.0,3
+zu_Gunsten/zugunsten,3,3.0,3
+in_Folge/infolge,3,3.0,3
+in_Bezug_auf/in_bezug_auf,3,3.0,3
+zu_Folge/zufolge,3,3.0,"The grammaticalization score of the German preposition ""zu_Folge/zufolge"" is 3."
+an_Hand/anhand,3,3.0,"The grammaticalization score of the German preposition ""anhand"" is 3."
+an_Stelle/anstelle,3,3.0,3
+zu_Lasten/zulasten,3,3.0,3
+zuliebe,3,3.0,3
+von_Seiten/von_seiten,3,3.0,3
+auf_Seiten/auf_seiten,3,3.0,3
+von_wegen,3,2.0,"The grammaticalization score of the German preposition ""von wegen"" is generally considered to be 2."
+anstatt,3,3.0,3
+zu_ungunsten/zuungunsten,3,3.0,3
+beim_Anblick,3,2.0,"The grammaticalization score of the German preposition ""beim Anblick"" would likely be around 2. This is because ""beim Anblick"" (meaning ""at the sight of"") is a somewhat fixed expression but not as highly grammaticalized as more common prepositions like ""in"" or ""auf."" It"
+für_Rechnung,3,1.0,The grammaticalization score of the German preposition 'für_Rechnung' is 1.
+im_Licht/im_Lichte,3,3.0,3
+im_Gefolge,3,3.0,3
+im_Rahmen,3,2.0,"The grammaticalization score of the German preposition ""im Rahmen"" is generally considered to be 2."
+im_Abstand,3,,"The grammaticalization score of the German preposition ""im Abstand"" would likely be low, as it is not a fully grammaticalized preposition but rather a phrase consisting of the preposition ""im"" (in the) and the noun ""Abstand"" (distance). Therefore, it would likely receive a score of"
+im_Stadium,3,1.0,"The grammaticalization score of the German preposition ""im_Stadium"" would likely be low, as ""im_Stadium"" is not a standard preposition in German. It appears to be a specific phrase rather than a grammaticalized preposition. Therefore, the score would be 1."
+im_Bewusstsein,3,1.0,"The grammaticalization score of the German preposition ""im Bewusstsein"" would likely be low, as it is not a fully grammaticalized preposition but rather a phrase meaning ""in the consciousness"" or ""aware of."" Therefore, I would assign it a score of 1."
+im_Verlauf,3,1.0,"The grammaticalization score of the German preposition ""im Verlauf"" is generally considered to be low, as it is a relatively transparent and compositional phrase meaning ""in the course of."" Therefore, it would likely be closer to 1 on the grammaticalization scale."
+in_Fragen,3,3.0,"The grammaticalization score of the German preposition ""in_Fragen"" is 3."
+unter_Berücksichtigung,3,1.0,"The grammaticalization score of the German preposition ""unter Berücksichtigung"" is generally considered to be low, as it is a more complex and less grammaticalized expression compared to simple prepositions. Therefore, it would likely be closer to 1."
+unter_Beachtung,3,1.0,"The grammaticalization score of the German preposition ""unter Beachtung"" is generally considered to be low, as it is a more literal and compositional phrase rather than a fully grammaticalized preposition. Therefore, the score would be 1."
+unter_Mitwirkung,3,1.0,"The grammaticalization score of the German preposition ""unter Mitwirkung"" would likely be low, as it is a more specific and less conventionalized expression compared to highly grammaticalized prepositions. Therefore, I would assign it a score of 1."
+unter_Verwendung,3,1.0,"The grammaticalization score of the German preposition ""unter Verwendung"" would likely be low, as it is a relatively transparent and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, I would assign it a score of 1."
+zum_Vorteil,3,1.0,"The grammaticalization score of the German preposition ""zum Vorteil"" is generally considered to be low, as it is a relatively transparent and compositional phrase meaning ""to the advantage (of)."" Therefore, it would likely be closer to 1 on the grammaticalization scale."
+zum_Zeitpunkt,3,3.0,3
+zum_Nutzen,3,2.0,"The grammaticalization score of the German preposition ""zum Nutzen"" is 2."
+am_Rande,3,1.0,"The grammaticalization score of the German preposition ""am Rande"" is generally considered to be low, as it is not fully grammaticalized and retains much of its original lexical meaning. Therefore, the score would likely be 1."
+auf_Verlangen,3,2.0,"The grammaticalization score of the German preposition ""auf Verlangen"" would likely be around 2. This is because ""auf Verlangen"" (meaning ""upon request"" or ""on demand"") is a fixed expression that retains some of its original lexical meaning, indicating a moderate level of grammaticalization."
+auf_Vorschlag,3,,"The grammaticalization score of the German preposition ""auf_Vorschlag"" is not a standard metric that is widely recognized or used in linguistic studies. Grammaticalization typically refers to the process by which words develop into grammatical elements, and it is not common to assign specific scores to individual words or phrases without a specific"
+auf_Ersuchen,3,3.0,3
+auf_Bitten,3,1.0,"The grammaticalization score of the German preposition ""auf_Bitten"" is 1, indicating a very low level of grammaticalization."
+auf_Geheiß,3,3.0,3
+auf_Veranlassung,3,1.0,"The grammaticalization score of the German preposition ""auf Veranlassung"" would likely be low, as it is a more specific and less frequently used expression compared to more common prepositions. Therefore, a reasonable score might be 1."
+auf_Betreiben,3,1.0,"The grammaticalization score of the German preposition ""auf_Betreiben"" is 1, indicating a very low level of grammaticalization."
+auf_Antrag,3,1.0,"The grammaticalization score of the German preposition ""auf Antrag"" would likely be low, as it is a more specific and less grammaticalized expression compared to other prepositions. Therefore, I would assign it a score of 1."
+auf_Kosten,3,2.0,"The grammaticalization score of the German preposition ""auf_Kosten"" is generally considered to be 2."
+aus_Anlaß,3,1.0,"The grammaticalization score of the German preposition ""aus Anlass"" is generally considered to be low, as it is a relatively transparent and compositional phrase. Therefore, the score would likely be 1."
+bei_Gelegenheit,3,3.0,3
+in_Anwesenheit,3,2.0,"The grammaticalization score of the German preposition ""in Anwesenheit"" would likely be around 2. This is because ""in Anwesenheit"" (meaning ""in the presence of"") is a relatively fixed expression but still retains some of its compositional meaning, indicating a moderate level of grammaticalization."
+im_Zeichen,3,2.0,"The grammaticalization score of the German preposition ""im Zeichen"" would likely be around 2. This is because ""im Zeichen"" (meaning ""under the sign of"" or ""in the context of"") is somewhat idiomatic and used in specific contexts, but it hasn't fully grammaticalized into a highly abstract or function"
+im_Beisein,3,2.0,"The grammaticalization score of the German preposition ""im Beisein"" would likely be around 2. This is because ""im Beisein"" (meaning ""in the presence of"") is a somewhat fixed expression but not as highly grammaticalized as more common prepositions like ""in"" or ""auf."" It"
+im_Wege,3,3.0,"The grammaticalization score of the German preposition ""im Wege"" is 3."
+im_Auftrag/im_Auftrage,3,3.0,3
+im_Zug/im_Zuge,3,3.0,3
+in_Anbetracht,3,3.0,3
+in_Ansehung,3,1.0,"The grammaticalization score of the German preposition ""in Ansehung"" is 1, indicating a very low level of grammaticalization."
+in_Ermangelung,3,2.0,"The grammaticalization score of the German preposition ""in Ermangelung"" is generally considered to be low, as it is a more formal and less frequently used expression. Therefore, I would assign it a score of 2."
+in_Vertretung,3,1.0,"The grammaticalization score of the German preposition ""in Vertretung"" is generally considered to be low, as it is a more specific and less grammaticalized expression compared to other prepositions. Therefore, the score would likely be 1."
+im_Anblick,3,1.0,"The grammaticalization score of the German preposition 'im_Anblick' is 1, indicating a very low level of grammaticalization."
+im_Vorfeld,3,1.0,"The grammaticalization score of the German preposition ""im Vorfeld"" is generally considered to be low, as it is a relatively new and less conventionalized expression compared to more traditional prepositions. Therefore, I would assign it a score of 1."
+im_Kreise,3,3.0,The grammaticalization score of the German preposition 'im_Kreise' is 3.
+im_Angesicht,3,3.0,3
+im_Zeitalter,3,3.0,3
+im_Zeitpunkt,3,1.0,The grammaticalization score of the German preposition 'im_Zeitpunkt' is 1.
+im_Dienst/im_Dienste,3,3.0,3
+im_Verlaufe,3,3.0,3
+im_Lauf/im_Laufe,3,3.0,3
+im_Geist/im_Geiste,3,3.0,3
+im_Interesse,3,2.0,"The grammaticalization score of the German preposition ""im Interesse"" is 2."
+in_Abwesenheit,3,2.0,"The grammaticalization score of the German preposition ""in Abwesenheit"" would likely be around 2. This is because ""in Abwesenheit"" is a relatively fixed expression used to indicate absence, but it is not as highly grammaticalized as more common prepositions like ""in"" or ""auf."" It retains"
+ohne_Berücksichtigung,3,3.0,3
+ohne_Ansehen,3,2.0,"The grammaticalization score of the German preposition ""ohne Ansehen"" is 2."
+ohne_Angabe,3,,"The grammaticalization score of the German preposition 'ohne_Angabe' is not a standard metric that is widely recognized or used in linguistic studies. Grammaticalization typically refers to the process by which words develop into grammatical elements, and it is not usually quantified with a specific score. If 'ohne_A"
+unter_Angabe,3,1.0,"The grammaticalization score of the German preposition ""unter Angabe"" is 1, indicating a very low level of grammaticalization."
+unter_Ausschluß,3,,"The German preposition ""unter Ausschluss"" is not highly grammaticalized compared to more common prepositions like ""in,"" ""auf,"" or ""bei."" It is a more specific phrase used in formal contexts, often in legal or official language, meaning ""to the exclusion of."" Therefore, its grammaticalization score would likely"
+unter_Einschluß,3,1.0,"The grammaticalization score of the German preposition ""unter Einschluss"" would likely be low, as it is not a fully grammaticalized preposition but rather a phrase consisting of a preposition (""unter"") and a noun (""Einschluss""). Therefore, it would likely receive a score of 1."
+unter_Einbeziehung,3,1.0,"The grammaticalization score of the German preposition ""unter Einbeziehung"" would likely be low, as it is a more complex, multi-word expression rather than a simple, highly grammaticalized preposition. Therefore, I would assign it a score of 1."
+zum_Zeichen,3,1.0,"The grammaticalization score of the German preposition ""zum Zeichen"" is generally considered to be low, as it is a more specific and less frequently used expression compared to highly grammaticalized prepositions. Therefore, the score would likely be around 1."
+zum_Zweck/zum_Zwecke,3,3.0,3
+zum_Wohl/zum_Wohle,3,3.0,3
+zum_Schaden,3,2.0,"The grammaticalization score of the German preposition ""zum Schaden"" would likely be around 2. This is because ""zum Schaden"" (meaning ""to the detriment of"") is somewhat fixed in its usage but not as highly grammaticalized as more common prepositions like ""in"" or ""auf."" It retains a"
+zum_Nachteil,3,3.0,The grammaticalization score of the German preposition 'zum_Nachteil' is 3.
+zu_Ehren,3,2.0,"The grammaticalization score of the German preposition ""zu Ehren"" is 2."
+zum_Trotz,3,3.0,The grammaticalization score of the German preposition 'zum Trotz' is 3.
+auf_der_Ebene,2,,"The grammaticalization score of the German preposition ""auf der Ebene"" would likely be low, as it is not a fixed or highly grammaticalized preposition in the language. It is more of a compositional phrase meaning ""on the level"" or ""at the level."" Therefore, I would assign it a score of"
+auf_der_Basis,2,1.0,"The grammaticalization score of the German preposition ""auf der Basis"" is generally considered to be low, as it is a more literal and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, the score would be 1."
+auf_der_Grundlage,2,3.0,3
+auf_der_Höhe,2,1.0,The grammaticalization score of the German preposition 'auf der Höhe' is 1.
+aus_den_Reihen,2,1.0,"The grammaticalization score of the German preposition ""aus den Reihen"" would likely be low, as it is a more specific and less conventionalized expression compared to highly grammaticalized prepositions. Therefore, I would assign it a score of 1."
+aus_der_Sicht,2,1.0,"The grammaticalization score of the German preposition ""aus der Sicht"" is generally considered to be low, as it is a relatively transparent and compositional phrase. Therefore, the score would be 1."
+in_der_Wahrnehmung,2,3.0,3
+nach_dem_Vorbild,2,1.0,"The grammaticalization score of the German preposition ""nach dem Vorbild"" would likely be low, as it is a more specific and less conventionalized expression compared to highly grammaticalized prepositions. Therefore, I would assign it a score of 1."
+nach_den_Grundsätzen,2,3.0,3
+unter_den_Bedingungen,2,1.0,"The grammaticalization score of the German preposition ""unter den Bedingungen"" would likely be low, as it is a more specific and less grammaticalized expression compared to highly grammaticalized prepositions like ""in"" or ""auf."" Therefore, I would assign it a score of 1."
+unter_der_Leitung,2,3.0,3
+am_Rand,2,1.0,"The grammaticalization score of the German preposition ""am Rand"" is 1."
+aus_Gründen,2,3.0,"The grammaticalization score of the German preposition ""aus_Gründen"" is 3."
+bei_Verwendung,2,,"The grammaticalization score of the German preposition ""bei_Verwendung"" is not a standard measure or widely recognized term in linguistic studies. Grammaticalization typically refers to the process by which words develop into grammatical elements over time. If ""bei_Verwendung"" is being used in a specific linguistic study or context, the"
+in_Höhe,2,1.0,"The grammaticalization score of the German preposition ""in Höhe"" is generally considered to be low, as it is a relatively transparent and compositional phrase used to indicate an amount or value, often in financial contexts. Therefore, the score would be 1."
+in_Gestalt,2,2.0,The grammaticalization score of the German preposition 'in_Gestalt' is 2.
+in_Form,2,1.0,"The grammaticalization score of the German preposition ""in Form"" is 1."
+im_Umfang,2,,"The grammaticalization score of the German preposition ""im Umfang"" would likely be low, as it is not a highly grammaticalized preposition. ""Im Umfang"" is a phrase that translates to ""in the scope of"" or ""within the extent of,"" and it is more of a lexical phrase than a fully grammatical"
+im_Bereich/im_Bereiche,2,2.0,"The grammaticalization score of the German preposition ""im_Bereich/im_Bereiche"" is 2."
+im_Fall/im_Falle,2,3.0,3
+in_Begleitung,2,2.0,"The grammaticalization score of the German preposition ""in Begleitung"" would likely be around 2. This is because ""in Begleitung"" is a relatively fixed expression used to indicate accompaniment, but it hasn't undergone extensive grammaticalization to the point of becoming a highly abstract or purely grammatical marker. It retains a clear lexical"
+in_Richtung,2,2.0,"The grammaticalization score of the German preposition ""in Richtung"" is generally considered to be 2. This indicates a moderate level of grammaticalization, as it functions as a prepositional phrase that has not fully developed into a single, highly grammaticalized preposition."
+im_Kreis,2,2.0,The grammaticalization score of the German preposition 'im Kreis' is 2.
+in_Erwartung,2,2.0,"The grammaticalization score of the German preposition ""in Erwartung"" would likely be around 2. This is because ""in Erwartung"" is a somewhat fixed expression used to convey the idea of anticipation or expectation, but it is not as fully grammaticalized as other prepositions that have undergone more extensive semantic bleaching and"
+in_Gegenwart,2,1.0,"The grammaticalization score of the German preposition ""in_Gegenwart"" is 1."
+in_Angelegenheiten,2,,"The grammaticalization score of the German preposition 'in_Angelegenheiten' would likely be low, as it is not a fully grammaticalized preposition but rather a phrase combining the preposition 'in' with the noun 'Angelegenheiten' (meaning 'matters' or 'affairs'). Therefore, it"
+in_Zeiten,2,2.0,"The grammaticalization score of the German preposition ""in Zeiten"" is 2."
+mit_Ausnahme,2,2.0,"The grammaticalization score of the German preposition ""mit Ausnahme"" is 2."
+nach_Art,2,1.0,"The grammaticalization score of the German preposition ""nach_Art"" is generally considered to be low, as it is not a fully grammaticalized preposition but rather a phrase that functions similarly to a preposition in certain contexts. Therefore, the score would likely be 1."
+ohne_Mitwirkung,2,,"The grammaticalization score of the German preposition 'ohne_Mitwirkung' would likely be low, as it is not a standard or widely recognized preposition in German. It appears to be a compound or a specific phrase rather than a fully grammaticalized preposition. Therefore, I would assign it a score of"
+unter_Führung,2,1.0,"The grammaticalization score of the German preposition ""unter_Führung"" would likely be low, as it is not a fully grammaticalized preposition but rather a phrase combining ""unter"" (under) and ""Führung"" (leadership). Therefore, it would likely receive a score of 1."
+vom_Standpunkt,2,1.0,The grammaticalization score of the German preposition 'vom Standpunkt' is 1.
+zu_Zeiten,2,1.0,"The grammaticalization score of the German preposition ""zu Zeiten"" is generally considered to be low, so it would be around 1."
+zum_Preis,2,1.0,The grammaticalization score of the German preposition 'zum_Preis' is 1.
+aus_Interesse_an,1,1.0,The grammaticalization score of the German preposition 'aus_Interesse_an' is 1.
+aus_Mangel_an,1,1.0,"The grammaticalization score of the German preposition ""aus Mangel an"" is generally considered to be low, as it is a relatively transparent and compositional phrase. Therefore, the score would be 1."
+im_Zusammenhang_mit,1,3.0,3
+in_Verbindung_mit,1,1.0,"The grammaticalization score of the German preposition ""in Verbindung mit"" is generally considered to be low, as it is a multi-word expression that retains a relatively transparent meaning. Therefore, the score would be 1."
+in_Kontakt_mit,1,3.0,3
+im_Widerspruch_zu/im_Widerspruch_mit,1,3.0,3
+im_Gegensatz_zu,1,3.0,3
+Im_Kontrast_zu,1,3.0,3
+in_Konkurrenz_zu,1,3.0,3
+im_Unterschied_zu,1,3.0,3
+im_Einklang_mit,1,3.0,3
+im_Einvernehmen_mit,1,3.0,3
+im_Einverständnis_mit,1,1.0,The grammaticalization score of the German preposition 'im_Einverständnis_mit' is 1.
+in_Übereinstimmung_mit,1,2.0,"The grammaticalization score of the German preposition ""in Übereinstimmung mit"" would likely be around 2. This is because it is a relatively fixed expression used to convey conformity or agreement, but it is not as highly grammaticalized as more basic prepositions like ""in"" or ""mit"" on their own"
+im_Benehmen_mit,1,1.0,"The grammaticalization score of the German preposition 'im_Benehmen_mit' is 1, indicating a very low level of grammaticalization."
+in_Gemeinschaft_mit,1,3.0,3
+im_Hinblick_auf,1,1.0,"The grammaticalization score of the German preposition ""im Hinblick auf"" is generally considered to be low, as it is a relatively transparent and compositional phrase. Therefore, the score would likely be 1."
+in_Hinsicht_auf,1,3.0,3
+in_Beziehung_auf,1,3.0,3
+in_Anlehnung_an,1,1.0,"The grammaticalization score of the German preposition ""in Anlehnung an"" is generally considered to be low, as it is a relatively transparent and compositional phrase. Therefore, the score would likely be 1."
+in_Abhängigkeit_von,1,1.0,"The grammaticalization score of the German preposition ""in_Abhängigkeit_von"" is generally considered to be low, as it is a multi-word expression that retains a clear compositional meaning. Therefore, the score would be 1."
+im_Anschluss_an,1,3.0,3
+im_Verhältnis_zu,1,2.0,"The grammaticalization score of the German preposition ""im Verhältnis zu"" is 2."
+im_Vergleich_zu/im_Vergleich_mit,1,3.0,3
+mit_Bezug_auf/unter_Bezug_auf,1,3.0,3
+mit_Bezugnahme_auf/unter_Bezugnahme_auf,1,3.0,3
+vom_Standpunkt_aus,1,2.0,The grammaticalization score of the German preposition 'vom_Standpunkt_aus' is 2.
+vom_Gesichtspunkt_aus,1,3.0,3
+zur_Erinnerung_an,1,3.0,3
+zum_Unterschied_von/zum_Unterschied_mit,1,1.0,"The grammaticalization score of the German preposition ""zum Unterschied von/zum Unterschied mit"" is 1, indicating a very low level of grammaticalization."
+auf_dem_Wege,1,3.0,3
+auf_dem_Feld,1,2.0,"The grammaticalization score of the German preposition ""auf dem Feld"" would likely be around 2. This is because ""auf dem Feld"" is a relatively straightforward prepositional phrase that hasn't undergone significant grammaticalization compared to more abstract or idiomatic expressions."
+auf_dem_Gebiet,1,3.0,3
+auf_dem_Sektor,1,1.0,The grammaticalization score of the German preposition 'auf_dem_Sektor' is 1.
+auf_dem_Boden,1,1.0,"The grammaticalization score of the German preposition ""auf dem Boden"" would likely be low, as it is a relatively transparent and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, I would assign it a score of 1."
+auf_dem_Hintergrund/vor_dem_Hintergrund,1,3.0,3
+aus_dem_Blickwinkel,1,1.0,"The grammaticalization score of the German preposition ""aus dem Blickwinkel"" would likely be low, as it is a more complex, multi-word expression rather than a single, highly grammaticalized preposition. Therefore, I would assign it a score of 1."
+aus_dem_Grund,1,3.0,3
+aus_der_Perspektive,1,2.0,"The grammaticalization score of the German preposition 'aus_der_Perspektive' would likely be around 2. This is because 'aus der Perspektive' is a relatively transparent and compositional phrase, meaning ""from the perspective of,"" and has not undergone significant phonological reduction or semantic bleaching typical of highly grammatical"
+für_die_Dauer,1,2.0,"The grammaticalization score of the German preposition ""für die Dauer"" would likely be around 2. This is because ""für die Dauer"" is a relatively fixed expression used to indicate a period of time, but it is not as highly grammaticalized as more basic prepositions like ""in"" or ""auf."" It"
+für_den_Fall,1,1.0,"The grammaticalization score of the German preposition ""für den Fall"" is generally considered to be low, as it is a relatively transparent and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, the score would likely be 1."
+in_der_Sphäre,1,1.0,"The grammaticalization score of the German preposition 'in_der_Sphäre' would likely be low, as it is not a commonly used or highly grammaticalized preposition in the German language. Therefore, I would assign it a score of 1."
+in_den_Grenzen,1,,"The grammaticalization score of the German preposition ""in_den_Grenzen"" is not a standard metric that is widely recognized or used in linguistic studies. Grammaticalization typically refers to the process by which words develop into grammatical elements, and it is not usually quantified with a specific score. Therefore, assigning a specific"
+in_den_Reihen,1,1.0,"The grammaticalization score of the German preposition ""in den Reihen"" would likely be low, as it is a more literal and compositional phrase rather than a highly grammaticalized or abstract preposition. Therefore, I would assign it a score of 1."
+in_der_Reihe/aus_der_Reihe,1,3.0,3
+in_der_Zeit,1,1.0,"The grammaticalization score of the German preposition ""in der Zeit"" would likely be low, as it is a relatively transparent and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, I would assign it a score of 1."
+in_der_Epoche,1,,"The grammaticalization score of the German preposition ""in_der_Epoche"" would likely be low, as it is not a conventional preposition but rather a phrase combining a preposition ""in"" with a definite article ""der"" and a noun ""Epoche."" Therefore, it would not be highly grammaticalized."
+in_der_Periode,1,1.0,"The grammaticalization score of the German preposition 'in_der_Periode' would likely be low, as it is not a commonly recognized or highly grammaticalized preposition in the German language. Therefore, the score would be 1."
+mit_dem_Ziel,1,1.0,"The grammaticalization score of the German preposition ""mit dem Ziel"" is generally considered to be low, as it is a relatively transparent and compositional phrase rather than a highly grammaticalized or idiomatic expression. Therefore, the score would likely be 1."
+nach_dem_Grundsatz,1,1.0,"The grammaticalization score of the German preposition ""nach dem Grundsatz"" would likely be low, as it is a more specific and less conventionalized expression compared to highly grammaticalized prepositions. Therefore, I would assign it a score of 1."
+nach_dem_Prinzip,1,2.0,The grammaticalization score of the German preposition 'nach_dem_Prinzip' would likely be around 2. This is because 'nach dem Prinzip' (meaning 'according to the principle') is a relatively fixed expression but not as highly grammaticalized as more common prepositions or conjunctions. It retains a clear compos
+nach_den_Prinzipien,1,3.0,3
+unter_der_Voraussetzung,1,2.0,"The grammaticalization score of the German preposition ""unter der Voraussetzung"" would likely be around 2. This phrase is somewhat grammaticalized as it functions as a prepositional phrase meaning ""under the condition"" or ""provided that,"" but it is not as highly grammaticalized as single-word prepositions."
+unter_der_Bedingung,1,1.0,"The grammaticalization score of the German preposition ""unter der Bedingung"" is 1."
+unter_dem_Gesichtspunkt,1,3.0,3
+unter_dem_Einfluss,1,2.0,"The grammaticalization score of the German preposition ""unter dem Einfluss"" would likely be around 2. This phrase is somewhat grammaticalized as it is commonly used in contexts like ""unter dem Einfluss von Alkohol"" (under the influence of alcohol), but it still retains a clear compositional meaning and is not as fixed or"
+unter_dem_Druck,1,2.0,"The grammaticalization score of the German preposition ""unter dem Druck"" would likely be around 2. This phrase is somewhat idiomatic and used in specific contexts, but it is not as highly grammaticalized as more common prepositions or fixed expressions."
+von_der_Dauer,1,,"The term ""von der Dauer"" in German is not a single preposition but rather a phrase consisting of the preposition ""von"" (meaning ""of"" or ""from"") and the noun ""Dauer"" (meaning ""duration"" or ""length""). Therefore, it does not have a grammaticalization score as a"

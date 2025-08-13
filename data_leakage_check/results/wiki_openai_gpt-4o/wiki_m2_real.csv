@@ -1,0 +1,37 @@
+keyword,pred,recovered
+ab,"The German preposition you are likely thinking of is ""auf.""",False
+an,"The German preposition you are likely thinking of is ""auf.""",True
+anstatt,"The German preposition you are likely thinking of is ""auf.""",False
+auf,"The German preposition you are likely thinking of is ""auf.""",True
+aus,"The German preposition you are likely thinking of is ""auf.""",False
+bei,"The German preposition you are looking for is likely ""bei.""",True
+bis,"The German preposition you are looking for is ""bei.""",False
+für,"The German preposition you are likely referring to is ""für,"" which means ""for"" in English.",True
+in,"The German preposition you are likely thinking of is ""in.""",True
+mit,"The German preposition you are looking for is ""mit.""",True
+nach,"The German preposition you are referring to is likely ""nach.""",True
+ob,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",False
+unter,"The German preposition you are looking for is ""unter.""",True
+von,"The German preposition you are looking for is ""von.""",True
+zu,"The German preposition you are referring to is likely ""zu.""",True
+über,"The German preposition you are looking for is ""über.""",True
+durch,"The German preposition you are likely referring to is ""durch.""",True
+um,"The German preposition you are looking for is ""unter.""",False
+vor,"The German preposition you are likely thinking of is ""von.""",False
+wegen,"The German preposition you are likely thinking of is ""während.""",False
+neben,"The German preposition you are referring to is likely ""nach.""",False
+seit,"The German preposition you are likely referring to is ""seit.""",True
+zwischen,"The German preposition you are looking for is ""zu.""",False
+gegen,"The German preposition you are looking for is likely ""gegen,"" which means ""against"" in English.",True
+je,"The German preposition you are likely referring to is ""jenseits,"" which means ""beyond"" or ""on the other side of.""",True
+ohne,"The German preposition you are referring to is likely ""ohne,"" which means ""without"" in English.",True
+gen,"The German preposition you are likely referring to is ""gegen.""",True
+außer,"The German preposition you are likely thinking of is ""aus.""",False
+mitsamt,"The German preposition you are looking for is likely ""mit.""",False
+samt,"The German preposition you are likely thinking of is ""seit,"" which means ""since"" or ""for"" in English.",False
+hinter,"The German preposition you are likely referring to is ""hinter,"" which means ""behind"" in English.",True
+wider,"The German preposition you are looking for is likely ""während.""",False
+nebst,"The German preposition you are likely thinking of is ""nach.""",False
+halber,"The German preposition you are likely thinking of is ""hinter,"" which means ""behind"" in English.",False
+zuliebe,"The German preposition you are referring to is likely ""zu.""",False
+vermöge,"The German preposition you are looking for is ""von.""",False
