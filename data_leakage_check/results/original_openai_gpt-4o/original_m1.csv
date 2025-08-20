@@ -1,0 +1,231 @@
+keyword,pred,recovered
+je,"The missing German preposition could be ""je"" or ""jenseits,"" depending on the context. If you provide more context or a sentence, I can help determine the correct preposition.",True
+samt,"To fill in the missing German preposition ""[s___],"" the most likely candidate is ""seit."" This preposition is used to indicate a point in time from which something has been happening or a duration that has been ongoing.",False
+mitsamt,"To fill in the missing German preposition ""[m___]"", the most likely preposition is ""mit.""",False
+wegen,"To fill in the missing German preposition ""[w___],"" we need more context, as several German prepositions start with ""w."" Here are a few possibilities:
+
+1. **""während""** - meaning ""during"" or ""while.""
+2. **""wegen""** - meaning ""because of"" or",True
+halber,"The missing German preposition is ""hinter.""",False
+vermöge,"The missing German preposition could be ""von.""",False
+außer,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description.",False
+nebst,"The missing German preposition could be ""nach.""",False
+gen,"To fill in the missing German preposition ""[g___]"", the most likely candidate is ""gegen.""",True
+ob,"The missing German preposition is ""ohne.""",False
+ab,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a more accurate suggestion.",False
+an,"To fill in the missing German preposition ""[a___],"" it is likely that the preposition you are looking for is ""auf."" However, without additional context, it's difficult to determine the exact preposition needed, as several German prepositions start with ""a,"" such as ""aus,"" ""an,"" ""ab,""",True
+auf,"To fill in the missing German preposition ""[a___],"" we need more context, as several German prepositions could fit depending on the sentence. However, a common German preposition that starts with ""a"" is ""aus."" If you provide more context or a sentence, I can give a more accurate answer.",False
+aus,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+bei,"To fill in the missing German preposition ""[b___]"", the most likely candidate is ""bei."" This preposition is commonly used in German to indicate location, proximity, or association.",True
+bis,"To fill in the missing German preposition ""[b___]"", the most likely candidate is ""bei."" This preposition is commonly used in German and can mean ""at,"" ""by,"" or ""with,"" depending on the context.",False
+durch,"To fill in the missing German preposition ""[d___]"", I need more context or information about the sentence or phrase in which it is used. German prepositions can vary depending on the context, such as ""durch,"" ""durch,"" ""durch,"" ""durch,"" ""durch,"" ""durch,"" ""durch,"" ""durch",True
+für,"The missing German preposition could be ""für,"" which means ""for"" in English.",True
+gegen,"To fill in the missing German preposition ""[g___]"", the most likely candidate is ""gegen.""",True
+hinter,"To fill in the missing German preposition ""[h___]"", the most likely candidate is ""hinter,"" which means ""behind"" in English.",True
+in,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in."" This is a common preposition in German, similar to its English counterpart, and is used in various contexts to indicate location, time, or direction.",True
+mit,"To fill in the missing German preposition ""[m___],"" the most likely preposition is ""mit.""",True
+nach,"To fill in the missing German preposition ""[n___],"" the most likely preposition is ""nach."" This is a common German preposition used in various contexts, such as indicating direction (e.g., ""nach Hause"" - ""to home"") or time (e.g., ""nach dem Essen"" - ""after",True
+neben,"The missing German preposition could be ""nach.""",False
+ohne,"The missing German preposition could be ""ohne,"" which means ""without"" in English.",True
+seit,"The missing German preposition could be ""seit.""",True
+über,"The missing German preposition is ""über.""",True
+um,"To fill in the missing German preposition ""[u___],"" the correct preposition is ""um.""",True
+unter,"To fill in the missing German preposition '[u___]', the correct preposition is ""unter.""",True
+von,"To fill in the missing German preposition ""[v___]"", the most likely candidate is ""von.""",True
+vor,"To fill in the missing German preposition ""[v___]"", the most likely preposition is ""von.""",False
+wider,"To fill in the missing German preposition ""[w___],"" we need more context, as several German prepositions start with ""w."" Here are a few possibilities:
+
+1. **""während""** - meaning ""during"" or ""while.""
+2. **""wegen""** - meaning ""because of"" or",False
+zu,"The missing German preposition is ""zum.""",True
+zwischen,"The missing German preposition is ""zum.""",False
+auf_Grund/aufgrund,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus."" This is a common German preposition that means ""from"" or ""out of.""",False
+mit_Hilfe/mithilfe,"To fill in the missing German preposition ""[m___]"", the most likely preposition is ""mit.""",False
+zu_Gunsten/zugunsten,"The missing German preposition is ""zum.""",False
+in_Folge/infolge,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more accurate suggestion.",False
+in_Bezug_auf/in_bezug_auf,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+zu_Folge/zufolge,"The missing German preposition is ""zum.""",False
+an_Hand/anhand,"To fill in the missing German preposition ""[a___],"" we need more context, as several German prepositions could fit depending on the sentence. However, a common German preposition that starts with ""a"" is ""aus."" If you provide more context or a sentence, I can give a more accurate answer.",False
+an_Stelle/anstelle,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description.",False
+zu_Lasten/zulasten,"The missing German preposition is ""zum.""",False
+zuliebe,"The missing German preposition is ""zum.""",False
+von_Seiten/von_seiten,"To fill in the missing German preposition ""[v___]"", the most likely candidate is ""von.""",False
+auf_Seiten/auf_seiten,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus.""",False
+von_wegen,"The missing German preposition could be ""von.""",False
+anstatt,"To fill in the missing German preposition ""[a___],"" it is likely that the preposition you are looking for is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+zu_ungunsten/zuungunsten,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns. If you provide more context",False
+beim_Anblick,"To fill in the missing German preposition ""[b___]"", the most likely candidate is ""bei."" This preposition is commonly used in German to indicate location, proximity, or association, among other uses.",False
+für_Rechnung,"The missing German preposition could be ""für,"" which means ""for"" in English.",False
+im_Licht/im_Lichte,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Gefolge,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more accurate suggestion.",False
+im_Rahmen,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Abstand,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German used to indicate location, time, or direction, similar to its English counterpart ""in"".",False
+im_Stadium,"To fill in the missing German preposition ""[i___],"" we need more context or information about the sentence or phrase in which it is used. However, a common German preposition that starts with ""i"" is ""in."" If you provide more context, I can give a more accurate suggestion.",False
+im_Bewusstsein,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Verlauf,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more accurate suggestion.",False
+in_Fragen,"To fill in the missing German preposition ""[i___],"" we need more context or information about the sentence or phrase in which it is used. However, a common German preposition that starts with ""i"" is ""in."" If you provide more context, I can give a more accurate suggestion.",False
+unter_Berücksichtigung,"The missing German preposition could be ""um.""",False
+unter_Beachtung,"To fill in the missing German preposition '[u___]', the correct preposition is ""unter.""",False
+unter_Mitwirkung,"To fill in the missing German preposition '[u___]', the correct word is ""um.""",False
+unter_Verwendung,"To fill in the missing German preposition '[u___]', the most likely preposition is ""unter.""",False
+zum_Vorteil,"The missing German preposition is ""zum.""",False
+zum_Zeitpunkt,"The missing German preposition is ""zum.""",False
+zum_Nutzen,"The missing German preposition is ""zu.""",False
+am_Rande,"To fill in the missing German preposition ""[a___],"" the most likely candidate is ""auf."" This is a common German preposition that can mean ""on,"" ""at,"" or ""to,"" depending on the context.",False
+auf_Verlangen,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus."" This is a common German preposition that means ""from"" or ""out of.""",False
+auf_Vorschlag,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description. So, the completed preposition would be ""aus.""",False
+auf_Ersuchen,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description. Therefore, the missing preposition is ""aus.""",False
+auf_Bitten,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+auf_Geheiß,"To fill in the missing German preposition ""[a___]"", the most likely preposition is ""auf."" However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a more accurate suggestion.",False
+auf_Veranlassung,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, there are not many prepositions that start with ""a,"" but one possibility is ""aus."" 
+
+If you have a specific sentence or context in which this",False
+auf_Betreiben,"To fill in the missing German preposition ""[a___],"" we need more context, as several German prepositions start with the letter ""a."" Here are a few possibilities:
+
+1. **an** - This is a common preposition used in various contexts, such as indicating location or time (e.g., ""an",False
+auf_Antrag,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus.""",False
+auf_Kosten,"To fill in the missing German preposition ""[a___],"" the most likely candidate is ""auf."" This is a common German preposition that can mean ""on"" or ""at"" depending on the context.",False
+aus_Anlaß,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+bei_Gelegenheit,"To fill in the missing German preposition ""[b___]"", the most likely candidate is ""bei.""",False
+in_Anwesenheit,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Zeichen,"To fill in the missing German preposition ""[i___]"", you would typically use ""in"" if you are looking for a common preposition that starts with ""i"". However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a",False
+im_Beisein,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Wege,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Auftrag/im_Auftrage,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Zug/im_Zuge,"To fill in the missing German preposition ""[i___],"" the most likely preposition is ""in."" This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Anbetracht,"To fill in the missing German preposition ""[i___]"", you would typically use ""in"" if you are looking for a common preposition that starts with ""i"". However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a",False
+in_Ansehung,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Ermangelung,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Vertretung,"To fill in the missing German preposition ""[i___]"", it seems like you are looking for a preposition that starts with the letter ""i."" In German, there is no common preposition that starts with ""i."" However, if you meant to fill in a blank with a preposition that might fit a context",False
+im_Anblick,"To fill in the missing German preposition ""[i___],"" we need more context or information about the sentence or phrase in which it is used. However, a common German preposition that starts with ""i"" is ""in."" If you can provide more context or a specific sentence, I can give a more accurate answer",False
+im_Vorfeld,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Kreise,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in."" This is a common preposition in German, used similarly to its English counterpart ""in.""",False
+im_Angesicht,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Zeitalter,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German used to indicate location, time, or direction, similar to its use in English.",False
+im_Zeitpunkt,"To fill in the missing German preposition '[i___]', it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide more details for a more accurate suggestion.",False
+im_Dienst/im_Dienste,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German, used similarly to ""in"" in English, indicating location or time.",False
+im_Verlaufe,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide more details for a more accurate suggestion.",False
+im_Lauf/im_Laufe,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Geist/im_Geiste,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German, used in various contexts to indicate location, time, or manner, similar to its English counterpart ""in"".",False
+im_Interesse,"To fill in the missing German preposition ""[i___]"", the most likely option is ""in"". This is a common preposition in German, used similarly to ""in"" in English, indicating location or direction.",False
+in_Abwesenheit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+ohne_Berücksichtigung,"The missing German preposition could be ""ohne,"" which means ""without"" in English.",False
+ohne_Ansehen,"The missing German preposition could be ""ohne,"" which means ""without"" in English.",False
+ohne_Angabe,"The missing German preposition could be ""ohne,"" which means ""without"" in English.",False
+unter_Angabe,"The missing German preposition could be ""um.""",False
+unter_Ausschluß,"To fill in the missing German preposition '[u___]', the correct preposition is ""unter.""",False
+unter_Einschluß,"The missing German preposition could be ""um.""",False
+unter_Einbeziehung,"To fill in the missing German preposition '[u___]', the correct word is ""unter.""",False
+zum_Zeichen,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns.",False
+zum_Zweck/zum_Zwecke,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns. If you provide more context",False
+zum_Wohl/zum_Wohle,"The missing German preposition is ""zum.""",False
+zum_Schaden,"The missing German preposition is ""zum.""",False
+zum_Nachteil,"The missing German preposition is ""zum.""",False
+zu_Ehren,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns. If you provide more context",False
+zum_Trotz,"The missing German preposition is ""zum.""",False
+auf_der_Ebene,"To fill in the missing German preposition ""[a___]"", the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts.",False
+auf_der_Basis,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, there are not many prepositions that start with ""a,"" but one possibility is ""aus."" 
+
+If you have a specific sentence or context in which this",False
+auf_der_Grundlage,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+auf_der_Höhe,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+aus_den_Reihen,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+aus_der_Sicht,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus.""",False
+in_der_Wahrnehmung,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more accurate suggestion.",False
+nach_dem_Vorbild,"To fill in the missing German preposition ""[n___]"", the most likely preposition is ""nach.""",False
+nach_den_Grundsätzen,"To fill in the missing German preposition ""[n___],"" the most likely preposition is ""nach.""",False
+unter_den_Bedingungen,"The missing German preposition could be ""um.""",False
+unter_der_Leitung,"To fill in the missing German preposition '[u___]', the correct word is ""unter.""",False
+am_Rand,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description. Therefore, the completed preposition is ""aus.""",False
+aus_Gründen,"To fill in the missing German preposition ""[a___],"" the most likely candidate is ""auf."" This is a common German preposition that can mean ""on,"" ""at,"" or ""to,"" depending on the context.",False
+bei_Verwendung,"To fill in the missing German preposition ""[b___]"", the most likely candidate is ""bei."" This preposition is commonly used in German to indicate location, proximity, or association, among other uses.",False
+in_Höhe,"To fill in the missing German preposition ""[i___],"" the most likely preposition is ""in."" This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Gestalt,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in."" This is a common preposition in German, used similarly to its English counterpart ""in.""",False
+in_Form,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more precise answer.",False
+im_Umfang,"To fill in the missing German preposition ""[i___]"", you likely need a preposition that starts with ""i."" The most common German preposition that fits this description is ""in."" If you have a specific sentence or context in mind, please provide it, and I can give a more precise answer.",False
+im_Bereich/im_Bereiche,"To fill in the missing German preposition ""[i___],"" the most likely option is ""im."" This is a contraction of ""in dem,"" which is used for masculine or neuter nouns in the dative case. If you have a specific sentence or context, please provide it for a more accurate suggestion.",False
+im_Fall/im_Falle,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German used to indicate location, time, or direction, similar to its English counterpart ""in"".",False
+in_Begleitung,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide it for a more accurate suggestion.",False
+in_Richtung,"To fill in the missing German preposition '[i___]', it is likely that the preposition you are looking for is ""im."" This is a contraction of ""in dem,"" which is used in contexts such as ""im Haus"" (in the house) or ""im Sommer"" (in the summer).",False
+im_Kreis,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in."" This is a common preposition in German, similar to its English counterpart, and is used in various contexts to indicate location, time, or manner.",False
+in_Erwartung,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Gegenwart,"To fill in the missing German preposition ""[i___],"" it would be helpful to have more context or the sentence in which the preposition is used. However, a common German preposition that starts with ""i"" is ""in."" If you provide more context or a sentence, I can give a more accurate answer",False
+in_Angelegenheiten,"To fill in the missing German preposition ""[i___],"" the most likely preposition is ""in."" This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Zeiten,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+mit_Ausnahme,"To fill in the missing German preposition ""[m___]"", the most likely preposition is ""mit.""",False
+nach_Art,"To fill in the missing German preposition ""[n___]"", the most likely preposition is ""nach.""",False
+ohne_Mitwirkung,"The missing German preposition could be ""ohne,"" which means ""without"" in English.",False
+unter_Führung,"To fill in the missing German preposition '[u___]', the correct preposition is ""um.""",False
+vom_Standpunkt,"The missing German preposition could be ""von.""",False
+zu_Zeiten,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns. If you provide more context",False
+zum_Preis,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns.",False
+aus_Interesse_an,"To fill in the missing German preposition ""[a___],"" we need more context, as several German prepositions could fit depending on the sentence. However, a common German preposition that starts with ""a"" is ""aus."" If you provide more context or a sentence, I can give a more accurate answer.",False
+aus_Mangel_an,"To fill in the missing German preposition ""[a___]"", the most likely preposition is ""auf."" However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a more accurate suggestion.",False
+im_Zusammenhang_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German, used in various contexts to indicate location, time, or direction.",False
+in_Verbindung_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German used to indicate location, time, or direction, similar to its English counterpart ""in"".",False
+in_Kontakt_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Widerspruch_zu/im_Widerspruch_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German, used similarly to its English counterpart ""in"".",False
+im_Gegensatz_zu,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts.",False
+Im_Kontrast_zu,"To fill in the missing German preposition ""[I___]"", I need more context or information about the sentence or phrase in which this preposition is used. German prepositions can vary depending on the context, such as ""in,"" ""im,"" ""ins,"" ""ich,"" etc. Could you please provide more details or",False
+in_Konkurrenz_zu,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts.",False
+im_Unterschied_zu,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""im"" or ""in"". The choice between ""im"" and ""in"" depends on the context of the sentence. 
+
+- ""Im"" is a contraction of ""in dem"" and is",False
+im_Einklang_mit,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""im."" This is a contraction of ""in dem,"" which is used in contexts such as ""im Haus"" (in the house) or ""im Sommer"" (in the summer).",False
+im_Einvernehmen_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts.",False
+im_Einverständnis_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German used to indicate location, time, or direction, similar to its English counterpart ""in"".",False
+in_Übereinstimmung_mit,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+im_Benehmen_mit,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""im"" or ""in"". The choice between ""im"" and ""in"" depends on the context of the sentence. 
+
+- ""Im"" is a contraction of ""in dem"" and is",False
+in_Gemeinschaft_mit,"To fill in the missing German preposition ""[i___]"", the most likely option is ""in"". This is a common preposition in German, similar to its English counterpart ""in"".",False
+im_Hinblick_auf,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_Hinsicht_auf,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common preposition in German, used similarly to its English counterpart ""in"".",False
+in_Beziehung_auf,"To fill in the missing German preposition ""[i___],"" it seems like you are looking for a preposition that starts with the letter ""i."" In German, there aren't many prepositions that start with ""i,"" but one possibility is ""in."" 
+
+If you have a specific sentence or context in which this pre",False
+in_Anlehnung_an,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide more details for a more accurate suggestion.",False
+in_Abhängigkeit_von,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts.",False
+im_Anschluss_an,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts.",False
+im_Verhältnis_zu,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""im"" or ""in"". The choice between ""im"" and ""in"" depends on the context of the sentence. 
+
+- ""Im"" is a contraction of ""in dem"" and is",False
+im_Vergleich_zu/im_Vergleich_mit,"To fill in the missing German preposition ""[i___]"", you likely need a preposition that starts with ""i."" The most common German preposition that fits this description is ""in."" 
+
+If you provide more context or a sentence, I can give a more precise answer.",False
+mit_Bezug_auf/unter_Bezug_auf,"To fill in the missing German preposition ""[m___],"" the most likely preposition is ""mit.""",False
+mit_Bezugnahme_auf/unter_Bezugnahme_auf,"To fill in the missing German preposition ""[m___],"" the most likely preposition is ""mit.""",False
+vom_Standpunkt_aus,"The missing German preposition could be ""von.""",False
+vom_Gesichtspunkt_aus,"To fill in the missing German preposition '[v___]', the correct preposition is ""von.""",False
+zur_Erinnerung_an,"The missing German preposition could be ""zum"" or ""zur,"" depending on the context. ""Zum"" is a contraction of ""zu dem"" and is used with masculine or neuter nouns, while ""zur"" is a contraction of ""zu der"" and is used with feminine nouns. If you provide more context",False
+zum_Unterschied_von/zum_Unterschied_mit,"The missing German preposition is ""zum.""",False
+auf_dem_Wege,"To fill in the missing German preposition ""[a___],"" we need more context, as several prepositions could fit depending on the sentence. However, a common German preposition that starts with ""a"" is ""aus."" If you provide more context or a sentence, I can give a more accurate answer.",False
+auf_dem_Feld,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, there are not many prepositions that start with ""a,"" but one common one is ""aus."" 
+
+If you have a specific sentence or context in which",False
+auf_dem_Gebiet,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" However, without additional context, it's difficult to determine the exact preposition needed. If you have more context or a specific sentence, I can provide a more accurate suggestion.",False
+auf_dem_Sektor,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+auf_dem_Boden,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""auf."" This is a common German preposition that can be used in various contexts, such as indicating location or direction.",False
+auf_dem_Hintergrund/vor_dem_Hintergrund,"To fill in the missing German preposition ""[a___],"" it seems like you are looking for a preposition that starts with the letter ""a."" In German, the preposition ""aus"" fits this description. So, the completed preposition would be ""aus.""",False
+aus_dem_Blickwinkel,"To fill in the missing German preposition ""[a___],"" the most likely candidate is ""auf."" This is a common German preposition that can mean ""on,"" ""at,"" or ""to,"" depending on the context.",False
+aus_dem_Grund,"To fill in the missing German preposition ""[a___],"" the most likely preposition is ""aus."" This is a common German preposition that means ""from"" or ""out of.""",False
+aus_der_Perspektive,"To fill in the missing German preposition ""[a___],"" the most likely candidate is ""auf."" This is a common German preposition that can mean ""on,"" ""at,"" or ""to,"" depending on the context.",False
+für_die_Dauer,"To fill in the missing German preposition '[f___]', the correct word is ""für.""",False
+für_den_Fall,"To fill in the missing German preposition ""[f___]"", the most likely preposition is ""für,"" which means ""for"" in English.",False
+in_der_Sphäre,"To fill in the missing German preposition ""[i___],"" it is likely that the preposition you are looking for is ""in."" This is a common German preposition used in various contexts. If you have a specific sentence or context in mind, please provide more details for a more accurate suggestion.",False
+in_den_Grenzen,"To fill in the missing German preposition ""[i___]"", it is likely that the preposition you are looking for is ""in"". This is a common German preposition used in various contexts.",False
+in_den_Reihen,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_der_Reihe/aus_der_Reihe,"To fill in the missing German preposition ""[i___],"" the most likely preposition is ""in."" This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_der_Zeit,"To fill in the missing German preposition ""[i___]"", it seems like you are looking for a preposition that starts with the letter ""i."" In German, the preposition ""in"" is commonly used. Therefore, the missing preposition is ""in.""",False
+in_der_Epoche,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in"". This is a common German preposition used in various contexts, such as indicating location or time.",False
+in_der_Periode,"To fill in the missing German preposition ""[i___]"", the most likely preposition is ""in."" This is a common German preposition used in various contexts.",False
+mit_dem_Ziel,"To fill in the missing German preposition ""[m___],"" the most likely preposition is ""mit.""",False
+nach_dem_Grundsatz,"The missing German preposition could be ""nach.""",False
+nach_dem_Prinzip,"The missing German preposition could be ""nach.""",False
+nach_den_Prinzipien,"To fill in the missing German preposition ""[n___],"" the most likely preposition is ""nach."" This is a common German preposition used in various contexts, such as indicating direction (e.g., ""nach Hause"" - ""to home"") or time (e.g., ""nach dem Essen"" - ""after",False
+unter_der_Voraussetzung,"The missing German preposition could be ""um.""",False
+unter_der_Bedingung,"The missing German preposition could be ""unter,"" which means ""under"" in English.",False
+unter_dem_Gesichtspunkt,"To fill in the missing German preposition '[u___]', the correct preposition is ""unter.""",False
+unter_dem_Einfluss,"The missing German preposition could be ""unter.""",False
+unter_dem_Druck,"To fill in the missing German preposition '[u___]', the correct preposition is ""unter.""",False
+von_der_Dauer,"The missing German preposition could be ""von.""",False

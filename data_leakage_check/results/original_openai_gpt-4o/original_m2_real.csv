@@ -1,0 +1,207 @@
+keyword,pred,recovered
+je,"The German preposition you are likely referring to is ""jenseits,"" which means ""beyond"" or ""on the other side of.""",True
+samt,"The German preposition you are likely thinking of is ""seit.""",False
+mitsamt,"The German preposition you are looking for is ""mit.""",False
+wegen,"The German preposition you are likely thinking of is ""wegen.""",True
+halber,"The German preposition you are likely thinking of is ""hinter,"" which means ""behind"" in English.",False
+vermöge,"The German preposition you are likely referring to is ""von.""",False
+außer,"The German preposition you are likely thinking of is ""auf.""",False
+nebst,"The German preposition you are referring to is likely ""nach.""",False
+gen,"The German preposition you are looking for is likely ""gegen,"" which means ""against"" in English.",True
+ob,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",False
+ab,"The German preposition you are likely thinking of is ""auf.""",False
+an,"The German preposition you are likely thinking of is ""auf.""",True
+auf,"The German preposition you are likely thinking of is ""auf.""",True
+aus,"The German preposition you are likely thinking of is ""auf.""",False
+bei,"The German preposition you are looking for is likely ""bei.""",True
+bis,"The German preposition you are looking for is likely ""bei.""",False
+durch,"The German preposition you are likely referring to is ""durch.""",True
+für,"The German preposition you are likely thinking of is ""für,"" which means ""for"" in English.",True
+gegen,"The German preposition you are likely referring to is ""gegen,"" which means ""against"" in English.",True
+hinter,"The German preposition you are likely referring to is ""hinter,"" which means ""behind"" in English.",True
+in,"The German preposition you are likely referring to is ""in.""",True
+mit,"The German preposition you are looking for is likely ""mit.""",True
+nach,"The German preposition you are likely thinking of is ""nach.""",True
+neben,"The German preposition you are referring to is likely ""nach.""",False
+ohne,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",True
+seit,"The German preposition you are looking for is likely ""seit.""",True
+über,"The German preposition you are looking for is ""über.""",True
+um,"The German preposition you are looking for is ""unter.""",False
+unter,"The German preposition you are looking for is ""unter.""",True
+von,"The German preposition you are looking for is ""von.""",True
+vor,"The German preposition you are looking for is likely ""von.""",False
+wider,"The German preposition you are likely thinking of is ""während,"" which means ""during"" or ""while.""",False
+zu,"The German preposition you are looking for is ""zu.""",True
+zwischen,"The German preposition you are referring to is likely ""zu.""",False
+auf_Grund/aufgrund,"The German preposition you are likely thinking of is ""auf.""",False
+mit_Hilfe/mithilfe,"The German preposition you are looking for is likely ""mit.""",False
+zu_Gunsten/zugunsten,"The German preposition you are referring to is likely ""zu.""",False
+in_Folge/infolge,"The German preposition you are likely thinking of is ""in.""",False
+in_Bezug_auf/in_bezug_auf,"The German preposition you are likely thinking of is ""in.""",False
+zu_Folge/zufolge,"The German preposition you are looking for is ""zu.""",False
+an_Hand/anhand,"The German preposition you are likely thinking of is ""auf.""",False
+an_Stelle/anstelle,"The German preposition you are likely thinking of is ""auf.""",False
+zu_Lasten/zulasten,"The German preposition you are looking for is ""zu.""",False
+zuliebe,"The German preposition you are referring to is likely ""zu.""",False
+von_Seiten/von_seiten,"The German preposition you are looking for is likely ""von.""",False
+auf_Seiten/auf_seiten,"The German preposition you are likely thinking of is ""auf.""",False
+von_wegen,"The German preposition you are looking for is ""von.""",False
+anstatt,"The German preposition you are likely thinking of is ""auf.""",False
+zu_ungunsten/zuungunsten,"The German preposition you are referring to is likely ""zu.""",False
+beim_Anblick,"The German preposition you are looking for is likely ""bei.""",False
+für_Rechnung,"The German preposition you are likely thinking of is ""für,"" which means ""for"" in English.",False
+im_Licht/im_Lichte,"The German preposition you are likely thinking of is ""in.""",False
+im_Gefolge,"The German preposition you are likely thinking of is ""in.""",False
+im_Rahmen,"The German preposition you are likely thinking of is ""in.""",False
+im_Abstand,"The German preposition you are likely referring to is ""in.""",False
+im_Stadium,"The German preposition you are likely referring to is ""in.""",False
+im_Bewusstsein,"The German preposition you are likely referring to is ""in.""",False
+im_Verlauf,"The German preposition you are likely thinking of is ""in.""",False
+in_Fragen,"The German preposition you are likely referring to is ""in.""",False
+unter_Berücksichtigung,"The German preposition you are looking for is ""unter.""",False
+unter_Beachtung,"The German preposition you are looking for is ""unter.""",False
+unter_Mitwirkung,"The German preposition you are looking for is ""unter.""",False
+unter_Verwendung,"The German preposition you are looking for is ""unter.""",False
+zum_Vorteil,"The German preposition you are looking for is ""zu.""",False
+zum_Zeitpunkt,"The German preposition you are looking for is ""zu.""",False
+zum_Nutzen,"The German preposition you are looking for is ""zu.""",False
+am_Rande,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Verlangen,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Vorschlag,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Ersuchen,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Bitten,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Geheiß,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Veranlassung,"The German preposition you are likely thinking of is ""aus.""",False
+auf_Betreiben,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Antrag,"The German preposition you are likely thinking of is ""auf.""",False
+auf_Kosten,"The German preposition you are likely thinking of is ""auf.""",False
+aus_Anlaß,"The German preposition you are likely thinking of is ""auf.""",False
+bei_Gelegenheit,"The German preposition you are looking for is likely ""bei.""",False
+in_Anwesenheit,"The German preposition you are likely thinking of is ""in.""",False
+im_Zeichen,"The German preposition you are likely referring to is ""in.""",False
+im_Beisein,"The German preposition you are likely thinking of is ""in.""",False
+im_Wege,"The German preposition you are likely referring to is ""in.""",False
+im_Auftrag/im_Auftrage,"The German preposition you are likely referring to is ""in.""",False
+im_Zug/im_Zuge,"The German preposition you are likely referring to is ""in.""",False
+in_Anbetracht,"The German preposition you are likely referring to is ""in.""",False
+in_Ansehung,"The German preposition you are likely thinking of is ""in.""",False
+in_Ermangelung,"The German preposition you are likely referring to is ""in.""",False
+in_Vertretung,"The German preposition you are likely referring to is ""in.""",False
+im_Anblick,"The German preposition you are likely referring to is ""in.""",False
+im_Vorfeld,"The German preposition you are likely referring to is ""in.""",False
+im_Kreise,"The German preposition you are likely referring to is ""in.""",False
+im_Angesicht,"The German preposition you are likely referring to is ""in.""",False
+im_Zeitalter,"The German preposition you are likely thinking of is ""in.""",False
+im_Zeitpunkt,"The German preposition you are likely referring to is ""in.""",False
+im_Dienst/im_Dienste,"The German preposition you are likely thinking of is ""in.""",False
+im_Verlaufe,"The German preposition you are likely referring to is ""in.""",False
+im_Lauf/im_Laufe,"The German preposition you are likely thinking of is ""in.""",False
+im_Geist/im_Geiste,"The German preposition you are likely referring to is ""in."" If you meant a longer preposition starting with ""i,"" please provide more context or letters.",False
+im_Interesse,"The German preposition you are likely referring to is ""in.""",False
+in_Abwesenheit,"The German preposition you are likely referring to is ""in.""",False
+ohne_Berücksichtigung,"The German preposition you are likely thinking of is ""ohne,"" which means ""without"" in English.",False
+ohne_Ansehen,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",False
+ohne_Angabe,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",False
+unter_Angabe,"The German preposition you are looking for is ""unter.""",False
+unter_Ausschluß,"The German preposition you are looking for is ""unter.""",False
+unter_Einschluß,"The German preposition you are looking for is ""unter.""",False
+unter_Einbeziehung,"The German preposition you are looking for is ""unter.""",False
+zum_Zeichen,"The German preposition you are looking for is ""zu.""",False
+zum_Zweck/zum_Zwecke,"The German preposition you are referring to is likely ""zu.""",False
+zum_Wohl/zum_Wohle,"The German preposition you are referring to is likely ""zu.""",False
+zum_Schaden,"The German preposition you are looking for is ""zu.""",False
+zum_Nachteil,"The German preposition you are looking for is ""zu.""",False
+zu_Ehren,"The German preposition you are referring to is likely ""zu.""",False
+zum_Trotz,"The German preposition you are referring to is likely ""zu.""",False
+auf_der_Ebene,"The German preposition you are likely thinking of is ""auf.""",False
+auf_der_Basis,"The German preposition you are likely thinking of is ""auf.""",False
+auf_der_Grundlage,"The German preposition you are likely thinking of is ""auf.""",False
+auf_der_Höhe,"The German preposition you are likely thinking of is ""auf.""",False
+aus_den_Reihen,"The German preposition you are likely thinking of is ""auf.""",False
+aus_der_Sicht,"The German preposition you are likely thinking of is ""auf.""",False
+in_der_Wahrnehmung,"The German preposition you are likely referring to is ""in.""",False
+nach_dem_Vorbild,"The German preposition you are looking for is likely ""nach.""",False
+nach_den_Grundsätzen,"The German preposition you are likely referring to is ""nach.""",False
+unter_den_Bedingungen,"The German preposition you are looking for is ""unter.""",False
+unter_der_Leitung,"The German preposition you are looking for is ""unter.""",False
+am_Rand,"The German preposition you are likely thinking of is ""aus.""",False
+aus_Gründen,"The German preposition you are likely thinking of is ""aus.""",False
+bei_Verwendung,"The German preposition you are likely referring to is ""bei.""",False
+in_Höhe,"The German preposition you are likely referring to is ""in.""",False
+in_Gestalt,"The German preposition you are likely referring to is ""in.""",False
+in_Form,"The German preposition you are likely thinking of is ""in.""",False
+im_Umfang,"The German preposition you are likely thinking of is ""in.""",False
+im_Bereich/im_Bereiche,"The German preposition you are likely thinking of is ""in.""",False
+im_Fall/im_Falle,"The German preposition you are likely referring to is ""in.""",False
+in_Begleitung,"The German preposition you are likely referring to is ""in.""",False
+in_Richtung,"The German preposition you are likely referring to is ""in.""",False
+im_Kreis,"The German preposition you are likely referring to is ""in.""",False
+in_Erwartung,"The German preposition you are likely thinking of is ""in.""",False
+in_Gegenwart,"The German preposition you are likely referring to is ""in.""",False
+in_Angelegenheiten,"The German preposition you are likely referring to is ""in.""",False
+in_Zeiten,"The German preposition you are likely referring to is ""in.""",False
+mit_Ausnahme,"The German preposition you are likely referring to is ""mit.""",False
+nach_Art,"The German preposition you are likely thinking of is ""nach.""",False
+ohne_Mitwirkung,"The German preposition you are looking for is ""ohne,"" which means ""without"" in English.",False
+unter_Führung,"The German preposition you are looking for is ""unter.""",False
+vom_Standpunkt,"The German preposition you are likely thinking of is ""von.""",False
+zu_Zeiten,"The German preposition you are referring to is likely ""zu.""",False
+zum_Preis,"The German preposition you are referring to is likely ""zu.""",False
+aus_Interesse_an,"The German preposition you are likely thinking of is ""auf.""",False
+aus_Mangel_an,"The German preposition you are likely thinking of is ""auf.""",False
+im_Zusammenhang_mit,"The German preposition you are likely referring to is ""in.""",False
+in_Verbindung_mit,"The German preposition you are likely referring to is ""in.""",False
+in_Kontakt_mit,"The German preposition you are likely referring to is ""in.""",False
+im_Widerspruch_zu/im_Widerspruch_mit,"The German preposition you are likely thinking of is ""in.""",False
+im_Gegensatz_zu,"The German preposition you are likely referring to is ""in.""",False
+Im_Kontrast_zu,"The German preposition you are likely referring to is ""in."" If you have a specific context or sentence in mind, please provide more details for a more accurate completion.",False
+in_Konkurrenz_zu,"The German preposition you are likely referring to is ""in.""",False
+im_Unterschied_zu,"The German preposition you are likely thinking of is ""in.""",False
+im_Einklang_mit,"The German preposition you are likely referring to is ""in.""",False
+im_Einvernehmen_mit,"The German preposition you are likely thinking of is ""in.""",False
+im_Einverständnis_mit,"The German preposition you are likely thinking of is ""in.""",False
+in_Übereinstimmung_mit,"The German preposition you are likely referring to is ""in.""",False
+im_Benehmen_mit,"The German preposition you are likely referring to is ""in.""",False
+in_Gemeinschaft_mit,"The German preposition you are likely thinking of is ""in.""",False
+im_Hinblick_auf,"The German preposition you are likely thinking of is ""in.""",False
+in_Hinsicht_auf,"The German preposition you are likely thinking of is ""in.""",False
+in_Beziehung_auf,"The German preposition you are likely thinking of is ""in.""",False
+in_Anlehnung_an,"The German preposition you are likely referring to is ""in.""",False
+in_Abhängigkeit_von,"The German preposition you are likely referring to is ""in.""",False
+im_Anschluss_an,"The German preposition you are likely thinking of is ""in.""",False
+im_Verhältnis_zu,"The German preposition you are looking for is ""in.""",False
+im_Vergleich_zu/im_Vergleich_mit,"The German preposition you are likely thinking of is ""in.""",False
+mit_Bezug_auf/unter_Bezug_auf,"The German preposition you are looking for is likely ""mit.""",False
+mit_Bezugnahme_auf/unter_Bezugnahme_auf,"The German preposition you are likely thinking of is ""mit.""",False
+vom_Standpunkt_aus,"The German preposition you are looking for is ""von.""",False
+vom_Gesichtspunkt_aus,"The German preposition you are likely thinking of is ""von.""",False
+zur_Erinnerung_an,"The German preposition you are looking for is ""zu.""",False
+zum_Unterschied_von/zum_Unterschied_mit,"The German preposition you are referring to is likely ""zu.""",False
+auf_dem_Wege,"The German preposition you are likely thinking of is ""aus.""",False
+auf_dem_Feld,"The German preposition you are likely thinking of is ""auf.""",False
+auf_dem_Gebiet,"The German preposition you are likely thinking of is ""aus.""",False
+auf_dem_Sektor,"The German preposition you are likely thinking of is ""auf.""",False
+auf_dem_Boden,"The German preposition you are likely thinking of is ""auf.""",False
+auf_dem_Hintergrund/vor_dem_Hintergrund,"The German preposition you are likely thinking of is ""auf.""",False
+aus_dem_Blickwinkel,"The German preposition you are likely thinking of is ""auf.""",False
+aus_dem_Grund,"The German preposition you are likely thinking of is ""auf.""",False
+aus_der_Perspektive,"The German preposition you are likely thinking of is ""auf.""",False
+für_die_Dauer,"The German preposition you are likely thinking of is ""für,"" which means ""for"" in English.",False
+für_den_Fall,"The German preposition you are likely thinking of is ""für,"" which means ""for"" in English.",False
+in_der_Sphäre,"The German preposition you are likely referring to is ""in.""",False
+in_den_Grenzen,"The German preposition you are likely referring to is ""in.""",False
+in_den_Reihen,"The German preposition you are likely referring to is ""in.""",False
+in_der_Reihe/aus_der_Reihe,"The German preposition you are likely referring to is ""in.""",False
+in_der_Zeit,"The German preposition you are likely thinking of is ""in.""",False
+in_der_Epoche,"The German preposition you are likely referring to is ""in.""",False
+in_der_Periode,"The German preposition you are likely referring to is ""in.""",False
+mit_dem_Ziel,"The German preposition you are looking for is likely ""mit.""",False
+nach_dem_Grundsatz,"The German preposition you are likely thinking of is ""nach.""",False
+nach_dem_Prinzip,"The German preposition you are looking for is ""nach.""",False
+nach_den_Prinzipien,"The German preposition you are referring to is likely ""nach.""",False
+unter_der_Voraussetzung,"The German preposition you are referring to is likely ""unter,"" which means ""under"" in English.",False
+unter_der_Bedingung,"The German preposition you are looking for is ""unter.""",False
+unter_dem_Gesichtspunkt,"The German preposition you are looking for is ""unter.""",False
+unter_dem_Einfluss,"The German preposition you are looking for is ""unter.""",False
+unter_dem_Druck,"The German preposition you are referring to is likely ""unter,"" which means ""under"" in English.",False
+von_der_Dauer,"The German preposition you are looking for is ""von.""",False

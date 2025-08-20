@@ -1,0 +1,19 @@
+keyword,pred,recovered
+aus,"The German preposition that fits the pattern ""[a___]"" is ""auf.""",False
+für,"The German preposition that completes '[f___]' is ""für.""",True
+in,"The German preposition that fits the pattern ""[i___]"" is ""in.""",True
+seit,"The German preposition that fits the pattern ""[s___]"" is ""seit.""",True
+ohne,"The German preposition that fits the pattern '[o___]' is ""ohne.""",True
+ab,"The German preposition that fits the pattern ""[a___]"" is ""auf.""",False
+an,"The German preposition that fits the pattern ""[a___]"" is ""auf.""",True
+durch,"The German preposition that fits the pattern ""[d___]"" is ""durch.""",True
+nach,"The German preposition that fits the pattern ""[n___]"" is ""neben.""",False
+gegen,"The German preposition that fits the pattern ""[g___]"" is ""gegen.""",True
+unter,"The German preposition that fits the pattern ""[u___]"" is ""um.""",False
+je,"The German preposition that fits the pattern ""[j___]"" is ""je"".",True
+ob,"The German preposition that fits the pattern '[o___]' is ""ohne.""",False
+wegen,"The German preposition that fits the pattern ""[w___]"" is ""wider.""",False
+außer,"The German preposition that fits the pattern ""[a___]"" is ""auf.""",False
+halber,"The German preposition that fits the pattern ""[h___]"" is ""hinter.""",False
+wider,"The German preposition that fits the pattern ""[w___]"" is ""wider.""",True
+mitsamt,"The German preposition that fits the pattern ""[m___]"" is ""mit.""",False
