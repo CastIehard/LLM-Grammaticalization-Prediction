@@ -1,0 +1,100 @@
+keyword,gramm_score,predictions
+in,4.0,4
+von,4.0,4
+für,4.0,4
+auf,4.0,3
+an,4.0,4
+bei,4.0,4
+aus,4.0,4
+nach,4.0,2
+über,4.0,3
+unter,4.0,2
+gegen,4.0,4
+zwischen,4.0,2
+ob,4.0,4
+wegen,4.0,4
+neben,4.0,2
+je,4.0,4
+im rahmen,3.0,3
+im bereich/im bereiche,2.0,2
+mit hilfe/mithilfe,3.0,3
+in form,2.0,2
+im hinblick auf,1.0,3
+zu folge/zufolge,3.0,3
+im gegensatz zu,1.0,3
+in bezug auf/in bezug auf,3.0,2
+im zug/im zuge,3.0,2
+auf der grundlage,2.0,2
+in verbindung mit,1.0,2
+im auftrag/im auftrage,3.0,2
+unter berücksichtigung,3.0,2
+an stelle/anstelle,3.0,3
+mit dem ziel,1.0,2
+am rande,3.0,2
+samt,4.0,4
+im verlauf,3.0,2
+im wege,3.0,2
+von seiten/von seiten,3.0,2
+auf kosten,3.0,2
+aus der sicht,2.0,2
+im anschluss an,1.0,3
+aus gründen,2.0,2
+im kreis,2.0,1
+nebst,4.0,3
+auf seiten/auf seiten,3.0,2
+auf der ebene,2.0,2
+in anbetracht,3.0,3
+im unterschied zu,1.0,3
+im zeitpunkt,3.0,2
+unter dem gesichtspunkt,1.0,1
+nach art,2.0,2
+im verhältnis zu,1.0,3
+unter beachtung,3.0,2
+auf dem wege,1.0,2
+zum preis,2.0,2
+zum trotz,3.0,2
+in fragen,3.0,1
+im einvernehmen mit,1.0,2
+aus der perspektive,1.0,2
+in abhängigkeit von,1.0,2
+unter dem druck,1.0,1
+unter führung,2.0,1
+unter angabe,3.0,2
+in anwesenheit,3.0,2
+im abstand,3.0,2
+im bewusstsein,3.0,2
+aus den reihen,2.0,1
+nach dem prinzip,1.0,2
+von wegen,3.0,2
+nach den grundsätzen,2.0,1
+beim anblick,3.0,2
+unter der bedingung,1.0,1
+im angesicht,3.0,2
+unter mitwirkung,3.0,2
+vom standpunkt,2.0,2
+in gegenwart,2.0,2
+zuliebe,3.0,3
+zu ungunsten/zuungunsten,3.0,3
+auf betreiben,3.0,2
+zum vorteil,3.0,2
+mit bezugnahme auf/unter bezugnahme auf,1.0,2
+ohne berücksichtigung,3.0,2
+in ermangelung,3.0,3
+in hinsicht auf,1.0,3
+bei gelegenheit,3.0,2
+aus mangel an,1.0,2
+im benehmen mit,1.0,1
+in konkurrenz zu,1.0,2
+zum zeichen,3.0,2
+unter ausschluß,3.0,2
+auf bitten,3.0,2
+in gemeinschaft mit,1.0,2
+auf ersuchen,3.0,2
+nach den prinzipien,1.0,2
+auf dem sektor,1.0,2
+in der epoche,1.0,1
+von der dauer,1.0,1
+in der sphäre,1.0,1
+im einverständnis mit,1.0,2
+im anblick,3.0,2
+zum unterschied von/zum unterschied mit,1.0,2
