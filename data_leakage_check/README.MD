@@ -52,8 +52,6 @@ The loader auto‑detects:
 - **Keyword** column (the German preposition/term),
 - **Score** column (must be in {1,2,3,4}; last digit is parsed if needed).
 
-> Tip: Your file currently parses as 206 rows with balanced scores, which the loader prints on start.
-
 ---
 
 ## Quick start
